@@ -1,0 +1,2654 @@
+[
+  {
+    "kanji": "一",
+    "grade": 1,
+    "strokes": 1,
+    "meanings": [
+      "one"
+    ],
+    "readings_on": [
+      "イチ",
+      "イツ"
+    ],
+    "romaji_on": [
+      "ichi",
+      "itsu"
+    ],
+    "readings_kun": [
+      "ひと",
+      "ひと.つ"
+    ],
+    "romaji_kun": [
+      "hito",
+      "hitotsu"
+    ],
+    "examples": [
+      {
+        "word": "一つ (ひとつ)",
+        "meaning": "한 개",
+        "romaji": "hitotsu"
+      },
+      {
+        "word": "一人 (ひとり)",
+        "meaning": "한 사람",
+        "romaji": "hitori"
+      }
+    ]
+  },
+  {
+    "kanji": "二",
+    "grade": 1,
+    "strokes": 2,
+    "meanings": [
+      "two"
+    ],
+    "readings_on": [
+      "ニ",
+      "ジ"
+    ],
+    "romaji_on": [
+      "ni",
+      "ji"
+    ],
+    "readings_kun": [
+      "ふた",
+      "ふた.つ"
+    ],
+    "romaji_kun": [
+      "futa",
+      "futatsu"
+    ],
+    "examples": [
+      {
+        "word": "二つ (ふたつ)",
+        "meaning": "두 개",
+        "romaji": "futatsu"
+      },
+      {
+        "word": "二日 (ふつか)",
+        "meaning": "이틀 / 2일",
+        "romaji": "futsuka"
+      }
+    ]
+  },
+  {
+    "kanji": "三",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "three"
+    ],
+    "readings_on": [
+      "サン"
+    ],
+    "romaji_on": [
+      "san"
+    ],
+    "readings_kun": [
+      "み",
+      "み.つ"
+    ],
+    "romaji_kun": [
+      "mi",
+      "mitsu"
+    ],
+    "examples": [
+      {
+        "word": "三つ (みっつ)",
+        "meaning": "세 개",
+        "romaji": "mittsu"
+      },
+      {
+        "word": "三日 (みっか)",
+        "meaning": "사흘 / 3일",
+        "romaji": "mikka"
+      }
+    ]
+  },
+  {
+    "kanji": "四",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "four"
+    ],
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [
+      "よ",
+      "よ.つ",
+      "よん"
+    ],
+    "romaji_kun": [
+      "yo",
+      "yotsu",
+      "yon"
+    ],
+    "examples": [
+      {
+        "word": "四つ (よっつ)",
+        "meaning": "네 개",
+        "romaji": "yottsu"
+      },
+      {
+        "word": "四日 (よっか)",
+        "meaning": "나흘 / 4일",
+        "romaji": "yokka"
+      }
+    ]
+  },
+  {
+    "kanji": "五",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "five"
+    ],
+    "readings_on": [
+      "ゴ"
+    ],
+    "romaji_on": [
+      "go"
+    ],
+    "readings_kun": [
+      "いつ",
+      "いつ.つ"
+    ],
+    "romaji_kun": [
+      "itsu",
+      "itsutsu"
+    ],
+    "examples": [
+      {
+        "word": "五つ (いつつ)",
+        "meaning": "다섯 개",
+        "romaji": "itsutsu"
+      },
+      {
+        "word": "五日 (いつか)",
+        "meaning": "닷새 / 5일",
+        "romaji": "itsuka"
+      }
+    ]
+  },
+  {
+    "kanji": "六",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "six"
+    ],
+    "readings_on": [
+      "ロク"
+    ],
+    "romaji_on": [
+      "roku"
+    ],
+    "readings_kun": [
+      "む",
+      "む.つ",
+      "むい"
+    ],
+    "romaji_kun": [
+      "mu",
+      "mutsu",
+      "mui"
+    ],
+    "examples": [
+      {
+        "word": "六つ (むっつ)",
+        "meaning": "여섯 개",
+        "romaji": "muttsu"
+      },
+      {
+        "word": "六日 (むいか)",
+        "meaning": "엿새 / 6일",
+        "romaji": "muika"
+      }
+    ]
+  },
+  {
+    "kanji": "七",
+    "grade": 1,
+    "strokes": 2,
+    "meanings": [
+      "seven"
+    ],
+    "readings_on": [
+      "シチ"
+    ],
+    "romaji_on": [
+      "shichi"
+    ],
+    "readings_kun": [
+      "なな",
+      "なな.つ",
+      "なの"
+    ],
+    "romaji_kun": [
+      "nana",
+      "nanatsu",
+      "nano"
+    ],
+    "examples": [
+      {
+        "word": "七つ (ななつ)",
+        "meaning": "일곱 개",
+        "romaji": "nanatsu"
+      },
+      {
+        "word": "七日 (なのか)",
+        "meaning": "이레 / 7일",
+        "romaji": "nanoka"
+      }
+    ]
+  },
+  {
+    "kanji": "八",
+    "grade": 1,
+    "strokes": 2,
+    "meanings": [
+      "eight"
+    ],
+    "readings_on": [
+      "ハチ"
+    ],
+    "romaji_on": [
+      "hachi"
+    ],
+    "readings_kun": [
+      "や",
+      "や.つ",
+      "よう"
+    ],
+    "romaji_kun": [
+      "ya",
+      "yatsu",
+      "you"
+    ],
+    "examples": [
+      {
+        "word": "八つ (やっつ)",
+        "meaning": "여덟 개",
+        "romaji": "yattsu"
+      },
+      {
+        "word": "八日 (ようか)",
+        "meaning": "여드레 / 8일",
+        "romaji": "youka"
+      }
+    ]
+  },
+  {
+    "kanji": "九",
+    "grade": 1,
+    "strokes": 2,
+    "meanings": [
+      "nine"
+    ],
+    "readings_on": [
+      "キュウ",
+      "ク"
+    ],
+    "romaji_on": [
+      "kyuu",
+      "ku"
+    ],
+    "readings_kun": [
+      "ここの",
+      "ここの.つ"
+    ],
+    "romaji_kun": [
+      "kokono",
+      "kokonotsu"
+    ],
+    "examples": [
+      {
+        "word": "九つ (ここのつ)",
+        "meaning": "아홉 개",
+        "romaji": "kokonotsu"
+      },
+      {
+        "word": "九日 (ここのか)",
+        "meaning": "아흐레 / 9일",
+        "romaji": "kokonoka"
+      }
+    ]
+  },
+  {
+    "kanji": "十",
+    "grade": 1,
+    "strokes": 2,
+    "meanings": [
+      "ten"
+    ],
+    "readings_on": [
+      "ジュウ"
+    ],
+    "romaji_on": [
+      "juu"
+    ],
+    "readings_kun": [
+      "とお",
+      "と"
+    ],
+    "romaji_kun": [
+      "too",
+      "to"
+    ],
+    "examples": [
+      {
+        "word": "十 (とお)",
+        "meaning": "열",
+        "romaji": "too"
+      },
+      {
+        "word": "十日 (とおか)",
+        "meaning": "열흘 / 10일",
+        "romaji": "tooka"
+      }
+    ]
+  },
+  {
+    "kanji": "百",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "hundred"
+    ],
+    "readings_on": [
+      "ヒャク"
+    ],
+    "romaji_on": [
+      "hyaku"
+    ],
+    "readings_kun": [
+      "もも"
+    ],
+    "romaji_kun": [
+      "momo"
+    ],
+    "examples": [
+      {
+        "word": "百円 (ひゃくえん)",
+        "meaning": "백 엔",
+        "romaji": "hyakuen"
+      },
+      {
+        "word": "八百屋 (やおや)",
+        "meaning": "채소가게",
+        "romaji": "yaoya"
+      }
+    ]
+  },
+  {
+    "kanji": "千",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "thousand"
+    ],
+    "readings_on": [
+      "セン"
+    ],
+    "romaji_on": [
+      "sen"
+    ],
+    "readings_kun": [
+      "ち"
+    ],
+    "romaji_kun": [
+      "chi"
+    ],
+    "examples": [
+      {
+        "word": "千円 (せんえん)",
+        "meaning": "천 엔",
+        "romaji": "sennen"
+      },
+      {
+        "word": "千葉 (ちば)",
+        "meaning": "치바(지명)",
+        "romaji": "chiba"
+      }
+    ]
+  },
+  {
+    "kanji": "上",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "above",
+      "up"
+    ],
+    "readings_on": [
+      "ジョウ"
+    ],
+    "romaji_on": [
+      "jou"
+    ],
+    "readings_kun": [
+      "うえ",
+      "あ.がる"
+    ],
+    "romaji_kun": [
+      "ue",
+      "agaru"
+    ],
+    "examples": [
+      {
+        "word": "上 (うえ)",
+        "meaning": "위",
+        "romaji": "ue"
+      },
+      {
+        "word": "上がる (あがる)",
+        "meaning": "올라가다",
+        "romaji": "agaru"
+      }
+    ]
+  },
+  {
+    "kanji": "下",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "below",
+      "down"
+    ],
+    "readings_on": [
+      "カ",
+      "ゲ"
+    ],
+    "romaji_on": [
+      "ka",
+      "ge"
+    ],
+    "readings_kun": [
+      "した",
+      "さ.がる"
+    ],
+    "romaji_kun": [
+      "shita",
+      "sagaru"
+    ],
+    "examples": [
+      {
+        "word": "下 (した)",
+        "meaning": "아래",
+        "romaji": "shita"
+      },
+      {
+        "word": "下がる (さがる)",
+        "meaning": "내려가다",
+        "romaji": "sagaru"
+      }
+    ]
+  },
+  {
+    "kanji": "左",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "left"
+    ],
+    "readings_on": [
+      "サ"
+    ],
+    "romaji_on": [
+      "sa"
+    ],
+    "readings_kun": [
+      "ひだり"
+    ],
+    "romaji_kun": [
+      "hidari"
+    ],
+    "examples": [
+      {
+        "word": "左手 (ひだりて)",
+        "meaning": "왼손",
+        "romaji": "hidarite"
+      },
+      {
+        "word": "左側 (ひだりがわ)",
+        "meaning": "왼쪽",
+        "romaji": "hidarigawa"
+      }
+    ]
+  },
+  {
+    "kanji": "右",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "right"
+    ],
+    "readings_on": [
+      "ウ",
+      "ユウ"
+    ],
+    "romaji_on": [
+      "u",
+      "yuu"
+    ],
+    "readings_kun": [
+      "みぎ"
+    ],
+    "romaji_kun": [
+      "migi"
+    ],
+    "examples": [
+      {
+        "word": "右手 (みぎて)",
+        "meaning": "오른손",
+        "romaji": "migite"
+      },
+      {
+        "word": "右側 (みぎがわ)",
+        "meaning": "오른쪽",
+        "romaji": "migigawa"
+      }
+    ]
+  },
+  {
+    "kanji": "中",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "middle",
+      "inside"
+    ],
+    "readings_on": [
+      "チュウ"
+    ],
+    "romaji_on": [
+      "chuu"
+    ],
+    "readings_kun": [
+      "なか"
+    ],
+    "romaji_kun": [
+      "naka"
+    ],
+    "examples": [
+      {
+        "word": "中 (なか)",
+        "meaning": "안/속",
+        "romaji": "naka"
+      },
+      {
+        "word": "一日中 (いちにちじゅう)",
+        "meaning": "하루 종일",
+        "romaji": "ichinichijuu"
+      }
+    ]
+  },
+  {
+    "kanji": "大",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "large",
+      "big"
+    ],
+    "readings_on": [
+      "ダイ"
+    ],
+    "romaji_on": [
+      "dai"
+    ],
+    "readings_kun": [
+      "おお",
+      "おお.きい"
+    ],
+    "romaji_kun": [
+      "oo",
+      "ookii"
+    ],
+    "examples": [
+      {
+        "word": "大きい (おおきい)",
+        "meaning": "크다",
+        "romaji": "ookii"
+      },
+      {
+        "word": "大人 (おとな)",
+        "meaning": "어른",
+        "romaji": "otona"
+      }
+    ]
+  },
+  {
+    "kanji": "小",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "small",
+      "little"
+    ],
+    "readings_on": [
+      "ショウ"
+    ],
+    "romaji_on": [
+      "shou"
+    ],
+    "readings_kun": [
+      "ちい",
+      "ちい.さい"
+    ],
+    "romaji_kun": [
+      "chii",
+      "chiisai"
+    ],
+    "examples": [
+      {
+        "word": "小さい (ちいさい)",
+        "meaning": "작다",
+        "romaji": "chiisai"
+      },
+      {
+        "word": "小学校 (しょうがっこう)",
+        "meaning": "초등학교",
+        "romaji": "shougakkou"
+      }
+    ]
+  },
+  {
+    "kanji": "月",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "month",
+      "moon"
+    ],
+    "readings_on": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "romaji_on": [
+      "getsu",
+      "gatsu"
+    ],
+    "readings_kun": [
+      "つき"
+    ],
+    "romaji_kun": [
+      "tsuki"
+    ],
+    "examples": [
+      {
+        "word": "月 (つき)",
+        "meaning": "달",
+        "romaji": "tsuki"
+      },
+      {
+        "word": "一月 (いちがつ)",
+        "meaning": "1월",
+        "romaji": "ichigatsu"
+      }
+    ]
+  },
+  {
+    "kanji": "火",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "fire"
+    ],
+    "readings_on": [
+      "カ"
+    ],
+    "romaji_on": [
+      "ka"
+    ],
+    "readings_kun": [
+      "ひ"
+    ],
+    "romaji_kun": [
+      "hi"
+    ],
+    "examples": [
+      {
+        "word": "火 (ひ)",
+        "meaning": "불",
+        "romaji": "hi"
+      },
+      {
+        "word": "火曜日 (かようび)",
+        "meaning": "화요일",
+        "romaji": "kayoubi"
+      }
+    ]
+  },
+  {
+    "kanji": "水",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "water"
+    ],
+    "readings_on": [
+      "スイ"
+    ],
+    "romaji_on": [
+      "sui"
+    ],
+    "readings_kun": [
+      "みず"
+    ],
+    "romaji_kun": [
+      "mizu"
+    ],
+    "examples": [
+      {
+        "word": "水 (みず)",
+        "meaning": "물",
+        "romaji": "mizu"
+      },
+      {
+        "word": "水曜日 (すいようび)",
+        "meaning": "수요일",
+        "romaji": "suiyoubi"
+      }
+    ]
+  },
+  {
+    "kanji": "木",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "tree",
+      "wood"
+    ],
+    "readings_on": [
+      "モク",
+      "ボク"
+    ],
+    "romaji_on": [
+      "moku",
+      "boku"
+    ],
+    "readings_kun": [
+      "き"
+    ],
+    "romaji_kun": [
+      "ki"
+    ],
+    "examples": [
+      {
+        "word": "木 (き)",
+        "meaning": "나무",
+        "romaji": "ki"
+      },
+      {
+        "word": "木曜日 (もくようび)",
+        "meaning": "목요일",
+        "romaji": "mokuyoubi"
+      }
+    ]
+  },
+  {
+    "kanji": "金",
+    "grade": 1,
+    "strokes": 8,
+    "meanings": [
+      "gold",
+      "money"
+    ],
+    "readings_on": [
+      "キン"
+    ],
+    "romaji_on": [
+      "kin"
+    ],
+    "readings_kun": [
+      "かね"
+    ],
+    "romaji_kun": [
+      "kane"
+    ],
+    "examples": [
+      {
+        "word": "お金 (おかね)",
+        "meaning": "돈",
+        "romaji": "okane"
+      },
+      {
+        "word": "金曜日 (きんようび)",
+        "meaning": "금요일",
+        "romaji": "kinnyoubi"
+      }
+    ]
+  },
+  {
+    "kanji": "土",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "soil",
+      "earth"
+    ],
+    "readings_on": [
+      "ド",
+      "ト"
+    ],
+    "romaji_on": [
+      "do",
+      "to"
+    ],
+    "readings_kun": [
+      "つち"
+    ],
+    "romaji_kun": [
+      "tsuchi"
+    ],
+    "examples": [
+      {
+        "word": "土 (つち)",
+        "meaning": "흙",
+        "romaji": "tsuchi"
+      },
+      {
+        "word": "土曜日 (どようび)",
+        "meaning": "토요일",
+        "romaji": "doyoubi"
+      }
+    ]
+  },
+  {
+    "kanji": "日",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "day",
+      "sun"
+    ],
+    "readings_on": [
+      "ニチ",
+      "ジツ"
+    ],
+    "romaji_on": [
+      "nichi",
+      "jitsu"
+    ],
+    "readings_kun": [
+      "ひ",
+      "び"
+    ],
+    "romaji_kun": [
+      "hi",
+      "bi"
+    ],
+    "examples": [
+      {
+        "word": "今日 (きょう)",
+        "meaning": "오늘",
+        "romaji": "kyou"
+      },
+      {
+        "word": "日曜日 (にちようび)",
+        "meaning": "일요일",
+        "romaji": "nichiyoubi"
+      }
+    ]
+  },
+  {
+    "kanji": "年",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "year"
+    ],
+    "readings_on": [
+      "ネン"
+    ],
+    "romaji_on": [
+      "nen"
+    ],
+    "readings_kun": [
+      "とし"
+    ],
+    "romaji_kun": [
+      "toshi"
+    ],
+    "examples": [
+      {
+        "word": "今年 (ことし)",
+        "meaning": "올해",
+        "romaji": "kotoshi"
+      },
+      {
+        "word": "一年生 (いちねんせい)",
+        "meaning": "1학년",
+        "romaji": "ichinensei"
+      }
+    ]
+  },
+  {
+    "kanji": "人",
+    "grade": 1,
+    "strokes": 2,
+    "meanings": [
+      "person"
+    ],
+    "readings_on": [
+      "ジン",
+      "ニン"
+    ],
+    "romaji_on": [
+      "jin",
+      "nin"
+    ],
+    "readings_kun": [
+      "ひと"
+    ],
+    "romaji_kun": [
+      "hito"
+    ],
+    "examples": [
+      {
+        "word": "人 (ひと)",
+        "meaning": "사람",
+        "romaji": "hito"
+      },
+      {
+        "word": "日本人 (にほんじん)",
+        "meaning": "일본인",
+        "romaji": "nihonjin"
+      }
+    ]
+  },
+  {
+    "kanji": "子",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "child"
+    ],
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [
+      "こ"
+    ],
+    "romaji_kun": [
+      "ko"
+    ],
+    "examples": [
+      {
+        "word": "子 (こ)",
+        "meaning": "아이",
+        "romaji": "ko"
+      },
+      {
+        "word": "女の子 (おんなのこ)",
+        "meaning": "여자아이",
+        "romaji": "onnanoko"
+      }
+    ]
+  },
+  {
+    "kanji": "女",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "woman",
+      "female"
+    ],
+    "readings_on": [
+      "ジョ"
+    ],
+    "romaji_on": [
+      "jo"
+    ],
+    "readings_kun": [
+      "おんな"
+    ],
+    "romaji_kun": [
+      "onna"
+    ],
+    "examples": [
+      {
+        "word": "女 (おんな)",
+        "meaning": "여자",
+        "romaji": "onna"
+      },
+      {
+        "word": "彼女 (かのじょ)",
+        "meaning": "그녀",
+        "romaji": "kanojo"
+      }
+    ]
+  },
+  {
+    "kanji": "男",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "man",
+      "male"
+    ],
+    "readings_on": [
+      "ダン",
+      "ナン"
+    ],
+    "romaji_on": [
+      "dan",
+      "nan"
+    ],
+    "readings_kun": [
+      "おとこ"
+    ],
+    "romaji_kun": [
+      "otoko"
+    ],
+    "examples": [
+      {
+        "word": "男 (おとこ)",
+        "meaning": "남자",
+        "romaji": "otoko"
+      },
+      {
+        "word": "男の子 (おとこのこ)",
+        "meaning": "남자아이",
+        "romaji": "otokonoko"
+      }
+    ]
+  },
+  {
+    "kanji": "目",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "eye"
+    ],
+    "readings_on": [
+      "モク"
+    ],
+    "romaji_on": [
+      "moku"
+    ],
+    "readings_kun": [
+      "め"
+    ],
+    "romaji_kun": [
+      "me"
+    ],
+    "examples": [
+      {
+        "word": "目 (め)",
+        "meaning": "눈",
+        "romaji": "me"
+      },
+      {
+        "word": "目上 (めうえ)",
+        "meaning": "윗사람",
+        "romaji": "meue"
+      }
+    ]
+  },
+  {
+    "kanji": "耳",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "ear"
+    ],
+    "readings_on": [
+      "ジ"
+    ],
+    "romaji_on": [
+      "ji"
+    ],
+    "readings_kun": [
+      "みみ"
+    ],
+    "romaji_kun": [
+      "mimi"
+    ],
+    "examples": [
+      {
+        "word": "耳 (みみ)",
+        "meaning": "귀",
+        "romaji": "mimi"
+      },
+      {
+        "word": "耳なり (みみなり)",
+        "meaning": "이명",
+        "romaji": "miminari"
+      }
+    ]
+  },
+  {
+    "kanji": "口",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "mouth"
+    ],
+    "readings_on": [
+      "コウ",
+      "ク"
+    ],
+    "romaji_on": [
+      "kou",
+      "ku"
+    ],
+    "readings_kun": [
+      "くち"
+    ],
+    "romaji_kun": [
+      "kuchi"
+    ],
+    "examples": [
+      {
+        "word": "口 (くち)",
+        "meaning": "입",
+        "romaji": "kuchi"
+      },
+      {
+        "word": "出口 (でぐち)",
+        "meaning": "출구",
+        "romaji": "deguchi"
+      }
+    ]
+  },
+  {
+    "kanji": "手",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "hand"
+    ],
+    "readings_on": [
+      "シュ"
+    ],
+    "romaji_on": [
+      "shu"
+    ],
+    "readings_kun": [
+      "て"
+    ],
+    "romaji_kun": [
+      "te"
+    ],
+    "examples": [
+      {
+        "word": "手 (て)",
+        "meaning": "손",
+        "romaji": "te"
+      },
+      {
+        "word": "上手 (じょうず)",
+        "meaning": "능숙함",
+        "romaji": "jouzu"
+      }
+    ]
+  },
+  {
+    "kanji": "足",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "leg",
+      "foot"
+    ],
+    "readings_on": [
+      "ソク"
+    ],
+    "romaji_on": [
+      "soku"
+    ],
+    "readings_kun": [
+      "あし",
+      "た.りる"
+    ],
+    "romaji_kun": [
+      "ashi",
+      "tariru"
+    ],
+    "examples": [
+      {
+        "word": "足 (あし)",
+        "meaning": "발/다리",
+        "romaji": "ashi"
+      },
+      {
+        "word": "遠足 (えんそく)",
+        "meaning": "소풍",
+        "romaji": "ensoku"
+      }
+    ]
+  },
+  {
+    "kanji": "見",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "see",
+      "look"
+    ],
+    "readings_on": [
+      "ケン"
+    ],
+    "romaji_on": [
+      "ken"
+    ],
+    "readings_kun": [
+      "み.る"
+    ],
+    "romaji_kun": [
+      "miru"
+    ],
+    "examples": [
+      {
+        "word": "見る (みる)",
+        "meaning": "보다",
+        "romaji": "miru"
+      },
+      {
+        "word": "見学 (けんがく)",
+        "meaning": "견학",
+        "romaji": "kengaku"
+      }
+    ]
+  },
+  {
+    "kanji": "音",
+    "grade": 1,
+    "strokes": 9,
+    "meanings": [
+      "sound"
+    ],
+    "readings_on": [
+      "オン"
+    ],
+    "romaji_on": [
+      "on"
+    ],
+    "readings_kun": [
+      "おと",
+      "네"
+    ],
+    "romaji_kun": [
+      "oto",
+      "ne"
+    ],
+    "examples": [
+      {
+        "word": "音 (おと)",
+        "meaning": "소리",
+        "romaji": "oto"
+      },
+      {
+        "word": "音楽 (おんがく)",
+        "meaning": "음악",
+        "romaji": "ongaku"
+      }
+    ]
+  },
+  {
+    "kanji": "力",
+    "grade": 1,
+    "strokes": 2,
+    "meanings": [
+      "power",
+      "strength"
+    ],
+    "readings_on": [
+      "リョク",
+      "リ"
+    ],
+    "romaji_on": [
+      "ryoku",
+      "ri"
+    ],
+    "readings_kun": [
+      "ちから"
+    ],
+    "romaji_kun": [
+      "chikara"
+    ],
+    "examples": [
+      {
+        "word": "力 (ちから)",
+        "meaning": "힘",
+        "romaji": "chikara"
+      },
+      {
+        "word": "体力 (たいりょく)",
+        "meaning": "체력",
+        "romaji": "tairyoku"
+      }
+    ]
+  },
+  {
+    "kanji": "気",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "spirit",
+      "air"
+    ],
+    "readings_on": [
+      "キ"
+    ],
+    "romaji_on": [
+      "ki"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "元気 (げんき)",
+        "meaning": "건강함",
+        "romaji": "genki"
+      },
+      {
+        "word": "天気 (てんき)",
+        "meaning": "날씨",
+        "romaji": "tenki"
+      }
+    ]
+  },
+  {
+    "kanji": "円",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "yen",
+      "circle"
+    ],
+    "readings_on": [
+      "エン"
+    ],
+    "romaji_on": [
+      "en"
+    ],
+    "readings_kun": [
+      "まる.い"
+    ],
+    "romaji_kun": [
+      "marui"
+    ],
+    "examples": [
+      {
+        "word": "円 (えん)",
+        "meaning": "엔/원",
+        "romaji": "en"
+      },
+      {
+        "word": "円い (まるい)",
+        "meaning": "둥글다",
+        "romaji": "marui"
+      }
+    ]
+  },
+  {
+    "kanji": "入",
+    "grade": 1,
+    "strokes": 2,
+    "meanings": [
+      "enter"
+    ],
+    "readings_on": [
+      "ニュウ"
+    ],
+    "romaji_on": [
+      "nyuu"
+    ],
+    "readings_kun": [
+      "はい.る",
+      "い.れる"
+    ],
+    "romaji_kun": [
+      "hairu",
+      "ireru"
+    ],
+    "examples": [
+      {
+        "word": "入口 (いりぐち)",
+        "meaning": "입구",
+        "romaji": "iriguchi"
+      },
+      {
+        "word": "入れる (いれる)",
+        "meaning": "넣다",
+        "romaji": "ireru"
+      }
+    ]
+  },
+  {
+    "kanji": "出",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "exit",
+      "leave"
+    ],
+    "readings_on": [
+      "シュツ"
+    ],
+    "romaji_on": [
+      "shutsu"
+    ],
+    "readings_kun": [
+      "で.る",
+      "だ.す"
+    ],
+    "romaji_kun": [
+      "deru",
+      "dasu"
+    ],
+    "examples": [
+      {
+        "word": "出口 (でぐち)",
+        "meaning": "출구",
+        "romaji": "deguchi"
+      },
+      {
+        "word": "出す (だす)",
+        "meaning": "내다/꺼내다",
+        "romaji": "dasu"
+      }
+    ]
+  },
+  {
+    "kanji": "立",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "stand up"
+    ],
+    "readings_on": [
+      "リツ"
+    ],
+    "romaji_on": [
+      "ritsu"
+    ],
+    "readings_kun": [
+      "た.つ",
+      "た.てる"
+    ],
+    "romaji_kun": [
+      "tatsu",
+      "tateru"
+    ],
+    "examples": [
+      {
+        "word": "立つ (たつ)",
+        "meaning": "서다",
+        "romaji": "tatsu"
+      },
+      {
+        "word": "国立 (こくりつ)",
+        "meaning": "국립",
+        "romaji": "kokuritsu"
+      }
+    ]
+  },
+  {
+    "kanji": "休",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "rest"
+    ],
+    "readings_on": [
+      "キュウ"
+    ],
+    "romaji_on": [
+      "kyuu"
+    ],
+    "readings_kun": [
+      "やす.む"
+    ],
+    "romaji_kun": [
+      "yasumu"
+    ],
+    "examples": [
+      {
+        "word": "休み (やすみ)",
+        "meaning": "휴식/방학",
+        "romaji": "yasumi"
+      },
+      {
+        "word": "休日 (きゅうじつ)",
+        "meaning": "휴일",
+        "romaji": "kyuujitsu"
+      }
+    ]
+  },
+  {
+    "kanji": "先",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "before",
+      "ahead"
+    ],
+    "readings_on": [
+      "セン"
+    ],
+    "romaji_on": [
+      "sen"
+    ],
+    "readings_kun": [
+      "さき"
+    ],
+    "romaji_kun": [
+      "saki"
+    ],
+    "examples": [
+      {
+        "word": "先生 (せんせい)",
+        "meaning": "선생님",
+        "romaji": "sensei"
+      },
+      {
+        "word": "先月 (せんげつ)",
+        "meaning": "지난달",
+        "romaji": "sengetsu"
+      }
+    ]
+  },
+  {
+    "kanji": "生",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "life",
+      "birth"
+    ],
+    "readings_on": [
+      "セイ",
+      "ショウ"
+    ],
+    "romaji_on": [
+      "sei",
+      "shou"
+    ],
+    "readings_kun": [
+      "い.きる",
+      "う.む"
+    ],
+    "romaji_kun": [
+      "ikiru",
+      "umu"
+    ],
+    "examples": [
+      {
+        "word": "先生 (せんせい)",
+        "meaning": "선생님",
+        "romaji": "sensei"
+      },
+      {
+        "word": "学生 (がくせい)",
+        "meaning": "학생",
+        "romaji": "gakusei"
+      }
+    ]
+  },
+  {
+    "kanji": "学",
+    "grade": 1,
+    "strokes": 8,
+    "meanings": [
+      "study",
+      "learning"
+    ],
+    "readings_on": [
+      "ガク"
+    ],
+    "romaji_on": [
+      "gaku"
+    ],
+    "readings_kun": [
+      "まな.ぶ"
+    ],
+    "romaji_kun": [
+      "manabu"
+    ],
+    "examples": [
+      {
+        "word": "学校 (がっこう)",
+        "meaning": "학교",
+        "romaji": "gakkou"
+      },
+      {
+        "word": "学ぶ (まなぶ)",
+        "meaning": "배우다",
+        "romaji": "manabu"
+      }
+    ]
+  },
+  {
+    "kanji": "校",
+    "grade": 1,
+    "strokes": 10,
+    "meanings": [
+      "school"
+    ],
+    "readings_on": [
+      "コウ"
+    ],
+    "romaji_on": [
+      "kou"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "学校 (がっこう)",
+        "meaning": "학교",
+        "romaji": "gakkou"
+      },
+      {
+        "word": "校長 (こうちょう)",
+        "meaning": "교장",
+        "romaji": "kouchou"
+      }
+    ]
+  },
+  {
+    "kanji": "山",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "mountain"
+    ],
+    "readings_on": [
+      "サン"
+    ],
+    "romaji_on": [
+      "san"
+    ],
+    "readings_kun": [
+      "やま"
+    ],
+    "romaji_kun": [
+      "yama"
+    ],
+    "examples": [
+      {
+        "word": "山 (やま)",
+        "meaning": "산",
+        "romaji": "yama"
+      },
+      {
+        "word": "ふじ山 (ふじさん)",
+        "meaning": "후지산",
+        "romaji": "fujisan"
+      }
+    ]
+  },
+  {
+    "kanji": "川",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "river"
+    ],
+    "readings_on": [
+      "セン"
+    ],
+    "romaji_on": [
+      "sen"
+    ],
+    "readings_kun": [
+      "かわ"
+    ],
+    "romaji_kun": [
+      "kawa"
+    ],
+    "examples": [
+      {
+        "word": "川 (かわ)",
+        "meaning": "강",
+        "romaji": "kawa"
+      },
+      {
+        "word": "小川 (おがわ)",
+        "meaning": "시냇물",
+        "romaji": "ogawa"
+      }
+    ]
+  },
+  {
+    "kanji": "田",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "rice field"
+    ],
+    "readings_on": [
+      "デン"
+    ],
+    "romaji_on": [
+      "den"
+    ],
+    "readings_kun": [
+      "た"
+    ],
+    "romaji_kun": [
+      "ta"
+    ],
+    "examples": [
+      {
+        "word": "田んぼ (たんぼ)",
+        "meaning": "논",
+        "romaji": "tanbo"
+      },
+      {
+        "word": "水田 (すいでん)",
+        "meaning": "수전(논)",
+        "romaji": "suiden"
+      }
+    ]
+  },
+  {
+    "kanji": "石",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "stone"
+    ],
+    "readings_on": [
+      "セキ"
+    ],
+    "romaji_on": [
+      "seki"
+    ],
+    "readings_kun": [
+      "いし"
+    ],
+    "romaji_kun": [
+      "ishi"
+    ],
+    "examples": [
+      {
+        "word": "石 (いし)",
+        "meaning": "돌",
+        "romaji": "ishi"
+      },
+      {
+        "word": "宝石 (ほうせき)",
+        "meaning": "보석",
+        "romaji": "houseki"
+      }
+    ]
+  },
+  {
+    "kanji": "花",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "flower"
+    ],
+    "readings_on": [
+      "カ"
+    ],
+    "romaji_on": [
+      "ka"
+    ],
+    "readings_kun": [
+      "はな"
+    ],
+    "romaji_kun": [
+      "hana"
+    ],
+    "examples": [
+      {
+        "word": "花 (はな)",
+        "meaning": "꽃",
+        "romaji": "hana"
+      },
+      {
+        "word": "花火 (はなび)",
+        "meaning": "불꽃놀이",
+        "romaji": "hanabi"
+      }
+    ]
+  },
+  {
+    "kanji": "草",
+    "grade": 1,
+    "strokes": 9,
+    "meanings": [
+      "grass"
+    ],
+    "readings_on": [
+      "ソウ"
+    ],
+    "romaji_on": [
+      "sou"
+    ],
+    "readings_kun": [
+      "くさ"
+    ],
+    "romaji_kun": [
+      "kusa"
+    ],
+    "examples": [
+      {
+        "word": "草 (くさ)",
+        "meaning": "풀",
+        "romaji": "kusa"
+      },
+      {
+        "word": "草原 (そうげん)",
+        "meaning": "초원",
+        "romaji": "sougen"
+      }
+    ]
+  },
+  {
+    "kanji": "竹",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "bamboo"
+    ],
+    "readings_on": [
+      "チク"
+    ],
+    "romaji_on": [
+      "chiku"
+    ],
+    "readings_kun": [
+      "たけ"
+    ],
+    "romaji_kun": [
+      "take"
+    ],
+    "examples": [
+      {
+        "word": "竹 (たけ)",
+        "meaning": "대나무",
+        "romaji": "take"
+      },
+      {
+        "word": "竹の子 (たけのこ)",
+        "meaning": "죽순",
+        "romaji": "takenoko"
+      }
+    ]
+  },
+  {
+    "kanji": "虫",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "insect"
+    ],
+    "readings_on": [
+      "チュウ"
+    ],
+    "romaji_on": [
+      "chuu"
+    ],
+    "readings_kun": [
+      "むし"
+    ],
+    "romaji_kun": [
+      "mushi"
+    ],
+    "examples": [
+      {
+        "word": "虫 (むし)",
+        "meaning": "벌레",
+        "romaji": "mushi"
+      },
+      {
+        "word": "弱虫 (よわむし)",
+        "meaning": "겁쟁이",
+        "romaji": "yowamushi"
+      }
+    ]
+  },
+  {
+    "kanji": "貝",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "shell"
+    ],
+    "readings_on": [
+      "バイ"
+    ],
+    "romaji_on": [
+      "bai"
+    ],
+    "readings_kun": [
+      "かい"
+    ],
+    "romaji_kun": [
+      "kai"
+    ],
+    "examples": [
+      {
+        "word": "貝 (かい)",
+        "meaning": "조개",
+        "romaji": "kai"
+      },
+      {
+        "word": "貝がら (かいがら)",
+        "meaning": "조개껍질",
+        "romaji": "kaigara"
+      }
+    ]
+  },
+  {
+    "kanji": "犬",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "dog"
+    ],
+    "readings_on": [
+      "ケン"
+    ],
+    "romaji_on": [
+      "ken"
+    ],
+    "readings_kun": [
+      "いぬ"
+    ],
+    "romaji_kun": [
+      "inu"
+    ],
+    "examples": [
+      {
+        "word": "犬 (いぬ)",
+        "meaning": "개",
+        "romaji": "inu"
+      },
+      {
+        "word": "子犬 (こいぬ)",
+        "meaning": "강아지",
+        "romaji": "koinu"
+      }
+    ]
+  },
+  {
+    "kanji": "赤",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "red"
+    ],
+    "readings_on": [
+      "セキ"
+    ],
+    "romaji_on": [
+      "seki"
+    ],
+    "readings_kun": [
+      "あか",
+      "あか.い"
+    ],
+    "romaji_kun": [
+      "aka",
+      "akai"
+    ],
+    "examples": [
+      {
+        "word": "赤い (あかい)",
+        "meaning": "빨갛다",
+        "romaji": "akai"
+      },
+      {
+        "word": "赤ちゃん (あかちゃん)",
+        "meaning": "아기",
+        "romaji": "akachan"
+      }
+    ]
+  },
+  {
+    "kanji": "青",
+    "grade": 1,
+    "strokes": 8,
+    "meanings": [
+      "blue"
+    ],
+    "readings_on": [
+      "セイ"
+    ],
+    "romaji_on": [
+      "sei"
+    ],
+    "readings_kun": [
+      "あお",
+      "あお.이"
+    ],
+    "romaji_kun": [
+      "ao",
+      "aoi"
+    ],
+    "examples": [
+      {
+        "word": "青い (あおい)",
+        "meaning": "파랗다",
+        "romaji": "aoi"
+      },
+      {
+        "word": "青空 (あおぞら)",
+        "meaning": "푸른 하늘",
+        "romaji": "aozora"
+      }
+    ]
+  },
+  {
+    "kanji": "白",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "white"
+    ],
+    "readings_on": [
+      "ハク"
+    ],
+    "romaji_on": [
+      "haku"
+    ],
+    "readings_kun": [
+      "しろ",
+      "しろ.い"
+    ],
+    "romaji_kun": [
+      "shiro",
+      "shiroi"
+    ],
+    "examples": [
+      {
+        "word": "白い (しろい)",
+        "meaning": "하얗다",
+        "romaji": "shiroi"
+      },
+      {
+        "word": "白鳥 (はくちょう)",
+        "meaning": "백조",
+        "romaji": "hakuchou"
+      }
+    ]
+  },
+  {
+    "kanji": "空",
+    "grade": 1,
+    "strokes": 8,
+    "meanings": [
+      "sky",
+      "empty"
+    ],
+    "readings_on": [
+      "クウ"
+    ],
+    "romaji_on": [
+      "kuu"
+    ],
+    "readings_kun": [
+      "そら",
+      "あ.く"
+    ],
+    "romaji_kun": [
+      "sora",
+      "aku"
+    ],
+    "examples": [
+      {
+        "word": "空 (そら)",
+        "meaning": "하늘",
+        "romaji": "sora"
+      },
+      {
+        "word": "空気 (くうき)",
+        "meaning": "공기",
+        "romaji": "kuuki"
+      }
+    ]
+  },
+  {
+    "kanji": "天",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "heaven",
+      "sky"
+    ],
+    "readings_on": [
+      "テン"
+    ],
+    "romaji_on": [
+      "ten"
+    ],
+    "readings_kun": [
+      "あめ"
+    ],
+    "romaji_kun": [
+      "ame"
+    ],
+    "examples": [
+      {
+        "word": "天気 (てんき)",
+        "meaning": "날씨",
+        "romaji": "tenki"
+      },
+      {
+        "word": "天才 (てんさい)",
+        "meaning": "천재",
+        "romaji": "tensai"
+      }
+    ]
+  },
+  {
+    "kanji": "雨",
+    "grade": 1,
+    "strokes": 8,
+    "meanings": [
+      "rain"
+    ],
+    "readings_on": [
+      "ウ"
+    ],
+    "romaji_on": [
+      "u"
+    ],
+    "readings_kun": [
+      "あめ"
+    ],
+    "romaji_kun": [
+      "ame"
+    ],
+    "examples": [
+      {
+        "word": "雨 (あめ)",
+        "meaning": "비",
+        "romaji": "ame"
+      },
+      {
+        "word": "大雨 (おおあめ)",
+        "meaning": "큰비",
+        "romaji": "ooame"
+      }
+    ]
+  },
+  {
+    "kanji": "夕",
+    "grade": 1,
+    "strokes": 3,
+    "meanings": [
+      "evening"
+    ],
+    "readings_on": [
+      "セキ"
+    ],
+    "romaji_on": [
+      "seki"
+    ],
+    "readings_kun": [
+      "ゆう"
+    ],
+    "romaji_kun": [
+      "yuu"
+    ],
+    "examples": [
+      {
+        "word": "夕方 (ゆうがた)",
+        "meaning": "저녁때",
+        "romaji": "yuugata"
+      },
+      {
+        "word": "夕日 (ゆうひ)",
+        "meaning": "석양",
+        "romaji": "yuuhi"
+      }
+    ]
+  },
+  {
+    "kanji": "名",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "name"
+    ],
+    "readings_on": [
+      "メイ"
+    ],
+    "romaji_on": [
+      "mei"
+    ],
+    "readings_kun": [
+      "な"
+    ],
+    "romaji_kun": [
+      "na"
+    ],
+    "examples": [
+      {
+        "word": "名前 (なまえ)",
+        "meaning": "이름",
+        "romaji": "namae"
+      },
+      {
+        "word": "有名 (ゆうめい)",
+        "meaning": "유명함"
+      }
+    ]
+  },
+  {
+    "kanji": "正",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "correct"
+    ],
+    "readings_on": [
+      "セイ"
+    ],
+    "romaji_on": [
+      "sei"
+    ],
+    "readings_kun": [
+      "ただ.しい"
+    ],
+    "romaji_kun": [
+      "tadashii"
+    ],
+    "examples": [
+      {
+        "word": "正しい (ただしい)",
+        "meaning": "올바르다",
+        "romaji": "tadashii"
+      },
+      {
+        "word": "お正月 (おしょうがつ)",
+        "meaning": "설날",
+        "romaji": "oshougatsu"
+      }
+    ]
+  },
+  {
+    "kanji": "早",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "early"
+    ],
+    "readings_on": [
+      "ソウ"
+    ],
+    "romaji_on": [
+      "sou"
+    ],
+    "readings_kun": [
+      "はや.い"
+    ],
+    "romaji_kun": [
+      "hayai"
+    ],
+    "examples": [
+      {
+        "word": "早い (はやい)",
+        "meaning": "이르다",
+        "romaji": "hayai"
+      },
+      {
+        "word": "早起き (はやおき)",
+        "meaning": "일찍 일어나기",
+        "romaji": "hayaoki"
+      }
+    ]
+  },
+  {
+    "kanji": "本",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "book"
+    ],
+    "readings_on": [
+      "ホン"
+    ],
+    "romaji_on": [
+      "hon"
+    ],
+    "readings_kun": [
+      "もと"
+    ],
+    "romaji_kun": [
+      "moto"
+    ],
+    "examples": [
+      {
+        "word": "本 (ほん)",
+        "meaning": "책",
+        "romaji": "hon"
+      },
+      {
+        "word": "日本 (にほん)",
+        "meaning": "일본",
+        "romaji": "nihon"
+      }
+    ]
+  },
+  {
+    "kanji": "文",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "sentence"
+    ],
+    "readings_on": [
+      "ブン"
+    ],
+    "romaji_on": [
+      "bun"
+    ],
+    "readings_kun": [
+      "ふみ"
+    ],
+    "romaji_kun": [
+      "fumi"
+    ],
+    "examples": [
+      {
+        "word": "作文 (さくぶん)",
+        "meaning": "작문",
+        "romaji": "sakubun"
+      },
+      {
+        "word": "文字 (もじ)",
+        "meaning": "문자",
+        "romaji": "moji"
+      }
+    ]
+  },
+  {
+    "kanji": "字",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "character"
+    ],
+    "readings_on": [
+      "ジ"
+    ],
+    "romaji_on": [
+      "ji"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "漢字 (かんじ)",
+        "meaning": "한자",
+        "romaji": "kanji"
+      },
+      {
+        "word": "数字 (すうじ)",
+        "meaning": "숫자",
+        "romaji": "suuji"
+      }
+    ]
+  },
+  {
+    "kanji": "糸",
+    "grade": 1,
+    "strokes": 6,
+    "meanings": [
+      "thread"
+    ],
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [
+      "いと"
+    ],
+    "romaji_kun": [
+      "ito"
+    ],
+    "examples": [
+      {
+        "word": "糸 (いと)",
+        "meaning": "실",
+        "romaji": "ito"
+      },
+      {
+        "word": "毛糸 (けいと)",
+        "meaning": "털실",
+        "romaji": "keito"
+      }
+    ]
+  },
+  {
+    "kanji": "玉",
+    "grade": 1,
+    "strokes": 5,
+    "meanings": [
+      "ball"
+    ],
+    "readings_on": [
+      "ギョク"
+    ],
+    "romaji_on": [
+      "gyoku"
+    ],
+    "readings_kun": [
+      "たま"
+    ],
+    "romaji_kun": [
+      "tama"
+    ],
+    "examples": [
+      {
+        "word": "玉 (たま)",
+        "meaning": "구슬/알",
+        "romaji": "tama"
+      },
+      {
+        "word": "水玉 (みずたま)",
+        "meaning": "물방울",
+        "romaji": "mizutama"
+      }
+    ]
+  },
+  {
+    "kanji": "王",
+    "grade": 1,
+    "strokes": 4,
+    "meanings": [
+      "king"
+    ],
+    "readings_on": [
+      "オウ"
+    ],
+    "romaji_on": [
+      "ou"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "王様 (おうさま)",
+        "meaning": "임금님",
+        "romaji": "ousama"
+      },
+      {
+        "word": "王国 (おうこく)",
+        "meaning": "왕국",
+        "romaji": "oukoku"
+      }
+    ]
+  },
+  {
+    "kanji": "車",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "car"
+    ],
+    "readings_on": [
+      "シャ"
+    ],
+    "romaji_on": [
+      "sha"
+    ],
+    "readings_kun": [
+      "くるま"
+    ],
+    "romaji_kun": [
+      "kuruma"
+    ],
+    "examples": [
+      {
+        "word": "車 (くるま)",
+        "meaning": "자동차",
+        "romaji": "kuruma"
+      },
+      {
+        "word": "電車 (でんしゃ)",
+        "meaning": "전철",
+        "romaji": "densha"
+      }
+    ]
+  },
+  {
+    "kanji": "町",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "town"
+    ],
+    "readings_on": [
+      "チョウ"
+    ],
+    "romaji_on": [
+      "chou"
+    ],
+    "readings_kun": [
+      "まち"
+    ],
+    "romaji_kun": [
+      "machi"
+    ],
+    "examples": [
+      {
+        "word": "町 (まち)",
+        "meaning": "마을/동네",
+        "romaji": "machi"
+      },
+      {
+        "word": "町長 (ちょうちょう)",
+        "meaning": "읍장",
+        "romaji": "chouchou"
+      }
+    ]
+  },
+  {
+    "kanji": "村",
+    "grade": 1,
+    "strokes": 7,
+    "meanings": [
+      "village"
+    ],
+    "readings_on": [
+      "ソン"
+    ],
+    "romaji_on": [
+      "son"
+    ],
+    "readings_kun": [
+      "むら"
+    ],
+    "romaji_kun": [
+      "mura"
+    ],
+    "examples": [
+      {
+        "word": "村 (むら)",
+        "meaning": "마을",
+        "romaji": "mura"
+      },
+      {
+        "word": "村人 (むらびと)",
+        "meaning": "마을 사람",
+        "romaji": "murabito"
+      }
+    ]
+  },
+  {
+    "kanji": "森",
+    "grade": 1,
+    "strokes": 12,
+    "meanings": [
+      "forest"
+    ],
+    "readings_on": [
+      "シン"
+    ],
+    "romaji_on": [
+      "shin"
+    ],
+    "readings_kun": [
+      "もり"
+    ],
+    "romaji_kun": [
+      "mori"
+    ],
+    "examples": [
+      {
+        "word": "森 (もり)",
+        "meaning": "숲",
+        "romaji": "mori"
+      },
+      {
+        "word": "森林 (しんりん)",
+        "meaning": "삼림",
+        "romaji": "shinrin"
+      }
+    ]
+  },
+  {
+    "kanji": "林",
+    "grade": 1,
+    "strokes": 8,
+    "meanings": [
+      "woods"
+    ],
+    "readings_on": [
+      "リン"
+    ],
+    "romaji_on": [
+      "rin"
+    ],
+    "readings_kun": [
+      "はやし"
+    ],
+    "romaji_kun": [
+      "hayashi"
+    ],
+    "examples": [
+      {
+        "word": "林 (はやし)",
+        "meaning": "수풀",
+        "romaji": "hayashi"
+      },
+      {
+        "word": "山林 (さんりん)",
+        "meaning": "산림",
+        "romaji": "sanrin"
+      }
+    ]
+  }
+]
