@@ -333,8 +333,8 @@
                         <span class="badge">Grade 3</span> 3학년
                     </div>
                     <div class="grade-actions">
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(3, 'KANJI')">한자</button>
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(3, 'WORD')">단어</button>
+                        <button class="grade-btn-small" onclick="selectMode(3, 'KANJI')">한자</button>
+                        <button class="grade-btn-small" onclick="selectMode(3, 'WORD')">단어</button>
                     </div>
                 </div>
                 <!-- Grade 4 -->
@@ -611,7 +611,7 @@
         }
 
         async function selectMode(grade, mode) {
-            if (grade > 2) {
+            if (grade > 3) {
                 alert(`${grade}학년 데이터는 서비스 준비 중입니다!`);
                 return;
             }
@@ -625,6 +625,7 @@
                 const response = await fetch(`kanji_grade${grade}.json`);
                 KANJI_DATA = await response.json();
 
+                document.title = `Zen Kanji Master - Grade ${grade}`;
                 document.getElementById('start-screen').classList.add('hidden');
                 document.getElementById('game-container').classList.remove('hidden');
 
@@ -680,7 +681,7 @@
         }
 
         function manualJump() {
-            const num = prompt("이동할 한자 번호를 입력하세よ (1-80):", state.currentIndex + 1);
+            const num = prompt(`이동할 번호를 입력하세요 (1-${KANJI_DATA.length}):`, state.currentIndex + 1);
             if (num) {
                 const idx = parseInt(num) - 1;
                 if (idx >= 0 && idx < KANJI_DATA.length) jumpToIndex(idx);
@@ -713,7 +714,13 @@
             } else {
                 state.currentKanji = KANJI_DATA[state.currentIndex];
                 els.kanjiMain.innerText = state.currentKanji.kanji;
-                els.meaningHint.innerText = state.currentKanji.meanings.join(', ');
+                
+                let hintText = state.currentKanji.meanings.join(', ');
+                if (state.currentKanji.kor_meaning && state.currentKanji.kor_sound) {
+                    hintText += ` <span class="kor-huneum">(${state.currentKanji.kor_meaning} ${state.currentKanji.kor_sound})</span>`;
+                }
+                els.meaningHint.innerHTML = hintText;
+
                 els.currentIndexDisplay.innerText = state.currentIndex + 1;
                 els.slider.value = state.currentIndex;
 
