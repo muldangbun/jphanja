@@ -134,6 +134,14 @@ header {
 .meaning-hint {
     font-size: 1.1rem;
     color: var(--text-secondary);
+    text-align: center;
+}
+
+.kor-huneum {
+    font-weight: 700;
+    opacity: 0.8;
+    margin-left: 4px;
+    color: var(--accent-color);
 }
 
 .romaji-guide {

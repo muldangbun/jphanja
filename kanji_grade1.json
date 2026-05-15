@@ -33,7 +33,9 @@
         "meaning": "한 사람",
         "romaji": "hitori"
       }
-    ]
+    ],
+    "kor_meaning": "한",
+    "kor_sound": "일"
   },
   {
     "kanji": "二",
@@ -69,7 +71,9 @@
         "meaning": "이틀 / 2일",
         "romaji": "futsuka"
       }
-    ]
+    ],
+    "kor_meaning": "두",
+    "kor_sound": "이"
   },
   {
     "kanji": "三",
@@ -103,7 +107,9 @@
         "meaning": "사흘 / 3일",
         "romaji": "mikka"
       }
-    ]
+    ],
+    "kor_meaning": "석",
+    "kor_sound": "삼"
   },
   {
     "kanji": "四",
@@ -139,7 +145,9 @@
         "meaning": "나흘 / 4일",
         "romaji": "yokka"
       }
-    ]
+    ],
+    "kor_meaning": "넉",
+    "kor_sound": "사"
   },
   {
     "kanji": "五",
@@ -173,7 +181,9 @@
         "meaning": "닷새 / 5일",
         "romaji": "itsuka"
       }
-    ]
+    ],
+    "kor_meaning": "다섯",
+    "kor_sound": "오"
   },
   {
     "kanji": "六",
@@ -209,7 +219,9 @@
         "meaning": "엿새 / 6일",
         "romaji": "muika"
       }
-    ]
+    ],
+    "kor_meaning": "여섯",
+    "kor_sound": "륙"
   },
   {
     "kanji": "七",
@@ -245,7 +257,9 @@
         "meaning": "이레 / 7일",
         "romaji": "nanoka"
       }
-    ]
+    ],
+    "kor_meaning": "일곱",
+    "kor_sound": "칠"
   },
   {
     "kanji": "八",
@@ -281,7 +295,9 @@
         "meaning": "여드레 / 8일",
         "romaji": "youka"
       }
-    ]
+    ],
+    "kor_meaning": "여덟",
+    "kor_sound": "팔"
   },
   {
     "kanji": "九",
@@ -317,7 +333,9 @@
         "meaning": "아흐레 / 9일",
         "romaji": "kokonoka"
       }
-    ]
+    ],
+    "kor_meaning": "아홉",
+    "kor_sound": "구"
   },
   {
     "kanji": "十",
@@ -351,7 +369,9 @@
         "meaning": "열흘 / 10일",
         "romaji": "tooka"
       }
-    ]
+    ],
+    "kor_meaning": "열",
+    "kor_sound": "십"
   },
   {
     "kanji": "百",
@@ -383,7 +403,9 @@
         "meaning": "채소가게",
         "romaji": "yaoya"
       }
-    ]
+    ],
+    "kor_meaning": "일백",
+    "kor_sound": "백"
   },
   {
     "kanji": "千",
@@ -415,7 +437,9 @@
         "meaning": "치바(지명)",
         "romaji": "chiba"
       }
-    ]
+    ],
+    "kor_meaning": "일천",
+    "kor_sound": "천"
   },
   {
     "kanji": "上",
@@ -450,7 +474,9 @@
         "meaning": "올라가다",
         "romaji": "agaru"
       }
-    ]
+    ],
+    "kor_meaning": "윗",
+    "kor_sound": "상"
   },
   {
     "kanji": "下",
@@ -487,7 +513,9 @@
         "meaning": "내려가다",
         "romaji": "sagaru"
       }
-    ]
+    ],
+    "kor_meaning": "아래",
+    "kor_sound": "하"
   },
   {
     "kanji": "左",
@@ -519,7 +547,9 @@
         "meaning": "왼쪽",
         "romaji": "hidarigawa"
       }
-    ]
+    ],
+    "kor_meaning": "왼",
+    "kor_sound": "좌"
   },
   {
     "kanji": "右",
@@ -553,7 +583,9 @@
         "meaning": "오른쪽",
         "romaji": "migigawa"
       }
-    ]
+    ],
+    "kor_meaning": "오른",
+    "kor_sound": "우"
   },
   {
     "kanji": "中",
@@ -586,7 +618,9 @@
         "meaning": "하루 종일",
         "romaji": "ichinichijuu"
       }
-    ]
+    ],
+    "kor_meaning": "가운데",
+    "kor_sound": "중"
   },
   {
     "kanji": "大",
@@ -621,7 +655,9 @@
         "meaning": "어른",
         "romaji": "otona"
       }
-    ]
+    ],
+    "kor_meaning": "큰",
+    "kor_sound": "대"
   },
   {
     "kanji": "小",
@@ -656,7 +692,9 @@
         "meaning": "초등학교",
         "romaji": "shougakkou"
       }
-    ]
+    ],
+    "kor_meaning": "작을",
+    "kor_sound": "소"
   },
   {
     "kanji": "月",
@@ -691,7 +729,9 @@
         "meaning": "1월",
         "romaji": "ichigatsu"
       }
-    ]
+    ],
+    "kor_meaning": "달",
+    "kor_sound": "월"
   },
   {
     "kanji": "火",
@@ -723,7 +763,9 @@
         "meaning": "화요일",
         "romaji": "kayoubi"
       }
-    ]
+    ],
+    "kor_meaning": "불",
+    "kor_sound": "화"
   },
   {
     "kanji": "水",
@@ -755,7 +797,9 @@
         "meaning": "수요일",
         "romaji": "suiyoubi"
       }
-    ]
+    ],
+    "kor_meaning": "물",
+    "kor_sound": "수"
   },
   {
     "kanji": "木",
@@ -790,7 +834,9 @@
         "meaning": "목요일",
         "romaji": "mokuyoubi"
       }
-    ]
+    ],
+    "kor_meaning": "나무",
+    "kor_sound": "목"
   },
   {
     "kanji": "金",
@@ -823,7 +869,9 @@
         "meaning": "금요일",
         "romaji": "kinnyoubi"
       }
-    ]
+    ],
+    "kor_meaning": "쇠",
+    "kor_sound": "금"
   },
   {
     "kanji": "土",
@@ -858,7 +906,9 @@
         "meaning": "토요일",
         "romaji": "doyoubi"
       }
-    ]
+    ],
+    "kor_meaning": "흙",
+    "kor_sound": "토"
   },
   {
     "kanji": "日",
@@ -895,7 +945,9 @@
         "meaning": "일요일",
         "romaji": "nichiyoubi"
       }
-    ]
+    ],
+    "kor_meaning": "날",
+    "kor_sound": "일"
   },
   {
     "kanji": "年",
@@ -927,7 +979,9 @@
         "meaning": "1학년",
         "romaji": "ichinensei"
       }
-    ]
+    ],
+    "kor_meaning": "해",
+    "kor_sound": "년"
   },
   {
     "kanji": "人",
@@ -961,7 +1015,9 @@
         "meaning": "일본인",
         "romaji": "nihonjin"
       }
-    ]
+    ],
+    "kor_meaning": "사람",
+    "kor_sound": "인"
   },
   {
     "kanji": "子",
@@ -993,7 +1049,9 @@
         "meaning": "여자아이",
         "romaji": "onnanoko"
       }
-    ]
+    ],
+    "kor_meaning": "아들",
+    "kor_sound": "자"
   },
   {
     "kanji": "女",
@@ -1026,7 +1084,9 @@
         "meaning": "그녀",
         "romaji": "kanojo"
       }
-    ]
+    ],
+    "kor_meaning": "계집",
+    "kor_sound": "녀"
   },
   {
     "kanji": "男",
@@ -1061,7 +1121,9 @@
         "meaning": "남자아이",
         "romaji": "otokonoko"
       }
-    ]
+    ],
+    "kor_meaning": "사내",
+    "kor_sound": "남"
   },
   {
     "kanji": "目",
@@ -1093,7 +1155,9 @@
         "meaning": "윗사람",
         "romaji": "meue"
       }
-    ]
+    ],
+    "kor_meaning": "눈",
+    "kor_sound": "목"
   },
   {
     "kanji": "耳",
@@ -1125,7 +1189,9 @@
         "meaning": "이명",
         "romaji": "miminari"
       }
-    ]
+    ],
+    "kor_meaning": "귀",
+    "kor_sound": "이"
   },
   {
     "kanji": "口",
@@ -1159,7 +1225,9 @@
         "meaning": "출구",
         "romaji": "deguchi"
       }
-    ]
+    ],
+    "kor_meaning": "입",
+    "kor_sound": "구"
   },
   {
     "kanji": "手",
@@ -1191,7 +1259,9 @@
         "meaning": "능숙함",
         "romaji": "jouzu"
       }
-    ]
+    ],
+    "kor_meaning": "손",
+    "kor_sound": "수"
   },
   {
     "kanji": "足",
@@ -1226,7 +1296,9 @@
         "meaning": "소풍",
         "romaji": "ensoku"
       }
-    ]
+    ],
+    "kor_meaning": "발",
+    "kor_sound": "족"
   },
   {
     "kanji": "見",
@@ -1259,7 +1331,9 @@
         "meaning": "견학",
         "romaji": "kengaku"
       }
-    ]
+    ],
+    "kor_meaning": "볼",
+    "kor_sound": "견"
   },
   {
     "kanji": "音",
@@ -1276,7 +1350,7 @@
     ],
     "readings_kun": [
       "おと",
-      "네"
+      "ね"
     ],
     "romaji_kun": [
       "oto",
@@ -1293,7 +1367,9 @@
         "meaning": "음악",
         "romaji": "ongaku"
       }
-    ]
+    ],
+    "kor_meaning": "소리",
+    "kor_sound": "음"
   },
   {
     "kanji": "力",
@@ -1328,7 +1404,9 @@
         "meaning": "체력",
         "romaji": "tairyoku"
       }
-    ]
+    ],
+    "kor_meaning": "힘",
+    "kor_sound": "력"
   },
   {
     "kanji": "気",
@@ -1357,7 +1435,9 @@
         "meaning": "날씨",
         "romaji": "tenki"
       }
-    ]
+    ],
+    "kor_meaning": "기운",
+    "kor_sound": "기"
   },
   {
     "kanji": "円",
@@ -1390,7 +1470,9 @@
         "meaning": "둥글다",
         "romaji": "marui"
       }
-    ]
+    ],
+    "kor_meaning": "둥글",
+    "kor_sound": "원"
   },
   {
     "kanji": "入",
@@ -1424,7 +1506,9 @@
         "meaning": "넣다",
         "romaji": "ireru"
       }
-    ]
+    ],
+    "kor_meaning": "들",
+    "kor_sound": "입"
   },
   {
     "kanji": "出",
@@ -1459,7 +1543,9 @@
         "meaning": "내다/꺼내다",
         "romaji": "dasu"
       }
-    ]
+    ],
+    "kor_meaning": "날",
+    "kor_sound": "출"
   },
   {
     "kanji": "立",
@@ -1493,7 +1579,9 @@
         "meaning": "국립",
         "romaji": "kokuritsu"
       }
-    ]
+    ],
+    "kor_meaning": "설",
+    "kor_sound": "립"
   },
   {
     "kanji": "休",
@@ -1525,7 +1613,9 @@
         "meaning": "휴일",
         "romaji": "kyuujitsu"
       }
-    ]
+    ],
+    "kor_meaning": "쉴",
+    "kor_sound": "휴"
   },
   {
     "kanji": "先",
@@ -1558,7 +1648,9 @@
         "meaning": "지난달",
         "romaji": "sengetsu"
       }
-    ]
+    ],
+    "kor_meaning": "먼저",
+    "kor_sound": "선"
   },
   {
     "kanji": "生",
@@ -1595,7 +1687,9 @@
         "meaning": "학생",
         "romaji": "gakusei"
       }
-    ]
+    ],
+    "kor_meaning": "날",
+    "kor_sound": "생"
   },
   {
     "kanji": "学",
@@ -1628,7 +1722,9 @@
         "meaning": "배우다",
         "romaji": "manabu"
       }
-    ]
+    ],
+    "kor_meaning": "배울",
+    "kor_sound": "학"
   },
   {
     "kanji": "校",
@@ -1656,7 +1752,9 @@
         "meaning": "교장",
         "romaji": "kouchou"
       }
-    ]
+    ],
+    "kor_meaning": "학교",
+    "kor_sound": "교"
   },
   {
     "kanji": "山",
@@ -1688,7 +1786,9 @@
         "meaning": "후지산",
         "romaji": "fujisan"
       }
-    ]
+    ],
+    "kor_meaning": "뫼",
+    "kor_sound": "산"
   },
   {
     "kanji": "川",
@@ -1720,7 +1820,9 @@
         "meaning": "시냇물",
         "romaji": "ogawa"
       }
-    ]
+    ],
+    "kor_meaning": "내",
+    "kor_sound": "천"
   },
   {
     "kanji": "田",
@@ -1752,7 +1854,9 @@
         "meaning": "수전(논)",
         "romaji": "suiden"
       }
-    ]
+    ],
+    "kor_meaning": "밭",
+    "kor_sound": "전"
   },
   {
     "kanji": "石",
@@ -1784,7 +1888,9 @@
         "meaning": "보석",
         "romaji": "houseki"
       }
-    ]
+    ],
+    "kor_meaning": "돌",
+    "kor_sound": "석"
   },
   {
     "kanji": "花",
@@ -1816,7 +1922,9 @@
         "meaning": "불꽃놀이",
         "romaji": "hanabi"
       }
-    ]
+    ],
+    "kor_meaning": "꽃",
+    "kor_sound": "화"
   },
   {
     "kanji": "草",
@@ -1848,7 +1956,9 @@
         "meaning": "초원",
         "romaji": "sougen"
       }
-    ]
+    ],
+    "kor_meaning": "풀",
+    "kor_sound": "초"
   },
   {
     "kanji": "竹",
@@ -1880,7 +1990,9 @@
         "meaning": "죽순",
         "romaji": "takenoko"
       }
-    ]
+    ],
+    "kor_meaning": "대",
+    "kor_sound": "죽"
   },
   {
     "kanji": "虫",
@@ -1912,7 +2024,9 @@
         "meaning": "겁쟁이",
         "romaji": "yowamushi"
       }
-    ]
+    ],
+    "kor_meaning": "벌레",
+    "kor_sound": "충"
   },
   {
     "kanji": "貝",
@@ -1944,7 +2058,9 @@
         "meaning": "조개껍질",
         "romaji": "kaigara"
       }
-    ]
+    ],
+    "kor_meaning": "조개",
+    "kor_sound": "패"
   },
   {
     "kanji": "犬",
@@ -1976,7 +2092,9 @@
         "meaning": "강아지",
         "romaji": "koinu"
       }
-    ]
+    ],
+    "kor_meaning": "개",
+    "kor_sound": "견"
   },
   {
     "kanji": "赤",
@@ -2010,7 +2128,9 @@
         "meaning": "아기",
         "romaji": "akachan"
       }
-    ]
+    ],
+    "kor_meaning": "붉을",
+    "kor_sound": "적"
   },
   {
     "kanji": "青",
@@ -2027,7 +2147,7 @@
     ],
     "readings_kun": [
       "あお",
-      "あお.이"
+      "あお.い"
     ],
     "romaji_kun": [
       "ao",
@@ -2044,7 +2164,9 @@
         "meaning": "푸른 하늘",
         "romaji": "aozora"
       }
-    ]
+    ],
+    "kor_meaning": "푸를",
+    "kor_sound": "청"
   },
   {
     "kanji": "白",
@@ -2078,7 +2200,9 @@
         "meaning": "백조",
         "romaji": "hakuchou"
       }
-    ]
+    ],
+    "kor_meaning": "흰",
+    "kor_sound": "백"
   },
   {
     "kanji": "空",
@@ -2113,7 +2237,9 @@
         "meaning": "공기",
         "romaji": "kuuki"
       }
-    ]
+    ],
+    "kor_meaning": "빌",
+    "kor_sound": "공"
   },
   {
     "kanji": "天",
@@ -2146,7 +2272,9 @@
         "meaning": "천재",
         "romaji": "tensai"
       }
-    ]
+    ],
+    "kor_meaning": "하늘",
+    "kor_sound": "천"
   },
   {
     "kanji": "雨",
@@ -2178,7 +2306,9 @@
         "meaning": "큰비",
         "romaji": "ooame"
       }
-    ]
+    ],
+    "kor_meaning": "비",
+    "kor_sound": "우"
   },
   {
     "kanji": "夕",
@@ -2210,7 +2340,9 @@
         "meaning": "석양",
         "romaji": "yuuhi"
       }
-    ]
+    ],
+    "kor_meaning": "저녁",
+    "kor_sound": "석"
   },
   {
     "kanji": "名",
@@ -2241,7 +2373,9 @@
         "word": "有名 (ゆうめい)",
         "meaning": "유명함"
       }
-    ]
+    ],
+    "kor_meaning": "이름",
+    "kor_sound": "명"
   },
   {
     "kanji": "正",
@@ -2273,7 +2407,9 @@
         "meaning": "설날",
         "romaji": "oshougatsu"
       }
-    ]
+    ],
+    "kor_meaning": "바를",
+    "kor_sound": "정"
   },
   {
     "kanji": "早",
@@ -2305,7 +2441,9 @@
         "meaning": "일찍 일어나기",
         "romaji": "hayaoki"
       }
-    ]
+    ],
+    "kor_meaning": "이를",
+    "kor_sound": "조"
   },
   {
     "kanji": "本",
@@ -2337,7 +2475,9 @@
         "meaning": "일본",
         "romaji": "nihon"
       }
-    ]
+    ],
+    "kor_meaning": "근본",
+    "kor_sound": "본"
   },
   {
     "kanji": "文",
@@ -2369,7 +2509,9 @@
         "meaning": "문자",
         "romaji": "moji"
       }
-    ]
+    ],
+    "kor_meaning": "글월",
+    "kor_sound": "문"
   },
   {
     "kanji": "字",
@@ -2397,7 +2539,9 @@
         "meaning": "숫자",
         "romaji": "suuji"
       }
-    ]
+    ],
+    "kor_meaning": "글자",
+    "kor_sound": "자"
   },
   {
     "kanji": "糸",
@@ -2429,7 +2573,9 @@
         "meaning": "털실",
         "romaji": "keito"
       }
-    ]
+    ],
+    "kor_meaning": "실",
+    "kor_sound": "사"
   },
   {
     "kanji": "玉",
@@ -2461,7 +2607,9 @@
         "meaning": "물방울",
         "romaji": "mizutama"
       }
-    ]
+    ],
+    "kor_meaning": "구슬",
+    "kor_sound": "옥"
   },
   {
     "kanji": "王",
@@ -2489,7 +2637,9 @@
         "meaning": "왕국",
         "romaji": "oukoku"
       }
-    ]
+    ],
+    "kor_meaning": "임금",
+    "kor_sound": "왕"
   },
   {
     "kanji": "車",
@@ -2521,7 +2671,9 @@
         "meaning": "전철",
         "romaji": "densha"
       }
-    ]
+    ],
+    "kor_meaning": "수레",
+    "kor_sound": "차"
   },
   {
     "kanji": "町",
@@ -2553,7 +2705,9 @@
         "meaning": "읍장",
         "romaji": "chouchou"
       }
-    ]
+    ],
+    "kor_meaning": "밭두둑/동네",
+    "kor_sound": "정"
   },
   {
     "kanji": "村",
@@ -2585,7 +2739,9 @@
         "meaning": "마을 사람",
         "romaji": "murabito"
       }
-    ]
+    ],
+    "kor_meaning": "마을",
+    "kor_sound": "촌"
   },
   {
     "kanji": "森",
@@ -2617,7 +2773,9 @@
         "meaning": "삼림",
         "romaji": "shinrin"
       }
-    ]
+    ],
+    "kor_meaning": "수풀",
+    "kor_sound": "삼"
   },
   {
     "kanji": "林",
@@ -2649,6 +2807,8 @@
         "meaning": "산림",
         "romaji": "sanrin"
       }
-    ]
+    ],
+    "kor_meaning": "수풀",
+    "kor_sound": "림"
   }
 ]

@@ -79,7 +79,7 @@
             font-size: 1.8rem;
             line-height: 1.6;
             margin-bottom: 1.5rem;
-            text-align: left;
+            text-align: center;
             word-break: keep-all;
         }
 
@@ -188,11 +188,34 @@
         .furigana-toggle {
             display: flex;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 1.5rem;
-            font-size: 0.9rem;
+            gap: 25px;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
             color: var(--text-dim);
-            justify-content: flex-end;
+            justify-content: flex-start;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .audiobook-controls, .furigana-switch-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .audiobook-controls:hover, .furigana-switch-wrapper:hover {
+            color: var(--text-primary);
+        }
+
+        /* Audiobook Mode UI adjustment */
+        .audiobook-active #romaji-guide,
+        .audiobook-active .input-section,
+        .audiobook-active .ok-badge,
+        .audiobook-active .grammar-btn,
+        .audiobook-active #play-sentence {
+            display: none !important;
         }
 
         .switch {
@@ -333,8 +356,8 @@
                         <span class="badge">Grade 3</span> 3학년
                     </div>
                     <div class="grade-actions">
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(3, 'KANJI')">한자</button>
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(3, 'WORD')">단어</button>
+                        <button class="grade-btn-small" onclick="selectMode(3, 'KANJI')">한자</button>
+                        <button class="grade-btn-small" onclick="selectMode(3, 'WORD')">단어</button>
                     </div>
                 </div>
                 <!-- Grade 4 -->
@@ -402,11 +425,20 @@
                     <div id="phase-tag" class="phase-indicator">Ready</div>
 
                     <div id="furigana-controls" class="furigana-toggle hidden">
-                        <span>Furigana (읽기)</span>
-                        <label class="switch">
-                            <input type="checkbox" id="furigana-switch" checked>
-                            <span class="slider-round"></span>
-                        </label>
+                        <div class="audiobook-controls" onclick="document.getElementById('audiobook-switch').click()">
+                            <label class="switch" onclick="event.stopPropagation()">
+                                <input type="checkbox" id="audiobook-switch">
+                                <span class="slider-round"></span>
+                            </label>
+                            <span>Audiobook (자동 재생)</span>
+                        </div>
+                        <div class="furigana-switch-wrapper" onclick="document.getElementById('furigana-switch').click()">
+                            <label class="switch" onclick="event.stopPropagation()">
+                                <input type="checkbox" id="furigana-switch" checked>
+                                <span class="slider-round"></span>
+                            </label>
+                            <span>Furigana (요미가나)</span>
+                        </div>
                     </div>
 
                     <div id="finish-dialog" class="finish-dialog hidden">
@@ -550,6 +582,7 @@
             isStoryMode: false,
             learningMode: 'KANJI',
             showFurigana: true,
+            isAudiobookMode: false,
             isComplete: false,
             isFinish: false
         };
@@ -578,6 +611,7 @@
             slider: document.getElementById('progress-slider'),
             furiganaControls: document.getElementById('furigana-controls'),
             furiganaSwitch: document.getElementById('furigana-switch'),
+            audiobookSwitch: document.getElementById('audiobook-switch'),
             finishDialog: document.getElementById('finish-dialog'),
             grammarBtn: document.getElementById('grammar-btn'),
             grammarModalOverlay: document.getElementById('grammar-modal-overlay'),
@@ -585,20 +619,76 @@
             grammarContent: document.getElementById('grammar-content')
         };
 
+        let currentAudio = null;
+
         const speakText = (text) => {
-            if (!window.speechSynthesis) return;
-            window.speechSynthesis.cancel();
+            return new Promise((resolve) => {
+                // Stop any existing audio/TTS
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio = null;
+                }
+                if (window.speechSynthesis) {
+                    window.speechSynthesis.cancel();
+                }
+
+                // 1. STORY mode: Priority to VOICEVOX MP3 files
+                if (state.phase === 'STORY') {
+                    const audioPath = `audio/story/${state.currentIndex}.mp3`;
+                    const audio = new Audio(audioPath);
+                    currentAudio = audio;
+                    
+                    let fallbackTriggered = false;
+                    const triggerFallback = () => {
+                        if (fallbackTriggered) return;
+                        fallbackTriggered = true;
+                        currentAudio = null;
+                        playTTS(text, resolve);
+                    };
+
+                    audio.onended = () => {
+                        currentAudio = null;
+                        resolve();
+                    };
+                    
+                    audio.onerror = () => {
+                        console.warn(`Audio file not found or error: ${audioPath}. Falling back to TTS.`);
+                        triggerFallback();
+                    };
+                    
+                    audio.play().catch(err => {
+                        console.error("Audio play failed:", err);
+                        triggerFallback();
+                    });
+                } else {
+                    // 2. Other modes: Use browser TTS
+                    playTTS(text, resolve);
+                }
+            });
+        };
+
+        const playTTS = (text, resolve) => {
+            if (!window.speechSynthesis) {
+                resolve();
+                return;
+            }
             const utterance = new SpeechSynthesisUtterance(text);
             utterance.lang = 'ja-JP';
-            utterance.rate = 1.0; // ぎ본 속도로 원복
+            utterance.rate = 1.0;
 
             const voices = window.speechSynthesis.getVoices();
-            // ぐ글 일본어 TTSが 있으면 최우선으로 선택 (が장 자연스러움)
             const googleVoice = voices.find(v => v.name.includes('Google') && v.lang.startsWith('ja'));
             const jaVoice = googleVoice || voices.find(v => v.lang.startsWith('ja'));
 
             if (jaVoice) utterance.voice = jaVoice;
+            
+            utterance.onend = () => resolve();
+            utterance.onerror = () => resolve();
+            
             window.speechSynthesis.speak(utterance);
+            
+            // TTS가 가끔 onend를 호출하지 않는 경우를 대비한 안전 장치
+            setTimeout(() => resolve(), text.length * 500 + 2000);
         };
 
         function getRomajiHint(index = 0) {
@@ -611,11 +701,22 @@
         }
 
         async function selectMode(grade, mode) {
-            if (grade > 2) {
+            if (grade > 3) {
                 alert(`${grade}학년 데이터는 서비스 준비 중입니다!`);
                 return;
             }
             state.isStoryMode = false;
+            state.isAudiobookMode = false;
+            if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
+            els.card.classList.remove('audiobook-active');
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio = null;
+            }
+            window.speechSynthesis.cancel();
+            audiobookSessionId++; // Increment to stop any active loop
+            if (audiobookTimeout) clearTimeout(audiobookTimeout);
+
             state.learningMode = mode;
             els.container.classList.remove('story-mode');
             els.furiganaControls.classList.add('hidden');
@@ -625,6 +726,7 @@
                 const response = await fetch(`kanji_grade${grade}.json`);
                 KANJI_DATA = await response.json();
 
+                document.title = `Zen Kanji Master - Grade ${grade}`;
                 document.getElementById('start-screen').classList.add('hidden');
                 document.getElementById('game-container').classList.remove('hidden');
 
@@ -634,7 +736,7 @@
                 els.input.focus();
             } catch (err) {
                 console.error("Data load failed:", err);
-                alert("한자 데이터를 불러오지 못했습니다. 서버 환경에서 실행해 주세よ.");
+                alert("한자 데이터를 불러오지 못했습니다. 서버 환경에서 실행해 주세요.");
             }
         }
 
@@ -680,7 +782,7 @@
         }
 
         function manualJump() {
-            const num = prompt("이동할 한자 번호를 입력하세よ (1-80):", state.currentIndex + 1);
+            const num = prompt(`이동할 번호를 입력하세요 (1-${KANJI_DATA.length}):`, state.currentIndex + 1);
             if (num) {
                 const idx = parseInt(num) - 1;
                 if (idx >= 0 && idx < KANJI_DATA.length) jumpToIndex(idx);
@@ -689,8 +791,12 @@
 
         function goHome() {
             state.isFinish = false;
+            state.isAudiobookMode = false;
+            if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
+            els.card.classList.remove('audiobook-active');
             if (els.finishDialog) els.finishDialog.classList.add('hidden');
             window.speechSynthesis.cancel();
+            audiobookSessionId++; // Increment to stop any active loop
             document.getElementById('game-container').classList.add('hidden');
             document.getElementById('start-screen').classList.remove('hidden');
             // Reset state
@@ -713,7 +819,13 @@
             } else {
                 state.currentKanji = KANJI_DATA[state.currentIndex];
                 els.kanjiMain.innerText = state.currentKanji.kanji;
-                els.meaningHint.innerText = state.currentKanji.meanings.join(', ');
+                
+                let hintText = state.currentKanji.meanings.join(', ');
+                if (state.currentKanji.kor_meaning && state.currentKanji.kor_sound) {
+                    hintText += ` <span class="kor-huneum">(${state.currentKanji.kor_meaning} ${state.currentKanji.kor_sound})</span>`;
+                }
+                els.meaningHint.innerHTML = hintText;
+
                 els.currentIndexDisplay.innerText = state.currentIndex + 1;
                 els.slider.value = state.currentIndex;
 
@@ -915,7 +1027,7 @@
             const rRemaining = romaji.substring(romajiRevealCount);
 
             const romajiDisplay = `<span style="color: var(--accent-color); opacity: 1; font-weight: 800; border-bottom: 2px solid var(--accent-color);">${rRevealed}</span><span style="opacity: 0.4;">${rRemaining}</span>`;
-            els.kanaHint.innerHTML = `<div style="font-size: 1.1rem; font-family: 'Outfit'; color: var(--text-dim); text-align: left;">${romajiDisplay}</div>`;
+            els.kanaHint.innerHTML = `<div style="font-size: 1.1rem; font-family: 'Outfit'; color: var(--text-dim); text-align: center;">${romajiDisplay}</div>`;
         }
 
         function openGrammarModal() {
@@ -966,7 +1078,11 @@
                     els.grammarBtn.classList.add('hidden');
                 }
                 renderSentence();
-                speakText(state.currentSentence.kana);
+                if (state.isAudiobookMode) {
+                    startAudiobookLoop();
+                } else {
+                    speakText(state.currentSentence.kana);
+                }
             } else if (phase === 'ONYOMI') {
                 els.sentenceView.classList.add('hidden');
                 els.phaseTag.innerText = "음독 (Onyomi)"; els.wordView.classList.add('hidden'); els.kanjiView.classList.remove('hidden');
@@ -1066,6 +1182,10 @@
                     if (state.currentIndex >= KANJI_DATA.length) {
                         state.isFinish = true;
                         els.finishDialog.classList.remove('hidden');
+                        if (currentAudio) {
+                            currentAudio.pause();
+                            currentAudio = null;
+                        }
                         window.speechSynthesis.cancel();
                         //speakText("축하합니다! 모든 문장을 완료했습니다.");
                     } else {
@@ -1180,6 +1300,59 @@
             state.showFurigana = e.target.checked;
             if (state.isStoryMode) renderSentence();
         });
+
+        els.audiobookSwitch.addEventListener('change', (e) => {
+            state.isAudiobookMode = e.target.checked;
+            if (state.isAudiobookMode) {
+                els.card.classList.add('audiobook-active');
+                if (state.isStoryMode) startAudiobookLoop();
+            } else {
+                els.card.classList.remove('audiobook-active');
+                // Stop current audio when switching off
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio = null;
+                }
+                window.speechSynthesis.cancel();
+                if (audiobookTimeout) clearTimeout(audiobookTimeout);
+            }
+        });
+
+        let audiobookTimeout = null;
+        let audiobookSessionId = 0;
+        async function startAudiobookLoop() {
+            if (!state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
+            
+            const sessionId = ++audiobookSessionId;
+            
+            // Clear any existing timeout
+            if (audiobookTimeout) clearTimeout(audiobookTimeout);
+            
+            // 1. Read current sentence
+            await speakText(state.currentSentence.kana);
+            
+            // Check if we should still continue this specific loop session
+            if (sessionId !== audiobookSessionId || !state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
+            
+            // 2. Wait for 2 seconds
+            audiobookTimeout = setTimeout(() => {
+                if (sessionId !== audiobookSessionId || !state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
+                
+                // 3. Move to next sentence
+                state.currentIndex++;
+                if (state.currentIndex >= KANJI_DATA.length) {
+                    state.isFinish = true;
+                    els.finishDialog.classList.remove('hidden');
+                    if (currentAudio) {
+                        currentAudio.pause();
+                        currentAudio = null;
+                    }
+                    window.speechSynthesis.cancel();
+                } else {
+                    loadKanji();
+                }
+            }, 2000);
+        }
 
         window.addEventListener('load', () => { init(); });
         document.addEventListener('click', () => {
