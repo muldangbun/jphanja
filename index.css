@@ -35,18 +35,20 @@ body {
     background-color: var(--bg-color);
     color: var(--text-primary);
     font-family: var(--font-main);
-    height: 100vh;
+    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     transition: background-color 0.4s ease;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px 0;
 }
 
 /* Glassmorphism Background Shapes */
 .bg-shape {
-    position: absolute;
+    position: fixed;
     border-radius: 50%;
     filter: blur(80px);
     z-index: -1;
@@ -74,6 +76,7 @@ body {
     max-width: 600px;
     padding: 20px;
     z-index: 10;
+    margin: auto;
 }
 
 header {
