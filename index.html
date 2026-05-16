@@ -720,7 +720,8 @@
             grammarBtn: document.getElementById('grammar-btn'),
             grammarModalOverlay: document.getElementById('grammar-modal-overlay'),
             grammarModal: document.getElementById('grammar-modal'),
-            grammarContent: document.getElementById('grammar-content')
+            grammarContent: document.getElementById('grammar-content'),
+            keyboard: document.getElementById('virtual-keyboard')
         };
 
 
@@ -811,6 +812,7 @@
             state.isAudiobookMode = false;
             if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
             els.card.classList.remove('audiobook-active');
+            if (els.keyboard) els.keyboard.classList.remove('hidden');
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio = null;
@@ -912,6 +914,7 @@
             state.isAudiobookMode = false;
             if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
             els.card.classList.remove('audiobook-active');
+            if (els.keyboard) els.keyboard.classList.remove('hidden');
             if (els.finishDialog) els.finishDialog.classList.add('hidden');
             window.speechSynthesis.cancel();
             audiobookSessionId++; // Increment to stop any active loop
@@ -1533,9 +1536,11 @@
             state.isAudiobookMode = e.target.checked;
             if (state.isAudiobookMode) {
                 els.card.classList.add('audiobook-active');
+                if (els.keyboard) els.keyboard.classList.add('hidden');
                 if (state.isStoryMode) startAudiobookLoop();
             } else {
                 els.card.classList.remove('audiobook-active');
+                if (els.keyboard) els.keyboard.classList.remove('hidden');
                 audiobookSessionId++; // Stop the active loop
                 stopAudio();
             }
