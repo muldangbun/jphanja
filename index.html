@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
     <title>Zen Kanji Master - Grade 1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,10 +19,10 @@
 
         .input-wrapper {
             width: 100%;
-            max-width: 1100px !important;
+            max-width: 1100px;
             margin: 0 auto;
-            display: flex !important;
-            flex-direction: column !important;
+            display: flex;
+            flex-direction: column;
             align-items: center;
         }
 
@@ -41,7 +41,7 @@
             border: 2px solid transparent;
             transition: all 0.3s ease;
         }
-        
+
         #typing-input:focus {
             background: white;
             border-color: var(--accent-color);
@@ -57,12 +57,14 @@
             width: 100%;
         }
 
+        /* Container styles moved to index.css or adjusted for responsiveness */
         .container {
             width: 100%;
             max-width: 800px;
             padding: 20px;
             z-index: 10;
-            transition: max-width 0.4s ease;
+            transition: all 0.4s ease;
+            margin: 0 auto;
         }
 
         .story-mode .container {
@@ -109,15 +111,22 @@
             padding: 40px;
             z-index: 1000;
             text-align: center;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
             width: 80%;
             max-width: 500px;
             animation: fadeInDialog 0.5s ease-out;
         }
 
         @keyframes fadeInDialog {
-            from { opacity: 0; transform: translate(-50%, -40%); }
-            to { opacity: 1; transform: translate(-50%, -50%); }
+            from {
+                opacity: 0;
+                transform: translate(-50%, -40%);
+            }
+
+            to {
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
         }
 
         .finish-title {
@@ -194,10 +203,11 @@
             color: var(--text-dim);
             justify-content: flex-start;
             padding: 10px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
 
-        .audiobook-controls, .furigana-switch-wrapper {
+        .audiobook-controls,
+        .furigana-switch-wrapper {
             display: flex;
             align-items: center;
             gap: 12px;
@@ -205,7 +215,8 @@
             transition: color 0.3s;
         }
 
-        .audiobook-controls:hover, .furigana-switch-wrapper:hover {
+        .audiobook-controls:hover,
+        .furigana-switch-wrapper:hover {
             color: var(--text-primary);
         }
 
@@ -253,7 +264,7 @@
             background-color: white;
             transition: .4s;
             border-radius: 50%;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         input:checked+.slider-round {
@@ -432,7 +443,8 @@
                             </label>
                             <span>Audiobook (자동 재생)</span>
                         </div>
-                        <div class="furigana-switch-wrapper" onclick="document.getElementById('furigana-switch').click()">
+                        <div class="furigana-switch-wrapper"
+                            onclick="document.getElementById('furigana-switch').click()">
                             <label class="switch" onclick="event.stopPropagation()">
                                 <input type="checkbox" id="furigana-switch" checked>
                                 <span class="slider-round"></span>
@@ -473,7 +485,8 @@
                             <button id="play-sentence" class="audio-btn" title="발음 듣기">🔊</button>
                         </div>
                         <div id="ok-badge" class="ok-badge hidden">READY! Next: Enter ↵ | Repeat: Space</div>
-                        <button id="grammar-btn" class="grammar-btn hidden" onclick="openGrammarModal()">💡 문법 해설</button>
+                        <button id="grammar-btn" class="grammar-btn hidden" onclick="openGrammarModal()">💡 문법
+                            해설</button>
                     </div>
 
                     <div id="romaji-guide" class="romaji-guide"></div>
@@ -484,7 +497,7 @@
                             <textarea id="typing-input" placeholder="발음을 입력하세요..." autocomplete="off"></textarea>
                         </div>
                     </div>
-                    
+
                     <!-- Grammar Modal -->
                     <div id="grammar-modal-overlay" class="modal-overlay hidden" onclick="closeGrammarModal()"></div>
                     <div id="grammar-modal" class="grammar-modal hidden">
@@ -637,7 +650,7 @@
                     const audioPath = `audio/story/${state.currentIndex}.mp3`;
                     const audio = new Audio(audioPath);
                     currentAudio = audio;
-                    
+
                     let fallbackTriggered = false;
                     const triggerFallback = () => {
                         if (fallbackTriggered) return;
@@ -650,12 +663,12 @@
                         currentAudio = null;
                         resolve();
                     };
-                    
+
                     audio.onerror = () => {
                         console.warn(`Audio file not found or error: ${audioPath}. Falling back to TTS.`);
                         triggerFallback();
                     };
-                    
+
                     audio.play().catch(err => {
                         console.error("Audio play failed:", err);
                         triggerFallback();
@@ -681,12 +694,12 @@
             const jaVoice = googleVoice || voices.find(v => v.lang.startsWith('ja'));
 
             if (jaVoice) utterance.voice = jaVoice;
-            
+
             utterance.onend = () => resolve();
             utterance.onerror = () => resolve();
-            
+
             window.speechSynthesis.speak(utterance);
-            
+
             // TTS가 가끔 onend를 호출하지 않는 경우를 대비한 안전 장치
             setTimeout(() => resolve(), text.length * 500 + 2000);
         };
@@ -819,7 +832,7 @@
             } else {
                 state.currentKanji = KANJI_DATA[state.currentIndex];
                 els.kanjiMain.innerText = state.currentKanji.kanji;
-                
+
                 let hintText = state.currentKanji.meanings.join(', ');
                 if (state.currentKanji.kor_meaning && state.currentKanji.kor_sound) {
                     hintText += ` <span class="kor-huneum">(${state.currentKanji.kor_meaning} ${state.currentKanji.kor_sound})</span>`;
@@ -867,7 +880,7 @@
                     // 공백이나 문장부호 차이를 무시하기 위해 검색 로직 강화
                     let target = clean(block.text);
                     let foundIdx = -1;
-                    
+
                     if (target.length === 0) {
                         // 문장 부호만 있는 블록인 경우, 가장 가까운 문장 부호 위치를 찾음
                         foundIdx = kanaStr.split('').findIndex((c, idx) => idx >= kStrIdx && !isKanji(c) && clean(c) === "");
@@ -888,8 +901,8 @@
                         result.push({ text: block.text });
                         kStrIdx = foundIdx + block.text.length;
                         // 실제 kanaStr에서 해당 블록이 끝나는 지점을 정확히 맞추기 위해 보정
-                        while(kStrIdx < kanaStr.length && clean(kanaStr[kStrIdx-1]) === "" && clean(block.text).length > 0 && clean(kanaStr[kStrIdx]) === "") {
-                             // 기호 처리 로직 보강 가능
+                        while (kStrIdx < kanaStr.length && clean(kanaStr[kStrIdx - 1]) === "" && clean(block.text).length > 0 && clean(kanaStr[kStrIdx]) === "") {
+                            // 기호 처리 로직 보강 가능
                         }
                     } else {
                         // 매핑 실패 시 안전 장치
@@ -937,7 +950,7 @@
                     const kanjiLen = seg.text.length;
                     const normalizedKana = normalizeText(seg.kana || "");
                     const kanaLen = normalizedKana.length;
-                    
+
                     if (kanaLen === 0 && kanjiLen > 0) {
                         // 가나 매핑에 실패한 경우(데이터 오류 등), 최소 1타는 치도록 방어 로직 추가
                         for (let i = 0; i < kanjiLen; i++) charKanaMapping.push(1);
@@ -953,13 +966,13 @@
 
             let charIndex = 0;
             let requiredKanaForNextChar = 0;
-            
+
             for (let seg of segments) {
                 let segHtml = "";
                 for (let i = 0; i < seg.text.length; i++) {
                     // 현재 글자까지 도달하기 위해 필요한 누적 타자 수
                     requiredKanaForNextChar += charKanaMapping[charIndex];
-                    
+
                     // 내가 친 타자(validCount)가 누적 요구 타수보다 같거나 커야 글자가 밝혀짐
                     const isRevealed = validCount >= requiredKanaForNextChar;
                     const charClass = isRevealed ? "progress-highlight" : "char-remaining";
@@ -1034,7 +1047,7 @@
             if (!state.currentSentence || !state.currentSentence.grammar) return;
             const data = state.currentSentence.grammar;
             let html = '';
-            
+
             if (data.points) {
                 data.points.forEach(p => {
                     html += `
@@ -1050,7 +1063,7 @@
             if (data.summary) {
                 html += `<div class="grammar-summary">${data.summary}</div>`;
             }
-            
+
             els.grammarContent.innerHTML = html;
             els.grammarModalOverlay.classList.remove('hidden');
             els.grammarModal.classList.remove('hidden');
@@ -1322,22 +1335,22 @@
         let audiobookSessionId = 0;
         async function startAudiobookLoop() {
             if (!state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
-            
+
             const sessionId = ++audiobookSessionId;
-            
+
             // Clear any existing timeout
             if (audiobookTimeout) clearTimeout(audiobookTimeout);
-            
+
             // 1. Read current sentence
             await speakText(state.currentSentence.kana);
-            
+
             // Check if we should still continue this specific loop session
             if (sessionId !== audiobookSessionId || !state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
-            
+
             // 2. Wait for 2 seconds
             audiobookTimeout = setTimeout(() => {
                 if (sessionId !== audiobookSessionId || !state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
-                
+
                 // 3. Move to next sentence
                 state.currentIndex++;
                 if (state.currentIndex >= KANJI_DATA.length) {
