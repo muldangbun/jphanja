@@ -672,13 +672,12 @@ header {
     bottom: 0;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(5px);
-    z-index: 999;
-}/* Ensure viewport is locked and doesn't scroll */
+    z-index: 999;/* Ensure viewport is locked and doesn't scroll */
 html, body {
-    height: 100dvh;
-    width: 100%;
-    overflow: hidden;
-    position: fixed;
+    height: 100dvh !important;
+    width: 100vw !important;
+    overflow: hidden !important;
+    position: fixed !important;
     margin: 0;
     padding: 0;
 }
@@ -689,12 +688,13 @@ html, body {
     width: 100%;
     margin-top: auto;
     /* Significant bottom padding to clear the floating Safari address bar */
-    padding: 8px 5px calc(35px + env(safe-area-inset-bottom));
-    background: var(--card-bg); /* Match the card theme */
-    backdrop-filter: blur(25px);
+    padding: 10px 5px calc(35px + env(safe-area-inset-bottom));
+    background: var(--card-bg) !important;
+    backdrop-filter: blur(25px) saturate(180%);
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.1);
-    z-index: 100;
+    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }
 
 @media (max-width: 600px) {
@@ -703,43 +703,46 @@ html, body {
     }
 
     .container {
-        padding: 10px 15px;
+        padding: 5px 12px;
         display: flex;
         flex-direction: column;
         height: 100dvh;
         max-width: 100%;
+        gap: 0;
     }
 
     header {
-        margin-bottom: 10px !important;
-        flex-shrink: 0; /* Keep header visible */
+        margin-bottom: 5px !important;
+        flex-shrink: 0;
+        padding: 5px 0;
     }
 
     .nav-btn {
-        width: 32px;
-        height: 32px;
-        font-size: 1rem;
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
     }
 
     .progress-info {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 
     .kanji-card {
-        padding: 12px 10px;
+        padding: 10px !important;
         margin-bottom: 5px;
         flex-grow: 1;
-        flex-shrink: 1; /* Allow card to shrink if needed */
+        flex-shrink: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
         min-height: 0; 
+        border-radius: 16px;
     }
 
     #virtual-keyboard {
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 4px;
     }
 
     .keyboard-row {
@@ -751,13 +754,13 @@ html, body {
 
     .key {
         flex: 1;
-        height: 42px; 
+        height: 40px; 
         max-width: 45px;
         background: rgba(255, 255, 255, 0.95);
         border: none;
         border-radius: 6px;
         font-family: 'Outfit', sans-serif;
-        font-size: 1rem;
+        font-size: 0.95rem;
         font-weight: 600;
         color: #1a1a1a;
         display: flex;
@@ -778,11 +781,11 @@ html, body {
 
     .key.wide {
         flex: 1.5;
-        max-width: 70px;
+        max-width: 65px;
         background: var(--accent-color);
         color: white;
         text-transform: none;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
     }
 
     .key.space {
@@ -796,32 +799,31 @@ html, body {
     }
 
     .kanji-display {
-        font-size: 3.2rem;
-        margin-bottom: 10px;
+        font-size: 2.8rem;
+        margin-bottom: 5px;
     }
 
     .target-word {
-        font-size: 1.8rem;
-        margin-bottom: 15px;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
     }
 
     .meaning-hint {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 
     .input-section {
-        margin-top: 5px;
+        margin-top: 2px;
     }
 
     #typing-input {
-        font-size: 1.1rem;
-        padding: 6px;
-        min-height: 44px !important;
+        font-size: 1rem;
+        padding: 5px;
+        min-height: 40px !important;
     }
 
-    /* Ensure background shapes don't interfere with touch */
     .bg-shape {
-        pointer-events: none;
+        display: none; /* Hide shapes on mobile to save performance/space */
     }
 }
 }
