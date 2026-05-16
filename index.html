@@ -606,6 +606,9 @@
         // Keyboard Click Sound (Web Audio API)
         const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
         function playClickSound() {
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
             const osc = audioCtx.createOscillator();
             const gain = audioCtx.createGain();
             osc.type = 'sine';
@@ -1207,7 +1210,12 @@
             if (state.isLocked) return;
             state.isLocked = true;
             
-            els.card.classList.add('success-flash'); setTimeout(() => els.card.classList.remove('success-flash'), 200);
+            els.card.classList.add('success-flash');
+            els.input.classList.add('success-flash');
+            setTimeout(() => {
+                els.card.classList.remove('success-flash');
+                els.input.classList.remove('success-flash');
+            }, 400);
 
             setTimeout(() => {
                 state.isLocked = false;
@@ -1259,7 +1267,12 @@
 
         function handleError() {
             state.rawInput = "";
-            els.card.classList.add('error-shake'); setTimeout(() => els.card.classList.remove('error-shake'), 300);
+            els.card.classList.add('error-shake');
+            els.input.classList.add('error-shake');
+            setTimeout(() => {
+                els.card.classList.remove('error-shake');
+                els.input.classList.remove('error-shake');
+            }, 400);
             els.input.value = ""; els.kanaHint.innerText = "";
         }
 

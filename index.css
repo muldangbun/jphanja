@@ -401,13 +401,14 @@ header {
 }
 
 .grade-btn:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px) scale(1.03);
     border-color: var(--accent-color);
-    box-shadow: 0 10px 15px -3px var(--accent-glow);
+    box-shadow: 0 20px 25px -5px var(--accent-glow);
+    background: #fff;
 }
 
 .grade-btn:active {
-    transform: scale(0.95);
+    transform: translateY(-2px) scale(0.98);
 }
 
 .grade-btn.coming-soon {
@@ -437,6 +438,29 @@ header {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@keyframes errorShake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    50% { transform: translateX(8px); }
+    75% { transform: translateX(-4px); }
+}
+
+@keyframes successPulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); box-shadow: 0 0 0 15px rgba(16, 185, 129, 0); }
+}
+
+.error-shake {
+    animation: errorShake 0.4s ease-in-out;
+    border: 2px solid #ef4444 !important;
+}
+
+.success-flash {
+    animation: successPulse 0.4s ease-out;
+    border: 2px solid #10b981 !important;
 }
 
 /* New: Navigation Slider Styles */
@@ -857,9 +881,9 @@ body {
     }
 
     .key:active {
-        transform: translateY(2px);
+        transform: translateY(2px) scale(0.92);
         box-shadow: none;
-        background: #fff;
+        background: #cbd5e1; /* 더 확실한 피드백 */
     }
 
     .key.wide {
@@ -879,6 +903,10 @@ body {
     .key[data-key="enter"] {
         background: var(--success-color);
         color: white;
+    }
+
+    .key[data-key="enter"]:active {
+        background: #059669; /* 더 어두운 녹색 */
     }
 
     .bg-shape {
