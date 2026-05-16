@@ -674,14 +674,24 @@ header {
     backdrop-filter: blur(5px);
     z-index: 999;
 }
+/* Virtual Keyboard Styling */
+#virtual-keyboard {
+    display: none;
+    width: 100%;
+    margin-top: auto;
+    padding: 10px 5px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 100;
+}
 
-/* Mobile Keyboard & UI Optimization */
 @media (max-width: 600px) {
     body {
         padding: 0;
-        justify-content: center;
+        justify-content: flex-start;
         height: 100dvh;
-        overflow: hidden; /* Prevent page-level scrolling */
+        overflow: hidden;
     }
 
     .container {
@@ -693,71 +703,89 @@ header {
     }
 
     .kanji-card {
-        padding: 20px 15px;
+        padding: 15px 10px;
         margin-bottom: 0;
         flex-grow: 1;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        height: calc(100% - 200px); /* Leave space for keyboard */
+    }
+
+    #virtual-keyboard {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .keyboard-row {
+        display: flex;
         justify-content: center;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        height: 100%;
+        gap: 4px;
+        width: 100%;
+    }
+
+    .key {
+        flex: 1;
+        height: 48px;
+        max-width: 45px;
+        background: rgba(255, 255, 255, 0.9);
+        border: none;
+        border-radius: 8px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
+        transition: transform 0.05s, background 0.1s, box-shadow 0.05s;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .key:active {
+        transform: translateY(2px);
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+        background: #fff;
+    }
+
+    .key.wide {
+        flex: 1.5;
+        max-width: 75px;
+        background: var(--accent-color);
+        color: white;
+    }
+
+    .key.space {
+        flex: 4;
+        max-width: none;
+    }
+
+    .key[data-key="ENTER"] {
+        background: var(--success-color);
+        color: white;
     }
 
     .kanji-display {
-        font-size: 5rem;
-        margin-bottom: 5px;
-    }
-
-    .target-word {
-        font-size: 1.6rem;
-        margin-bottom: 15px;
+        font-size: 4rem;
     }
 
     .input-section {
-        margin-top: auto;
-        padding-bottom: 10px;
-    }
-
-    /* When keyboard is active (input is focused) */
-    body:has(#typing-input:focus) {
-        justify-content: flex-start;
-    }
-
-    .container:has(#typing-input:focus) .kanji-card {
-        padding: 10px 15px;
-        justify-content: flex-start;
-    }
-
-    .container:has(#typing-input:focus) .kanji-display {
-        font-size: 3.5rem;
-        margin-bottom: 0;
-    }
-
-    .container:has(#typing-input:focus) .hint-wrapper,
-    .container:has(#typing-input:focus) .romaji-guide {
-        margin-bottom: 5px;
-        font-size: 0.9rem;
-    }
-
-    .container:has(#typing-input:focus) header,
-    .container:has(#typing-input:focus) .screen-title,
-    .container:has(#typing-input:focus) .screen-subtitle {
-        display: none !important;
+        margin-top: 10px;
+        padding-bottom: 5px;
     }
 
     #typing-input {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding: 8px;
-        min-height: 60px !important;
-    }
-
-    .kana-display {
-        margin-bottom: 5px;
-        font-size: 0.9rem;
+        min-height: 50px !important;
     }
 }
 
 /* Ensure background shapes don't interfere with touch */
 .bg-shape {
     pointer-events: none;
+}
 }

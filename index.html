@@ -494,9 +494,11 @@
                     <div class="input-section">
                         <div class="input-wrapper">
                             <div id="kana-hint" class="kana-display"></div>
-                            <textarea id="typing-input" placeholder="발음을 입력하세요..." autocomplete="off"></textarea>
+                            <textarea id="typing-input" placeholder="발음을 입력하세요..." autocomplete="off" inputmode="none"></textarea>
                         </div>
                     </div>
+
+                    <div id="virtual-keyboard"></div>
 
                     <!-- Grammar Modal -->
                     <div id="grammar-modal-overlay" class="modal-overlay hidden" onclick="closeGrammarModal()"></div>
@@ -597,7 +599,8 @@
             showFurigana: true,
             isAudiobookMode: false,
             isComplete: false,
-            isFinish: false
+            isFinish: false,
+            isLocked: false
         };
         const els = {
             container: document.getElementById('game-container'),
@@ -819,6 +822,7 @@
 
         async function init() {
             // Initial view is start screen
+            initVirtualKeyboard();
         }
 
         function loadKanji() {
@@ -1185,11 +1189,13 @@
         }
 
         function handleSuccess() {
+            if (state.isLocked) return;
+            state.isLocked = true;
+            
             els.card.classList.add('success-flash'); setTimeout(() => els.card.classList.remove('success-flash'), 200);
 
-            els.input.disabled = true;
-
             setTimeout(() => {
+                state.isLocked = false;
                 if (state.isStoryMode || state.learningMode === 'STORY') {
                     state.currentIndex++;
                     if (state.currentIndex >= KANJI_DATA.length) {
@@ -1200,7 +1206,6 @@
                             currentAudio = null;
                         }
                         window.speechSynthesis.cancel();
-                        //speakText("축하합니다! 모든 문장을 완료했습니다.");
                     } else {
                         loadKanji();
                     }
@@ -1223,7 +1228,10 @@
                     state.currentIndex++; if (state.currentIndex >= KANJI_DATA.length) { alert("모든 항목을 완료했습니다!"); state.currentIndex = 0; }
                     loadKanji();
                 }
-                els.input.disabled = false;
+                
+                // Clear input and keep focus
+                state.rawInput = "";
+                els.input.value = "";
                 els.input.focus();
             }, 500);
         }
@@ -1253,6 +1261,7 @@
                 return;
             }
             if (e.key === 'Backspace') return;
+            if (state.isLocked) return;
             if (e.key === 'Enter') {
                 e.preventDefault();
                 if (state.isComplete) { handleSuccess(); return; }
@@ -1275,27 +1284,104 @@
             }
         }
 
+        function handleBackspace() {
+            const raw = state.rawInput;
+            if (raw.length === 0) return;
+            if (raw.length >= 3 && ROMAJI_MAP[raw.slice(-3)]) {
+                state.rawInput = raw.slice(0, -3);
+            } else if (raw.length >= 2 && (ROMAJI_MAP[raw.slice(-2)] || raw.slice(-2) === 'nn')) {
+                state.rawInput = raw.slice(0, -2);
+            } else {
+                state.rawInput = raw.slice(0, -1);
+            }
+            const kana = romajiToKana(state.rawInput);
+            let disp = kana; if (state.phase === 'ONYOMI') disp = hiraganaToKatakana(kana);
+            els.input.value = disp;
+            if (state.isStoryMode) {
+                renderSentence();
+            } else {
+                els.kanaHint.innerText = "";
+            }
+        }
+
+        function initVirtualKeyboard() {
+            const keyboard = document.getElementById('virtual-keyboard');
+            if (!keyboard) return;
+
+            const rows = [
+                ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
+                ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
+                ['Z', 'X', 'C', 'V', 'B', 'N', 'M', 'BACK'],
+                ['SPACE', 'ENTER']
+            ];
+
+            keyboard.innerHTML = rows.map(row => `
+                <div class="keyboard-row">
+                    ${row.map(key => {
+                        let className = 'key';
+                        if (key === 'BACK' || key === 'ENTER') className += ' wide';
+                        if (key === 'SPACE') className += ' space';
+                        return `<button class="${className}" data-key="${key}">${key}</button>`;
+                    }).join('')}
+                </div>
+            `).join('');
+
+            keyboard.addEventListener('touchstart', (e) => {
+                const btn = e.target.closest('.key');
+                if (!btn) return;
+                e.preventDefault();
+                const key = btn.dataset.key;
+                handleVirtualInput(key);
+            }, { passive: false });
+
+            keyboard.addEventListener('mousedown', (e) => {
+                // Prevent focus theft on desktop if testing
+                const btn = e.target.closest('.key');
+                if (!btn) return;
+                e.preventDefault();
+                if (!('ontouchstart' in window)) {
+                    const key = btn.dataset.key;
+                    handleVirtualInput(key);
+                }
+            });
+        }
+
+        function handleVirtualInput(key) {
+            if (state.isLocked) return;
+            if (key === 'BACK') {
+                handleBackspace();
+            } else if (key === 'ENTER') {
+                if (state.isComplete) {
+                    handleSuccess();
+                } else if (state.learningMode !== 'STORY') {
+                    // Force success check if needed for other modes
+                    checkAnswer();
+                }
+            } else if (key === 'SPACE') {
+                if (state.isComplete) {
+                    handleSuccess();
+                } else {
+                    state.rawInput += ' ';
+                    renderSentence();
+                    checkAnswer();
+                }
+            } else {
+                const char = key.toLowerCase();
+                state.rawInput += char;
+                const kana = romajiToKana(state.rawInput);
+                let displayKana = kana; 
+                if (state.phase === 'ONYOMI') displayKana = hiraganaToKatakana(kana);
+                els.input.value = displayKana;
+                
+                if (state.isStoryMode) renderSentence();
+                checkAnswer();
+            }
+        }
+
         els.input.addEventListener('keydown', (e) => {
             if (e.key === 'Backspace') {
                 e.preventDefault();
-                // 가나 한 글자 단위로 통째로 삭제 (っ 오염 방지)
-                const raw = state.rawInput;
-                if (raw.length === 0) return;
-                if (raw.length >= 3 && ROMAJI_MAP[raw.slice(-3)]) {
-                    state.rawInput = raw.slice(0, -3); // 3글자 묶음 (sha, chi, tsu 등)
-                } else if (raw.length >= 2 && (ROMAJI_MAP[raw.slice(-2)] || raw.slice(-2) === 'nn')) {
-                    state.rawInput = raw.slice(0, -2); // 2글자 묶음 (so, ka, nn 등)
-                } else {
-                    state.rawInput = raw.slice(0, -1); // 미완성 자음 1글자
-                }
-                const kana = romajiToKana(state.rawInput);
-                let disp = kana; if (state.phase === 'ONYOMI') disp = hiraganaToKatakana(kana);
-                els.input.value = disp;
-                if (state.isStoryMode) {
-                    renderSentence();
-                } else {
-                    els.kanaHint.innerText = state.rawInput;
-                }
+                handleBackspace();
                 return;
             }
             handleKey(e);
