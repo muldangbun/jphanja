@@ -620,6 +620,7 @@
         // Audio & State Management
         let audioCtx = null;
         let audioBufferCache = {};
+        let currentAudio = null;
         let currentSource = null;
         let audiobookTimeout = null;
         let audiobookSessionId = 0;
@@ -722,8 +723,7 @@
             grammarContent: document.getElementById('grammar-content')
         };
 
-        let currentAudio = null;
-        let currentSource = null;
+
 
         const speakText = async (text) => {
             return new Promise(async (resolve) => {
@@ -1540,8 +1540,7 @@
             }
         });
 
-        let audiobookTimeout = null;
-        let audiobookSessionId = 0;
+
         async function startAudiobookLoop() {
             // If already finishing or not in audiobook mode, exit
             if (!state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
