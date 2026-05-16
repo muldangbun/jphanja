@@ -802,6 +802,12 @@ body {
         margin-top: 0;
     }
 
+    .kana-display {
+        margin-bottom: 5px;
+        /* Reduced from 20px to halve the gap */
+        font-size: 0.85rem;
+    }
+
     #typing-input {
         font-size: 1.4rem;
         padding: 2px;
