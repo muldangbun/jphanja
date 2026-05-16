@@ -602,6 +602,21 @@
             isFinish: false,
             isLocked: false
         };
+
+        // Keyboard Click Sound (Web Audio API)
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        function playClickSound() {
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(150, audioCtx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(40, audioCtx.currentTime + 0.1);
+            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+            osc.connect(gain); gain.connect(audioCtx.destination);
+            osc.start(); osc.stop(audioCtx.currentTime + 0.1);
+        }
+
         const els = {
             container: document.getElementById('game-container'),
             kanjiMain: document.getElementById('kanji-main'),
@@ -1308,66 +1323,77 @@
             const keyboard = document.getElementById('virtual-keyboard');
             if (!keyboard) return;
 
+            // Use lowercase internally for letters
             const rows = [
-                ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
-                ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
-                ['Z', 'X', 'C', 'V', 'B', 'N', 'M', 'BACK'],
-                ['SPACE', 'ENTER']
+                ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'],
+                ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'],
+                ['z', 'x', 'c', 'v', 'b', 'n', 'm', 'back'],
+                ['space', 'enter']
             ];
 
             keyboard.innerHTML = rows.map(row => `
                 <div class="keyboard-row">
                     ${row.map(key => {
                         let className = 'key';
-                        if (key === 'BACK' || key === 'ENTER') className += ' wide';
-                        if (key === 'SPACE') className += ' space';
-                        return `<button class="${className}" data-key="${key}">${key}</button>`;
+                        let label = key;
+                        if (key === 'back' || key === 'enter') {
+                            className += ' wide';
+                            label = key.toUpperCase();
+                        }
+                        if (key === 'space') {
+                            className += ' space';
+                            label = key.toUpperCase();
+                        }
+                        return `<button class="${className}" data-key="${key}">${label}</button>`;
                     }).join('')}
                 </div>
             `).join('');
 
+            const handleInteraction = (e, key) => {
+                e.preventDefault();
+                handleVirtualInput(key);
+            };
+
             keyboard.addEventListener('touchstart', (e) => {
                 const btn = e.target.closest('.key');
-                if (!btn) return;
-                e.preventDefault();
-                const key = btn.dataset.key;
-                handleVirtualInput(key);
+                if (btn) handleInteraction(e, btn.dataset.key);
             }, { passive: false });
 
             keyboard.addEventListener('mousedown', (e) => {
-                // Prevent focus theft on desktop if testing
                 const btn = e.target.closest('.key');
-                if (!btn) return;
-                e.preventDefault();
-                if (!('ontouchstart' in window)) {
-                    const key = btn.dataset.key;
-                    handleVirtualInput(key);
+                if (btn) {
+                    if (!('ontouchstart' in window)) {
+                        handleInteraction(e, btn.dataset.key);
+                    } else {
+                        e.preventDefault(); // Prevent focus theft on touch devices
+                    }
                 }
             });
         }
 
         function handleVirtualInput(key) {
             if (state.isLocked) return;
-            if (key === 'BACK') {
+            playClickSound(); // Play haptic-like sound
+            
+            if (key === 'back') {
                 handleBackspace();
-            } else if (key === 'ENTER') {
+            } else if (key === 'enter') {
                 if (state.isComplete) {
                     handleSuccess();
-                } else if (state.learningMode !== 'STORY') {
-                    // Force success check if needed for other modes
+                } else if (!state.isStoryMode) {
                     checkAnswer();
                 }
-            } else if (key === 'SPACE') {
+            } else if (key === 'space') {
                 if (state.isComplete) {
                     handleSuccess();
                 } else {
                     state.rawInput += ' ';
-                    renderSentence();
+                    if (state.isStoryMode) renderSentence();
                     checkAnswer();
                 }
             } else {
-                const char = key.toLowerCase();
-                state.rawInput += char;
+                if (state.isComplete) return;
+                state.rawInput += key;
                 const kana = romajiToKana(state.rawInput);
                 let displayKana = kana; 
                 if (state.phase === 'ONYOMI') displayKana = hiraganaToKatakana(kana);

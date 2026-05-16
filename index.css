@@ -679,9 +679,10 @@ header {
     display: none;
     width: 100%;
     margin-top: auto;
-    padding: 10px 5px;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(20px);
+    /* Respect iOS safe area and add extra padding for address bar */
+    padding: 10px 5px calc(15px + env(safe-area-inset-bottom));
+    background: rgba(10, 10, 10, 0.9); /* Darker for better contrast */
+    backdrop-filter: blur(25px);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 100;
 }
@@ -709,7 +710,7 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: calc(100% - 200px); /* Leave space for keyboard */
+        height: calc(100% - 220px); /* Adjusted for safe area */
     }
 
     #virtual-keyboard {
@@ -734,13 +735,14 @@ header {
         border-radius: 8px;
         font-family: 'Outfit', sans-serif;
         font-size: 1.1rem;
-        font-weight: 700;
+        font-weight: 600;
         color: #1a1a1a;
         display: flex;
         align-items: center;
         justify-content: center;
         box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
         transition: transform 0.05s, background 0.1s, box-shadow 0.05s;
+        text-transform: lowercase; /* Default to lowercase */
         touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
     }
@@ -756,6 +758,8 @@ header {
         max-width: 75px;
         background: var(--accent-color);
         color: white;
+        text-transform: none; /* Keep BACK, ENTER etc. as is */
+        font-size: 0.9rem;
     }
 
     .key.space {
@@ -763,7 +767,7 @@ header {
         max-width: none;
     }
 
-    .key[data-key="ENTER"] {
+    .key[data-key="enter"] {
         background: var(--success-color);
         color: white;
     }
