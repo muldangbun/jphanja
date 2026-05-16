@@ -83,7 +83,7 @@
             line-height: 1.6;
             margin-bottom: 1.5rem;
             text-align: center;
-            word-break: keep-all;
+            word-break: break-all;
         }
 
         .ok-badge {
@@ -328,6 +328,18 @@
             color: var(--text-dim);
             text-transform: uppercase;
             letter-spacing: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .sentence-display {
+                font-size: 1.4rem;
+                padding: 0 10px;
+            }
+
+            .story-mode .kanji-card {
+                min-height: auto;
+                padding: 30px 20px;
+            }
         }
     </style>
 </head>
