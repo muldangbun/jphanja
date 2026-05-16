@@ -788,23 +788,24 @@ body {
 
     .target-word {
         font-size: 1.4rem;
-        margin-bottom: 7px;
-        /* Halved from 15px */
+        margin-bottom: 4px;
+        /* Tightened from 7px */
     }
 
     .romaji-guide {
         font-size: 0.9rem;
-        margin-bottom: 7px;
-        /* Halved from 15px */
+        margin-bottom: 2px;
+        /* Tightened from 7px */
     }
 
     .input-wrapper {
-        margin-top: 5px;
+        margin-top: 0;
     }
 
     #typing-input {
         font-size: 1.4rem;
-        padding: 5px;
+        padding: 2px;
+        border-bottom-width: 2px;
     }
 
     #virtual-keyboard {
