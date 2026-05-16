@@ -1536,6 +1536,7 @@
                 if (state.isStoryMode) startAudiobookLoop();
             } else {
                 els.card.classList.remove('audiobook-active');
+                audiobookSessionId++; // Stop the active loop
                 stopAudio();
             }
         });
@@ -1597,8 +1598,6 @@
                 clearTimeout(audiobookTimeout);
                 audiobookTimeout = null;
             }
-            // Invalidate active sessions to prevent loop from continuing
-            audiobookSessionId++; 
         }
 
         window.addEventListener('load', () => { init(); });
