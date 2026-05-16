@@ -676,15 +676,15 @@ header {
     z-index: 999;
 }
 
-/* Ensure viewport is locked and doesn't scroll */
+/* Ensure viewport fills the screen but allow scrolling if needed */
 html,
 body {
-    height: 100dvh !important;
-    width: 100vw !important;
-    overflow: hidden !important;
-    position: fixed !important;
+    height: 100%;
+    height: 100dvh;
+    width: 100vw;
     margin: 0;
     padding: 0;
+    /* Removed overflow: hidden and position: fixed from here to allow menu scrolling */
 }
 
 /* Virtual Keyboard Styling */
@@ -693,7 +693,7 @@ body {
     width: 100%;
     margin-top: auto;
     /* Clear floating Safari address bar and provide comfortable padding */
-    padding: 10px 5px calc(25px + env(safe-area-inset-bottom));
+    padding: 10px 5px calc(10px + env(safe-area-inset-bottom));
     background: rgba(255, 255, 255, 0.4) !important;
     backdrop-filter: blur(25px) saturate(180%);
     -webkit-backdrop-filter: blur(25px) saturate(180%);
@@ -720,7 +720,8 @@ body {
         height: 100dvh;
         max-width: 100%;
         gap: 0;
-        overflow: hidden;
+        overflow-y: auto; /* Changed from hidden to allow main menu scrolling */
+        -webkit-overflow-scrolling: touch;
     }
 
     header {
@@ -802,8 +803,12 @@ body {
         margin-top: 0;
     }
 
+    .input-section {
+        margin-top: 0 !important;
+    }
+
     .kana-display {
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         /* Reduced from 20px to halve the gap */
         font-size: 0.85rem;
     }
@@ -812,6 +817,8 @@ body {
         font-size: 1.4rem;
         padding: 2px;
         border-bottom-width: 2px;
+        min-height: 45px !important;
+        height: 45px !important;
     }
 
     #virtual-keyboard {
@@ -876,5 +883,10 @@ body {
 
     .bg-shape {
         display: none;
+    }
+
+    /* Ensure the start screen has enough space for all buttons */
+    .start-screen {
+        padding-bottom: 80px !important;
     }
 }
