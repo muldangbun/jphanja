@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
     <title>Zen Kanji Master - Grade 1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -441,7 +442,7 @@
                                 <input type="checkbox" id="audiobook-switch">
                                 <span class="slider-round"></span>
                             </label>
-                            <span>Audiobook (자동 재생)</span>
+                            <span>Audiobook</span>
                         </div>
                         <div class="furigana-switch-wrapper"
                             onclick="document.getElementById('furigana-switch').click()">
@@ -449,7 +450,7 @@
                                 <input type="checkbox" id="furigana-switch" checked>
                                 <span class="slider-round"></span>
                             </label>
-                            <span>Furigana (요미가나)</span>
+                            <span>Furigana</span>
                         </div>
                     </div>
 
@@ -494,7 +495,8 @@
                     <div class="input-section">
                         <div class="input-wrapper">
                             <div id="kana-hint" class="kana-display"></div>
-                            <textarea id="typing-input" placeholder="발음을 입력하세요..." autocomplete="off" inputmode="none"></textarea>
+                            <textarea id="typing-input" placeholder="발음을 입력하세요..." autocomplete="off"
+                                inputmode="none"></textarea>
                         </div>
                     </div>
 
@@ -1243,7 +1245,7 @@
         function handleSuccess() {
             if (state.isLocked) return;
             state.isLocked = true;
-            
+
             els.card.classList.add('success-flash');
             els.input.classList.add('success-flash');
             setTimeout(() => {
@@ -1285,7 +1287,7 @@
                     state.currentIndex++; if (state.currentIndex >= KANJI_DATA.length) { alert("모든 항목을 완료했습니다!"); state.currentIndex = 0; }
                     loadKanji();
                 }
-                
+
                 // Clear input and keep focus
                 state.rawInput = "";
                 els.input.value = "";
@@ -1382,18 +1384,18 @@
             keyboard.innerHTML = rows.map(row => `
                 <div class="keyboard-row">
                     ${row.map(key => {
-                        let className = 'key';
-                        let label = key;
-                        if (key === 'back' || key === 'enter') {
-                            className += ' wide';
-                            label = key.toUpperCase();
-                        }
-                        if (key === 'space') {
-                            className += ' space';
-                            label = key.toUpperCase();
-                        }
-                        return `<button class="${className}" data-key="${key}">${label}</button>`;
-                    }).join('')}
+                let className = 'key';
+                let label = key;
+                if (key === 'back' || key === 'enter') {
+                    className += ' wide';
+                    label = key.toUpperCase();
+                }
+                if (key === 'space') {
+                    className += ' space';
+                    label = key.toUpperCase();
+                }
+                return `<button class="${className}" data-key="${key}">${label}</button>`;
+            }).join('')}
                 </div>
             `).join('');
 
@@ -1422,7 +1424,7 @@
         function handleVirtualInput(key) {
             playClickSound(); // Play haptic/click sound immediately on touch
             if (state.isLocked) return;
-            
+
             if (key === 'back') {
                 handleBackspace();
             } else if (key === 'enter') {
@@ -1443,10 +1445,10 @@
                 if (state.isComplete) return;
                 state.rawInput += key;
                 const kana = romajiToKana(state.rawInput);
-                let displayKana = kana; 
+                let displayKana = kana;
                 if (state.phase === 'ONYOMI') displayKana = hiraganaToKatakana(kana);
                 els.input.value = displayKana;
-                
+
                 if (state.isStoryMode) renderSentence();
                 checkAnswer();
             }
