@@ -617,16 +617,49 @@
             isLocked: false
         };
 
-        // Keyboard Click Sound (Web Audio API) & Haptic Feedback
+        // Audio & State Management
         let audioCtx = null;
+        let audioBufferCache = {};
+        let currentSource = null;
+        let audiobookTimeout = null;
+        let audiobookSessionId = 0;
+        function initAudioContext() {
+            if (!audioCtx) {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+        }
+
+        async function loadAudioBuffer(index) {
+            // Already in cache?
+            if (audioBufferCache[index]) return audioBufferCache[index];
+
+            // If loading a new story, we might want to clear old cache if it gets too large,
+            // but for a single story it's usually fine.
+            const audioPath = `audio/story/${index}.mp3`;
+            try {
+                const response = await fetch(audioPath);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const arrayBuffer = await response.arrayBuffer();
+                
+                // Use the newer promise-based decodeAudioData
+                const audioBuffer = await new Promise((resolve, reject) => {
+                    audioCtx.decodeAudioData(arrayBuffer, resolve, reject);
+                });
+                
+                audioBufferCache[index] = audioBuffer;
+                return audioBuffer;
+            } catch (e) {
+                console.warn(`Failed to load/decode audio buffer for ${index}:`, e);
+                return null;
+            }
+        }
+
         function playClickSound() {
             try {
-                if (!audioCtx) {
-                    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-                }
-                if (audioCtx.state === 'suspended') {
-                    audioCtx.resume();
-                }
+                initAudioContext();
 
                 // Haptic feedback (Vibration)
                 if (navigator.vibrate) {
@@ -636,7 +669,6 @@
                 const osc = audioCtx.createOscillator();
                 const gain = audioCtx.createGain();
                 osc.type = 'sine';
-                // Sharper, higher frequency (800Hz down to 100Hz) for a clear "click"
                 osc.frequency.setValueAtTime(800, audioCtx.currentTime);
                 osc.frequency.exponentialRampToValueAtTime(100, audioCtx.currentTime + 0.1);
                 gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
@@ -650,9 +682,7 @@
 
         // Global unlock for Web Audio (Mobile Policy)
         const unlockAudio = () => {
-            if (audioCtx && audioCtx.state === 'suspended') {
-                audioCtx.resume();
-            }
+            initAudioContext();
             document.removeEventListener('click', unlockAudio);
             document.removeEventListener('touchstart', unlockAudio);
         };
@@ -693,48 +723,46 @@
         };
 
         let currentAudio = null;
+        let currentSource = null;
 
-        const speakText = (text) => {
-            return new Promise((resolve) => {
-                // Stop any existing audio/TTS
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio = null;
-                }
-                if (window.speechSynthesis) {
-                    window.speechSynthesis.cancel();
-                }
+        const speakText = async (text) => {
+            return new Promise(async (resolve) => {
+                // Stop existing audio/TTS
+                stopAudio();
+                initAudioContext();
 
-                // 1. STORY mode: Priority to VOICEVOX MP3 files
+                // 1. Story Mode: Use Web Audio API Buffer (Best for mobile gapless)
                 if (state.phase === 'STORY') {
-                    const audioPath = `audio/story/${state.currentIndex}.mp3`;
-                    const audio = new Audio(audioPath);
-                    currentAudio = audio;
-
-                    let fallbackTriggered = false;
-                    const triggerFallback = () => {
-                        if (fallbackTriggered) return;
-                        fallbackTriggered = true;
-                        currentAudio = null;
-                        playTTS(text, resolve);
-                    };
-
-                    audio.onended = () => {
-                        currentAudio = null;
+                    const indexToPlay = state.currentIndex;
+                    const buffer = await loadAudioBuffer(indexToPlay);
+                    
+                    // Safety check: has the user moved to another sentence while we were loading?
+                    if (indexToPlay !== state.currentIndex || state.phase !== 'STORY') {
                         resolve();
-                    };
+                        return;
+                    }
 
-                    audio.onerror = () => {
-                        console.warn(`Audio file not found or error: ${audioPath}. Falling back to TTS.`);
-                        triggerFallback();
-                    };
-
-                    audio.play().catch(err => {
-                        console.error("Audio play failed:", err);
-                        triggerFallback();
-                    });
+                    if (buffer) {
+                        try {
+                            const source = audioCtx.createBufferSource();
+                            source.buffer = buffer;
+                            source.connect(audioCtx.destination);
+                            currentSource = source;
+                            source.onended = () => {
+                                if (currentSource === source) currentSource = null;
+                                resolve();
+                            };
+                            source.start(0);
+                        } catch (err) {
+                            console.warn("Buffer playback failed:", err);
+                            playTTS(text, resolve);
+                        }
+                    } else {
+                        // Fallback to TTS if buffer loading fails
+                        playTTS(text, resolve);
+                    }
                 } else {
-                    // 2. Other modes: Use browser TTS
+                    // 2. Other Modes: Use browser TTS
                     playTTS(text, resolve);
                 }
             });
@@ -787,6 +815,10 @@
                 currentAudio.pause();
                 currentAudio = null;
             }
+            if (currentSource) {
+                try { currentSource.stop(); } catch (e) { }
+                currentSource = null;
+            }
             window.speechSynthesis.cancel();
             audiobookSessionId++; // Increment to stop any active loop
             if (audiobookTimeout) clearTimeout(audiobookTimeout);
@@ -816,11 +848,15 @@
 
         async function selectStory(fileName) {
             playClickSound();
+            initAudioContext();
             state.isStoryMode = true;
             state.learningMode = 'STORY';
             els.container.classList.add('story-mode');
             els.furiganaControls.classList.remove('hidden');
             state.currentIndex = 0;
+            
+            // Clear buffer cache when starting a new story
+            audioBufferCache = {};
 
             try {
                 const response = await fetch(fileName);
@@ -833,6 +869,9 @@
                 els.slider.max = KANJI_DATA.length - 1;
                 loadKanji();
                 els.input.focus();
+
+                // Background preload audio files
+                KANJI_DATA.forEach((_, idx) => loadAudioBuffer(idx));
             } catch (err) {
                 console.error("Story load failed:", err);
                 alert("동화 데이터를 불러오지 못했습니다.");
@@ -1497,34 +1536,34 @@
                 if (state.isStoryMode) startAudiobookLoop();
             } else {
                 els.card.classList.remove('audiobook-active');
-                // Stop current audio when switching off
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio = null;
-                }
-                window.speechSynthesis.cancel();
-                if (audiobookTimeout) clearTimeout(audiobookTimeout);
+                stopAudio();
             }
         });
 
         let audiobookTimeout = null;
         let audiobookSessionId = 0;
         async function startAudiobookLoop() {
+            // If already finishing or not in audiobook mode, exit
             if (!state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
 
             const sessionId = ++audiobookSessionId;
 
-            // Clear any existing timeout
-            if (audiobookTimeout) clearTimeout(audiobookTimeout);
+            // Clear any existing timeout to avoid multiple loops
+            if (audiobookTimeout) {
+                clearTimeout(audiobookTimeout);
+                audiobookTimeout = null;
+            }
 
             // 1. Read current sentence
+            // This await waits for the audio to actually finish
             await speakText(state.currentSentence.kana);
 
-            // Check if we should still continue this specific loop session
+            // Check if we should still continue (user might have toggled off during playback)
             if (sessionId !== audiobookSessionId || !state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
 
-            // 2. Wait for 2 seconds
+            // 2. Wait for 2 seconds before moving to next
             audiobookTimeout = setTimeout(() => {
+                // Safety check before moving
                 if (sessionId !== audiobookSessionId || !state.isAudiobookMode || !state.isStoryMode || state.isFinish) return;
 
                 // 3. Move to next sentence
@@ -1532,15 +1571,35 @@
                 if (state.currentIndex >= KANJI_DATA.length) {
                     state.isFinish = true;
                     els.finishDialog.classList.remove('hidden');
-                    if (currentAudio) {
-                        currentAudio.pause();
-                        currentAudio = null;
-                    }
-                    window.speechSynthesis.cancel();
+                    stopAudio();
                 } else {
                     loadKanji();
+                    // loadKanji -> setPhase -> startAudiobookLoop is called again
+                    // But we should ensure it doesn't double-call.
+                    // Actually, setPhase('STORY') already calls startAudiobookLoop().
                 }
             }, 2000);
+        }
+
+        function stopAudio() {
+            if (currentAudio) {
+                try { currentAudio.pause(); } catch (e) { }
+                currentAudio.onended = null;
+                currentAudio = null;
+            }
+            if (currentSource) {
+                try { currentSource.stop(); } catch (e) { }
+                currentSource = null;
+            }
+            if (window.speechSynthesis) {
+                window.speechSynthesis.cancel();
+            }
+            if (audiobookTimeout) {
+                clearTimeout(audiobookTimeout);
+                audiobookTimeout = null;
+            }
+            // Invalidate active sessions to prevent loop from continuing
+            audiobookSessionId++; 
         }
 
         window.addEventListener('load', () => { init(); });
