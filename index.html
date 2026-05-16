@@ -603,22 +603,47 @@
             isLocked: false
         };
 
-        // Keyboard Click Sound (Web Audio API)
-        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        // Keyboard Click Sound (Web Audio API) & Haptic Feedback
+        let audioCtx = null;
         function playClickSound() {
-            if (audioCtx.state === 'suspended') {
+            try {
+                if (!audioCtx) {
+                    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                }
+                if (audioCtx.state === 'suspended') {
+                    audioCtx.resume();
+                }
+
+                // Haptic feedback (Vibration)
+                if (navigator.vibrate) {
+                    navigator.vibrate(10);
+                }
+
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = 'sine';
+                // Sharper, higher frequency (800Hz down to 100Hz) for a clear "click"
+                osc.frequency.setValueAtTime(800, audioCtx.currentTime);
+                osc.frequency.exponentialRampToValueAtTime(100, audioCtx.currentTime + 0.1);
+                gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
+                osc.connect(gain); gain.connect(audioCtx.destination);
+                osc.start(); osc.stop(audioCtx.currentTime + 0.1);
+            } catch (e) {
+                console.warn("Audio/Haptic failed:", e);
+            }
+        }
+
+        // Global unlock for Web Audio (Mobile Policy)
+        const unlockAudio = () => {
+            if (audioCtx && audioCtx.state === 'suspended') {
                 audioCtx.resume();
             }
-            const osc = audioCtx.createOscillator();
-            const gain = audioCtx.createGain();
-            osc.type = 'sine';
-            osc.frequency.setValueAtTime(150, audioCtx.currentTime);
-            osc.frequency.exponentialRampToValueAtTime(40, audioCtx.currentTime + 0.1);
-            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
-            gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.1);
-            osc.connect(gain); gain.connect(audioCtx.destination);
-            osc.start(); osc.stop(audioCtx.currentTime + 0.1);
-        }
+            document.removeEventListener('click', unlockAudio);
+            document.removeEventListener('touchstart', unlockAudio);
+        };
+        document.addEventListener('click', unlockAudio);
+        document.addEventListener('touchstart', unlockAudio);
 
         const els = {
             container: document.getElementById('game-container'),
@@ -735,6 +760,7 @@
         }
 
         async function selectMode(grade, mode) {
+            playClickSound();
             if (grade > 3) {
                 alert(`${grade}학년 데이터는 서비스 준비 중입니다!`);
                 return;
@@ -775,6 +801,7 @@
         }
 
         async function selectStory(fileName) {
+            playClickSound();
             state.isStoryMode = true;
             state.learningMode = 'STORY';
             els.container.classList.add('story-mode');
@@ -799,6 +826,7 @@
         }
 
         function jumpToIndex(index) {
+            playClickSound();
             if (index < 0 || index >= KANJI_DATA.length) return;
             state.currentIndex = index;
             loadKanji();
@@ -806,11 +834,13 @@
         }
 
         function nextKanji() {
+            playClickSound();
             state.currentIndex = (state.currentIndex + 1) % KANJI_DATA.length;
             loadKanji();
         }
 
         function prevKanji() {
+            playClickSound();
             state.currentIndex = (state.currentIndex - 1 + KANJI_DATA.length) % KANJI_DATA.length;
             loadKanji();
         }
@@ -824,6 +854,7 @@
         }
 
         function goHome() {
+            playClickSound();
             state.isFinish = false;
             state.isAudiobookMode = false;
             if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
@@ -1066,6 +1097,7 @@
         }
 
         function openGrammarModal() {
+            playClickSound();
             if (!state.currentSentence || !state.currentSentence.grammar) return;
             const data = state.currentSentence.grammar;
             let html = '';
@@ -1092,6 +1124,7 @@
         }
 
         function closeGrammarModal() {
+            playClickSound();
             els.grammarModalOverlay.classList.add('hidden');
             els.grammarModal.classList.add('hidden');
         }
@@ -1151,6 +1184,7 @@
         }
 
         function playCurrent() {
+            playClickSound();
             if (state.phase === 'STORY') {
                 speakText(state.currentSentence.kana);
             } else if (state.phase === 'EXAMPLE') {
@@ -1259,6 +1293,7 @@
             }, 500);
         }
         function restartStory() {
+            playClickSound();
             state.isFinish = false;
             els.finishDialog.classList.add('hidden');
             state.currentIndex = 0;
@@ -1385,8 +1420,8 @@
         }
 
         function handleVirtualInput(key) {
+            playClickSound(); // Play haptic/click sound immediately on touch
             if (state.isLocked) return;
-            playClickSound(); // Play haptic-like sound
             
             if (key === 'back') {
                 handleBackspace();
@@ -1435,11 +1470,13 @@
         });
 
         els.furiganaSwitch.addEventListener('change', (e) => {
+            playClickSound();
             state.showFurigana = e.target.checked;
             if (state.isStoryMode) renderSentence();
         });
 
         els.audiobookSwitch.addEventListener('change', (e) => {
+            playClickSound();
             state.isAudiobookMode = e.target.checked;
             if (state.isAudiobookMode) {
                 els.card.classList.add('audiobook-active');
