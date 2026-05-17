@@ -1206,7 +1206,7 @@
                 els.kanjiView.classList.add('hidden');
                 els.wordView.classList.add('hidden');
                 els.sentenceView.classList.remove('hidden');
-                els.sentenceMeaning.innerText = state.currentSentence.meaning;
+                els.sentenceMeaning.innerHTML = state.currentSentence.meaning;
                 els.romajiGuide.innerText = "";
                 if (state.currentSentence.grammar) {
                     els.grammarBtn.classList.remove('hidden');
@@ -1256,7 +1256,7 @@
                     els.wordKana.classList.add('hidden');
                 }
                 
-                els.wordMeaning.innerText = state.currentExample.meaning;
+                els.wordMeaning.innerHTML = state.currentExample.meaning;
                 els.kanjiView.classList.add('hidden'); els.wordView.classList.remove('hidden');
                 els.romajiGuide.innerText = `(${getRomajiHint()})`;
                 if (shouldSpeak) {
