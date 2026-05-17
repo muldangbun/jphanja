@@ -489,6 +489,7 @@
                             <div id="word-display" class="target-word">하나</div>
                             <button id="play-word" class="audio-btn" title="발음 듣기">🔊</button>
                         </div>
+                        <div id="word-kana" class="word-kana"></div>
                         <div id="word-meaning" class="meaning-hint">한 개</div>
                     </div>
 
@@ -707,6 +708,7 @@
             sentenceMeaning: document.getElementById('sentence-meaning'),
             okBadge: document.getElementById('ok-badge'),
             wordDisplay: document.getElementById('word-display'),
+            wordKana: document.getElementById('word-kana'),
             wordMeaning: document.getElementById('word-meaning'),
             romajiGuide: document.getElementById('romaji-guide'),
             card: document.getElementById('card'),
@@ -1229,7 +1231,20 @@
                 }
                 els.phaseTag.innerText = `예시 (Example ${state.currentExampleIndex + 1}/${current.examples.length})`;
                 state.currentExample = current.examples[state.currentExampleIndex];
-                els.wordDisplay.innerText = state.currentExample.word; els.wordMeaning.innerText = state.currentExample.meaning;
+                
+                const word = state.currentExample.word;
+                const match = word.match(/^(.*?)\s*\((.*?)\)$/);
+                if (match) {
+                    els.wordDisplay.innerText = match[1];
+                    els.wordKana.innerText = match[2];
+                    els.wordKana.classList.remove('hidden');
+                } else {
+                    els.wordDisplay.innerText = word;
+                    els.wordKana.innerText = '';
+                    els.wordKana.classList.add('hidden');
+                }
+                
+                els.wordMeaning.innerText = state.currentExample.meaning;
                 els.kanjiView.classList.add('hidden'); els.wordView.classList.remove('hidden');
                 els.romajiGuide.innerText = `(${getRomajiHint()})`;
                 if (shouldSpeak) {

@@ -161,9 +161,17 @@ header {
 .target-word {
     font-size: 2.2rem;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 8px;
     color: var(--text-primary);
     min-height: 2.5rem;
+}
+
+.word-kana {
+    font-size: 1.3rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin-bottom: 20px;
+    opacity: 0.85;
 }
 
 /* Typing Input Area */
@@ -838,8 +846,16 @@ body {
     .target-word {
         font-size: 2.8rem;
         margin-top: 4px;
-        margin-bottom: 4px;
+        margin-bottom: 5px;
         /* Tightened from 7px */
+    }
+
+    .word-kana {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+        color: var(--text-secondary);
+        font-weight: 600;
+        opacity: 0.85;
     }
 
     #kanji-view {
