@@ -80,10 +80,16 @@
 
         .sentence-display {
             font-size: 1.8rem;
-            line-height: 1.6;
+            line-height: 2.2; /* Elevated line height to avoid overlaps with furigana (ruby text) */
             margin-bottom: 1.5rem;
             text-align: center;
-            word-break: break-all;
+            word-break: normal;
+            overflow-wrap: break-word;
+        }
+
+        .sentence-display ruby {
+            white-space: nowrap;
+            ruby-position: over;
         }
 
         .ok-badge {
