@@ -842,6 +842,10 @@ body {
         /* Tightened from 7px */
     }
 
+    #word-view {
+        margin-top: 30px;
+    }
+
     .romaji-guide {
         font-size: 0.9rem;
         margin-bottom: 2px;
