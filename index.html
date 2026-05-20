@@ -435,6 +435,10 @@
                     <span class="badge">Story</span>
                     게의 장사
                 </button>
+                <button class="grade-btn" onclick="selectStory('nabiwapull.JSON')">
+                    <span class="badge">Story</span>
+                    나비와 애벌레
+                </button>
             </div>
         </div>
 
@@ -637,7 +641,8 @@
             isAudiobookMode: false,
             isComplete: false,
             isFinish: false,
-            isLocked: false
+            isLocked: false,
+            currentStoryName: ""
         };
 
         // Audio & State Management
@@ -662,7 +667,8 @@
 
             // If loading a new story, we might want to clear old cache if it gets too large,
             // but for a single story it's usually fine.
-            const audioPath = `audio/story/${index}.mp3`;
+            const storyFolder = state.currentStoryName || 'story';
+            const audioPath = `audio/${storyFolder}/${index}.mp3`;
             try {
                 const response = await fetch(audioPath);
                 if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -880,6 +886,8 @@
             initAudioContext();
             state.isStoryMode = true;
             state.learningMode = 'STORY';
+            // Extract story name from file name (e.g. 'kaninotokoya.JSON' -> 'kaninotokoya')
+            state.currentStoryName = fileName.replace(/\.[^/.]+$/, "");
             els.container.classList.add('story-mode');
             els.furiganaControls.classList.remove('hidden');
             state.currentIndex = 0;
