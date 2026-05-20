@@ -494,6 +494,7 @@
                             <div id="meaning-hint" class="meaning-hint">하나</div>
                             <button id="play-kanji" class="audio-btn" title="발음 듣기">🔊</button>
                         </div>
+                        <button id="show-examples-btn" class="grammar-btn hidden" onclick="openExamplesModal()">💡 예시 단어</button>
                     </div>
 
                     <div id="word-view" class="hidden">
@@ -534,6 +535,14 @@
                         <button class="grammar-modal-close" onclick="closeGrammarModal()">×</button>
                         <div class="grammar-modal-title">문법 해설</div>
                         <div id="grammar-content"></div>
+                    </div>
+
+                    <!-- Examples Modal -->
+                    <div id="examples-modal-overlay" class="modal-overlay hidden" onclick="closeExamplesModal()"></div>
+                    <div id="examples-modal" class="grammar-modal hidden">
+                        <button class="grammar-modal-close" onclick="closeExamplesModal()">×</button>
+                        <div class="grammar-modal-title">예시 단어</div>
+                        <div id="examples-content"></div>
                     </div>
                 </div>
             </main>
@@ -736,7 +745,11 @@
             grammarModalOverlay: document.getElementById('grammar-modal-overlay'),
             grammarModal: document.getElementById('grammar-modal'),
             grammarContent: document.getElementById('grammar-content'),
-            keyboard: document.getElementById('virtual-keyboard')
+            keyboard: document.getElementById('virtual-keyboard'),
+            examplesModalOverlay: document.getElementById('examples-modal-overlay'),
+            examplesModal: document.getElementById('examples-modal'),
+            examplesContent: document.getElementById('examples-content'),
+            showExamplesBtn: document.getElementById('show-examples-btn')
         };
 
 
@@ -967,6 +980,12 @@
                     state.currentExampleIndex = 0;
                     setPhase('EXAMPLE', shouldSpeak);
                 } else {
+                    // KANJI 모드 진입 시 예시 버튼 노출 여부 사전 세팅
+                    if (state.currentKanji.examples && state.currentKanji.examples.length > 0) {
+                        els.showExamplesBtn.classList.remove('hidden');
+                    } else {
+                        els.showExamplesBtn.classList.add('hidden');
+                    }
                     setPhase('ONYOMI', shouldSpeak);
                 }
             }
@@ -1164,9 +1183,18 @@
             els.kanaHint.innerHTML = `<div style="font-size: 1.1rem; font-family: 'Outfit'; color: var(--text-dim); text-align: center;">${romajiDisplay}</div>`;
         }
 
+        function isModalOpen() {
+            return !els.grammarModal.classList.contains('hidden') || 
+                   (els.examplesModal && !els.examplesModal.classList.contains('hidden'));
+        }
+
         function openGrammarModal() {
             playClickSound();
             if (!state.currentSentence || !state.currentSentence.grammar) return;
+            
+            // 모바일 키보드 내림 최적화
+            if (els.input) els.input.blur();
+
             const data = state.currentSentence.grammar;
             let html = '';
 
@@ -1195,6 +1223,59 @@
             playClickSound();
             els.grammarModalOverlay.classList.add('hidden');
             els.grammarModal.classList.add('hidden');
+            
+            // 모바일 포커스 복원 최적화
+            if (els.input) els.input.focus();
+        }
+
+        function openExamplesModal() {
+            playClickSound();
+            const current = state.currentKanji;
+            if (!current || !current.examples || current.examples.length === 0) {
+                alert("이 한자에는 예시 단어가 없습니다.");
+                return;
+            }
+
+            // 모바일 키보드 내림 최적화
+            if (els.input) els.input.blur();
+
+            let html = '';
+            current.examples.forEach(ex => {
+                const word = ex.word;
+                const match = word.match(/^(.*?)\s*\((.*?)\)$/);
+                let wordText = word;
+                let kanaText = '';
+                if (match) {
+                    wordText = match[1];
+                    kanaText = match[2];
+                }
+                
+                html += `
+                    <div class="grammar-point">
+                        <div class="grammar-point-title" style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                            <span style="word-break: break-all;">${wordText} <span style="font-size: 0.95rem; color: var(--text-secondary); font-weight: normal; margin-left: 6px;">(${kanaText || word})</span></span>
+                            <button class="audio-btn" onclick="event.stopPropagation(); speakText('${kanaText || wordText}')" title="발음 듣기" style="flex-shrink: 0;">🔊</button>
+                        </div>
+                        <ul class="grammar-point-desc" style="margin-top: 8px;">
+                            <li>뜻: ${ex.meaning}</li>
+                            <li>읽기: ${ex.romaji}</li>
+                        </ul>
+                    </div>
+                `;
+            });
+
+            els.examplesContent.innerHTML = html;
+            els.examplesModalOverlay.classList.remove('hidden');
+            els.examplesModal.classList.remove('hidden');
+        }
+
+        function closeExamplesModal() {
+            playClickSound();
+            els.examplesModalOverlay.classList.add('hidden');
+            els.examplesModal.classList.add('hidden');
+            
+            // 모바일 포커스 복원 최적화
+            if (els.input) els.input.focus();
         }
 
         function setPhase(phase, shouldSpeak = true) {
@@ -1202,6 +1283,7 @@
             const current = state.currentKanji;
 
             if (phase === 'STORY') {
+                els.showExamplesBtn.classList.add('hidden');
                 els.phaseTag.innerText = "Reading Practice (동화 읽기)";
                 els.kanjiView.classList.add('hidden');
                 els.wordView.classList.add('hidden');
@@ -1221,11 +1303,21 @@
                 }
             } else if (phase === 'ONYOMI') {
                 els.sentenceView.classList.add('hidden');
+                if (current && current.examples && current.examples.length > 0) {
+                    els.showExamplesBtn.classList.remove('hidden');
+                } else {
+                    els.showExamplesBtn.classList.add('hidden');
+                }
                 els.phaseTag.innerText = "음독 (Onyomi)"; els.wordView.classList.add('hidden'); els.kanjiView.classList.remove('hidden');
                 els.romajiGuide.innerText = `(${getRomajiHint()})`;
                 if (shouldSpeak) speakText(current.readings_on[0]);
             } else if (phase === 'KUNYOMI') {
                 els.sentenceView.classList.add('hidden');
+                if (current && current.examples && current.examples.length > 0) {
+                    els.showExamplesBtn.classList.remove('hidden');
+                } else {
+                    els.showExamplesBtn.classList.add('hidden');
+                }
                 if (!current.readings_kun || current.readings_kun.length === 0) {
                     state.currentIndex++; if (state.currentIndex >= KANJI_DATA.length) { alert("모든 한자를 완료했습니다!"); state.currentIndex = 0; }
                     loadKanji(shouldSpeak);
@@ -1235,6 +1327,7 @@
                 els.romajiGuide.innerText = `(${getRomajiHint()})`;
                 if (shouldSpeak) speakText(current.readings_kun[0].replace(/\./g, ''));
             } else if (phase === 'EXAMPLE') {
+                els.showExamplesBtn.classList.add('hidden');
                 els.sentenceView.classList.add('hidden');
                 if (!current.examples || current.examples.length === 0) {
                     state.currentIndex++; if (state.currentIndex >= KANJI_DATA.length) { alert("모든 단어를 완료했습니다!"); state.currentIndex = 0; }
@@ -1395,6 +1488,17 @@
         }
 
         function handleKey(e) {
+            if (isModalOpen()) {
+                if (e.key === 'Escape') {
+                    e.preventDefault();
+                    closeGrammarModal();
+                    closeExamplesModal();
+                } else {
+                    e.preventDefault();
+                }
+                return;
+            }
+
             if (e.key === 'Escape') {
                 goHome();
                 return;
@@ -1503,6 +1607,7 @@
         }
 
         function handleVirtualInput(key) {
+            if (isModalOpen()) return; // 모달이 열려있다면 가상 키 입력 차단
             playClickSound(); // Play haptic/click sound immediately on touch
             if (state.isLocked) return;
 
