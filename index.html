@@ -38,15 +38,16 @@
             line-height: 1.4;
             display: block;
             border-radius: 12px;
-            background: rgba(255, 255, 255, 0.5);
-            border: 2px solid transparent;
+            background: #1f1f1f;
+            color: #ffffff;
+            box-shadow: rgb(18,18,18) 0px 1px 0px, rgb(124,124,124) 0px 0px 0px 1px inset;
+            border: none;
             transition: all 0.3s ease;
         }
 
         #typing-input:focus {
-            background: white;
-            border-color: var(--accent-color);
-            box-shadow: 0 0 15px var(--accent-glow);
+            box-shadow: rgb(18,18,18) 0px 1px 0px, #ffffff 0px 0px 0px 1px inset;
+            outline: none;
         }
 
         #kana-hint {
@@ -358,8 +359,6 @@
 </head>
 
 <body>
-    <div class="bg-shape shape-1"></div>
-    <div class="bg-shape shape-2"></div>
 
     <div class="container">
         <!-- Start Screen -->
@@ -403,8 +402,8 @@
                         <span class="badge">Grade 4</span> 4학년
                     </div>
                     <div class="grade-actions">
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(4, 'KANJI')">한자</button>
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(4, 'WORD')">단어</button>
+                        <button class="grade-btn-small" onclick="selectMode(4, 'KANJI')">한자</button>
+                        <button class="grade-btn-small" onclick="selectMode(4, 'WORD')">단어</button>
                     </div>
                 </div>
                 <!-- Grade 5 -->
@@ -446,7 +445,9 @@
         <div id="game-container" class="hidden">
             <header>
                 <div class="home-btn-wrapper">
-                    <button class="nav-btn home-btn" onclick="goHome()" title="홈으로">🏠</button>
+                    <button class="nav-btn home-btn" onclick="goHome()" title="홈으로">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </button>
                 </div>
                 <div class="nav-container">
                     <div class="progress-info">
@@ -496,7 +497,9 @@
                         <span id="kanji-main" class="kanji-display">一</span>
                         <div class="hint-wrapper">
                             <div id="meaning-hint" class="meaning-hint">하나</div>
-                            <button id="play-kanji" class="audio-btn" title="발음 듣기">🔊</button>
+                            <button id="play-kanji" class="audio-btn" title="발음 듣기">
+                                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+                            </button>
                         </div>
                         <button id="show-examples-btn" class="grammar-btn hidden" onclick="openExamplesModal()">💡 예시 단어</button>
                     </div>
@@ -504,7 +507,9 @@
                     <div id="word-view" class="hidden">
                         <div class="hint-wrapper">
                             <div id="word-display" class="target-word">하나</div>
-                            <button id="play-word" class="audio-btn" title="발음 듣기">🔊</button>
+                            <button id="play-word" class="audio-btn" title="발음 듣기">
+                                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+                            </button>
                         </div>
                         <div id="word-kana" class="word-kana"></div>
                         <div id="word-meaning" class="meaning-hint">한 개</div>
@@ -514,7 +519,9 @@
                         <div id="sentence-display" class="sentence-display"></div>
                         <div class="hint-wrapper">
                             <div id="sentence-meaning" class="meaning-hint"></div>
-                            <button id="play-sentence" class="audio-btn" title="발음 듣기">🔊</button>
+                            <button id="play-sentence" class="audio-btn" title="발음 듣기">
+                                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+                            </button>
                         </div>
                         <div id="ok-badge" class="ok-badge hidden">READY! Next: Enter ↵ | Repeat: Space</div>
                         <button id="grammar-btn" class="grammar-btn hidden" onclick="openGrammarModal()">💡 문법
@@ -838,7 +845,7 @@
 
         async function selectMode(grade, mode) {
             playClickSound();
-            if (grade > 3) {
+            if (grade > 4) {
                 alert(`${grade}학년 데이터는 서비스 준비 중입니다!`);
                 return;
             }
