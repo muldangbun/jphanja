@@ -1,0 +1,597 @@
+{
+    "category": "Convenience Store",
+    "version": "1.1",
+    "scenarios": [
+        {
+            "id": "con-01-friends",
+            "title": "친구와 편의점 쇼핑 (아이스크림부터 도시락까지)",
+            "level": "N3",
+            "description": "친구 두 명이 서로 대화하며 간식을 고르고 계산대에서 함께 계산하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "친구A",
+                    "kanji": "うわー,今日めっちゃ暑くない？アイス食べたいんだけど.",
+                    "kana": "うわー,きょうめっちゃあつくない？アイスたべたいんだけど.",
+                    "romaji": "uwaa, kyou metcha atsukunai? aisu tabetai n dakedo",
+                    "meaning": "와~ 오늘 진짜 덥지 않아? 아이스크림 먹고 싶은데."
+                },
+                {
+                    "id": 2,
+                    "speaker": "친구B",
+                    "kanji": "いいよ,買っちゃおう.あ、この新作のお菓子もヤバくない？",
+                    "kana": "いいよ,かっちゃおう.あ、このしんさくのおかしもヤバくない？",
+                    "romaji": "iiyo, katchaou. a, kono shinsaku no okashi mo yabakunai?",
+                    "meaning": "좋아, 사 버리자. 아, 이 신상 과자도 대박이지 않아?"
+                },
+                {
+                    "id": 3,
+                    "speaker": "친구A",
+                    "kanji": "美味しそう!のみものとお弁当も一緒に買っていこうよ.",
+                    "kana": "おいしそう!のみものとおべんとうもいっしょにかっていこうよ.",
+                    "romaji": "oishisou! nomimono to obentou mo issho ni katte ikou yo",
+                    "meaning": "맛있겠다! 음료수랑 도시락도 같이 사 가자."
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "いらっしゃいませー.お会計こちらへどうぞー.",
+                    "kana": "いらっしゃいませー.おかいけいこちらへどうぞー.",
+                    "romaji": "irasshaimase-. okaikei kochira e douzo-",
+                    "meaning": "어서 오세요~ 계산 이쪽으로 오세요~"
+                },
+                {
+                    "id": 5,
+                    "speaker": "점원",
+                    "kanji": "お弁当,温めますか？",
+                    "kana": "おべんとう,あたためますか？",
+                    "romaji": "obentou, atatamemasu ka",
+                    "meaning": "도시락 데워 드릴까요?"
+                },
+                {
+                    "id": 6,
+                    "speaker": "친구B",
+                    "kanji": "あ,はい.お願いします.",
+                    "kana": "あ,はい.おねがいします.",
+                    "romaji": "a, hai. onegaishimasu",
+                    "meaning": "아, 네. 부탁드려요."
+                },
+                {
+                    "id": 7,
+                    "speaker": "점원",
+                    "kanji": "かしこまりました.アイス袋別にしましょうか？",
+                    "kana": "かしこまりました.アイスふくろべつにしましょうか？",
+                    "romaji": "kashikomarimashita. aisu fukuro betsu ni shimashou ka",
+                    "meaning": "알겠습니다. 아이스크림은 봉투 따로 담아 드릴까요?"
+                },
+                {
+                    "id": 8,
+                    "speaker": "친구A",
+                    "kanji": "あ,助かります!お願いします.",
+                    "kana": "あ,たすかります!おねがいします.",
+                    "romaji": "a, tasukarimasu! onegaishimasu",
+                    "meaning": "아, 그러면 정말 감사하죠! 부탁합니다."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～ちゃう / ～ちゃおう",
+                        "desc": [
+                            "'~해 버리다(~てしまう)'의 회화체인 '~ちゃう'의 권유형(~해 버리자)입니다."
+                        ]
+                    },
+                    {
+                        "title": "ヤバい",
+                        "desc": [
+                            "(긍정/부정) 장난 아니다, 대박이다 등 상황을 강조할 때 쓰는 젊은 층의 유행어입니다."
+                        ]
+                    },
+                    {
+                        "title": "今日 (きょう)",
+                        "desc": [
+                            "오늘"
+                        ]
+                    },
+                    {
+                        "title": "暑い (あつい)",
+                        "desc": [
+                            "덥다"
+                        ]
+                    },
+                    {
+                        "title": "新作 (しんさく)",
+                        "desc": [
+                            "신작, 신상품"
+                        ]
+                    },
+                    {
+                        "title": "お菓子 (おかし)",
+                        "desc": [
+                            "과자"
+                        ]
+                    },
+                    {
+                        "title": "一緒に (いっしょに)",
+                        "desc": [
+                            "함께, 같이"
+                        ]
+                    },
+                    {
+                        "title": "お会計 (おかいけい)",
+                        "desc": [
+                            "계산"
+                        ]
+                    },
+                    {
+                        "title": "お弁当 (おべんとう)",
+                        "desc": [
+                            "도시락"
+                        ]
+                    },
+                    {
+                        "title": "温める (あたためる)",
+                        "desc": [
+                            "데우다"
+                        ]
+                    },
+                    {
+                        "title": "袋 (ふくろ)",
+                        "desc": [
+                            "봉투, 봉지"
+                        ]
+                    },
+                    {
+                        "title": "別 (べつ)",
+                        "desc": [
+                            "별도, 따로"
+                        ]
+                    }
+                ],
+                "summary": "친구와 함께 편의점에서 간식과 도시락을 고르고 계산하는 상황의 대화입니다."
+            }
+        },
+        {
+            "id": "con-02",
+            "title": "택배 발송과 전표 작성 (宅配便の発送と送り状の記入)",
+            "level": "N3",
+            "description": "편의점에서 택배를 보내기 위해 전표를 작성하고 사이즈를 확인하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "すみません、宅配をお願いしたいんですが。",
+                    "kana": "すみません、たくはいをおねがいしたいんですが。",
+                    "romaji": "sumimasen, takuhai o onegaishitai n desu ga",
+                    "meaning": "죄송합니다, 택배를 부탁드리고 싶은데요."
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "はい、かしこまりました。送り状はお持ちですか。",
+                    "kana": "はい、かしこまりました。おくりじょうはおもちですか。",
+                    "romaji": "hai, kashikomarimashita. okurijou wa omochi desu ka",
+                    "meaning": "네, 알겠습니다. 운송장(전표)은 가지고 계신가요?"
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "いいえ,まだです.書き方がよくわからないのですが。",
+                    "kana": "いいえ、まだです。かきかたがよくわからないのですが。",
+                    "romaji": "iie, mada desu. kakikata ga yoku wakaranai no desu ga",
+                    "meaning": "아니요, 아직요. 작성 방법을 잘 모르겠습니다만."
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "こちらの書類にご記入ください。その間にサイズを測りますね。",
+                    "kana": "こちらのしょるいにごきにゅうください.そのあいだにサイズをはかりますね。",
+                    "romaji": "kochira no shorui ni gokinyuu kudasai. sono aida ni saizu o hakarimasu ne",
+                    "meaning": "이 서류에 기입해 주세요. 그동안 사이즈를 측정하겠습니다."
+                },
+                {
+                    "id": 5,
+                    "speaker": "점원",
+                    "kanji": "８０サイズになります。壊れ物は入っていますか。",
+                    "kana": "はちじゅうサイズになります。こわれものははいっていますか。",
+                    "romaji": "hachijuu saizu ni narimasu. kowaremono wa haitte imasu ka",
+                    "meaning": "80 사이즈입니다. 깨지기 쉬운 물건이 들어 있습니까?"
+                },
+                {
+                    "id": 2,
+                    "speaker": "손님",
+                    "kanji": "いいえ,衣類だけですから,大丈夫です。",
+                    "kana": "いいえ、いるいだけですから、だいじょうぶです。",
+                    "romaji": "iie, irui dake desu kara, daijoubu desu",
+                    "meaning": "아니요, 의류뿐이라서 괜찮습니다."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～したいんですが",
+                        "desc": [
+                            "완곡하게 부탁이나 의사를 전달할 때 사용합니다."
+                        ]
+                    },
+                    {
+                        "title": "～方 (かた)",
+                        "desc": [
+                            "동사 마스형에 붙어 방법(~하는 법)을 나타냅니다."
+                        ]
+                    },
+                    {
+                        "title": "～測る/測ります",
+                        "desc": [
+                            "길이, 무게, 사이즈 등을 잴 때 사용하는 동사입니다."
+                        ]
+                    },
+                    {
+                        "title": "宅配 (たくはい)",
+                        "desc": [
+                            "택배"
+                        ]
+                    },
+                    {
+                        "title": "送り状 (おくりじょう)",
+                        "desc": [
+                            "운송장, 전표"
+                        ]
+                    },
+                    {
+                        "title": "書類 (しょるい)",
+                        "desc": [
+                            "서류"
+                        ]
+                    },
+                    {
+                        "title": "記入 (きにゅう)",
+                        "desc": [
+                            "기입, 작성"
+                        ]
+                    },
+                    {
+                        "title": "壊れ物 (こわれもの)",
+                        "desc": [
+                            "깨지기 쉬운 물건"
+                        ]
+                    },
+                    {
+                        "title": "衣類 (いるい)",
+                        "desc": [
+                            "의류, 옷"
+                        ]
+                    }
+                ],
+                "summary": "편의점에서 택배를 보내기 위해 운송장을 작성하고 물품의 크기와 종류를 확인하는 대화입니다."
+            }
+        },
+        {
+            "id": "con-03",
+            "title": "공과금 납부 (公共料金の支払い)",
+            "level": "N3",
+            "description": "전기 요금이나 가스 요금 고지서를 편의점에서 납부하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "すみません、公共料金の支払いをお願いします。",
+                    "kana": "すみません、こうきょうりょうきんのしはらいをおねがいします。",
+                    "romaji": "sumimasen, koukyou ryoukin no shiharai o onegaishimasu",
+                    "meaning": "죄송합니다, 공과금 납부를 부탁드립니다."
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "はい、こちらの払込票ですね。内容を確認して、サインをいただけますか。",
+                    "kana": "はい、こちらのはらいこみひょうですね。ないようをかくにんして、サインをいただけますか。",
+                    "romaji": "hai, kochira no haraikomihyou desu ne. naiyou o kakuninhite, sain o itadakemasu ka",
+                    "meaning": "네, 이 납부서군요. 내용을 확인하고 서명을 해 주시겠습니까?"
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "はい,わかりました.これでいいですか.",
+                    "kana": "はい、わかりました。これでいいですか。",
+                    "romaji": "hai, wakarimashita. kore de ii desu ka",
+                    "meaning": "네, 알겠습니다. 이걸로 됐나요?"
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "ありがとうございます。領収書は大切に保管しておいてください。",
+                    "kana": "ありがとうございます。りょうしゅうしょはたいせつにほかんしておいてください。",
+                    "romaji": "arigatou gozaimasu. ryoushuusho wa taisetsu ni hokan shite oite kudasai",
+                    "meaning": "감사합니다. 영수증은 소중히 보관해 두세요."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～て いただける",
+                        "desc": [
+                            "~해 주실 수 있다(받다)는 정중한 의뢰 표현입니다."
+                        ]
+                    },
+                    {
+                        "title": "～て おく",
+                        "desc": [
+                            "미리 어떤 조치를 해두는 상태를 나타냅니다."
+                        ]
+                    },
+                    {
+                        "title": "公共料金 (こうきょうりょうきん)",
+                        "desc": [
+                            "공공요금, 공과금"
+                        ]
+                    },
+                    {
+                        "title": "支払い (しはらい)",
+                        "desc": [
+                            "지불, 납부"
+                        ]
+                    },
+                    {
+                        "title": "払込票 (はらいこみひょう)",
+                        "desc": [
+                            "납부서, 지로 영수증"
+                        ]
+                    },
+                    {
+                        "title": "内容 (ないよう)",
+                        "desc": [
+                            "내용"
+                        ]
+                    },
+                    {
+                        "title": "確認 (かくにん)",
+                        "desc": [
+                            "확인"
+                        ]
+                    },
+                    {
+                        "title": "領収書 (りょうしゅうしょ)",
+                        "desc": [
+                            "영수증"
+                        ]
+                    },
+                    {
+                        "title": "保管 (ほかん)",
+                        "desc": [
+                            "보관"
+                        ]
+                    }
+                ],
+                "summary": "편의점에서 공과금(공공요금)을 납부하고 영수증을 받는 상황의 대화입니다."
+            }
+        },
+        {
+            "id": "con-04",
+            "title": "화장실 이용 및 위치 묻기 (お手洗いの利用)",
+            "level": "N3",
+            "description": "편의점 안의 화장실 위치를 묻고 사용 허락을 구하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "すみません、お手洗いを借りてもよろしいでしょうか。",
+                    "kana": "すみません、おてあらいをかりてもよろしいでしょうか。",
+                    "romaji": "sumimasen, otearai o karite mo yoroshii deshou ka",
+                    "meaning": "죄송합니다, 화장실을 좀 빌려 써도(사용해도) 괜찮을까요?"
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "はい、どうぞ。突き当たりを左に曲がったところにございます。",
+                    "kana": "はい、どうぞ。つきあたりをひだりにまがったところにございます。",
+                    "romaji": "hai, douzo. tsukiatari o hidari ni magatta tokoro ni gozaimasu",
+                    "meaning": "네, 그러세요. 막다른 길에서 왼쪽으로 꺾은 곳에 있습니다."
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "あ、掃除中みたいですが、使えますか。",
+                    "kana": "あ、そうじちゅうみたいですが、つかえますか。",
+                    "romaji": "a, soujichuu mitai desu ga, tsukaemasu ka",
+                    "meaning": "아, 청소 중인 것 같은데 사용할 수 있나요?"
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "すぐに終わりますので、少々お待ちいただけますか。",
+                    "kana": "すぐにおわりますので、しょうしょうおまちいただけますか。",
+                    "romaji": "sugu ni owarimasu node, shoushou omachi itadakemasu ka",
+                    "meaning": "금방 끝나니까, 조금만 기다려 주시겠습니까?"
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～ても よろしいでしょうか",
+                        "desc": [
+                            "허락을 구하는 매우 정중한 표현입니다."
+                        ]
+                    },
+                    {
+                        "title": "～た ところ",
+                        "desc": [
+                            "~한 곳/지점을 나타냅니다."
+                        ]
+                    },
+                    {
+                        "title": "～みたいだ",
+                        "desc": [
+                            "추측이나 상태를 묘사할 때 사용합니다."
+                        ]
+                    },
+                    {
+                        "title": "お手洗い (おてあらい)",
+                        "desc": [
+                            "화장실"
+                        ]
+                    },
+                    {
+                        "title": "借りる (かりる)",
+                        "desc": [
+                            "빌리다"
+                        ]
+                    },
+                    {
+                        "title": "突き当たり (つきあたり)",
+                        "desc": [
+                            "막다른 곳, 길 끝"
+                        ]
+                    },
+                    {
+                        "title": "曲がる (まがる)",
+                        "desc": [
+                            "구부러지다, (방향을) 꺾다"
+                        ]
+                    },
+                    {
+                        "title": "掃除中 (そうじちゅう)",
+                        "desc": [
+                            "청소 중"
+                        ]
+                    },
+                    {
+                        "title": "終わる (おわる)",
+                        "desc": [
+                            "끝나다"
+                        ]
+                    },
+                    {
+                        "title": "少々 (しょうしょう)",
+                        "desc": [
+                            "잠시, 조금"
+                        ]
+                    }
+                ],
+                "summary": "편의점 내 화장실 위치를 묻고 사용 허락을 구하는 상황의 대화입니다."
+            }
+        },
+        {
+            "id": "con-05",
+            "title": "물건 찾기와 재고 확인 (商品の在庫確認)",
+            "level": "N3",
+            "description": "진열대에 없는 상품의 재고가 있는지 점원에게 확인을 요청하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "すみません、この雑誌の最新号はありますか。棚にないみたいですが。",
+                    "kana": "すみません、このざっしのさいしんごうはありますか。たなにないみたいですが。",
+                    "romaji": "sumimasen, kono zasshi no saishingou wa arisu ka. tana ni nai mitai desu ga",
+                    "meaning": "죄송합니다, 이 잡지 최신호가 있나요? 선반에 없는 것 같아서요."
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "あ、売り切れてしまったかもしれません。裏の在庫を確認してきますね。",
+                    "kana": "あ、うりきれてしまったかもしれません。うらのざいこをかくにんしてきますね。",
+                    "romaji": "a, urikirete shimatta kamoshiremasen. ura no zaiko o kakuninhite kimasu ne",
+                    "meaning": "아, 다 팔려 버렸을지도 모르겠네요. 안쪽 재고를 확인하고 올게요."
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "もしなかったら、予約はできますか。",
+                    "kana": "もしなかったら、よやくはできますか。",
+                    "romaji": "moshi nakattara, yoyaku wa dekimasu ka",
+                    "meaning": "혹시 없다면, 예약은 가능한가요?"
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "はい、入荷したらご連絡することも可能ですよ。",
+                    "kana": "はい,にゅうかしたらごれんらくすることもかのうですよ.",
+                    "romaji": "hai, nyuukashitara gorenraku suru koto mo kanou desu yo",
+                    "meaning": "네, 입고되면 연락드리는 것도 가능합니다."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～て しまう",
+                        "desc": [
+                            "완료나 유감의 상태를 나타냅니다."
+                        ]
+                    },
+                    {
+                        "title": "～かもしれない",
+                        "desc": [
+                            "불확실한 추측(~일지도 모른다)을 나타냅니다."
+                        ]
+                    },
+                    {
+                        "title": "～たら",
+                        "desc": [
+                            "조건이나 가정을 나타냅니다."
+                        ]
+                    },
+                    {
+                        "title": "雑誌 (ざっし)",
+                        "desc": [
+                            "잡지"
+                        ]
+                    },
+                    {
+                        "title": "最新号 (さいしんごう)",
+                        "desc": [
+                            "최신호"
+                        ]
+                    },
+                    {
+                        "title": "棚 (たな)",
+                        "desc": [
+                            "선반, 진열장"
+                        ]
+                    },
+                    {
+                        "title": "売り切れ (うりきれ)",
+                        "desc": [
+                            "품절, 매진"
+                        ]
+                    },
+                    {
+                        "title": "裏 (うら)",
+                        "desc": [
+                            "뒤, 안쪽"
+                        ]
+                    },
+                    {
+                        "title": "在庫 (ざいこ)",
+                        "desc": [
+                            "재고"
+                        ]
+                    },
+                    {
+                        "title": "予約 (よやく)",
+                        "desc": [
+                            "예약"
+                        ]
+                    },
+                    {
+                        "title": "入荷 (にゅうか)",
+                        "desc": [
+                            "입고, 상품이 들어옴"
+                        ]
+                    },
+                    {
+                        "title": "連絡 (れんらく)",
+                        "desc": [
+                            "연락"
+                        ]
+                    },
+                    {
+                        "title": "可能 (かのう)",
+                        "desc": [
+                            "가능"
+                        ]
+                    }
+                ],
+                "summary": "진열대에 없는 상품의 재고를 묻고 입고 시 예약/연락을 요청하는 대화입니다."
+            }
+        }
+    ]
+}
