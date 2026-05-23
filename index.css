@@ -97,6 +97,20 @@ header {
     letter-spacing: 1.4px;
 }
 
+#phase-tag {
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+#phase-tag:active {
+    transform: scale(0.95);
+}
+
+#phase-tag:hover {
+    opacity: 0.8;
+}
+
 .hint-wrapper {
     display: flex;
     align-items: center;

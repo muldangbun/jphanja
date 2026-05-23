@@ -1759,6 +1759,30 @@
             handleKey(e);
         });
 
+        els.phaseTag.addEventListener('click', (e) => {
+            e.stopPropagation();
+            playClickSound();
+            if (state.learningMode === 'KANJI') {
+                if (state.phase === 'ONYOMI') {
+                    if (state.currentKanji && state.currentKanji.readings_kun && state.currentKanji.readings_kun.length > 0) {
+                        setPhase('KUNYOMI');
+                    } else {
+                        els.phaseTag.classList.remove('error-shake');
+                        void els.phaseTag.offsetWidth; // trigger reflow
+                        els.phaseTag.classList.add('error-shake');
+                    }
+                } else if (state.phase === 'KUNYOMI') {
+                    if (state.currentKanji && state.currentKanji.readings_on && state.currentKanji.readings_on.length > 0) {
+                        setPhase('ONYOMI');
+                    } else {
+                        els.phaseTag.classList.remove('error-shake');
+                        void els.phaseTag.offsetWidth; // trigger reflow
+                        els.phaseTag.classList.add('error-shake');
+                    }
+                }
+            }
+        });
+
         els.btnKanji.addEventListener('click', (e) => { e.stopPropagation(); playCurrent(); });
         els.btnWord.addEventListener('click', (e) => { e.stopPropagation(); playCurrent(); });
         els.btnSentence.addEventListener('click', (e) => { e.stopPropagation(); playCurrent(); });
