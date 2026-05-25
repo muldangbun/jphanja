@@ -1,601 +1,4 @@
-<!DOCTYPE html>
-<html lang="ko">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
-    <title>Zen Kanji Master - Grade 1</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&family=Outfit:wght@300;400;600;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    <style>
-        .input-section {
-            margin-top: 20px;
-            width: 100%;
-        }
-
-        .input-wrapper {
-            width: 100%;
-            max-width: 1100px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        #typing-input {
-            width: 100% !important;
-            font-size: 1.5rem;
-            padding: 12px 20px;
-            text-align: left;
-            min-height: 80px;
-            resize: none;
-            overflow-y: hidden;
-            line-height: 1.4;
-            display: block;
-            border-radius: 12px;
-            background: #1f1f1f;
-            color: #ffffff;
-            box-shadow: rgb(18,18,18) 0px 1px 0px, rgb(124,124,124) 0px 0px 0px 1px inset;
-            border: none;
-            transition: all 0.3s ease;
-        }
-
-        #typing-input:focus {
-            box-shadow: rgb(18,18,18) 0px 1px 0px, #ffffff 0px 0px 0px 1px inset;
-            outline: none;
-        }
-
-        #kana-hint {
-            height: auto !important;
-            min-height: 1.2rem;
-            margin-bottom: 15px !important;
-            position: relative !important;
-            top: 0 !important;
-            width: 100%;
-        }
-
-        /* Container styles moved to index.css or adjusted for responsiveness */
-        .container {
-            width: 100%;
-            max-width: 800px;
-            padding: 20px;
-            z-index: 10;
-            transition: all 0.4s ease;
-            margin: 0 auto;
-        }
-
-        .story-mode .container {
-            max-width: 1200px;
-        }
-
-        .story-mode .kanji-card {
-            width: 100%;
-            max-width: 1100px;
-            min-height: 500px;
-        }
-
-        .sentence-display {
-            font-size: 1.8rem;
-            line-height: 2.2; /* Elevated line height to avoid overlaps with furigana (ruby text) */
-            margin-bottom: 1.5rem;
-            text-align: center;
-            word-break: normal;
-            overflow-wrap: break-word;
-        }
-
-        .sentence-display ruby {
-            white-space: nowrap;
-            ruby-position: over;
-        }
-
-        .ok-badge {
-            margin-top: 10px;
-            padding: 8px 16px;
-            background: var(--success-color);
-            color: white;
-            border-radius: 50px;
-            display: inline-block;
-            font-weight: 800;
-            font-size: 1rem;
-            animation: pulse-ok 1.5s infinite;
-            box-shadow: 0 0 15px var(--success-color);
-            pointer-events: none;
-        }
-
-        .finish-dialog {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: var(--card-bg);
-            backdrop-filter: blur(30px);
-            border: 2px solid var(--accent-color);
-            border-radius: 30px;
-            padding: 40px;
-            z-index: 1000;
-            text-align: center;
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
-            width: 80%;
-            max-width: 500px;
-            animation: fadeInDialog 0.5s ease-out;
-        }
-
-        @keyframes fadeInDialog {
-            from {
-                opacity: 0;
-                transform: translate(-50%, -40%);
-            }
-
-            to {
-                opacity: 1;
-                transform: translate(-50%, -50%);
-            }
-        }
-
-        .finish-title {
-            font-size: 2rem;
-            font-weight: 800;
-            margin-bottom: 20px;
-            color: var(--accent-color);
-            background: linear-gradient(135deg, var(--accent-color), #ec4899);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .finish-info {
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            margin-bottom: 30px;
-            line-height: 1.6;
-        }
-
-        .finish-btns {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            align-items: center;
-        }
-
-        .finish-badge {
-            padding: 12px 24px;
-            background: var(--success-color);
-            color: white;
-            border-radius: 50px;
-            font-weight: 800;
-            font-size: 1.1rem;
-            animation: pulse-ok 1.5s infinite;
-            box-shadow: 0 0 15px var(--success-color);
-            cursor: pointer;
-            border: none;
-            width: 100%;
-        }
-
-        .finish-link {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            text-decoration: underline;
-            cursor: pointer;
-            background: none;
-            border: none;
-        }
-
-        @keyframes pulse-ok {
-            0% {
-                transform: scale(1);
-                opacity: 1;
-            }
-
-            50% {
-                transform: scale(1.05);
-                opacity: 0.8;
-            }
-
-            100% {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
-
-        .furigana-toggle {
-            display: flex;
-            align-items: center;
-            gap: 25px;
-            margin-bottom: 2rem;
-            font-size: 0.95rem;
-            color: var(--text-dim);
-            justify-content: flex-start;
-            padding: 10px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .audiobook-controls,
-        .furigana-switch-wrapper {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            cursor: pointer;
-            transition: color 0.3s;
-        }
-
-        .audiobook-controls:hover,
-        .furigana-switch-wrapper:hover {
-            color: var(--text-primary);
-        }
-
-        /* Audiobook Mode UI adjustment */
-        .audiobook-active #romaji-guide,
-        .audiobook-active .input-section,
-        .audiobook-active .ok-badge,
-        .audiobook-active .grammar-btn,
-        .audiobook-active #play-sentence,
-        .audiobook-active #virtual-keyboard {
-            display: none !important;
-        }
-
-        /* Audiobook Mode Japanese text color override (white for dark theme) */
-        .audiobook-active .char-remaining {
-            color: #ffffff !important;
-            opacity: 1 !important;
-        }
-
-        .switch {
-            position: relative;
-            display: inline-block;
-            width: 40px;
-            height: 20px;
-        }
-
-        .switch input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
-
-        .slider-round {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(0, 0, 0, 0.1);
-            transition: .4s;
-            border-radius: 20px;
-        }
-
-        .slider-round:before {
-            position: absolute;
-            content: "";
-            height: 14px;
-            width: 14px;
-            left: 3px;
-            bottom: 3px;
-            background-color: white;
-            transition: .4s;
-            border-radius: 50%;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        input:checked+.slider-round {
-            background-color: var(--accent-color);
-        }
-
-        input:checked+.slider-round:before {
-            transform: translateX(20px);
-        }
-
-        .ruby-text {
-            color: var(--accent-color);
-            opacity: 0.8;
-            font-size: 0.5em;
-        }
-
-        .hidden-furigana ruby rt {
-            visibility: hidden;
-        }
-
-        .progress-highlight {
-            color: #333;
-            /* Black for correct */
-            text-shadow: none;
-        }
-
-        .char-incorrect {
-            color: #ff4d4d;
-            /* Red for wrong */
-            text-decoration: underline;
-        }
-
-        .char-remaining {
-            color: #bbbbbb;
-            /* Grey for remaining */
-        }
-
-        .char-to-type {
-            border-bottom: 2px solid var(--accent-color);
-            animation: pulse-border 1s infinite;
-        }
-
-        @keyframes pulse-border {
-            0% {
-                border-bottom-color: var(--accent-color);
-            }
-
-            50% {
-                border-bottom-color: transparent;
-            }
-
-            100% {
-                border-bottom-color: var(--accent-color);
-            }
-        }
-
-        .section-title {
-            margin: 2rem 0 1rem;
-            font-size: 1.2rem;
-            color: var(--text-dim);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        @media (max-width: 768px) {
-            .sentence-display {
-                font-size: 1.4rem;
-                padding: 0 10px;
-            }
-
-            .story-mode .kanji-card {
-                min-height: auto;
-                padding: 30px 20px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="container">
-        <!-- Start Screen -->
-        <div id="start-screen" class="start-screen">
-            <h1 class="screen-title">Zen Kanji Master</h1>
-            <p class="screen-subtitle">학습할 학년을 선택하세요</p>
-            <div class="grades-container">
-                <!-- Grade 1 -->
-                <div class="grade-row">
-                    <div class="grade-label">
-                        <span class="badge">Grade 1</span> 1학년
-                    </div>
-                    <div class="grade-actions">
-                        <button class="grade-btn-small" onclick="selectMode(1, 'KANJI')">한자</button>
-                        <button class="grade-btn-small" onclick="selectMode(1, 'WORD')">단어</button>
-                        <button class="grade-btn-small" onclick="selectMode(1, 'SENTENCE')">예문</button>
-                    </div>
-                </div>
-                <!-- Grade 2 -->
-                <div class="grade-row">
-                    <div class="grade-label">
-                        <span class="badge">Grade 2</span> 2학년
-                    </div>
-                    <div class="grade-actions">
-                        <button class="grade-btn-small" onclick="selectMode(2, 'KANJI')">한자</button>
-                        <button class="grade-btn-small" onclick="selectMode(2, 'WORD')">단어</button>
-                    </div>
-                </div>
-                <!-- Grade 3 -->
-                <div class="grade-row">
-                    <div class="grade-label">
-                        <span class="badge">Grade 3</span> 3학년
-                    </div>
-                    <div class="grade-actions">
-                        <button class="grade-btn-small" onclick="selectMode(3, 'KANJI')">한자</button>
-                        <button class="grade-btn-small" onclick="selectMode(3, 'WORD')">단어</button>
-                    </div>
-                </div>
-                <!-- Grade 4 -->
-                <div class="grade-row">
-                    <div class="grade-label">
-                        <span class="badge">Grade 4</span> 4학년
-                    </div>
-                    <div class="grade-actions">
-                        <button class="grade-btn-small" onclick="selectMode(4, 'KANJI')">한자</button>
-                        <button class="grade-btn-small" onclick="selectMode(4, 'WORD')">단어</button>
-                    </div>
-                </div>
-                <!-- Grade 5 -->
-                <div class="grade-row">
-                    <div class="grade-label">
-                        <span class="badge">Grade 5</span> 5학년
-                    </div>
-                    <div class="grade-actions">
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(5, 'KANJI')">한자</button>
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(5, 'WORD')">단어</button>
-                    </div>
-                </div>
-                <!-- Grade 6 -->
-                <div class="grade-row">
-                    <div class="grade-label">
-                        <span class="badge">Grade 6</span> 6학년
-                    </div>
-                    <div class="grade-actions">
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(6, 'KANJI')">한자</button>
-                        <button class="grade-btn-small coming-soon" onclick="selectMode(6, 'WORD')">단어</button>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="section-title">Reading Practice (동화 읽기)</h2>
-            <div class="grade-grid">
-                <button class="grade-btn" onclick="selectStory('kaninotokoya.JSON')">
-                    <span class="badge">Story</span>
-                    게의 장사
-                </button>
-                <button class="grade-btn" onclick="selectStory('nabiwapull.JSON')">
-                    <span class="badge">Story</span>
-                    나비와 꽃
-                </button>
-                <button class="grade-btn" onclick="selectStory('dendenmushikanashi.JSON')">
-                    <span class="badge">Story</span>
-                    달팽이의 슬픔
-                </button>
-            </div>
-
-            <h2 class="section-title" style="margin-top: 30px;">Situation-based Dialogue (상황별 대화듣기)</h2>
-            <div class="grade-grid">
-                <button class="grade-btn" onclick="openSceneModal('convenience_scenesv1.JSON')">
-                    <span class="badge">Scenes</span>
-                    편의점
-                </button>
-                <button class="grade-btn coming-soon">
-                    <span class="badge">Scenes</span>
-                    쇼핑몰
-                </button>
-                <button class="grade-btn coming-soon">
-                    <span class="badge">Scenes</span>
-                    공항
-                </button>
-            </div>
-        </div>
-
-        <!-- Scenario Modal -->
-        <div id="scenario-modal" class="hidden" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:2000; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px;">
-            <div style="background:#2d2d2d; border-radius:16px; padding:20px; width:90%; max-width:500px; max-height:80vh; overflow-y:auto;">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
-                    <h2 style="margin:0; font-size:1.4rem; color:white;">상황 선택</h2>
-                    <button onclick="document.getElementById('scenario-modal').classList.add('hidden')" style="background:none; border:none; color:#888; font-size:1.5rem; cursor:pointer;">&times;</button>
-                </div>
-                <div id="scenario-list" style="display:flex; flex-direction:column; gap:10px;"></div>
-            </div>
-        </div>
-
-        <!-- Game Container -->
-        <div id="game-container" class="hidden">
-            <header>
-                <div class="home-btn-wrapper">
-                    <button class="nav-btn home-btn" onclick="goHome()" title="홈으로">
-                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                    </button>
-                </div>
-                <div class="nav-container">
-                    <div class="progress-info">
-                        <button class="nav-btn" onclick="prevKanji()" title="이전 단어">‹</button>
-                        <span>KANJI <span id="current-index" onclick="manualJump()">1</span> / <span
-                                id="total-count">80</span></span>
-                        <button class="nav-btn" onclick="nextKanji()" title="다음 단어">›</button>
-                    </div>
-                    <div class="progress-slider-wrapper">
-                        <input type="range" id="progress-slider" min="0" max="79" value="0" step="1">
-                    </div>
-                </div>
-            </header>
-
-            <main id="app">
-                <div id="card" class="kanji-card">
-                    <div id="phase-tag" class="phase-indicator">Ready</div>
-
-                    <div id="furigana-controls" class="furigana-toggle hidden">
-                        <div class="audiobook-controls" onclick="document.getElementById('audiobook-switch').click()">
-                            <label class="switch" onclick="event.stopPropagation()">
-                                <input type="checkbox" id="audiobook-switch">
-                                <span class="slider-round"></span>
-                            </label>
-                            <span>Audiobook</span>
-                        </div>
-                        <div class="furigana-switch-wrapper"
-                            onclick="document.getElementById('furigana-switch').click()">
-                            <label class="switch" onclick="event.stopPropagation()">
-                                <input type="checkbox" id="furigana-switch" checked>
-                                <span class="slider-round"></span>
-                            </label>
-                            <span>Furigana</span>
-                        </div>
-                    </div>
-
-                    <div id="finish-dialog" class="finish-dialog hidden">
-                        <div class="finish-title">🎉 모든 문장 완료! 🎉</div>
-                        <p class="finish-info">동화 한 권을 완독하셨습니다!<br>정말 대단해요!</p>
-                        <div class="finish-btns">
-                            <button class="finish-badge" onclick="restartStory()">다시 읽기 (Enter ↵)</button>
-                            <button class="finish-link" onclick="goHome()">메인 화면으로 (Esc)</button>
-                        </div>
-                    </div>
-
-                    <div id="kanji-view">
-                        <span id="kanji-main" class="kanji-display">一</span>
-                        <div class="hint-wrapper">
-                            <div id="meaning-hint" class="meaning-hint">하나</div>
-                            <button id="play-kanji" class="audio-btn" title="발음 듣기">
-                                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
-                            </button>
-                        </div>
-                        <button id="show-examples-btn" class="grammar-btn hidden" onclick="openExamplesModal()">💡 예시 단어</button>
-                    </div>
-
-                    <div id="word-view" class="hidden">
-                        <div class="hint-wrapper">
-                            <div id="word-display" class="target-word">하나</div>
-                            <button id="play-word" class="audio-btn" title="발음 듣기">
-                                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
-                            </button>
-                        </div>
-                        <div id="word-kana" class="word-kana"></div>
-                        <div id="word-meaning" class="meaning-hint">한 개</div>
-                    </div>
-                    <div id="kanji-sentences-view" class="hidden">
-                        <div id="sentences-container"></div>
-                    </div>
-
-                    <div id="sentence-view" class="hidden">
-                        <div id="sentence-display" class="sentence-display"></div>
-                        <div class="hint-wrapper">
-                            <div id="sentence-meaning" class="meaning-hint"></div>
-                            <button id="play-sentence" class="audio-btn" title="발음 듣기">
-                                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
-                            </button>
-                        </div>
-                        <div id="ok-badge" class="ok-badge hidden">READY! Next: Enter ↵ | Repeat: Space</div>
-                        <button id="grammar-btn" class="grammar-btn hidden" onclick="openGrammarModal()">💡 문법
-                            해설</button>
-                    </div>
-
-                    <div id="romaji-guide" class="romaji-guide"></div>
-
-                    <div class="input-section">
-                        <div class="input-wrapper">
-                            <div id="kana-hint" class="kana-display"></div>
-                            <textarea id="typing-input" placeholder="발음을 입력하세요..." autocomplete="off"
-                                inputmode="none"></textarea>
-                        </div>
-                    </div>
-
-                    <div id="virtual-keyboard"></div>
-
-                    <!-- Grammar Modal -->
-                    <div id="grammar-modal-overlay" class="modal-overlay hidden" onclick="closeGrammarModal()"></div>
-                    <div id="grammar-modal" class="grammar-modal hidden">
-                        <button class="grammar-modal-close" onclick="closeGrammarModal()">×</button>
-                        <div class="grammar-modal-title">문법 해설</div>
-                        <div id="grammar-content"></div>
-                    </div>
-
-                    <!-- Examples Modal -->
-                    <div id="examples-modal-overlay" class="modal-overlay hidden" onclick="closeExamplesModal()"></div>
-                    <div id="examples-modal" class="grammar-modal hidden">
-                        <button class="grammar-modal-close" onclick="closeExamplesModal()">×</button>
-                        <div class="grammar-modal-title">예시 단어</div>
-                        <div id="examples-content"></div>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
-
-    <script>
         let KANJI_DATA = [];
 
         // 전역 로마자-가나 변환 맵 (백스페이스 처리에서도 참조)
@@ -1125,34 +528,52 @@
             }
             if (currentBlock) blocks.push({ text: currentBlock, isKanji: currentIsKanji });
 
-            let regexStr = "^";
-            blocks.forEach(b => {
-                if (b.isKanji) {
-                    regexStr += "(.*)";
-                } else {
-                    regexStr += b.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                }
-            });
-            regexStr += "$";
+            let kStrIdx = 0;
+            const clean = (s) => s.replace(/[ \f\n\r\t\v\u2028\u2029、。,.!?？！]/g, '');
 
-            try {
-                let match = new RegExp(regexStr).exec(kanaStr);
-                if (match) {
-                    let groupIdx = 1;
-                    blocks.forEach(b => {
-                        if (b.isKanji) {
-                            b.kana = match[groupIdx++];
+            for (let i = 0; i < blocks.length; i++) {
+                let block = blocks[i];
+                if (!block.isKanji) {
+                    // 비한자 블록(히라가나 등)이 가나 문자열의 어디에 있는지 찾음
+                    // 공백이나 문장부호 차이를 무시하기 위해 검색 로직 강화
+                    let target = clean(block.text);
+                    let foundIdx = -1;
+
+                    if (target.length === 0) {
+                        // 문장 부호만 있는 블록인 경우, 가장 가까운 문장 부호 위치를 찾음
+                        foundIdx = kanaStr.split('').findIndex((c, idx) => idx >= kStrIdx && !isKanji(c) && clean(c) === "");
+                    } else {
+                        // 가나 문자가 포함된 경우, 해당 가나가 나타나는 위치를 찾음
+                        for (let j = kStrIdx; j <= kanaStr.length - target.length; j++) {
+                            if (clean(kanaStr.substring(j, j + block.text.length + 5)).startsWith(target)) {
+                                foundIdx = j;
+                                break;
+                            }
                         }
-                        result.push(b);
-                    });
-                    return result;
-                }
-            } catch(e) {
-                console.error("Regex align failed", e);
-            }
+                    }
 
-            // Fallback
-            return blocks.map(b => ({text: b.text, isKanji: b.isKanji, kana: b.isKanji ? "" : undefined}));
+                    if (foundIdx >= kStrIdx) {
+                        if (result.length > 0 && result[result.length - 1].isKanji) {
+                            result[result.length - 1].kana = kanaStr.substring(kStrIdx, foundIdx);
+                        }
+                        result.push({ text: block.text });
+                        kStrIdx = foundIdx + block.text.length;
+                        // 실제 kanaStr에서 해당 블록이 끝나는 지점을 정확히 맞추기 위해 보정
+                        while (kStrIdx < kanaStr.length && clean(kanaStr[kStrIdx - 1]) === "" && clean(block.text).length > 0 && clean(kanaStr[kStrIdx]) === "") {
+                            // 기호 처리 로직 보강 가능
+                        }
+                    } else {
+                        // 매핑 실패 시 안전 장치
+                        result.push({ text: block.text });
+                    }
+                } else {
+                    result.push({ text: block.text, isKanji: true });
+                    if (i === blocks.length - 1) {
+                        result[result.length - 1].kana = kanaStr.substring(kStrIdx);
+                    }
+                }
+            }
+            return result;
         }
 
         function renderSentence() {
@@ -1914,7 +1335,7 @@
                 sDiv.innerHTML = `
                     <div class="sentence-text-row">
                         <span class="sentence-ruby-text">${rubyHtml}</span>
-                        <button class="audio-btn small-audio-btn" onclick="playTTS('${sentence.kanji.replace(/'/g, "\\'")}', () => {})" title="발음 듣기">
+                        <button class="audio-btn small-audio-btn" onclick="playTTS('${sentence.kanji.replace(/'/g, "\'")}')" title="발음 듣기">
                             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
                         </button>
                     </div>
@@ -1927,9 +1348,11 @@
             });
         }
 
+        function playTTS(text) {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'ja-JP';
+            window.speechSynthesis.speak(utterance);
+        }
 
-
-    </script>
-</body>
-
-</html>
+    

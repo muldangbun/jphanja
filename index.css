@@ -952,3 +952,82 @@ input:checked+.slider-round:before {
     font-size: 0.88rem;
     pointer-events: none;
 }
+
+/* Kanji Sentences View Styles */
+.kanji-sentence-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sentence-text-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.sentence-ruby-text {
+    font-size: 1.5rem;
+    line-height: 2.2;
+    color: var(--text-primary);
+    flex: 1;
+}
+
+.sentence-ruby-text ruby {
+    ruby-position: over;
+    white-space: nowrap;
+}
+
+.sentence-ruby-text rt {
+    color: var(--accent-color);
+    font-size: 0.5em;
+    opacity: 0.8;
+}
+
+.small-audio-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sentence-meaning-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.meaning-toggle-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.meaning-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--text-primary);
+}
+
+.sentence-meaning {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    flex: 1;
+}
+
+.sentence-meaning.hidden {
+    display: none;
+}
