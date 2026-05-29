@@ -1,0 +1,9468 @@
+[
+  {
+    "kanji": "久",
+    "grade": 5,
+    "strokes": 3,
+    "meanings": [
+      "long time",
+      "old story"
+    ],
+    "kor_meaning": "오랠",
+    "kor_sound": "구",
+    "readings_on": [
+      "キュウ",
+      "ク"
+    ],
+    "romaji_on": [
+      "kyuu",
+      "ku"
+    ],
+    "readings_kun": [
+      "ひさ.しい"
+    ],
+    "romaji_kun": [
+      "hisashii"
+    ],
+    "examples": [
+      {
+        "word": "永久(えいきゅう)",
+        "meaning": "영구",
+        "romaji": "eikyuu"
+      },
+      {
+        "word": "久しぶり(ひさしぶり)",
+        "meaning": "오랜만",
+        "romaji": "hisashiburi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "久しぶりに昔の友達に会って懐かしかった。",
+        "kana": "ひさしぶりにむかしのともだちにあってなつかしかった。",
+        "meaning": "오랜만에 옛 친구를 만나 그리웠다."
+      },
+      {
+        "kanji": "永久に変わらない友情を大切にしたい。",
+        "kana": "えいきゅうにかわらないゆうじょうをたいせつにしたい。",
+        "meaning": "영구히 변하지 않는 우정을 소중히 하고 싶다."
+      }
+    ]
+  },
+  {
+    "kanji": "仏",
+    "grade": 5,
+    "strokes": 4,
+    "meanings": [
+      "Buddha",
+      "France",
+      "the dead"
+    ],
+    "kor_meaning": "부처",
+    "kor_sound": "불",
+    "readings_on": [
+      "フツ",
+      "ブツ"
+    ],
+    "romaji_on": [
+      "futsu",
+      "butsu"
+    ],
+    "readings_kun": [
+      "ほとけ"
+    ],
+    "romaji_kun": [
+      "hotoke"
+    ],
+    "examples": [
+      {
+        "word": "仏教(ぶっきょう)",
+        "meaning": "불교",
+        "romaji": "bukkyou"
+      },
+      {
+        "word": "大仏(だいぶつ)",
+        "meaning": "대불",
+        "romaji": "daibutsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "お寺に参拝して仏像を拝んだ。",
+        "kana": "おてらにさんぱいしてぶつぞうをおがんだ。",
+        "meaning": "절을 참배하고 불상에 절했다."
+      },
+      {
+        "kanji": "仏教の教えには深い知恵がある。",
+        "kana": "ぶっきょうのおしえにはふかいちえがある。",
+        "meaning": "불교의 가르침에는 깊은 지혜가 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "仮",
+    "grade": 5,
+    "strokes": 6,
+    "meanings": [
+      "assumed (name)",
+      "informal",
+      "interim",
+      "sham",
+      "temporary"
+    ],
+    "kor_meaning": "돌이킬",
+    "kor_sound": "반",
+    "readings_on": [
+      "カ",
+      "ケ"
+    ],
+    "romaji_on": [
+      "ka",
+      "ke"
+    ],
+    "readings_kun": [
+      "かり",
+      "かり-"
+    ],
+    "romaji_kun": [
+      "kari",
+      "kari-"
+    ],
+    "examples": [
+      {
+        "word": "仮定(かてい)",
+        "meaning": "가정",
+        "romaji": "katei"
+      },
+      {
+        "word": "仮面(かめん)",
+        "meaning": "가면",
+        "romaji": "kamen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "仮の計画を立てて後で修正する。",
+        "kana": "かりのけいかくをたててあとでしゅうせいする。",
+        "meaning": "임시 계획을 세우고 나중에 수정한다."
+      },
+      {
+        "kanji": "仮定の話だが、もし宝くじが当たったらどうする？",
+        "kana": "かていのはなしだが、もしたからくじがあたったらどうする？",
+        "meaning": "가정의 이야기지만, 만약 복권에 당첨되면 어떻게 하겠어?"
+      }
+    ]
+  },
+  {
+    "kanji": "件",
+    "grade": 5,
+    "strokes": 6,
+    "meanings": [
+      "affair",
+      "case",
+      "item",
+      "matter"
+    ],
+    "kor_meaning": "조건",
+    "kor_sound": "건",
+    "readings_on": [
+      "ケン"
+    ],
+    "romaji_on": [
+      "ken"
+    ],
+    "readings_kun": [
+      "くだん"
+    ],
+    "romaji_kun": [
+      "kudan"
+    ],
+    "examples": [
+      {
+        "word": "事件(じけん)",
+        "meaning": "사건",
+        "romaji": "jiken"
+      },
+      {
+        "word": "条件(じょうけん)",
+        "meaning": "조건",
+        "romaji": "jouken"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "この件については上司に確認してください。",
+        "kana": "このけんについてはじょうしにかくにんしてください。",
+        "meaning": "이 건에 대해서는 상사에게 확인해 주세요."
+      },
+      {
+        "kanji": "複数の案件を同時にこなすのは大変だ。",
+        "kana": "ふくすうのあんけんをどうじにこなすのはたいへんだ。",
+        "meaning": "복수의 안건을 동시에 처리하는 것은 힘들다."
+      }
+    ]
+  },
+  {
+    "kanji": "任",
+    "grade": 5,
+    "strokes": 6,
+    "meanings": [
+      "appoint",
+      "duty",
+      "entrust to",
+      "responsibility",
+      "term"
+    ],
+    "kor_meaning": "맡길",
+    "kor_sound": "임",
+    "readings_on": [
+      "ニン"
+    ],
+    "romaji_on": [
+      "nin"
+    ],
+    "readings_kun": [
+      "まか.す",
+      "まか.せる"
+    ],
+    "romaji_kun": [
+      "makasu",
+      "makaseru"
+    ],
+    "examples": [
+      {
+        "word": "責任(せきにん)",
+        "meaning": "책임",
+        "romaji": "sekinin"
+      },
+      {
+        "word": "担任(たんにん)",
+        "meaning": "담임",
+        "romaji": "tannin"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "部長として重要な役割を任された。",
+        "kana": "ぶちょうとしてじゅうようなやくわりをまかされた。",
+        "meaning": "부장으로서 중요한 역할을 맡겨졌다."
+      },
+      {
+        "kanji": "責任を持って最後まで仕事をやり遂げる。",
+        "kana": "せきにんをもってさいごまでしごとをやりとげる。",
+        "meaning": "책임을 갖고 끝까지 일을 해낸다."
+      }
+    ]
+  },
+  {
+    "kanji": "似",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "becoming",
+      "counterfeit",
+      "imitate",
+      "resemble",
+      "suitable"
+    ],
+    "kor_meaning": "같을",
+    "kor_sound": "사",
+    "readings_on": [
+      "ジ"
+    ],
+    "romaji_on": [
+      "ji"
+    ],
+    "readings_kun": [
+      "に.る",
+      "ひ.る"
+    ],
+    "romaji_kun": [
+      "niru",
+      "hiru"
+    ],
+    "examples": [
+      {
+        "word": "類似(るいじ)",
+        "meaning": "유사",
+        "romaji": "ruiji"
+      },
+      {
+        "word": "似顔絵(にがおえ)",
+        "meaning": "초상화",
+        "romaji": "nigaoe"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "彼の声は父親にとても似ている。",
+        "kana": "かれのこえはちちおやにとてもにている。",
+        "meaning": "그의 목소리는 아버지와 매우 닮아 있다."
+      },
+      {
+        "kanji": "似たような問題が繰り返し起きている。",
+        "kana": "にたようなもんだいがくりかえしおきている。",
+        "meaning": "비슷한 문제가 반복해서 발생하고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "余",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "myself",
+      "other",
+      "remainder",
+      "surplus",
+      "too much"
+    ],
+    "kor_meaning": "자기",
+    "kor_sound": "여",
+    "readings_on": [
+      "ヨ"
+    ],
+    "romaji_on": [
+      "yo"
+    ],
+    "readings_kun": [
+      "あま.す",
+      "あま.り",
+      "あま.る",
+      "あんま.り"
+    ],
+    "romaji_kun": [
+      "amasu",
+      "amari",
+      "amaru",
+      "anmari"
+    ],
+    "examples": [
+      {
+        "word": "余白(よはく)",
+        "meaning": "여백",
+        "romaji": "yohaku"
+      },
+      {
+        "word": "余裕(よゆう)",
+        "meaning": "여유",
+        "romaji": "yoyuu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "余裕があれば旅行に行きたいと思っている。",
+        "kana": "よゆうがあればりょこうにいきたいとおもっている。",
+        "meaning": "여유가 생기면 여행에 가고 싶다고 생각하고 있다."
+      },
+      {
+        "kanji": "余った食材で新しい料理を作った。",
+        "kana": "あまったしょくざいであたらしいりょうりをつくった。",
+        "meaning": "남은 재료로 새로운 요리를 만들었다."
+      }
+    ]
+  },
+  {
+    "kanji": "価",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "price",
+      "value"
+    ],
+    "kor_meaning": "값",
+    "kor_sound": "가",
+    "readings_on": [
+      "カ",
+      "ケ"
+    ],
+    "romaji_on": [
+      "ka",
+      "ke"
+    ],
+    "readings_kun": [
+      "あたい"
+    ],
+    "romaji_kun": [
+      "atai"
+    ],
+    "examples": [
+      {
+        "word": "価格(かかく)",
+        "meaning": "가격",
+        "romaji": "kakaku"
+      },
+      {
+        "word": "価値(かち)",
+        "meaning": "가치",
+        "romaji": "kachi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "物価が上がって生活費が増えた。",
+        "kana": "ぶっかがあがってせいかつひがふえた。",
+        "meaning": "물가가 올라서 생활비가 늘었다."
+      },
+      {
+        "kanji": "商品の価格を比較してから購入を決める。",
+        "kana": "しょうひんのかかくをひかくしてからこうにゅうをきめる。",
+        "meaning": "상품 가격을 비교한 후에 구매를 결정한다."
+      }
+    ]
+  },
+  {
+    "kanji": "保",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "guarantee",
+      "keep",
+      "preserve",
+      "protect",
+      "support",
+      "sustain"
+    ],
+    "kor_meaning": "지킬",
+    "kor_sound": "보",
+    "readings_on": [
+      "ホ",
+      "ホウ"
+    ],
+    "romaji_on": [
+      "ho",
+      "hou"
+    ],
+    "readings_kun": [
+      "たも.つ"
+    ],
+    "romaji_kun": [
+      "tamotsu"
+    ],
+    "examples": [
+      {
+        "word": "保存(ほぞん)",
+        "meaning": "보존",
+        "romaji": "hozon"
+      },
+      {
+        "word": "保護(ほご)",
+        "meaning": "보호",
+        "romaji": "hogo"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "健康保険に加入することが義務になっている。",
+        "kana": "けんこうほけんにかにゅうすることがぎむになっている。",
+        "meaning": "건강보험에 가입하는 것이 의무가 되고 있다."
+      },
+      {
+        "kanji": "情報を安全に保管する方法を学んだ。",
+        "kana": "じょうほうをあんぜんにほかんするほうほうをまなんだ。",
+        "meaning": "정보를 안전하게 보관하는 방법을 배웠다."
+      }
+    ]
+  },
+  {
+    "kanji": "修",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "conduct oneself well",
+      "discipline",
+      "master",
+      "study"
+    ],
+    "kor_meaning": "닦을",
+    "kor_sound": "수",
+    "readings_on": [
+      "シュ",
+      "シュウ"
+    ],
+    "romaji_on": [
+      "shu",
+      "shuu"
+    ],
+    "readings_kun": [
+      "おさ.まる",
+      "おさ.める"
+    ],
+    "romaji_kun": [
+      "osamaru",
+      "osameru"
+    ],
+    "examples": [
+      {
+        "word": "修理(しゅうり)",
+        "meaning": "수리",
+        "romaji": "shuuri"
+      },
+      {
+        "word": "修行(しゅぎょう)",
+        "meaning": "수행",
+        "romaji": "shugyou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "壊れた自転車を修理に出した。",
+        "kana": "こわれたじてんしゃをしゅうりにだした。",
+        "meaning": "망가진 자전거를 수리에 맡겼다."
+      },
+      {
+        "kanji": "大学院で専門的な研究を修了した。",
+        "kana": "だいがくいんでせんもんてきなけんきゅうをしゅうりょうした。",
+        "meaning": "대학원에서 전문적인 연구를 수료했다."
+      }
+    ]
+  },
+  {
+    "kanji": "俵",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "bag",
+      "bale",
+      "counter for bags",
+      "sack"
+    ],
+    "kor_meaning": "나누어 줄",
+    "kor_sound": "표",
+    "readings_on": [
+      "ヒョウ"
+    ],
+    "romaji_on": [
+      "hyou"
+    ],
+    "readings_kun": [
+      "たわら"
+    ],
+    "romaji_kun": [
+      "tawara"
+    ],
+    "examples": [
+      {
+        "word": "土俵(どひょう)",
+        "meaning": "씨름판",
+        "romaji": "dohyou"
+      },
+      {
+        "word": "米俵(こめだわら)",
+        "meaning": "쌀가마니",
+        "romaji": "komedawara"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "農家が米俵を倉庫に積み上げた。",
+        "kana": "のうかがこめだわらをそうこにつみあげた。",
+        "meaning": "농가가 쌀가마니를 창고에 쌓아 올렸다."
+      },
+      {
+        "kanji": "土俵の上で力士たちが激しく対決した。",
+        "kana": "どひょうのうえでりきしたちがはげしくたいけつした。",
+        "meaning": "씨름판 위에서 씨름꾼들이 격렬하게 대결했다."
+      }
+    ]
+  },
+  {
+    "kanji": "個",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "counter for articles",
+      "individual"
+    ],
+    "kor_meaning": "낱",
+    "kor_sound": "개",
+    "readings_on": [
+      "カ",
+      "コ"
+    ],
+    "romaji_on": [
+      "ka",
+      "ko"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "個人(こじん)",
+        "meaning": "개인",
+        "romaji": "kojin"
+      },
+      {
+        "word": "個性(こせい)",
+        "meaning": "개성",
+        "romaji": "kosei"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "個人の意見を尊重することが大切だ。",
+        "kana": "こじんのいけんをそんちょうすることがたいせつだ。",
+        "meaning": "개인의 의견을 존중하는 것이 중요하다."
+      },
+      {
+        "kanji": "ケーキを三個に分けて食べた。",
+        "kana": "けーきをさんこにわけてたべた。",
+        "meaning": "케이크를 세 개로 나눠 먹었다."
+      }
+    ]
+  },
+  {
+    "kanji": "備",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "equip",
+      "preparation",
+      "provision"
+    ],
+    "kor_meaning": "갖출",
+    "kor_sound": "비",
+    "readings_on": [
+      "ビ"
+    ],
+    "romaji_on": [
+      "bi"
+    ],
+    "readings_kun": [
+      "そな.える",
+      "そな.わる",
+      "つぶさ.に"
+    ],
+    "romaji_kun": [
+      "sonaeru",
+      "sonawaru",
+      "tsubusani"
+    ],
+    "examples": [
+      {
+        "word": "準備(じゅんび)",
+        "meaning": "준비",
+        "romaji": "junbi"
+      },
+      {
+        "word": "設備(せつび)",
+        "meaning": "설비",
+        "romaji": "setsubi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "非常時の備えとして水と食料を準備した。",
+        "kana": "ひじょうじのそなえとしてみずとしょくりょうをじゅんびした。",
+        "meaning": "비상시를 위한 대비로 물과 식량을 준비했다."
+      },
+      {
+        "kanji": "設備を整えて快適な作業環境を作った。",
+        "kana": "せつびをととのえてかいてきなさぎょうかんきょうをつくった。",
+        "meaning": "설비를 갖추어 쾌적한 작업 환경을 만들었다."
+      }
+    ]
+  },
+  {
+    "kanji": "像",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "figure",
+      "image",
+      "picture",
+      "portrait",
+      "statue"
+    ],
+    "kor_meaning": "형상",
+    "kor_sound": "상",
+    "readings_on": [
+      "ゾウ"
+    ],
+    "romaji_on": [
+      "ゾu"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "映像(えいぞう)",
+        "meaning": "영상",
+        "romaji": "eizou"
+      },
+      {
+        "word": "想像(そうぞう)",
+        "meaning": "상상",
+        "romaji": "souzou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "有名な彫刻家の像が広場に展示された。",
+        "kana": "ゆうめいなちょうこくかのぞうがひろばにてんじされた。",
+        "meaning": "유명한 조각가의 상이 광장에 전시되었다."
+      },
+      {
+        "kanji": "自分の理想像を描いてから行動する。",
+        "kana": "じぶんのりそうぞうをえがいてからこうどうする。",
+        "meaning": "자신의 이상상을 그린 후에 행동한다."
+      }
+    ]
+  },
+  {
+    "kanji": "再",
+    "grade": 5,
+    "strokes": 6,
+    "meanings": [
+      "again",
+      "second time",
+      "twice"
+    ],
+    "kor_meaning": "두 번",
+    "kor_sound": "재",
+    "readings_on": [
+      "サ",
+      "サイ"
+    ],
+    "romaji_on": [
+      "sa",
+      "sai"
+    ],
+    "readings_kun": [
+      "ふたた.び"
+    ],
+    "romaji_kun": [
+      "futatabi"
+    ],
+    "examples": [
+      {
+        "word": "再生(さいせい)",
+        "meaning": "재생",
+        "romaji": "saisei"
+      },
+      {
+        "word": "再会(さいかい)",
+        "meaning": "재회",
+        "romaji": "saikai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "一度失敗しても再度挑戦することが大切だ。",
+        "kana": "いちどしっぱいしてもさいどちょうせんすることがたいせつだ。",
+        "meaning": "한 번 실패해도 다시 도전하는 것이 중요하다."
+      },
+      {
+        "kanji": "再会を楽しみにして別れた。",
+        "kana": "さいかいをたのしみにしてわかれた。",
+        "meaning": "재회를 기대하며 헤어졌다."
+      }
+    ]
+  },
+  {
+    "kanji": "刊",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "carve",
+      "engrave",
+      "publish"
+    ],
+    "kor_meaning": "책 펴낼",
+    "kor_sound": "간",
+    "readings_on": [
+      "カン"
+    ],
+    "romaji_on": [
+      "kan"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "新刊(しんかん)",
+        "meaning": "신간",
+        "romaji": "shinkan"
+      },
+      {
+        "word": "朝刊(ちょうかん)",
+        "meaning": "조간",
+        "romaji": "choukan"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新しく刊行された本を書店で購入した。",
+        "kana": "あたらしくかんこうされたほんをしょてんでこうにゅうした。",
+        "meaning": "새로 간행된 책을 서점에서 구입했다."
+      },
+      {
+        "kanji": "月刊誌の定期購読を申し込んだ。",
+        "kana": "げっかんしのていきこうどくをもうしこんだ。",
+        "meaning": "월간지 정기 구독을 신청했다."
+      }
+    ]
+  },
+  {
+    "kanji": "判",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "judgement",
+      "judgment",
+      "seal",
+      "signature",
+      "stamp"
+    ],
+    "kor_meaning": "판단할",
+    "kor_sound": "판",
+    "readings_on": [
+      "ハン",
+      "バン"
+    ],
+    "romaji_on": [
+      "han",
+      "ban"
+    ],
+    "readings_kun": [
+      "わか.る"
+    ],
+    "romaji_kun": [
+      "wakaru"
+    ],
+    "examples": [
+      {
+        "word": "判断(はんだん)",
+        "meaning": "판단",
+        "romaji": "handan"
+      },
+      {
+        "word": "審判(しんぱん)",
+        "meaning": "심판",
+        "romaji": "shinpan"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "証拠に基づいて公正な判断を下す。",
+        "kana": "しょうこにもとづいてこうせいなはんだんをくだす。",
+        "meaning": "증거에 근거하여 공정한 판단을 내린다."
+      },
+      {
+        "kanji": "裁判所で判決が言い渡された。",
+        "kana": "さいばんしょではんけつがいいわたされた。",
+        "meaning": "법원에서 판결이 선고되었다."
+      }
+    ]
+  },
+  {
+    "kanji": "制",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "law",
+      "rule",
+      "system"
+    ],
+    "kor_meaning": "억제할",
+    "kor_sound": "제",
+    "readings_on": [
+      "セイ"
+    ],
+    "romaji_on": [
+      "sei"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "制度(せいど)",
+        "meaning": "제도",
+        "romaji": "seido"
+      },
+      {
+        "word": "制限(せいげん)",
+        "meaning": "제한",
+        "romaji": "seigen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新しい制度が導入されて業務が変わった。",
+        "kana": "あたらしいせいどがどうにゅうされてぎょうむがかわった。",
+        "meaning": "새로운 제도가 도입되어 업무가 바뀌었다."
+      },
+      {
+        "kanji": "制限速度を守って安全に運転する。",
+        "kana": "せいげんそくどをまもってあんぜんにうんてんする。",
+        "meaning": "제한 속도를 지켜 안전하게 운전한다."
+      }
+    ]
+  },
+  {
+    "kanji": "券",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "ticket"
+    ],
+    "kor_meaning": "엄쪽(어음을 쪼갠 한 쪽)",
+    "kor_sound": "권",
+    "readings_on": [
+      "ケン"
+    ],
+    "romaji_on": [
+      "ken"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "乗車券(じょうしゃけん)",
+        "meaning": "승차권",
+        "romaji": "joushaken"
+      },
+      {
+        "word": "旅券(りょけん)",
+        "meaning": "여권",
+        "romaji": "ryoken"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "映画の入場券を事前にオンラインで購入した。",
+        "kana": "えいがのにゅうじょうけんをじぜんにおんらいんでこうにゅうした。",
+        "meaning": "영화 입장권을 사전에 온라인으로 구입했다."
+      },
+      {
+        "kanji": "回数券を使って電車を利用している。",
+        "kana": "かいすうけんをつかってでんしゃをりようしている。",
+        "meaning": "회수권을 사용하여 전철을 이용하고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "則",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "based on",
+      "follow",
+      "law",
+      "model after",
+      "rule"
+    ],
+    "kor_meaning": "법칙",
+    "kor_sound": "칙",
+    "readings_on": [
+      "ソク"
+    ],
+    "romaji_on": [
+      "soku"
+    ],
+    "readings_kun": [
+      "すなわち",
+      "のっと.る",
+      "のり"
+    ],
+    "romaji_kun": [
+      "sunawachi",
+      "nottoru",
+      "nori"
+    ],
+    "examples": [
+      {
+        "word": "規則(きそく)",
+        "meaning": "규칙",
+        "romaji": "kisoku"
+      },
+      {
+        "word": "原則(げんそく)",
+        "meaning": "원칙",
+        "romaji": "gensoku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "原則として規則を守ることが求められる。",
+        "kana": "げんそくとしてきそくをまもることがもとめられる。",
+        "meaning": "원칙적으로 규칙을 지키는 것이 요구된다."
+      },
+      {
+        "kanji": "罰則規定を確認して行動する。",
+        "kana": "ばっそくきていをかくにんしてこうどうする。",
+        "meaning": "벌칙 규정을 확인하고 행동한다."
+      }
+    ]
+  },
+  {
+    "kanji": "効",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "benefit",
+      "efficacy",
+      "efficiency",
+      "merit"
+    ],
+    "kor_meaning": "본받을",
+    "kor_sound": "효",
+    "readings_on": [
+      "コウ"
+    ],
+    "romaji_on": [
+      "kou"
+    ],
+    "readings_kun": [
+      "き.く",
+      "ききめ",
+      "なら.う"
+    ],
+    "romaji_kun": [
+      "kiku",
+      "kikime",
+      "narau"
+    ],
+    "examples": [
+      {
+        "word": "効果(こうか)",
+        "meaning": "효과",
+        "romaji": "kouka"
+      },
+      {
+        "word": "有効(ゆうこう)",
+        "meaning": "유효",
+        "romaji": "yuukou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "この薬は痛みに効果的だと言われている。",
+        "kana": "このくすりはいたみにこうかてきだといわれている。",
+        "meaning": "이 약은 통증에 효과적이라고 알려져 있다."
+      },
+      {
+        "kanji": "有効期限を確認してから使用する。",
+        "kana": "ゆうこうきげんをかくにんしてからしようする。",
+        "meaning": "유효 기한을 확인한 후에 사용한다."
+      }
+    ]
+  },
+  {
+    "kanji": "務",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "duties",
+      "task"
+    ],
+    "kor_meaning": "일",
+    "kor_sound": "무",
+    "readings_on": [
+      "ム"
+    ],
+    "romaji_on": [
+      "mu"
+    ],
+    "readings_kun": [
+      "つと.める"
+    ],
+    "romaji_kun": [
+      "tsutomeru"
+    ],
+    "examples": [
+      {
+        "word": "義務(ぎむ)",
+        "meaning": "의무",
+        "romaji": "gimu"
+      },
+      {
+        "word": "公務員(こうむいん)",
+        "meaning": "공무원",
+        "romaji": "koumuin"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "義務を果たすことは社会の基本だ。",
+        "kana": "ぎむをはたすことはしゃかいのきほんだ。",
+        "meaning": "의무를 다하는 것은 사회의 기본이다."
+      },
+      {
+        "kanji": "業務の効率化を図るために新しいツールを導入した。",
+        "kana": "ぎょうむのこうりつかをはかるためにあたらしいつーるをどうにゅうした。",
+        "meaning": "업무 효율화를 도모하기 위해 새로운 툴을 도입했다."
+      }
+    ]
+  },
+  {
+    "kanji": "勢",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "energy",
+      "forces",
+      "military strength"
+    ],
+    "kor_meaning": "권세",
+    "kor_sound": "세",
+    "readings_on": [
+      "セイ",
+      "ゼイ"
+    ],
+    "romaji_on": [
+      "sei",
+      "ゼi"
+    ],
+    "readings_kun": [
+      "いきお.い",
+      "はずみ"
+    ],
+    "romaji_kun": [
+      "ikioi",
+      "hazumi"
+    ],
+    "examples": [
+      {
+        "word": "勢力(せいりょく)",
+        "meaning": "세력",
+        "romaji": "seiryoku"
+      },
+      {
+        "word": "姿勢(しせい)",
+        "meaning": "자세",
+        "romaji": "shisei"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "プレゼンでは堂々とした姿勢で話す。",
+        "kana": "ぷれぜんではどうどうとしたしせいではなす。",
+        "meaning": "프레젠테이션에서는 당당한 자세로 말한다."
+      },
+      {
+        "kanji": "勢力を拡大して市場シェアを伸ばす。",
+        "kana": "せいりょくをかくだいしてしじょうしぇあをのばす。",
+        "meaning": "세력을 확대하여 시장 점유율을 늘린다."
+      }
+    ]
+  },
+  {
+    "kanji": "厚",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "brazen",
+      "cordial",
+      "heavy",
+      "kind",
+      "rich",
+      "shameless",
+      "thick"
+    ],
+    "kor_meaning": "두터울",
+    "kor_sound": "후",
+    "readings_on": [
+      "コウ"
+    ],
+    "romaji_on": [
+      "kou"
+    ],
+    "readings_kun": [
+      "あか",
+      "あつ.い"
+    ],
+    "romaji_kun": [
+      "aka",
+      "atsui"
+    ],
+    "examples": [
+      {
+        "word": "厚手(あつで)",
+        "meaning": "두꺼움",
+        "romaji": "atsude"
+      },
+      {
+        "word": "濃厚(のうこう)",
+        "meaning": "농후",
+        "romaji": "noukou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "厚い本を読み終えるのに時間がかかった。",
+        "kana": "あついほんをよみおえるのにじかんがかかった。",
+        "meaning": "두꺼운 책을 다 읽는 데 시간이 걸렸다."
+      },
+      {
+        "kanji": "厚意に感謝して丁寧にお礼を述べた。",
+        "kana": "こういにかんしゃしてていねいにおれいをのべた。",
+        "meaning": "호의에 감사하며 정중하게 감사를 전했다."
+      }
+    ]
+  },
+  {
+    "kanji": "句",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "clause",
+      "counter for haiku",
+      "paragraph",
+      "passage",
+      "phrase",
+      "sentence"
+    ],
+    "kor_meaning": "글귀",
+    "kor_sound": "귀",
+    "readings_on": [
+      "ク"
+    ],
+    "romaji_on": [
+      "ku"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "俳句(はいく)",
+        "meaning": "하이쿠",
+        "romaji": "haiku"
+      },
+      {
+        "word": "文句(もんく)",
+        "meaning": "불평",
+        "romaji": "monku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "俳句は十七音で作られる短い詩だ。",
+        "kana": "はいくはじゅうしちおんでつくられるみじかいしだ。",
+        "meaning": "하이쿠는 17음으로 만들어지는 짧은 시이다."
+      },
+      {
+        "kanji": "有名な句を書道で書く練習をした。",
+        "kana": "ゆうめいなくをしょどうでかくれんしゅうをした。",
+        "meaning": "유명한 구절을 서예로 쓰는 연습을 했다."
+      }
+    ]
+  },
+  {
+    "kanji": "可",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "can",
+      "do not",
+      "mustn't",
+      "passable",
+      "should not"
+    ],
+    "kor_meaning": "오랑캐 임금 이름",
+    "kor_sound": "극",
+    "readings_on": [
+      "カ",
+      "コク"
+    ],
+    "romaji_on": [
+      "ka",
+      "koku"
+    ],
+    "readings_kun": [
+      "-べ.き",
+      "-べ.し"
+    ],
+    "romaji_kun": [
+      "-beki",
+      "-beshi"
+    ],
+    "examples": [
+      {
+        "word": "可能(かのう)",
+        "meaning": "가능",
+        "romaji": "kanou"
+      },
+      {
+        "word": "許可(きょか)",
+        "meaning": "허가",
+        "romaji": "kyoka"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "申請が可決されてプロジェクトが進む。",
+        "kana": "しんせいがかけつされてぷろじぇくとがすすむ。",
+        "meaning": "신청이 가결되어 프로젝트가 진행된다."
+      },
+      {
+        "kanji": "不可能だと思っていたことが可能になった。",
+        "kana": "ふかのうだとおもっていたことがかのうになった。",
+        "meaning": "불가능하다고 생각했던 것이 가능해졌다."
+      }
+    ]
+  },
+  {
+    "kanji": "営",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "build",
+      "camp",
+      "conduct (business)",
+      "perform"
+    ],
+    "kor_meaning": "경영할",
+    "kor_sound": "영",
+    "readings_on": [
+      "エイ"
+    ],
+    "romaji_on": [
+      "ei"
+    ],
+    "readings_kun": [
+      "いとな.み",
+      "いとな.む"
+    ],
+    "romaji_kun": [
+      "itonami",
+      "itonamu"
+    ],
+    "examples": [
+      {
+        "word": "営業(えいぎょう)",
+        "meaning": "영업",
+        "romaji": "eigyou"
+      },
+      {
+        "word": "運営(うんえい)",
+        "meaning": "운영",
+        "romaji": "unei"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "家業を引き継いで店を営んでいる。",
+        "kana": "かぎょうをひきついでみせをいとなんでいる。",
+        "meaning": "가업을 이어받아 가게를 운영하고 있다."
+      },
+      {
+        "kanji": "営業部門の目標を達成することが課題だ。",
+        "kana": "えいぎょうぶもんのもくひょうをたっせいすることがかだいだ。",
+        "meaning": "영업 부문의 목표를 달성하는 것이 과제이다."
+      }
+    ]
+  },
+  {
+    "kanji": "因",
+    "grade": 5,
+    "strokes": 6,
+    "meanings": [
+      "be associated with",
+      "be limited to",
+      "cause",
+      "depend on",
+      "factor"
+    ],
+    "kor_meaning": "인할",
+    "kor_sound": "인",
+    "readings_on": [
+      "イン"
+    ],
+    "romaji_on": [
+      "in"
+    ],
+    "readings_kun": [
+      "ちな.む",
+      "よ.る"
+    ],
+    "romaji_kun": [
+      "chinamu",
+      "yoru"
+    ],
+    "examples": [
+      {
+        "word": "原因(げんいん)",
+        "meaning": "원인",
+        "romaji": "genin"
+      },
+      {
+        "word": "要因(よういん)",
+        "meaning": "요인",
+        "romaji": "youin"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "問題の原因を特定して対策を立てる。",
+        "kana": "もんだいのげんいんをとくていしてたいさくをたてる。",
+        "meaning": "문제의 원인을 특정하여 대책을 세운다."
+      },
+      {
+        "kanji": "失敗の要因を分析して次に活かす。",
+        "kana": "しっぱいのよういんをぶんせきしてつぎにいかす。",
+        "meaning": "실패 요인을 분석하여 다음에 활용한다."
+      }
+    ]
+  },
+  {
+    "kanji": "団",
+    "grade": 5,
+    "strokes": 6,
+    "meanings": [
+      "association",
+      "group"
+    ],
+    "kor_meaning": "둥글",
+    "kor_sound": "단",
+    "readings_on": [
+      "ダン",
+      "トン"
+    ],
+    "romaji_on": [
+      "dan",
+      "ton"
+    ],
+    "readings_kun": [
+      "かたまり",
+      "まる.い"
+    ],
+    "romaji_kun": [
+      "katamari",
+      "marui"
+    ],
+    "examples": [
+      {
+        "word": "団体(だんたい)",
+        "meaning": "단체",
+        "romaji": "dantai"
+      },
+      {
+        "word": "布団(ふとん)",
+        "meaning": "이불",
+        "romaji": "futon"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "合唱団でソプラノパートを担当している。",
+        "kana": "がっしょうだんでそぷらのぱーとをたんとうしている。",
+        "meaning": "합창단에서 소프라노 파트를 담당하고 있다."
+      },
+      {
+        "kanji": "団体旅行で日本各地を巡った。",
+        "kana": "だんたいりょこうでにほんかくちをめぐった。",
+        "meaning": "단체 여행으로 일본 각지를 돌아다녔다."
+      }
+    ]
+  },
+  {
+    "kanji": "圧",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "dominate",
+      "oppress",
+      "overwhelm",
+      "pressure",
+      "push"
+    ],
+    "kor_meaning": "누를",
+    "kor_sound": "압",
+    "readings_on": [
+      "アツ",
+      "エン",
+      "オウ"
+    ],
+    "romaji_on": [
+      "atsu",
+      "en",
+      "ou"
+    ],
+    "readings_kun": [
+      "お.さえる",
+      "お.す",
+      "おさ.える",
+      "へ.す"
+    ],
+    "romaji_kun": [
+      "osaeru",
+      "osu",
+      "osaeru",
+      "hesu"
+    ],
+    "examples": [
+      {
+        "word": "圧力(あつりょく)",
+        "meaning": "압력",
+        "romaji": "atsuryoku"
+      },
+      {
+        "word": "圧迫(あっぱく)",
+        "meaning": "압박",
+        "romaji": "appaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "血圧を定期的に測定して健康を管理する。",
+        "kana": "けつあつをていきてきにそくていしてけんこうをかんりする。",
+        "meaning": "혈압을 정기적으로 측정하여 건강을 관리한다."
+      },
+      {
+        "kanji": "締め切りのプレッシャーに圧倒された。",
+        "kana": "しめきりのぷれっしゃーにあっとうされた。",
+        "meaning": "마감 압박에 압도당했다."
+      }
+    ]
+  },
+  {
+    "kanji": "在",
+    "grade": 5,
+    "strokes": 6,
+    "meanings": [
+      "exist",
+      "located in",
+      "outskirts",
+      "suburbs"
+    ],
+    "kor_meaning": "있을",
+    "kor_sound": "재",
+    "readings_on": [
+      "ザイ"
+    ],
+    "romaji_on": [
+      "zai"
+    ],
+    "readings_kun": [
+      "あ.る"
+    ],
+    "romaji_kun": [
+      "aru"
+    ],
+    "examples": [
+      {
+        "word": "現在(げんざい)",
+        "meaning": "현재",
+        "romaji": "genzai"
+      },
+      {
+        "word": "存在(そんざい)",
+        "meaning": "존재",
+        "romaji": "sonzai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "現在の状況を正確に把握することが大切だ。",
+        "kana": "げんざいのじょうきょうをせいかくにはあくすることがたいせつだ。",
+        "meaning": "현재의 상황을 정확히 파악하는 것이 중요하다."
+      },
+      {
+        "kanji": "海外在住の日本人コミュニティが活動している。",
+        "kana": "かいがいざいじゅうのにほんじんこみゅにてぃがかつどうしている。",
+        "meaning": "해외 거주 일본인 커뮤니티가 활동하고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "均",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "average",
+      "level"
+    ],
+    "kor_meaning": "고를",
+    "kor_sound": "균",
+    "readings_on": [
+      "キン"
+    ],
+    "romaji_on": [
+      "kin"
+    ],
+    "readings_kun": [
+      "なら.す"
+    ],
+    "romaji_kun": [
+      "narasu"
+    ],
+    "examples": [
+      {
+        "word": "平均(へいきん)",
+        "meaning": "평균",
+        "romaji": "heikin"
+      },
+      {
+        "word": "均等(きんとう)",
+        "meaning": "균등",
+        "romaji": "kintou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "栄養バランスを均等に保つことが健康の秘訣だ。",
+        "kana": "えいようばらんすをきんとうにたもつことがけんこうのひけつだ。",
+        "meaning": "영양 균형을 균등히 유지하는 것이 건강의 비결이다."
+      },
+      {
+        "kanji": "平均点以上を取るために努力する。",
+        "kana": "へいきんてんいじょうをとるためにどりょくする。",
+        "meaning": "평균점 이상을 받기 위해 노력한다."
+      }
+    ]
+  },
+  {
+    "kanji": "基",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "counter for machines",
+      "foundation",
+      "fundamentals",
+      "radical (chem)"
+    ],
+    "kor_meaning": "터",
+    "kor_sound": "기",
+    "readings_on": [
+      "キ"
+    ],
+    "romaji_on": [
+      "ki"
+    ],
+    "readings_kun": [
+      "もと",
+      "もとい"
+    ],
+    "romaji_kun": [
+      "moto",
+      "motoi"
+    ],
+    "examples": [
+      {
+        "word": "基本(きほん)",
+        "meaning": "기본",
+        "romaji": "kihon"
+      },
+      {
+        "word": "基準(きじゅん)",
+        "meaning": "기준",
+        "romaji": "kijun"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "基礎をしっかり固めることが上達への近道だ。",
+        "kana": "きそをしっかりかためることがじょうたつへのちかみちだ。",
+        "meaning": "기초를 확실히 다지는 것이 실력 향상의 지름길이다."
+      },
+      {
+        "kanji": "基本的なルールを理解してからゲームを始める。",
+        "kana": "きほんてきなるーるをりかいしてからげーむをはじめる。",
+        "meaning": "기본적인 규칙을 이해한 후에 게임을 시작한다."
+      }
+    ]
+  },
+  {
+    "kanji": "報",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "news",
+      "report",
+      "retribution",
+      "reward"
+    ],
+    "kor_meaning": "나아갈",
+    "kor_sound": "부",
+    "readings_on": [
+      "ホウ"
+    ],
+    "romaji_on": [
+      "hou"
+    ],
+    "readings_kun": [
+      "むく.いる"
+    ],
+    "romaji_kun": [
+      "mukuiru"
+    ],
+    "examples": [
+      {
+        "word": "報告(ほうこく)",
+        "meaning": "보고",
+        "romaji": "houkoku"
+      },
+      {
+        "word": "情報(じょうほう)",
+        "meaning": "정보",
+        "romaji": "jouhou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "最新の情報を収集して対策を立てる。",
+        "kana": "さいしんのじょうほうをしゅうしゅうしてたいさくをたてる。",
+        "meaning": "최신 정보를 수집하여 대책을 세운다."
+      },
+      {
+        "kanji": "天気予報によると明日は晴れる見込みだ。",
+        "kana": "てんきよほうによるとあすははれるみこみだ。",
+        "meaning": "일기예보에 따르면 내일은 맑을 전망이다."
+      }
+    ]
+  },
+  {
+    "kanji": "境",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "border",
+      "boundary",
+      "region"
+    ],
+    "kor_meaning": "지경",
+    "kor_sound": "경",
+    "readings_on": [
+      "キョウ",
+      "ケイ"
+    ],
+    "romaji_on": [
+      "kyou",
+      "kei"
+    ],
+    "readings_kun": [
+      "さかい"
+    ],
+    "romaji_kun": [
+      "sakai"
+    ],
+    "examples": [
+      {
+        "word": "国境(こっきょう)",
+        "meaning": "국경",
+        "romaji": "kokkyou"
+      },
+      {
+        "word": "環境(かんきょう)",
+        "meaning": "환경",
+        "romaji": "kankyou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "国境を越えて国際的な交流が広がっている。",
+        "kana": "こっきょうをこえてこくさいてきなこうりゅうがひろがっている。",
+        "meaning": "국경을 넘어 국제적인 교류가 확대되고 있다."
+      },
+      {
+        "kanji": "環境問題に取り組むことが急務だ。",
+        "kana": "かんきょうもんだいにとりくむことがきゅうむだ。",
+        "meaning": "환경 문제에 대응하는 것이 급선무이다."
+      }
+    ]
+  },
+  {
+    "kanji": "墓",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "grave",
+      "tomb"
+    ],
+    "kor_meaning": "무덤",
+    "kor_sound": "묘",
+    "readings_on": [
+      "ボ"
+    ],
+    "romaji_on": [
+      "bo"
+    ],
+    "readings_kun": [
+      "はか"
+    ],
+    "romaji_kun": [
+      "haka"
+    ],
+    "examples": [
+      {
+        "word": "墓地(ぼち)",
+        "meaning": "묘지",
+        "romaji": "bochi"
+      },
+      {
+        "word": "お墓(おはか)",
+        "meaning": "무덤",
+        "romaji": "ohaka"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "お盆に家族でお墓参りをした。",
+        "kana": "おぼんにかぞくでおはかまいりをした。",
+        "meaning": "오봉에 가족과 함께 성묘를 했다."
+      },
+      {
+        "kanji": "先祖のお墓を大切に守ることが子孫の務めだ。",
+        "kana": "せんぞのおはかをたいせつにまもることがしそんのつとめだ。",
+        "meaning": "선조의 묘를 소중히 지키는 것이 자손의 의무이다."
+      }
+    ]
+  },
+  {
+    "kanji": "増",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "add",
+      "augment",
+      "gain",
+      "increase",
+      "promote"
+    ],
+    "kor_meaning": "더할",
+    "kor_sound": "증",
+    "readings_on": [
+      "ゾウ"
+    ],
+    "romaji_on": [
+      "ゾu"
+    ],
+    "readings_kun": [
+      "ふ.える",
+      "ふ.やす",
+      "ま.し",
+      "ま.す"
+    ],
+    "romaji_kun": [
+      "fueru",
+      "fuyasu",
+      "mashi",
+      "masu"
+    ],
+    "examples": [
+      {
+        "word": "増加(ぞうか)",
+        "meaning": "증가",
+        "romaji": "zouka"
+      },
+      {
+        "word": "増大(ぞうだい)",
+        "meaning": "증대",
+        "romaji": "zoudai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "人口が増加して都市部が過密になっている。",
+        "kana": "じんこうがぞうかしてとしぶがかみつになっている。",
+        "meaning": "인구가 증가하여 도시부가 과밀해지고 있다."
+      },
+      {
+        "kanji": "売り上げを増やすために新しい戦略を立てた。",
+        "kana": "うりあげをふやすためにあたらしいせんりゃくをたてた。",
+        "meaning": "매출을 늘리기 위해 새로운 전략을 세웠다."
+      }
+    ]
+  },
+  {
+    "kanji": "夢",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "dream",
+      "illusion",
+      "vision"
+    ],
+    "kor_meaning": "꿈",
+    "kor_sound": "몽",
+    "readings_on": [
+      "ボウ",
+      "ム"
+    ],
+    "romaji_on": [
+      "bou",
+      "mu"
+    ],
+    "readings_kun": [
+      "くら.い",
+      "ゆめ",
+      "ゆめ.みる"
+    ],
+    "romaji_kun": [
+      "kurai",
+      "yume",
+      "yumemiru"
+    ],
+    "examples": [
+      {
+        "word": "夢中(むちゅう)",
+        "meaning": "열중",
+        "romaji": "muchuu"
+      },
+      {
+        "word": "悪夢(あくむ)",
+        "meaning": "악몽",
+        "romaji": "akumu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "夢を実現するために毎日努力している。",
+        "kana": "ゆめをじつげんするためにまいにちどりょくしている。",
+        "meaning": "꿈을 실현하기 위해 매일 노력하고 있다."
+      },
+      {
+        "kanji": "彼は夢の中で旅をしているような表情だった。",
+        "kana": "かれはゆめのなかでたびをしているようなひょうじょうだった。",
+        "meaning": "그는 꿈속에서 여행을 하고 있는 것 같은 표정이었다."
+      }
+    ]
+  },
+  {
+    "kanji": "妻",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "spouse",
+      "wife"
+    ],
+    "kor_meaning": "아내",
+    "kor_sound": "처",
+    "readings_on": [
+      "サイ"
+    ],
+    "romaji_on": [
+      "sai"
+    ],
+    "readings_kun": [
+      "つま"
+    ],
+    "romaji_kun": [
+      "tsuma"
+    ],
+    "examples": [
+      {
+        "word": "妻(つま)",
+        "meaning": "아내",
+        "romaji": "tsuma"
+      },
+      {
+        "word": "愛妻(あいさい)",
+        "meaning": "애처",
+        "romaji": "aisai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "妻と一緒に週末を穏やかに過ごした。",
+        "kana": "つまといっしょにしゅうまつをおだやかにすごした。",
+        "meaning": "아내와 함께 주말을 평화롭게 보냈다."
+      },
+      {
+        "kanji": "夫婦で旅行の計画を立てるのが楽しい。",
+        "kana": "ふうふでりょこうのけいかくをたてるのがたのしい。",
+        "meaning": "부부끼리 여행 계획을 세우는 것이 즐겁다."
+      }
+    ]
+  },
+  {
+    "kanji": "婦",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "bride",
+      "lady",
+      "wife",
+      "woman"
+    ],
+    "kor_meaning": "며느리",
+    "kor_sound": "부",
+    "readings_on": [
+      "フ"
+    ],
+    "romaji_on": [
+      "fu"
+    ],
+    "readings_kun": [
+      "よめ"
+    ],
+    "romaji_kun": [
+      "yome"
+    ],
+    "examples": [
+      {
+        "word": "婦人(ふじん)",
+        "meaning": "부인",
+        "romaji": "fujin"
+      },
+      {
+        "word": "主婦(しゅふ)",
+        "meaning": "주부",
+        "romaji": "shufu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "産婦人科で定期健診を受けることが大切だ。",
+        "kana": "さんふじんかでていきけんしんをうけることがたいせつだ。",
+        "meaning": "산부인과에서 정기검진을 받는 것이 중요하다."
+      },
+      {
+        "kanji": "主婦として家事と育児を両立している。",
+        "kana": "しゅふとしてかじといくじをりょうりつしている。",
+        "meaning": "주부로서 가사와 육아를 양립하고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "容",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "contain",
+      "form",
+      "looks"
+    ],
+    "kor_meaning": "얼굴",
+    "kor_sound": "용",
+    "readings_on": [
+      "ヨウ"
+    ],
+    "romaji_on": [
+      "you"
+    ],
+    "readings_kun": [
+      "い.れる"
+    ],
+    "romaji_kun": [
+      "ireru"
+    ],
+    "examples": [
+      {
+        "word": "内容(ないよう)",
+        "meaning": "내용",
+        "romaji": "naiyou"
+      },
+      {
+        "word": "容器(ようき)",
+        "meaning": "용기",
+        "romaji": "youki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "内容を把握してから報告書を作成する。",
+        "kana": "ないようをはあくしてからほうこくしょをさくせいする。",
+        "meaning": "내용을 파악한 후에 보고서를 작성한다."
+      },
+      {
+        "kanji": "寛容な心で相手を受け入れることが大切だ。",
+        "kana": "かんようなこころであいてをうけいれることがたいせつだ。",
+        "meaning": "관용적인 마음으로 상대를 받아들이는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "寄",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "bring near",
+      "collect",
+      "draw near",
+      "forward",
+      "gather",
+      "send",
+      "stop in"
+    ],
+    "kor_meaning": "부칠",
+    "kor_sound": "기",
+    "readings_on": [
+      "キ"
+    ],
+    "romaji_on": [
+      "ki"
+    ],
+    "readings_kun": [
+      "-よ.り",
+      "よ.せる",
+      "よ.る"
+    ],
+    "romaji_kun": [
+      "-yori",
+      "yoseru",
+      "yoru"
+    ],
+    "examples": [
+      {
+        "word": "寄付(きふ)",
+        "meaning": "기부",
+        "romaji": "kifu"
+      },
+      {
+        "word": "立ち寄る(たちよる)",
+        "meaning": "들르다",
+        "romaji": "tachiyoru"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "友達の家に立ち寄って挨拶した。",
+        "kana": "ともだちのいえにたちよってあいさつした。",
+        "meaning": "친구 집에 들러서 인사했다."
+      },
+      {
+        "kanji": "被災地に義援金を寄付した。",
+        "kana": "ひさいちにぎえんきんをきふした。",
+        "meaning": "피해 지역에 의연금을 기부했다."
+      }
+    ]
+  },
+  {
+    "kanji": "富",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "abundant",
+      "enrich",
+      "wealth"
+    ],
+    "kor_meaning": "가멸",
+    "kor_sound": "부",
+    "readings_on": [
+      "フ",
+      "フウ"
+    ],
+    "romaji_on": [
+      "fu",
+      "fuu"
+    ],
+    "readings_kun": [
+      "と.む",
+      "とみ"
+    ],
+    "romaji_kun": [
+      "tomu",
+      "tomi"
+    ],
+    "examples": [
+      {
+        "word": "豊富(ほうふ)",
+        "meaning": "풍부",
+        "romaji": "houfu"
+      },
+      {
+        "word": "富豪(ふごう)",
+        "meaning": "부호",
+        "romaji": "fugou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "知識は人を豊かにする最高の財産だ。",
+        "kana": "ちしきはひとをゆたかにするさいこうのざいさんだ。",
+        "meaning": "지식은 사람을 풍요롭게 하는 최고의 재산이다."
+      },
+      {
+        "kanji": "富士山は日本の象徴として世界に知られる。",
+        "kana": "ふじさんはにほんのしょうちょうとしてせかいにしられる。",
+        "meaning": "후지산은 일본의 상징으로 세계에 알려진다."
+      }
+    ]
+  },
+  {
+    "kanji": "導",
+    "grade": 5,
+    "strokes": 15,
+    "meanings": [
+      "conduct",
+      "guidance",
+      "leading",
+      "usher"
+    ],
+    "kor_meaning": "이끌",
+    "kor_sound": "도",
+    "readings_on": [
+      "ドウ"
+    ],
+    "romaji_on": [
+      "dou"
+    ],
+    "readings_kun": [
+      "みちび.く"
+    ],
+    "romaji_kun": [
+      "michibiku"
+    ],
+    "examples": [
+      {
+        "word": "指導(しどう)",
+        "meaning": "지도",
+        "romaji": "shidou"
+      },
+      {
+        "word": "導入(どうにゅう)",
+        "meaning": "도입",
+        "romaji": "dounyuu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "先生が生徒たちを正しい方向に導く。",
+        "kana": "せんせいがせいとたちをただしいほうこうにみちびく。",
+        "meaning": "선생님이 학생들을 올바른 방향으로 이끈다."
+      },
+      {
+        "kanji": "リーダーは組織全体を導く責任がある。",
+        "kana": "りーだーはそしきぜんたいをみちびくせきにんがある。",
+        "meaning": "리더는 조직 전체를 이끄는 책임이 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "居",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "exist",
+      "live with",
+      "reside",
+      "to be"
+    ],
+    "kor_meaning": "어조사",
+    "kor_sound": "기",
+    "readings_on": [
+      "キョ",
+      "コ"
+    ],
+    "romaji_on": [
+      "kyo",
+      "ko"
+    ],
+    "readings_kun": [
+      "-い",
+      "い.る",
+      "お.る"
+    ],
+    "romaji_kun": [
+      "-i",
+      "iru",
+      "oru"
+    ],
+    "examples": [
+      {
+        "word": "居眠り(いねむり)",
+        "meaning": "말뚝잠",
+        "romaji": "inemuri"
+      },
+      {
+        "word": "住居(じゅうきょ)",
+        "meaning": "주거",
+        "romaji": "juukyo"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "居心地の良いカフェで仕事をした。",
+        "kana": "いごこちのよいかふぇでしごとをした。",
+        "meaning": "마음이 편한 카페에서 일을 했다."
+      },
+      {
+        "kanji": "彼はどこに居るのか分からなかった。",
+        "kana": "かれはどこにいるのかわからなかった。",
+        "meaning": "그가 어디에 있는지 몰랐다."
+      }
+    ]
+  },
+  {
+    "kanji": "属",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "affiliated",
+      "belong",
+      "genus",
+      "subordinate official"
+    ],
+    "kor_meaning": "이을",
+    "kor_sound": "촉",
+    "readings_on": [
+      "ショク",
+      "ゾク"
+    ],
+    "romaji_on": [
+      "shoku",
+      "ゾku"
+    ],
+    "readings_kun": [
+      "さかん",
+      "つく",
+      "やから"
+    ],
+    "romaji_kun": [
+      "sakan",
+      "tsuku",
+      "yakara"
+    ],
+    "examples": [
+      {
+        "word": "金属(きんぞく)",
+        "meaning": "금속",
+        "romaji": "kinzoku"
+      },
+      {
+        "word": "所属(しょぞく)",
+        "meaning": "소속",
+        "romaji": "shozoku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "私はマーケティング部門に所属している。",
+        "kana": "わたしはまーけてぃんぐぶもんにしょぞくしている。",
+        "meaning": "나는 마케팅 부문에 소속되어 있다."
+      },
+      {
+        "kanji": "金属アレルギーのためにアクセサリーを選ぶ。",
+        "kana": "きんぞくあれるぎーのためにあくせさりーをえらぶ。",
+        "meaning": "금속 알레르기 때문에 액세서리를 고른다."
+      }
+    ]
+  },
+  {
+    "kanji": "布",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "cloth",
+      "distribute",
+      "linen",
+      "spread"
+    ],
+    "kor_meaning": "베",
+    "kor_sound": "포",
+    "readings_on": [
+      "フ",
+      "ホ"
+    ],
+    "romaji_on": [
+      "fu",
+      "ho"
+    ],
+    "readings_kun": [
+      "きれ",
+      "し.く",
+      "ぬの"
+    ],
+    "romaji_kun": [
+      "kire",
+      "shiku",
+      "nuno"
+    ],
+    "examples": [
+      {
+        "word": "毛布(もうふ)",
+        "meaning": "담요",
+        "romaji": "moufu"
+      },
+      {
+        "word": "財布(さいふ)",
+        "meaning": "지갑",
+        "romaji": "saifu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "柔らかい布地で服を作った。",
+        "kana": "やわらかいぬのじでふくをつくった。",
+        "meaning": "부드러운 천으로 옷을 만들었다."
+      },
+      {
+        "kanji": "新しい情報が広く配布された。",
+        "kana": "あたらしいじょうほうがひろくはいふされた。",
+        "meaning": "새로운 정보가 널리 배포되었다."
+      }
+    ]
+  },
+  {
+    "kanji": "師",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "army (incl. counter)",
+      "exemplar",
+      "expert",
+      "master",
+      "model",
+      "teacher",
+      "war"
+    ],
+    "kor_meaning": "스승",
+    "kor_sound": "사",
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [
+      "いくさ"
+    ],
+    "romaji_kun": [
+      "ikusa"
+    ],
+    "examples": [
+      {
+        "word": "教師(きょうし)",
+        "meaning": "교사",
+        "romaji": "kyoushi"
+      },
+      {
+        "word": "医師(いし)",
+        "meaning": "의사",
+        "romaji": "ishi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "師匠から多くの技術を学んだ。",
+        "kana": "ししょうからおおくのぎじゅつをまなんだ。",
+        "meaning": "스승으로부터 많은 기술을 배웠다."
+      },
+      {
+        "kanji": "医師として患者の健康を守ることが使命だ。",
+        "kana": "いしとしてかんじゃのけんこうをまもることがしめいだ。",
+        "meaning": "의사로서 환자의 건강을 지키는 것이 사명이다."
+      }
+    ]
+  },
+  {
+    "kanji": "常",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "always",
+      "common",
+      "continually",
+      "long-lasting",
+      "normal",
+      "ordinary",
+      "regular",
+      "usual"
+    ],
+    "kor_meaning": "항상",
+    "kor_sound": "상",
+    "readings_on": [
+      "ジョウ"
+    ],
+    "romaji_on": [
+      "jou"
+    ],
+    "readings_kun": [
+      "つね",
+      "とこ-"
+    ],
+    "romaji_kun": [
+      "tsune",
+      "toko-"
+    ],
+    "examples": [
+      {
+        "word": "日常(にちじょう)",
+        "meaning": "일상",
+        "romaji": "nichijou"
+      },
+      {
+        "word": "非常(ひじょう)",
+        "meaning": "비상",
+        "romaji": "hijou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "日常生活の中で英語を使う機会を増やす。",
+        "kana": "にちじょうせいかつのなかでえいごをつかうきかいをふやす。",
+        "meaning": "일상생활 속에서 영어를 사용할 기회를 늘린다."
+      },
+      {
+        "kanji": "非常時の対応マニュアルを作成した。",
+        "kana": "ひじょうじのたいおうまにゅあるをさくせいした。",
+        "meaning": "비상시 대응 매뉴얼을 작성했다."
+      }
+    ]
+  },
+  {
+    "kanji": "幹",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "capability",
+      "main part",
+      "talent",
+      "tree trunk"
+    ],
+    "kor_meaning": "줄기",
+    "kor_sound": "간",
+    "readings_on": [
+      "カン"
+    ],
+    "romaji_on": [
+      "kan"
+    ],
+    "readings_kun": [
+      "みき"
+    ],
+    "romaji_kun": [
+      "miki"
+    ],
+    "examples": [
+      {
+        "word": "新幹線(しんかんせん)",
+        "meaning": "신칸센",
+        "romaji": "shinkansen"
+      },
+      {
+        "word": "幹部(かんぶ)",
+        "meaning": "간부",
+        "romaji": "kanbu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "幹部社員が新しい戦略を提案した。",
+        "kana": "かんぶしゃいんがあたらしいせんりゃくをていあんした。",
+        "meaning": "간부 직원이 새로운 전략을 제안했다."
+      },
+      {
+        "kanji": "大きな木の幹に触れて自然を感じた。",
+        "kana": "おおきなきのみきにふれてしぜんをかんじた。",
+        "meaning": "큰 나무의 줄기를 만지며 자연을 느꼈다."
+      }
+    ]
+  },
+  {
+    "kanji": "序",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "beginning",
+      "chance",
+      "incidentally",
+      "occasion",
+      "order",
+      "precedence",
+      "preface"
+    ],
+    "kor_meaning": "차례",
+    "kor_sound": "서",
+    "readings_on": [
+      "ジョ"
+    ],
+    "romaji_on": [
+      "jo"
+    ],
+    "readings_kun": [
+      "つい.で",
+      "ついで"
+    ],
+    "romaji_kun": [
+      "tsuide",
+      "tsuide"
+    ],
+    "examples": [
+      {
+        "word": "順序(じゅんじょ)",
+        "meaning": "순서",
+        "romaji": "junjo"
+      },
+      {
+        "word": "秩序(ちつじょ)",
+        "meaning": "질서",
+        "romaji": "chitsujo"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "式の順序通りに進行してください。",
+        "kana": "しきのじゅんじょどおりにしんこうしてください。",
+        "meaning": "식의 순서대로 진행해 주세요."
+      },
+      {
+        "kanji": "本の序文を読んで全体の内容を把握する。",
+        "kana": "ほんのじょぶんをよんでぜんたいのないようをはあくする。",
+        "meaning": "책의 서문을 읽고 전체 내용을 파악한다."
+      }
+    ]
+  },
+  {
+    "kanji": "弁",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "braid",
+      "conical cap",
+      "dialect",
+      "discrimination",
+      "dispose of",
+      "distinguish",
+      "petal",
+      "speech",
+      "valve"
+    ],
+    "kor_meaning": "고깔",
+    "kor_sound": "변",
+    "readings_on": [
+      "ヘン",
+      "ベン"
+    ],
+    "romaji_on": [
+      "hen",
+      "ben"
+    ],
+    "readings_kun": [
+      "あらそ.う",
+      "かんむり",
+      "はなびら",
+      "わ.ける",
+      "わきま.える"
+    ],
+    "romaji_kun": [
+      "arasou",
+      "kanmuri",
+      "hanabira",
+      "wakeru",
+      "wakimaeru"
+    ],
+    "examples": [
+      {
+        "word": "弁当(べんとう)",
+        "meaning": "도시락",
+        "romaji": "bentou"
+      },
+      {
+        "word": "弁護士(べんごし)",
+        "meaning": "변호사",
+        "romaji": "bengoshi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "お弁当を作って公園でピクニックをした。",
+        "kana": "おべんとうをつくってこうえんでぴくにっくをした。",
+        "meaning": "도시락을 만들어 공원에서 피크닉을 했다."
+      },
+      {
+        "kanji": "弁護士に相談して法的なアドバイスを求めた。",
+        "kana": "べんごしにそうだんしてほうてきなあどばいすをもとめた。",
+        "meaning": "변호사에게 상담하여 법적 조언을 구했다."
+      }
+    ]
+  },
+  {
+    "kanji": "張",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "counter for bows & stringed instruments",
+      "put up (tent)",
+      "spread",
+      "stretch"
+    ],
+    "kor_meaning": "베풀",
+    "kor_sound": "장",
+    "readings_on": [
+      "チョウ"
+    ],
+    "romaji_on": [
+      "chou"
+    ],
+    "readings_kun": [
+      "-は.り",
+      "-ば.り",
+      "は.る"
+    ],
+    "romaji_kun": [
+      "-hari",
+      "-bari",
+      "haru"
+    ],
+    "examples": [
+      {
+        "word": "緊張(きんちょう)",
+        "meaning": "긴장",
+        "romaji": "kinchou"
+      },
+      {
+        "word": "主張(しゅちょう)",
+        "meaning": "주장",
+        "romaji": "shuchou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "来月の出張のスケジュールを確認した。",
+        "kana": "らいげつのしゅっちょうのすけじゅーるをかくにんした。",
+        "meaning": "다음 달 출장 일정을 확인했다."
+      },
+      {
+        "kanji": "試合に向けて最大限に張り切っている。",
+        "kana": "しあいにむけてさいだいげんにはりきっている。",
+        "meaning": "경기를 향해 최대한 의욕이 넘친다."
+      }
+    ]
+  },
+  {
+    "kanji": "往",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "before",
+      "chase away",
+      "formerly",
+      "going",
+      "journey",
+      "let go",
+      "travel"
+    ],
+    "kor_meaning": "갈",
+    "kor_sound": "왕",
+    "readings_on": [
+      "オウ"
+    ],
+    "romaji_on": [
+      "ou"
+    ],
+    "readings_kun": [
+      "い.く",
+      "いにしえ",
+      "さき.に",
+      "ゆ.く"
+    ],
+    "romaji_kun": [
+      "iku",
+      "inishie",
+      "sakini",
+      "yuku"
+    ],
+    "examples": [
+      {
+        "word": "往復(おうふく)",
+        "meaning": "왕복",
+        "romaji": "oufuku"
+      },
+      {
+        "word": "往来(おうらい)",
+        "meaning": "왕래",
+        "romaji": "ourai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "往復チケットを購入して旅行の準備をした。",
+        "kana": "おうふくちけっとをこうにゅうしてりょこうのじゅんびをした。",
+        "meaning": "왕복 티켓을 구입하여 여행 준비를 했다."
+      },
+      {
+        "kanji": "往来の激しい通りを気をつけて渡った。",
+        "kana": "おうらいのはげしいとおりをきをつけてわたった。",
+        "meaning": "왕래가 많은 거리를 조심하여 건넜다."
+      }
+    ]
+  },
+  {
+    "kanji": "復",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "restore",
+      "resume",
+      "return to",
+      "revert"
+    ],
+    "kor_meaning": "다시",
+    "kor_sound": "부",
+    "readings_on": [
+      "フク"
+    ],
+    "romaji_on": [
+      "fuku"
+    ],
+    "readings_kun": [
+      "また"
+    ],
+    "romaji_kun": [
+      "mata"
+    ],
+    "examples": [
+      {
+        "word": "回復(かいふく)",
+        "meaning": "회복",
+        "romaji": "kaihuku"
+      },
+      {
+        "word": "復習(ふくしゅう)",
+        "meaning": "복습",
+        "romaji": "fukushuu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "術後の回復が順調に進んでいる。",
+        "kana": "じゅつごのかいふくがじゅんちょうにすすんでいる。",
+        "meaning": "수술 후 회복이 순조롭게 진행되고 있다."
+      },
+      {
+        "kanji": "復習をしっかりして試験に備える。",
+        "kana": "ふくしゅうをしっかりしてしけんにそなえる。",
+        "meaning": "복습을 확실히 하여 시험에 대비한다."
+      }
+    ]
+  },
+  {
+    "kanji": "徳",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "benevolence",
+      "commanding respect",
+      "goodness",
+      "virtue"
+    ],
+    "kor_meaning": "큰",
+    "kor_sound": "덕",
+    "readings_on": [
+      "トク"
+    ],
+    "romaji_on": [
+      "toku"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "道徳(どうとく)",
+        "meaning": "도덕",
+        "romaji": "doutoku"
+      },
+      {
+        "word": "美徳(びとく)",
+        "meaning": "미덕",
+        "romaji": "bitoku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "道徳的な行動が社会の信頼を生む。",
+        "kana": "どうとくてきなこうどうがしゃかいのしんらいをうむ。",
+        "meaning": "도덕적인 행동이 사회의 신뢰를 만든다."
+      },
+      {
+        "kanji": "徳のある人は周囲から慕われる。",
+        "kana": "とくのあるひとはしゅういからしたわれる。",
+        "meaning": "덕이 있는 사람은 주위에서 따른다."
+      }
+    ]
+  },
+  {
+    "kanji": "志",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "aspire",
+      "hopes",
+      "intention",
+      "motive",
+      "plan",
+      "resolve",
+      "shilling"
+    ],
+    "kor_meaning": "뜻",
+    "kor_sound": "지",
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [
+      "こころざ.す",
+      "こころざし",
+      "シリング"
+    ],
+    "romaji_kun": [
+      "kokorozasu",
+      "kokorozashi",
+      "shirinグ"
+    ],
+    "examples": [
+      {
+        "word": "意志(いし)",
+        "meaning": "의지",
+        "romaji": "ishi"
+      },
+      {
+        "word": "志望(しぼう)",
+        "meaning": "지망",
+        "romaji": "shibou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "高い志を持って社会に貢献したい。",
+        "kana": "たかいこころざしをもってしゃかいにこうけんしたい。",
+        "meaning": "높은 뜻을 가지고 사회에 공헌하고 싶다."
+      },
+      {
+        "kanji": "志望校を決めて入試対策を始めた。",
+        "kana": "しぼうこうをきめてにゅうしたいさくをはじめた。",
+        "meaning": "지망 학교를 정하여 입시 대책을 시작했다."
+      }
+    ]
+  },
+  {
+    "kanji": "応",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "OK",
+      "accept",
+      "answer",
+      "apply",
+      "reply",
+      "yes"
+    ],
+    "kor_meaning": "응할",
+    "kor_sound": "응",
+    "readings_on": [
+      "-ノウ",
+      "オウ",
+      "ヨウ"
+    ],
+    "romaji_on": [
+      "-nou",
+      "ou",
+      "you"
+    ],
+    "readings_kun": [
+      "あた.る",
+      "こた.える",
+      "まさに"
+    ],
+    "romaji_kun": [
+      "ataru",
+      "kotaeru",
+      "masani"
+    ],
+    "examples": [
+      {
+        "word": "反応(はんのう)",
+        "meaning": "반응",
+        "romaji": "hannou"
+      },
+      {
+        "word": "応用(おうよう)",
+        "meaning": "응용",
+        "romaji": "ouyou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "お客様の要望に迅速に対応する。",
+        "kana": "おきゃくさまのようぼうにじんそくにたいおうする。",
+        "meaning": "고객의 요구에 신속하게 대응한다."
+      },
+      {
+        "kanji": "多くの人が震災復興への応援をした。",
+        "kana": "おおくのひとがしんさいふっこうへのおうえんをした。",
+        "meaning": "많은 사람이 지진 재해 복구 응원을 했다."
+      }
+    ]
+  },
+  {
+    "kanji": "快",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "agreeable",
+      "cheerful",
+      "comfortable",
+      "pleasant"
+    ],
+    "kor_meaning": "기분이 좋을",
+    "kor_sound": "쾌",
+    "readings_on": [
+      "カイ"
+    ],
+    "romaji_on": [
+      "kai"
+    ],
+    "readings_kun": [
+      "こころよ.い"
+    ],
+    "romaji_kun": [
+      "kokoroyoi"
+    ],
+    "examples": [
+      {
+        "word": "快適(かいてき)",
+        "meaning": "쾌적",
+        "romaji": "kaiteki"
+      },
+      {
+        "word": "快感(かいかん)",
+        "meaning": "쾌감",
+        "romaji": "kaikan"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "快晴の空のもとでドライブを楽しんだ。",
+        "kana": "かいせいのそらのもとでどらいぶをたのしんだ。",
+        "meaning": "맑은 하늘 아래 드라이브를 즐겼다."
+      },
+      {
+        "kanji": "仕事が快調に進んで気持ちが良い。",
+        "kana": "しごとがかいちょうにすすんできもちがよい。",
+        "meaning": "일이 순조롭게 진행되어 기분이 좋다."
+      }
+    ]
+  },
+  {
+    "kanji": "性",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "gender",
+      "nature",
+      "sex"
+    ],
+    "kor_meaning": "성품",
+    "kor_sound": "성",
+    "readings_on": [
+      "ショウ",
+      "セイ"
+    ],
+    "romaji_on": [
+      "shou",
+      "sei"
+    ],
+    "readings_kun": [
+      "さが"
+    ],
+    "romaji_kun": [
+      "saga"
+    ],
+    "examples": [
+      {
+        "word": "性格(せいかく)",
+        "meaning": "성격",
+        "romaji": "seikaku"
+      },
+      {
+        "word": "可能性(かのうせい)",
+        "meaning": "가능성",
+        "romaji": "kanousei"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "彼女の性格は明るくて人気がある。",
+        "kana": "かのじょのせいかくはあかるくてにんきがある。",
+        "meaning": "그녀의 성격은 밝아서 인기가 있다."
+      },
+      {
+        "kanji": "可能性を信じて前進することが大切だ。",
+        "kana": "かのうせいをしんじてぜんしんすることがたいせつだ。",
+        "meaning": "가능성을 믿고 전진하는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "恩",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "benefit",
+      "blessing",
+      "favor",
+      "goodness",
+      "grace",
+      "kindness",
+      "mercy"
+    ],
+    "kor_meaning": "은혜",
+    "kor_sound": "은",
+    "readings_on": [
+      "オン"
+    ],
+    "romaji_on": [
+      "on"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "恩恵(おんけい)",
+        "meaning": "은혜",
+        "romaji": "onkei"
+      },
+      {
+        "word": "謝恩(しゃおん)",
+        "meaning": "사은",
+        "romaji": "shaon"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "先生への恩義を忘れずに感謝する。",
+        "kana": "せんせいへのおんぎをわすれずにかんしゃする。",
+        "meaning": "선생님에 대한 은의를 잊지 않고 감사한다."
+      },
+      {
+        "kanji": "恩人の助けがなければ今の自分はなかった。",
+        "kana": "おんじんのたすけがなければいまのじぶんはなかった。",
+        "meaning": "은인의 도움이 없었다면 지금의 나는 없었다."
+      }
+    ]
+  },
+  {
+    "kanji": "情",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "circumstances",
+      "emotion",
+      "facts",
+      "feelings",
+      "passion",
+      "sympathy"
+    ],
+    "kor_meaning": "뜻",
+    "kor_sound": "정",
+    "readings_on": [
+      "ジョウ",
+      "セイ"
+    ],
+    "romaji_on": [
+      "jou",
+      "sei"
+    ],
+    "readings_kun": [
+      "なさ.け"
+    ],
+    "romaji_kun": [
+      "nasake"
+    ],
+    "examples": [
+      {
+        "word": "感情(かんじょう)",
+        "meaning": "감정",
+        "romaji": "kanjou"
+      },
+      {
+        "word": "情報(じょうほう)",
+        "meaning": "정보",
+        "romaji": "jouhou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "困っている人に対して思いやりの情を持つ。",
+        "kana": "こまっているひとにたいしておもいやりのじょうをもつ。",
+        "meaning": "어려움을 겪는 사람에 대해 배려하는 마음을 갖는다."
+      },
+      {
+        "kanji": "最新の情報をこまめにチェックする。",
+        "kana": "さいしんのじょうほうをこまめにちぇっくする。",
+        "meaning": "최신 정보를 자주 체크한다."
+      }
+    ]
+  },
+  {
+    "kanji": "態",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "appearance",
+      "attitude",
+      "condition",
+      "figure",
+      "voice (of verbs)"
+    ],
+    "kor_meaning": "모양",
+    "kor_sound": "태",
+    "readings_on": [
+      "タイ"
+    ],
+    "romaji_on": [
+      "tai"
+    ],
+    "readings_kun": [
+      "わざ.と"
+    ],
+    "romaji_kun": [
+      "wazato"
+    ],
+    "examples": [
+      {
+        "word": "状態(じょうたい)",
+        "meaning": "상태",
+        "romaji": "joutai"
+      },
+      {
+        "word": "態度(たいど)",
+        "meaning": "태도",
+        "romaji": "taido"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "状態を確認してから次の行動を決める。",
+        "kana": "じょうたいをかくにんしてからつぎのこうどうをきめる。",
+        "meaning": "상태를 확인한 후에 다음 행동을 정한다."
+      },
+      {
+        "kanji": "生態系のバランスを守ることが重要だ。",
+        "kana": "せいたいけいのばらんすをまもることがじゅうようだ。",
+        "meaning": "생태계의 균형을 지키는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "慣",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "accustomed",
+      "become experienced",
+      "get used to"
+    ],
+    "kor_meaning": "버릇",
+    "kor_sound": "관",
+    "readings_on": [
+      "カン"
+    ],
+    "romaji_on": [
+      "kan"
+    ],
+    "readings_kun": [
+      "な.らす",
+      "な.れる"
+    ],
+    "romaji_kun": [
+      "narasu",
+      "nareru"
+    ],
+    "examples": [
+      {
+        "word": "習慣(しゅうかん)",
+        "meaning": "습관",
+        "romaji": "shuukan"
+      },
+      {
+        "word": "慣れる(なれる)",
+        "meaning": "익숙해지다",
+        "romaji": "nareru"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新しい習慣を身につけるのに三週間かかる。",
+        "kana": "あたらしいしゅうかんをみにつけるのにさんしゅうかんかかる。",
+        "meaning": "새로운 습관을 몸에 익히는 데 3주가 걸린다."
+      },
+      {
+        "kanji": "慣れないうちは失敗することもある。",
+        "kana": "なれないうちはしっぱいすることもある。",
+        "meaning": "익숙해지지 않은 동안에는 실패하는 경우도 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "承",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "acquiesce",
+      "be informed",
+      "hear",
+      "listen to",
+      "receive"
+    ],
+    "kor_meaning": "받들",
+    "kor_sound": "승",
+    "readings_on": [
+      "ショウ",
+      "ジョウ"
+    ],
+    "romaji_on": [
+      "shou",
+      "jou"
+    ],
+    "readings_kun": [
+      "う.ける",
+      "うけたまわ.る"
+    ],
+    "romaji_kun": [
+      "ukeru",
+      "uketamawaru"
+    ],
+    "examples": [
+      {
+        "word": "承諾(しょうだく)",
+        "meaning": "승낙",
+        "romaji": "shoudaku"
+      },
+      {
+        "word": "了承(りょうしょう)",
+        "meaning": "양해",
+        "romaji": "ryoushou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "申請を承認されて安心した。",
+        "kana": "しんせいをしょうにんされてあんしんした。",
+        "meaning": "신청이 승인되어 안심했다."
+      },
+      {
+        "kanji": "ご承知の通り、明日は休日です。",
+        "kana": "ごしょうちのとおり、あすはきゅうじつです。",
+        "meaning": "아시다시피 내일은 휴일입니다."
+      }
+    ]
+  },
+  {
+    "kanji": "技",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "ability",
+      "art",
+      "arts",
+      "craft",
+      "feat",
+      "performance",
+      "skill",
+      "vocation"
+    ],
+    "kor_meaning": "재주",
+    "kor_sound": "기",
+    "readings_on": [
+      "ギ"
+    ],
+    "romaji_on": [
+      "gi"
+    ],
+    "readings_kun": [
+      "わざ"
+    ],
+    "romaji_kun": [
+      "waza"
+    ],
+    "examples": [
+      {
+        "word": "技術(ぎじゅつ)",
+        "meaning": "기술",
+        "romaji": "gijutsu"
+      },
+      {
+        "word": "特技(とくぎ)",
+        "meaning": "특기",
+        "romaji": "tokugi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "長年の練習で高度な技術を習得した。",
+        "kana": "ながねんのれんしゅうでこうどなぎじゅつをしゅうとくした。",
+        "meaning": "오랜 연습으로 고급 기술을 습득했다."
+      },
+      {
+        "kanji": "技芸を磨いて一流になることを目指す。",
+        "kana": "ぎげいをみがいていちりゅうになることをめざす。",
+        "meaning": "기예를 닦아 일류가 되는 것을 목표로 한다."
+      }
+    ]
+  },
+  {
+    "kanji": "招",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "beckon",
+      "engage",
+      "invite",
+      "summon"
+    ],
+    "kor_meaning": "부를",
+    "kor_sound": "초",
+    "readings_on": [
+      "ショウ"
+    ],
+    "romaji_on": [
+      "shou"
+    ],
+    "readings_kun": [
+      "まね.く"
+    ],
+    "romaji_kun": [
+      "maneku"
+    ],
+    "examples": [
+      {
+        "word": "招待(しょうたい)",
+        "meaning": "초대",
+        "romaji": "shoutai"
+      },
+      {
+        "word": "招く(まねく)",
+        "meaning": "초래하다",
+        "romaji": "maneku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "パーティーに友人を招待した。",
+        "kana": "ぱーてぃーにゆうじんをしょうたいした。",
+        "meaning": "파티에 친구를 초대했다."
+      },
+      {
+        "kanji": "招かれざる客が突然やってきた。",
+        "kana": "まねかれざるきゃくがとつぜんやってきた。",
+        "meaning": "초대받지 않은 손님이 갑자기 찾아왔다."
+      }
+    ]
+  },
+  {
+    "kanji": "授",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "confer",
+      "grant",
+      "impart",
+      "instruct"
+    ],
+    "kor_meaning": "줄",
+    "kor_sound": "수",
+    "readings_on": [
+      "ジュ"
+    ],
+    "romaji_on": [
+      "ju"
+    ],
+    "readings_kun": [
+      "さず.かる",
+      "さず.ける"
+    ],
+    "romaji_kun": [
+      "sazukaru",
+      "sazukeru"
+    ],
+    "examples": [
+      {
+        "word": "授業(じゅぎょう)",
+        "meaning": "수업",
+        "romaji": "jugyou"
+      },
+      {
+        "word": "教授(きょうじゅ)",
+        "meaning": "교수",
+        "romaji": "kyouju"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "先生に直接指導を授けてもらった。",
+        "kana": "せんせいにちょくせつしどうをさずけてもらった。",
+        "meaning": "선생님에게 직접 지도를 받았다."
+      },
+      {
+        "kanji": "奨学金を授与されてとても感謝している。",
+        "kana": "しょうがくきんをじゅよされてとてもかんしゃしている。",
+        "meaning": "장학금을 수여받아 매우 감사하고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "採",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "fetch",
+      "pick",
+      "take",
+      "take up"
+    ],
+    "kor_meaning": "캘",
+    "kor_sound": "채",
+    "readings_on": [
+      "サイ"
+    ],
+    "romaji_on": [
+      "sai"
+    ],
+    "readings_kun": [
+      "と.る"
+    ],
+    "romaji_kun": [
+      "toru"
+    ],
+    "examples": [
+      {
+        "word": "採用(さいよう)",
+        "meaning": "채용",
+        "romaji": "saiyou"
+      },
+      {
+        "word": "採点(さいてん)",
+        "meaning": "채점",
+        "romaji": "saiten"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新入社員を採用するための面接を行った。",
+        "kana": "しんにゅうしゃいんをさいようするためのめんせつをおこなった。",
+        "meaning": "신입 사원을 채용하기 위한 면접을 실시했다."
+      },
+      {
+        "kanji": "山で山菜を採って天ぷらにした。",
+        "kana": "やまでさんさいをとっててんぷらにした。",
+        "meaning": "산에서 나물을 채취하여 튀김으로 만들었다."
+      }
+    ]
+  },
+  {
+    "kanji": "接",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "adjoin",
+      "contact",
+      "piece together",
+      "touch"
+    ],
+    "kor_meaning": "사귈",
+    "kor_sound": "접",
+    "readings_on": [
+      "ショウ",
+      "セツ"
+    ],
+    "romaji_on": [
+      "shou",
+      "setsu"
+    ],
+    "readings_kun": [
+      "つ.ぐ"
+    ],
+    "romaji_kun": [
+      "tsugu"
+    ],
+    "examples": [
+      {
+        "word": "接続(せつぞく)",
+        "meaning": "접속",
+        "romaji": "setsuzoku"
+      },
+      {
+        "word": "直接(ちょくせつ)",
+        "meaning": "직접",
+        "romaji": "chokusetsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "顧客と直接面接して要望を聞く。",
+        "kana": "こきゃくとちょくせつめんせつしてようぼうをきく。",
+        "meaning": "고객과 직접 면접하여 요구 사항을 듣는다."
+      },
+      {
+        "kanji": "インターネット接続が不安定で困っている。",
+        "kana": "いんたーねっとせつぞくがふあんていでこまっている。",
+        "meaning": "인터넷 연결이 불안정하여 곤란하다."
+      }
+    ]
+  },
+  {
+    "kanji": "提",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "carry in hand",
+      "propose",
+      "take along"
+    ],
+    "kor_meaning": "끌",
+    "kor_sound": "제",
+    "readings_on": [
+      "ダイ",
+      "チョウ",
+      "テイ"
+    ],
+    "romaji_on": [
+      "dai",
+      "chou",
+      "tei"
+    ],
+    "readings_kun": [
+      "さ.げる"
+    ],
+    "romaji_kun": [
+      "sageru"
+    ],
+    "examples": [
+      {
+        "word": "提案(ていあん)",
+        "meaning": "제안",
+        "romaji": "teian"
+      },
+      {
+        "word": "提供(ていきょう)",
+        "meaning": "제공",
+        "romaji": "teikyou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新しい解決策を上司に提案した。",
+        "kana": "あたらしいかいけつさくをじょうしにていあんした。",
+        "meaning": "새로운 해결책을 상사에게 제안했다."
+      },
+      {
+        "kanji": "必要な書類を事前に提出してください。",
+        "kana": "ひつようなしょるいをじぜんにていしゅつしてください。",
+        "meaning": "필요한 서류를 사전에 제출해 주세요."
+      }
+    ]
+  },
+  {
+    "kanji": "損",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "damage",
+      "disadvantage",
+      "hurt",
+      "injure",
+      "loss"
+    ],
+    "kor_meaning": "덜",
+    "kor_sound": "손",
+    "readings_on": [
+      "ソン"
+    ],
+    "romaji_on": [
+      "son"
+    ],
+    "readings_kun": [
+      "-そこ.なう",
+      "-そこ.ねる",
+      "そこ.なう",
+      "そこ.ねる",
+      "そこな.う"
+    ],
+    "romaji_kun": [
+      "-sokonau",
+      "-sokoneru",
+      "sokonau",
+      "sokoneru",
+      "sokonau"
+    ],
+    "examples": [
+      {
+        "word": "損失(そんしつ)",
+        "meaning": "손실",
+        "romaji": "sonshitsu"
+      },
+      {
+        "word": "破損(はそん)",
+        "meaning": "파손",
+        "romaji": "hason"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "不注意で大切なものを損傷してしまった。",
+        "kana": "ふちゅういでたいせつなものをそんしょうしてしまった。",
+        "meaning": "부주의로 소중한 것을 손상시켜 버렸다."
+      },
+      {
+        "kanji": "損失を最小限に抑えるための対策を立てた。",
+        "kana": "そんしつをさいしょうげんにおさえるためのたいさくをたてた。",
+        "meaning": "손실을 최소한으로 억제하기 위한 대책을 세웠다."
+      }
+    ]
+  },
+  {
+    "kanji": "支",
+    "grade": 5,
+    "strokes": 4,
+    "meanings": [
+      "branch",
+      "branch radical (no. 65)",
+      "support",
+      "sustain"
+    ],
+    "kor_meaning": "가를",
+    "kor_sound": "지",
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [
+      "か.う",
+      "ささ.える",
+      "つか.える"
+    ],
+    "romaji_kun": [
+      "kau",
+      "sasaeru",
+      "tsukaeru"
+    ],
+    "examples": [
+      {
+        "word": "支持(しじ)",
+        "meaning": "지지",
+        "romaji": "shiji"
+      },
+      {
+        "word": "支店(してん)",
+        "meaning": "지점",
+        "romaji": "shiten"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "家族の支えがあって困難を乗り越えられた。",
+        "kana": "かぞくのささえがあってこんなんをのりこえられた。",
+        "meaning": "가족의 지지가 있어서 어려움을 극복할 수 있었다."
+      },
+      {
+        "kanji": "支店の売り上げを本店に報告する。",
+        "kana": "してんのうりあげをほんてんにほうこくする。",
+        "meaning": "지점의 매출을 본점에 보고한다."
+      }
+    ]
+  },
+  {
+    "kanji": "政",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "government",
+      "politics"
+    ],
+    "kor_meaning": "정사",
+    "kor_sound": "정",
+    "readings_on": [
+      "ショウ",
+      "セイ"
+    ],
+    "romaji_on": [
+      "shou",
+      "sei"
+    ],
+    "readings_kun": [
+      "まつりごと",
+      "まん"
+    ],
+    "romaji_kun": [
+      "matsurigoto",
+      "man"
+    ],
+    "examples": [
+      {
+        "word": "政治(せいじ)",
+        "meaning": "정치",
+        "romaji": "seiji"
+      },
+      {
+        "word": "政府(せいふ)",
+        "meaning": "정부",
+        "romaji": "seifu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "政治的な問題について深く考える必要がある。",
+        "kana": "せいじてきなもんだいについてふかくかんがえるひつようがある。",
+        "meaning": "정치적인 문제에 대해 깊이 생각할 필요가 있다."
+      },
+      {
+        "kanji": "市の財政状況が厳しくなっている。",
+        "kana": "しのざいせいじょうきょうがきびしくなっている。",
+        "meaning": "시의 재정 상황이 어려워지고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "故",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "cause",
+      "circumstances",
+      "consequently",
+      "especially",
+      "happenstance",
+      "intentionally",
+      "reason",
+      "the late",
+      "therefore"
+    ],
+    "kor_meaning": "옛",
+    "kor_sound": "고",
+    "readings_on": [
+      "コ"
+    ],
+    "romaji_on": [
+      "ko"
+    ],
+    "readings_kun": [
+      "ふる.い",
+      "もと",
+      "ゆえ"
+    ],
+    "romaji_kun": [
+      "furui",
+      "moto",
+      "yue"
+    ],
+    "examples": [
+      {
+        "word": "事故(じこ)",
+        "meaning": "사고",
+        "romaji": "jiko"
+      },
+      {
+        "word": "故障(こしょう)",
+        "meaning": "고장",
+        "romaji": "koshou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "故郷の景色は何十年たっても変わらない。",
+        "kana": "こきょうのけしきはなんじゅうねんたってもかわらない。",
+        "meaning": "고향의 경치는 몇십 년이 지나도 변하지 않는다."
+      },
+      {
+        "kanji": "機械の故障の原因を調査している。",
+        "kana": "きかいのこしょうのげんいんをちょうさしている。",
+        "meaning": "기계 고장의 원인을 조사하고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "敵",
+    "grade": 5,
+    "strokes": 15,
+    "meanings": [
+      "enemy",
+      "foe",
+      "opponent"
+    ],
+    "kor_meaning": "대적할",
+    "kor_sound": "적",
+    "readings_on": [
+      "テキ"
+    ],
+    "romaji_on": [
+      "teki"
+    ],
+    "readings_kun": [
+      "あだ",
+      "かたき",
+      "かな.う"
+    ],
+    "romaji_kun": [
+      "ada",
+      "kataki",
+      "kanau"
+    ],
+    "examples": [
+      {
+        "word": "敵対(てきたい)",
+        "meaning": "적대",
+        "romaji": "tekitai"
+      },
+      {
+        "word": "強敵(きょうてき)",
+        "meaning": "강적",
+        "romaji": "kyouteki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "競争相手を倒すために戦略を練った。",
+        "kana": "きょうそうあいてをたおすためにせんりゃくをねった。",
+        "meaning": "경쟁 상대를 이기기 위해 전략을 세웠다."
+      },
+      {
+        "kanji": "天敵の存在が生態系のバランスを保つ。",
+        "kana": "てんてきのそんざいがせいたいけいのばらんすをたもつ。",
+        "meaning": "천적의 존재가 생태계의 균형을 유지한다."
+      }
+    ]
+  },
+  {
+    "kanji": "断",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "apologize",
+      "cutting",
+      "decision",
+      "decline",
+      "dismiss",
+      "judgement",
+      "prohibit",
+      "refuse",
+      "severance",
+      "warn"
+    ],
+    "kor_meaning": "어질",
+    "kor_sound": "단",
+    "readings_on": [
+      "ダン"
+    ],
+    "romaji_on": [
+      "dan"
+    ],
+    "readings_kun": [
+      "ことわ.る",
+      "さだ.める",
+      "た.つ"
+    ],
+    "romaji_kun": [
+      "kotowaru",
+      "sadameru",
+      "tatsu"
+    ],
+    "examples": [
+      {
+        "word": "判断(はんだん)",
+        "meaning": "판단",
+        "romaji": "handan"
+      },
+      {
+        "word": "決断(けつだん)",
+        "meaning": "결단",
+        "romaji": "ketsudan"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "誘いを断るのは勇気が必要なこともある。",
+        "kana": "さそいをことわるのはゆうきがひつようなこともある。",
+        "meaning": "권유를 거절하는 것은 용기가 필요한 경우도 있다."
+      },
+      {
+        "kanji": "決断力のある人はリーダーに向いている。",
+        "kana": "けつだんりょくのあるひとはりーだーにむいている。",
+        "meaning": "결단력이 있는 사람은 리더에 적합하다."
+      }
+    ]
+  },
+  {
+    "kanji": "旧",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "ex-",
+      "former",
+      "old friend",
+      "old things",
+      "old times"
+    ],
+    "kor_meaning": "옛",
+    "kor_sound": "구",
+    "readings_on": [
+      "キュウ"
+    ],
+    "romaji_on": [
+      "kyuu"
+    ],
+    "readings_kun": [
+      "ふる.い",
+      "もと"
+    ],
+    "romaji_kun": [
+      "furui",
+      "moto"
+    ],
+    "examples": [
+      {
+        "word": "旧正月(きゅうしょうがつ)",
+        "meaning": "설날",
+        "romaji": "kyuushougatsu"
+      },
+      {
+        "word": "旧跡(きゅうせき)",
+        "meaning": "유적",
+        "romaji": "kyuuseki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "旧友と久しぶりに再会して懐かしんだ。",
+        "kana": "きゅうゆうとひさしぶりにさいかいしてなつかしんだ。",
+        "meaning": "옛 친구와 오랜만에 재회하여 그리워했다."
+      },
+      {
+        "kanji": "旧式のシステムを最新版に更新した。",
+        "kana": "きゅうしきのしすてむをさいしんばんにこうしんした。",
+        "meaning": "구식 시스템을 최신 버전으로 업데이트했다."
+      }
+    ]
+  },
+  {
+    "kanji": "易",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "divination",
+      "easy",
+      "fortune-telling",
+      "ready to",
+      "simple"
+    ],
+    "kor_meaning": "쉬울",
+    "kor_sound": "이",
+    "readings_on": [
+      "イ",
+      "エキ"
+    ],
+    "romaji_on": [
+      "i",
+      "eki"
+    ],
+    "readings_kun": [
+      "やさ.しい",
+      "やす.い"
+    ],
+    "romaji_kun": [
+      "yasashii",
+      "yasui"
+    ],
+    "examples": [
+      {
+        "word": "容易(ようい)",
+        "meaning": "용이",
+        "romaji": "youi"
+      },
+      {
+        "word": "貿易(ぼうえき)",
+        "meaning": "무역",
+        "romaji": "boueki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "貿易の拡大によって経済が成長した。",
+        "kana": "ぼうえきのかくだいによってけいざいがせいちょうした。",
+        "meaning": "무역의 확대로 경제가 성장했다."
+      },
+      {
+        "kanji": "容易に達成できる目標を設定しすぎると成長しない。",
+        "kana": "ようやにたっせいできるもくひょうをせっていしすぎるとせいちょうしない。",
+        "meaning": "쉽게 달성할 수 있는 목표를 너무 많이 설정하면 성장하지 않는다."
+      }
+    ]
+  },
+  {
+    "kanji": "暴",
+    "grade": 5,
+    "strokes": 15,
+    "meanings": [
+      "cruelty",
+      "force",
+      "fret",
+      "outburst",
+      "outrage",
+      "rave",
+      "violence"
+    ],
+    "kor_meaning": "햇빛 쪼일",
+    "kor_sound": "폭",
+    "readings_on": [
+      "バク",
+      "ボウ"
+    ],
+    "romaji_on": [
+      "baku",
+      "bou"
+    ],
+    "readings_kun": [
+      "あば.く",
+      "あば.れる"
+    ],
+    "romaji_kun": [
+      "abaku",
+      "abareru"
+    ],
+    "examples": [
+      {
+        "word": "暴力(ぼうりょく)",
+        "meaning": "폭력",
+        "romaji": "bouryoku"
+      },
+      {
+        "word": "暴走(ぼうそう)",
+        "meaning": "폭주",
+        "romaji": "bousou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "暴力は決して問題の解決にならない。",
+        "kana": "ぼうりょくはけっしてもんだいのかいけつにならない。",
+        "meaning": "폭력은 결코 문제 해결이 되지 않는다."
+      },
+      {
+        "kanji": "台風が上陸して暴風雨になった。",
+        "kana": "たいふうがじょうりくしてぼうふうになった。",
+        "meaning": "태풍이 상륙하여 폭풍우가 되었다."
+      }
+    ]
+  },
+  {
+    "kanji": "条",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "article",
+      "clause",
+      "counter for articles, clauses, paragraphs, etc.",
+      "item",
+      "streak",
+      "stripe",
+      "twig"
+    ],
+    "kor_meaning": "가지",
+    "kor_sound": "조",
+    "readings_on": [
+      "ジョウ",
+      "チョウ",
+      "デキ"
+    ],
+    "romaji_on": [
+      "jou",
+      "chou",
+      "deki"
+    ],
+    "readings_kun": [
+      "えだ",
+      "すじ"
+    ],
+    "romaji_kun": [
+      "eda",
+      "suji"
+    ],
+    "examples": [
+      {
+        "word": "条件(じょうけん)",
+        "meaning": "조건",
+        "romaji": "jouken"
+      },
+      {
+        "word": "条約(じょうやく)",
+        "meaning": "조약",
+        "romaji": "jouyaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "契約条件を詳しく確認してから署名した。",
+        "kana": "けいやくじょうけんをくわしくかくにんしてからしょめいした。",
+        "meaning": "계약 조건을 자세히 확인한 후에 서명했다."
+      },
+      {
+        "kanji": "法律の条文を調べて正確に理解する。",
+        "kana": "ほうりつのじょうぶんをしらべてせいかくにりかいする。",
+        "meaning": "법률 조문을 조사하여 정확하게 이해한다."
+      }
+    ]
+  },
+  {
+    "kanji": "枝",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "bough",
+      "branch",
+      "counter for branches",
+      "limb",
+      "twig"
+    ],
+    "kor_meaning": "가지",
+    "kor_sound": "지",
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [
+      "えだ"
+    ],
+    "romaji_kun": [
+      "eda"
+    ],
+    "examples": [
+      {
+        "word": "小枝(こえだ)",
+        "meaning": "잔가지",
+        "romaji": "koeda"
+      },
+      {
+        "word": "枝豆(えだまめ)",
+        "meaning": "풋콩",
+        "romaji": "edamame"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "木の枝が風で揺れている。",
+        "kana": "きのえだがかぜでゆれている。",
+        "meaning": "나무 가지가 바람에 흔들리고 있다."
+      },
+      {
+        "kanji": "桜の小枝を生けて玄関を飾った。",
+        "kana": "さくらのこえだをいけてげんかんをかざった。",
+        "meaning": "벚꽃 작은 가지를 꽂아 현관을 장식했다."
+      }
+    ]
+  },
+  {
+    "kanji": "査",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "investigate"
+    ],
+    "kor_meaning": "사실할",
+    "kor_sound": "사",
+    "readings_on": [
+      "サ"
+    ],
+    "romaji_on": [
+      "sa"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "調査(ちょうさ)",
+        "meaning": "조사",
+        "romaji": "chousa"
+      },
+      {
+        "word": "検査(けんさ)",
+        "meaning": "검사",
+        "romaji": "kensa"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "税務署の調査を受けることになった。",
+        "kana": "ぜいむしょのちょうさをうけることになった。",
+        "meaning": "세무서의 조사를 받게 되었다."
+      },
+      {
+        "kanji": "内部監査で問題点が発見された。",
+        "kana": "ないぶかんさでもんだいてんがはっけんされた。",
+        "meaning": "내부 감사에서 문제점이 발견되었다."
+      }
+    ]
+  },
+  {
+    "kanji": "格",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "capacity",
+      "case (law, grammar)",
+      "character",
+      "rank",
+      "status"
+    ],
+    "kor_meaning": "막힐",
+    "kor_sound": "락",
+    "readings_on": [
+      "カク",
+      "キャク",
+      "コウ",
+      "ゴウ"
+    ],
+    "romaji_on": [
+      "kaku",
+      "kyaku",
+      "kou",
+      "ゴu"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "性格(せいかく)",
+        "meaning": "성격",
+        "romaji": "seikaku"
+      },
+      {
+        "word": "資格(しかく)",
+        "meaning": "자격",
+        "romaji": "shikaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "資格試験に合格して専門家として認められた。",
+        "kana": "しかくしけんにごうかくしてせんもんかとしてみとめられた。",
+        "meaning": "자격 시험에 합격하여 전문가로서 인정받았다."
+      },
+      {
+        "kanji": "価格と品質のバランスが良い商品を選ぶ。",
+        "kana": "かかくとひんしつのばらんすがよいしょうひんをえらぶ。",
+        "meaning": "가격과 품질의 균형이 좋은 상품을 고른다."
+      }
+    ]
+  },
+  {
+    "kanji": "桜",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "cherry"
+    ],
+    "kor_meaning": "벚나무",
+    "kor_sound": "앵",
+    "readings_on": [
+      "オウ",
+      "ヨウ"
+    ],
+    "romaji_on": [
+      "ou",
+      "you"
+    ],
+    "readings_kun": [
+      "さくら"
+    ],
+    "romaji_kun": [
+      "sakura"
+    ],
+    "examples": [
+      {
+        "word": "桜の花(さくらのはな)",
+        "meaning": "벚꽃",
+        "romaji": "sakuranohana"
+      },
+      {
+        "word": "桜前線(さくらぜんせん)",
+        "meaning": "벚꽃개화전선",
+        "romaji": "sakurazensen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "春になると桜が満開になって花見をする。",
+        "kana": "はるになるとさくらがまんかいになってはなみをする。",
+        "meaning": "봄이 되면 벚꽃이 만개하여 꽃구경을 한다."
+      },
+      {
+        "kanji": "散り始めた桜の花びらが風に舞う。",
+        "kana": "ちりはじめたさくらのはなびらがかぜにまう。",
+        "meaning": "지기 시작한 벚꽃 꽃잎이 바람에 흩날린다."
+      }
+    ]
+  },
+  {
+    "kanji": "検",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "examination",
+      "investigate"
+    ],
+    "kor_meaning": "검사할",
+    "kor_sound": "검",
+    "readings_on": [
+      "ケン"
+    ],
+    "romaji_on": [
+      "ken"
+    ],
+    "readings_kun": [
+      "しら.べる"
+    ],
+    "romaji_kun": [
+      "shiraberu"
+    ],
+    "examples": [
+      {
+        "word": "検査(けんさ)",
+        "meaning": "검사",
+        "romaji": "kensa"
+      },
+      {
+        "word": "検出(けんしゅつ)",
+        "meaning": "검출",
+        "romaji": "kenshutsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "体の定期検査を受けることが大切だ。",
+        "kana": "からだのていきけんさをうけることがたいせつだ。",
+        "meaning": "몸의 정기검사를 받는 것이 중요하다."
+      },
+      {
+        "kanji": "データを検索して必要な情報を探す。",
+        "kana": "でーたをけんさくしてひつようなじょうほうをさがす。",
+        "meaning": "데이터를 검색하여 필요한 정보를 찾는다."
+      }
+    ]
+  },
+  {
+    "kanji": "構",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "appearance",
+      "build",
+      "posture",
+      "set up",
+      "stance"
+    ],
+    "kor_meaning": "집세울",
+    "kor_sound": "구",
+    "readings_on": [
+      "コウ"
+    ],
+    "romaji_on": [
+      "kou"
+    ],
+    "readings_kun": [
+      "かま.う",
+      "かま.える"
+    ],
+    "romaji_kun": [
+      "kamau",
+      "kamaeru"
+    ],
+    "examples": [
+      {
+        "word": "構成(こうせい)",
+        "meaning": "구성",
+        "romaji": "kousei"
+      },
+      {
+        "word": "構造(こうぞう)",
+        "meaning": "구조",
+        "romaji": "kouzou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "この構造物は非常に頑丈に作られている。",
+        "kana": "このこうぞうぶつはひじょうにがんじょうにつくられている。",
+        "meaning": "이 구조물은 매우 견고하게 만들어져 있다."
+      },
+      {
+        "kanji": "お構いなく、どうぞお先にお召し上がりください。",
+        "kana": "おかまいなく、どうぞおさきにおめしあがりください。",
+        "meaning": "신경 쓰지 마시고, 어서 먼저 드세요."
+      }
+    ]
+  },
+  {
+    "kanji": "武",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "arms",
+      "chivalry",
+      "military",
+      "warrior"
+    ],
+    "kor_meaning": "굳셀",
+    "kor_sound": "무",
+    "readings_on": [
+      "ブ",
+      "ム"
+    ],
+    "romaji_on": [
+      "bu",
+      "mu"
+    ],
+    "readings_kun": [
+      "たけ",
+      "たけ.し"
+    ],
+    "romaji_kun": [
+      "take",
+      "takeshi"
+    ],
+    "examples": [
+      {
+        "word": "武器(ぶき)",
+        "meaning": "무기",
+        "romaji": "buki"
+      },
+      {
+        "word": "武道(ぶどう)",
+        "meaning": "무도",
+        "romaji": "budou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "武道を通じて礼儀と精神力を養う。",
+        "kana": "ぶどうをつうじてれいぎとせいしんりょくをやしなう。",
+        "meaning": "무도를 통해 예의와 정신력을 기른다."
+      },
+      {
+        "kanji": "戦国時代には多くの武将が活躍した。",
+        "kana": "せんごくじだいにはおおくのぶしょうがかつやくした。",
+        "meaning": "전국 시대에는 많은 무장이 활약했다."
+      }
+    ]
+  },
+  {
+    "kanji": "比",
+    "grade": 5,
+    "strokes": 4,
+    "meanings": [
+      "Philippines",
+      "compare",
+      "race",
+      "ratio"
+    ],
+    "kor_meaning": "견줄",
+    "kor_sound": "비",
+    "readings_on": [
+      "ヒ"
+    ],
+    "romaji_on": [
+      "hi"
+    ],
+    "readings_kun": [
+      "くら.べる"
+    ],
+    "romaji_kun": [
+      "kuraberu"
+    ],
+    "examples": [
+      {
+        "word": "比較(ひかく)",
+        "meaning": "비교",
+        "romaji": "hikaku"
+      },
+      {
+        "word": "比率(ひりつ)",
+        "meaning": "비율",
+        "romaji": "hiritsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "昨年と比較して売り上げが増加した。",
+        "kana": "さくねんとひかくしてうりあげがぞうかした。",
+        "meaning": "작년과 비교하여 매출이 증가했다."
+      },
+      {
+        "kanji": "日本と韓国の文化を比べる研究をした。",
+        "kana": "にほんとかんこくのぶんかをくらべるけんきゅうをした。",
+        "meaning": "일본과 한국의 문화를 비교하는 연구를 했다."
+      }
+    ]
+  },
+  {
+    "kanji": "永",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "eternity",
+      "lengthy",
+      "long"
+    ],
+    "kor_meaning": "길",
+    "kor_sound": "영",
+    "readings_on": [
+      "エイ"
+    ],
+    "romaji_on": [
+      "ei"
+    ],
+    "readings_kun": [
+      "なが.い"
+    ],
+    "romaji_kun": [
+      "nagai"
+    ],
+    "examples": [
+      {
+        "word": "永久(えいきゅう)",
+        "meaning": "영구",
+        "romaji": "eikyuu"
+      },
+      {
+        "word": "永遠(えいえん)",
+        "meaning": "영원",
+        "romaji": "eien"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "永遠の友情を誓って別れを告げた。",
+        "kana": "えいえんのゆうじょうをちかってわかれをつげた。",
+        "meaning": "영원한 우정을 맹세하며 이별을 고했다."
+      },
+      {
+        "kanji": "永続的な平和を実現することが人類の目標だ。",
+        "kana": "えいぞくてきなへいわをじつげんすることがじんるいのもくひょうだ。",
+        "meaning": "지속적인 평화를 실현하는 것이 인류의 목표이다."
+      }
+    ]
+  },
+  {
+    "kanji": "河",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "river"
+    ],
+    "kor_meaning": "물",
+    "kor_sound": "하",
+    "readings_on": [
+      "カ"
+    ],
+    "romaji_on": [
+      "ka"
+    ],
+    "readings_kun": [
+      "かわ"
+    ],
+    "romaji_kun": [
+      "kawa"
+    ],
+    "examples": [
+      {
+        "word": "河川(かせん)",
+        "meaning": "하천",
+        "romaji": "kasen"
+      },
+      {
+        "word": "運河(うんが)",
+        "meaning": "운하",
+        "romaji": "unga"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "長い河に沿って自転車で走った。",
+        "kana": "ながいかわにそってじてんしゃではしった。",
+        "meaning": "긴 강을 따라 자전거로 달렸다."
+      },
+      {
+        "kanji": "銀河には無数の星が輝いている。",
+        "kana": "ぎんがにはむすうのほしがかがやいている。",
+        "meaning": "은하에는 무수한 별이 빛나고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "液",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "fluid",
+      "juice",
+      "liquid",
+      "sap",
+      "secretion"
+    ],
+    "kor_meaning": "즙",
+    "kor_sound": "액",
+    "readings_on": [
+      "エキ"
+    ],
+    "romaji_on": [
+      "eki"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "液体(えきたい)",
+        "meaning": "액체",
+        "romaji": "ekitai"
+      },
+      {
+        "word": "血液(けつえき)",
+        "meaning": "혈액",
+        "romaji": "ketsueki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "血液検査の結果が出るまで待った。",
+        "kana": "けつえきけんさのけっかがでるまでまった。",
+        "meaning": "혈액 검사 결과가 나올 때까지 기다렸다."
+      },
+      {
+        "kanji": "消毒液を使って手を清潔に保つ。",
+        "kana": "しょうどくえきをつかってておきよてにたもつ。",
+        "meaning": "소독액을 사용하여 손을 청결하게 유지한다."
+      }
+    ]
+  },
+  {
+    "kanji": "混",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "blend",
+      "confuse",
+      "mix"
+    ],
+    "kor_meaning": "섞을",
+    "kor_sound": "혼",
+    "readings_on": [
+      "コン"
+    ],
+    "romaji_on": [
+      "kon"
+    ],
+    "readings_kun": [
+      "-ま.じり",
+      "こ.む",
+      "ま.ざる",
+      "ま.じる",
+      "ま.ぜる"
+    ],
+    "romaji_kun": [
+      "-majiri",
+      "komu",
+      "mazaru",
+      "majiru",
+      "mazeru"
+    ],
+    "examples": [
+      {
+        "word": "混乱(こんらん)",
+        "meaning": "혼란",
+        "romaji": "konran"
+      },
+      {
+        "word": "混雑(こんざつ)",
+        "meaning": "혼잡",
+        "romaji": "konzatsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "朝のラッシュアワーは電車が非常に混む。",
+        "kana": "あさのらっしゅあわーはでんしゃがひじょうにこむ。",
+        "meaning": "아침 러시아워에는 전철이 매우 붐빈다."
+      },
+      {
+        "kanji": "材料を混合してから型に流し込む。",
+        "kana": "ざいりょうをこんごうしてからかたにながしこむ。",
+        "meaning": "재료를 혼합하고 나서 틀에 붓는다."
+      }
+    ]
+  },
+  {
+    "kanji": "減",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "curtail",
+      "decline",
+      "decrease",
+      "dwindle",
+      "get hungry",
+      "reduce"
+    ],
+    "kor_meaning": "덜",
+    "kor_sound": "감",
+    "readings_on": [
+      "ゲン"
+    ],
+    "romaji_on": [
+      "ゲn"
+    ],
+    "readings_kun": [
+      "へ.らす",
+      "へ.る"
+    ],
+    "romaji_kun": [
+      "herasu",
+      "heru"
+    ],
+    "examples": [
+      {
+        "word": "減少(げんしょう)",
+        "meaning": "감소",
+        "romaji": "genshou"
+      },
+      {
+        "word": "軽減(けいげん)",
+        "meaning": "경감",
+        "romaji": "keigen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "ダイエットのために食事の量を減らした。",
+        "kana": "だいえっとのためにしょくじのりょうをへらした。",
+        "meaning": "다이어트를 위해 식사량을 줄였다."
+      },
+      {
+        "kanji": "二酸化炭素の排出量を減少させる取り組みが進む。",
+        "kana": "にさんかたんそのはいしゅつりょうをげんしょうさせるとりくみがすすむ。",
+        "meaning": "이산화탄소 배출량을 감소시키는 노력이 진행된다."
+      }
+    ]
+  },
+  {
+    "kanji": "測",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "fathom",
+      "measure",
+      "plan",
+      "scheme"
+    ],
+    "kor_meaning": "측량할",
+    "kor_sound": "측",
+    "readings_on": [
+      "ソク"
+    ],
+    "romaji_on": [
+      "soku"
+    ],
+    "readings_kun": [
+      "はか.る"
+    ],
+    "romaji_kun": [
+      "hakaru"
+    ],
+    "examples": [
+      {
+        "word": "測定(そくてい)",
+        "meaning": "측정",
+        "romaji": "sokutei"
+      },
+      {
+        "word": "予測(よそく)",
+        "meaning": "예측",
+        "romaji": "yosoku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "体温を測って発熱がないか確認した。",
+        "kana": "たいおんをはかってはつねつがないかかくにんした。",
+        "meaning": "체온을 재어 발열이 없는지 확인했다."
+      },
+      {
+        "kanji": "土地の面積を測量してから計画を立てた。",
+        "kana": "とちのめんせきをそくりょうしてからけいかくをたてた。",
+        "meaning": "토지 면적을 측량한 후에 계획을 세웠다."
+      }
+    ]
+  },
+  {
+    "kanji": "準",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "conform",
+      "correspond to",
+      "imitate",
+      "proportionate to",
+      "semi-"
+    ],
+    "kor_meaning": "수준기",
+    "kor_sound": "준",
+    "readings_on": [
+      "ジュン"
+    ],
+    "romaji_on": [
+      "jun"
+    ],
+    "readings_kun": [
+      "じゅん.じる",
+      "じゅん.ずる",
+      "なぞら.える",
+      "のり",
+      "ひと.しい",
+      "みずもり"
+    ],
+    "romaji_kun": [
+      "junjiru",
+      "junzuru",
+      "nazoraeru",
+      "nori",
+      "hitoshii",
+      "mizumori"
+    ],
+    "examples": [
+      {
+        "word": "準備(じゅんび)",
+        "meaning": "준비",
+        "romaji": "junbi"
+      },
+      {
+        "word": "基準(きじゅん)",
+        "meaning": "기준",
+        "romaji": "kijun"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "試合に向けて万全の準備をした。",
+        "kana": "しあいにむけてばんぜんのじゅんびをした。",
+        "meaning": "경기를 위해 만반의 준비를 했다."
+      },
+      {
+        "kanji": "基準値を超えているので対策が必要だ。",
+        "kana": "きじゅんちをこえているのでたいさくがひつようだ。",
+        "meaning": "기준치를 초과하고 있어서 대책이 필요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "演",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "act",
+      "performance",
+      "play",
+      "render",
+      "stage"
+    ],
+    "kor_meaning": "펼칠",
+    "kor_sound": "연",
+    "readings_on": [
+      "エン"
+    ],
+    "romaji_on": [
+      "en"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "演技(えんぎ)",
+        "meaning": "연기",
+        "romaji": "engi"
+      },
+      {
+        "word": "講演(こうえん)",
+        "meaning": "강연",
+        "romaji": "kouen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "プロの俳優が素晴らしい演技を見せた。",
+        "kana": "ぷろのはいゆうがすばらしいえんぎをみせた。",
+        "meaning": "프로 배우가 훌륭한 연기를 보여주었다."
+      },
+      {
+        "kanji": "学校の文化祭で劇を演じた。",
+        "kana": "がっこうのぶんかさいでぎをえんじた。",
+        "meaning": "학교 문화제에서 연극을 연기했다."
+      }
+    ]
+  },
+  {
+    "kanji": "潔",
+    "grade": 5,
+    "strokes": 15,
+    "meanings": [
+      "clean",
+      "gallant",
+      "pure",
+      "righteous",
+      "undefiled"
+    ],
+    "kor_meaning": "맑을",
+    "kor_sound": "결",
+    "readings_on": [
+      "ケツ"
+    ],
+    "romaji_on": [
+      "ketsu"
+    ],
+    "readings_kun": [
+      "いさぎよ.い"
+    ],
+    "romaji_kun": [
+      "isagiyoi"
+    ],
+    "examples": [
+      {
+        "word": "清潔(せいけつ)",
+        "meaning": "청결",
+        "romaji": "seiketsu"
+      },
+      {
+        "word": "簡潔(かんけつ)",
+        "meaning": "간결",
+        "romaji": "kanketsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "清潔な環境を維持することが健康の基本だ。",
+        "kana": "せいけつなかんきょうをいじすることがけんこうのきほんだ。",
+        "meaning": "청결한 환경을 유지하는 것이 건강의 기본이다."
+      },
+      {
+        "kanji": "潔く失敗を認めて謝罪した。",
+        "kana": "いさぎよくしっぱいをみとめてしゃざいした。",
+        "meaning": "깔끔하게 실패를 인정하고 사과했다."
+      }
+    ]
+  },
+  {
+    "kanji": "災",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "calamity",
+      "curse",
+      "disaster",
+      "evil",
+      "woe"
+    ],
+    "kor_meaning": "재앙",
+    "kor_sound": "재",
+    "readings_on": [
+      "サイ"
+    ],
+    "romaji_on": [
+      "sai"
+    ],
+    "readings_kun": [
+      "わざわ.い"
+    ],
+    "romaji_kun": [
+      "wazawai"
+    ],
+    "examples": [
+      {
+        "word": "災害(さいがい)",
+        "meaning": "재해",
+        "romaji": "saigai"
+      },
+      {
+        "word": "火災(かさい)",
+        "meaning": "화재",
+        "romaji": "kasai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "自然災害に備えて定期的に避難訓練をする。",
+        "kana": "しぜんさいがいにそなえてていきてきにひなんくんれんをする。",
+        "meaning": "자연재해에 대비하여 정기적으로 피난 훈련을 한다."
+      },
+      {
+        "kanji": "火災報知器が正常に作動しているか確認する。",
+        "kana": "かさいほうちきがせいじょうにさどうしているかかくにんする。",
+        "meaning": "화재 경보기가 정상적으로 작동하는지 확인한다."
+      }
+    ]
+  },
+  {
+    "kanji": "燃",
+    "grade": 5,
+    "strokes": 16,
+    "meanings": [
+      "blaze",
+      "burn",
+      "glow"
+    ],
+    "kor_meaning": "불사를",
+    "kor_sound": "연",
+    "readings_on": [
+      "ネン"
+    ],
+    "romaji_on": [
+      "nen"
+    ],
+    "readings_kun": [
+      "も.える",
+      "も.す",
+      "も.やす"
+    ],
+    "romaji_kun": [
+      "moeru",
+      "mosu",
+      "moyasu"
+    ],
+    "examples": [
+      {
+        "word": "燃料(ねんりょう)",
+        "meaning": "연료",
+        "romaji": "nenryou"
+      },
+      {
+        "word": "燃焼(ねんしょう)",
+        "meaning": "연소",
+        "romaji": "nenshou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "スポーツへの情熱が燃え上がっている。",
+        "kana": "すぽーつへのじょうねつがもえあがっている。",
+        "meaning": "스포츠에 대한 열정이 불타오르고 있다."
+      },
+      {
+        "kanji": "燃料費の高騰で家計が圧迫されている。",
+        "kana": "ねんりょうひのこうとうでかけいがあっぱくされている。",
+        "meaning": "연료비 급등으로 가계가 압박받고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "版",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "edition",
+      "impression",
+      "label",
+      "printing block",
+      "printing plate"
+    ],
+    "kor_meaning": "조각",
+    "kor_sound": "판",
+    "readings_on": [
+      "ハン"
+    ],
+    "romaji_on": [
+      "han"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "出版(しゅっぱん)",
+        "meaning": "출판",
+        "romaji": "shuppan"
+      },
+      {
+        "word": "版画(はんが)",
+        "meaning": "판화",
+        "romaji": "hanga"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "改訂版のテキストが発売されて購入した。",
+        "kana": "かいていばんのてきすとがはつばいされてこうにゅうした。",
+        "meaning": "개정판 교재가 출시되어 구입했다."
+      },
+      {
+        "kanji": "出版社に原稿を送って審査を受けた。",
+        "kana": "しゅっぱんしゃにげんこうをおくってしんさをうけた。",
+        "meaning": "출판사에 원고를 보내 심사를 받았다."
+      }
+    ]
+  },
+  {
+    "kanji": "犯",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "crime",
+      "offense",
+      "sin"
+    ],
+    "kor_meaning": "범할",
+    "kor_sound": "범",
+    "readings_on": [
+      "ハン",
+      "ボン"
+    ],
+    "romaji_on": [
+      "han",
+      "bon"
+    ],
+    "readings_kun": [
+      "おか.す"
+    ],
+    "romaji_kun": [
+      "okasu"
+    ],
+    "examples": [
+      {
+        "word": "犯罪(はんざい)",
+        "meaning": "범죄",
+        "romaji": "hanzai"
+      },
+      {
+        "word": "犯人(はんにん)",
+        "meaning": "범인",
+        "romaji": "hannin"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "犯罪の抑止には社会の協力が必要だ。",
+        "kana": "はんざいのよくしにはしゃかいのきょうりょくがひつようだ。",
+        "meaning": "범죄 억제에는 사회의 협력이 필요하다."
+      },
+      {
+        "kanji": "法律に違反することは絶対に許されない。",
+        "kana": "ほうりつにいはんすることはぜったいにゆるされない。",
+        "meaning": "법률을 위반하는 것은 절대로 용납되지 않는다."
+      }
+    ]
+  },
+  {
+    "kanji": "状",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "appearance",
+      "circumstances",
+      "conditions",
+      "form",
+      "status quo"
+    ],
+    "kor_meaning": "문서",
+    "kor_sound": "장",
+    "readings_on": [
+      "ジョウ"
+    ],
+    "romaji_on": [
+      "jou"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "状態(じょうたい)",
+        "meaning": "상태",
+        "romaji": "joutai"
+      },
+      {
+        "word": "状況(じょうきょう)",
+        "meaning": "상황",
+        "romaji": "joukyou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "健康状態を確認するために検査をした。",
+        "kana": "けんこうじょうたいをかくにんするためにけんさをした。",
+        "meaning": "건강 상태를 확인하기 위해 검사를 했다."
+      },
+      {
+        "kanji": "状況を正確に把握してから対応する。",
+        "kana": "じょうきょうをせいかくにはあくしてからたいおうする。",
+        "meaning": "상황을 정확히 파악한 후에 대응한다."
+      }
+    ]
+  },
+  {
+    "kanji": "独",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "Germany",
+      "alone",
+      "single",
+      "spontaneously"
+    ],
+    "kor_meaning": "홀로",
+    "kor_sound": "도",
+    "readings_on": [
+      "トク",
+      "ドク"
+    ],
+    "romaji_on": [
+      "toku",
+      "doku"
+    ],
+    "readings_kun": [
+      "ひと.り"
+    ],
+    "romaji_kun": [
+      "hitori"
+    ],
+    "examples": [
+      {
+        "word": "独特(どくとく)",
+        "meaning": "독특",
+        "romaji": "dokutoku"
+      },
+      {
+        "word": "独立(どくりつ)",
+        "meaning": "독립",
+        "romaji": "dokuritsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "独自のアイデアで新しい製品を開発した。",
+        "kana": "どくじのあいであであたらしいせいひんをかいはつした。",
+        "meaning": "독자적인 아이디어로 새로운 제품을 개발했다."
+      },
+      {
+        "kanji": "一人暮らしの独立した生活に憧れる。",
+        "kana": "ひとりぐらしのどくりつしたせいかつにあこがれる。",
+        "meaning": "혼자 사는 독립적인 생활을 동경한다."
+      }
+    ]
+  },
+  {
+    "kanji": "率",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "%",
+      "command",
+      "factor",
+      "lead",
+      "proportion",
+      "rate",
+      "ratio",
+      "spearhead"
+    ],
+    "kor_meaning": "거느릴",
+    "kor_sound": "솔",
+    "readings_on": [
+      "シュツ",
+      "ソツ",
+      "リツ"
+    ],
+    "romaji_on": [
+      "shutsu",
+      "sotsu",
+      "ritsu"
+    ],
+    "readings_kun": [
+      "ひき.いる"
+    ],
+    "romaji_kun": [
+      "hikiiru"
+    ],
+    "examples": [
+      {
+        "word": "比率(ひりつ)",
+        "meaning": "비율",
+        "romaji": "hiritsu"
+      },
+      {
+        "word": "効率(こうりつ)",
+        "meaning": "효율",
+        "romaji": "kouritsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "合格率を上げるために徹底的に勉強する。",
+        "kana": "ごうかくりつをあげるためにてっていてきにべんきょうする。",
+        "meaning": "합격률을 높이기 위해 철저히 공부한다."
+      },
+      {
+        "kanji": "チームを率いてプロジェクトを完遂した。",
+        "kana": "ちーむをひきいてぷろじぇくとをかんすいした。",
+        "meaning": "팀을 이끌어 프로젝트를 완수했다."
+      }
+    ]
+  },
+  {
+    "kanji": "現",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "actual",
+      "existing",
+      "present"
+    ],
+    "kor_meaning": "나타날",
+    "kor_sound": "현",
+    "readings_on": [
+      "ゲン"
+    ],
+    "romaji_on": [
+      "ゲn"
+    ],
+    "readings_kun": [
+      "あらわ.す",
+      "あらわ.れる",
+      "うつ.つ",
+      "うつつ"
+    ],
+    "romaji_kun": [
+      "arawasu",
+      "arawareru",
+      "utsutsu",
+      "utsutsu"
+    ],
+    "examples": [
+      {
+        "word": "現在(げんざい)",
+        "meaning": "현재",
+        "romaji": "genzai"
+      },
+      {
+        "word": "表現(ひょうげん)",
+        "meaning": "표현",
+        "romaji": "hyougen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "現代社会ではIT技術が欠かせない。",
+        "kana": "げんだいしゃかいではITぎじゅつがかかせない。",
+        "meaning": "현대 사회에서는 IT 기술이 빠질 수 없다."
+      },
+      {
+        "kanji": "夢が現実になる瞬間がとても嬉しい。",
+        "kana": "ゆめがげんじつになるしゅんかんがとてもうれしい。",
+        "meaning": "꿈이 현실이 되는 순간이 매우 기쁘다."
+      }
+    ]
+  },
+  {
+    "kanji": "留",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "detain",
+      "fasten",
+      "halt",
+      "stop"
+    ],
+    "kor_meaning": "머무를",
+    "kor_sound": "류",
+    "readings_on": [
+      "リュウ",
+      "ル"
+    ],
+    "romaji_on": [
+      "ryuu",
+      "ru"
+    ],
+    "readings_kun": [
+      "と.まる",
+      "と.める",
+      "とど.まる",
+      "とど.める",
+      "るうぶる"
+    ],
+    "romaji_kun": [
+      "tomaru",
+      "tomeru",
+      "todomaru",
+      "todomeru",
+      "ruuburu"
+    ],
+    "examples": [
+      {
+        "word": "留学(りゅうがく)",
+        "meaning": "유학",
+        "romaji": "ryuugaku"
+      },
+      {
+        "word": "留守(るす)",
+        "meaning": "부재중",
+        "romaji": "rusu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "海外留学で英語力が大幅に上がった。",
+        "kana": "かいがいりゅうがくでえいごりょくがおおはばにあがった。",
+        "meaning": "해외 유학으로 영어 실력이 크게 올랐다."
+      },
+      {
+        "kanji": "大事な情報を頭に留めておく。",
+        "kana": "だいじなじょうほうをあたまにとめておく。",
+        "meaning": "중요한 정보를 머릿속에 기억해 둔다."
+      }
+    ]
+  },
+  {
+    "kanji": "略",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "abbreviation",
+      "capture",
+      "omission",
+      "outline",
+      "plunder",
+      "shorten"
+    ],
+    "kor_meaning": "다스릴",
+    "kor_sound": "략",
+    "readings_on": [
+      "リャク"
+    ],
+    "romaji_on": [
+      "ryaku"
+    ],
+    "readings_kun": [
+      "おか.す",
+      "おさ.める",
+      "はか.る",
+      "はかりごと",
+      "はぶ.く",
+      "ほぼ"
+    ],
+    "romaji_kun": [
+      "okasu",
+      "osameru",
+      "hakaru",
+      "hakarigoto",
+      "habuku",
+      "hobo"
+    ],
+    "examples": [
+      {
+        "word": "省略(しょうりゃく)",
+        "meaning": "생략",
+        "romaji": "shouryaku"
+      },
+      {
+        "word": "戦略(せんりゃく)",
+        "meaning": "전략",
+        "romaji": "senryaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "長い名前を略称で呼ぶことが多い。",
+        "kana": "ながいなまえをりゃくしょうでよぶことがおおい。",
+        "meaning": "긴 이름을 약칭으로 부르는 경우가 많다."
+      },
+      {
+        "kanji": "会議で要点を簡略にまとめて発表した。",
+        "kana": "かいぎでようてんをかんりゃくにまとめてはっぴょうした。",
+        "meaning": "회의에서 요점을 간략하게 정리하여 발표했다."
+      }
+    ]
+  },
+  {
+    "kanji": "益",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "advantage",
+      "benefit",
+      "gain",
+      "profit"
+    ],
+    "kor_meaning": "더할",
+    "kor_sound": "익",
+    "readings_on": [
+      "エキ",
+      "ヤク"
+    ],
+    "romaji_on": [
+      "eki",
+      "yaku"
+    ],
+    "readings_kun": [
+      "ま.す"
+    ],
+    "romaji_kun": [
+      "masu"
+    ],
+    "examples": [
+      {
+        "word": "利益(りえき)",
+        "meaning": "이익",
+        "romaji": "rieki"
+      },
+      {
+        "word": "有益(ゆうえき)",
+        "meaning": "유익",
+        "romaji": "yuueki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "利益を社会に還元することが重要だ。",
+        "kana": "りえきをしゃかいにかんげんすることがじゅうようだ。",
+        "meaning": "이익을 사회에 환원하는 것이 중요하다."
+      },
+      {
+        "kanji": "有益な情報を共有して皆で学ぶ。",
+        "kana": "ゆうえきなじょうほうをきょうゆうしてみんなでまなぶ。",
+        "meaning": "유익한 정보를 공유하여 모두 함께 배운다."
+      }
+    ]
+  },
+  {
+    "kanji": "眼",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "eyeball"
+    ],
+    "kor_meaning": "눈",
+    "kor_sound": "안",
+    "readings_on": [
+      "ガン",
+      "ゲン"
+    ],
+    "romaji_on": [
+      "gan",
+      "ゲn"
+    ],
+    "readings_kun": [
+      "まなこ",
+      "め"
+    ],
+    "romaji_kun": [
+      "manako",
+      "me"
+    ],
+    "examples": [
+      {
+        "word": "眼科(がんか)",
+        "meaning": "안과",
+        "romaji": "ganka"
+      },
+      {
+        "word": "眼鏡(めがね)",
+        "meaning": "안경",
+        "romaji": "megane"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "眼科で視力検査を受けた。",
+        "kana": "がんかでしりょくけんさをうけた。",
+        "meaning": "안과에서 시력 검사를 받았다."
+      },
+      {
+        "kanji": "物事の本質を見抜く眼力を養う。",
+        "kana": "ものごとのほんしつをみぬくがんりょくをやしなう。",
+        "meaning": "사물의 본질을 꿰뚫어 보는 안목을 키운다."
+      }
+    ]
+  },
+  {
+    "kanji": "破",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "break",
+      "defeat",
+      "destroy",
+      "frustrate",
+      "rend",
+      "rip",
+      "tear"
+    ],
+    "kor_meaning": "깨뜨릴",
+    "kor_sound": "파",
+    "readings_on": [
+      "ハ"
+    ],
+    "romaji_on": [
+      "ha"
+    ],
+    "readings_kun": [
+      "やぶ.る",
+      "やぶ.れる",
+      "わ.れる"
+    ],
+    "romaji_kun": [
+      "yaburu",
+      "yabureru",
+      "wareru"
+    ],
+    "examples": [
+      {
+        "word": "破壊(はかい)",
+        "meaning": "파괴",
+        "romaji": "hakai"
+      },
+      {
+        "word": "破片(はへん)",
+        "meaning": "파편",
+        "romaji": "hahen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "台風で窓ガラスが破損してしまった。",
+        "kana": "たいふうでまどがらすがはそんしてしまった。",
+        "meaning": "태풍으로 유리창이 파손되어버렸다."
+      },
+      {
+        "kanji": "世界記録を破って歓声が上がった。",
+        "kana": "せかいきろくをやぶってかんせいがあがった。",
+        "meaning": "세계 기록을 깨고 환호성이 올랐다."
+      }
+    ]
+  },
+  {
+    "kanji": "確",
+    "grade": 5,
+    "strokes": 15,
+    "meanings": [
+      "assurance",
+      "clear",
+      "confirm",
+      "evident",
+      "firm",
+      "hard",
+      "solid",
+      "tight"
+    ],
+    "kor_meaning": "굳을",
+    "kor_sound": "확",
+    "readings_on": [
+      "カク",
+      "コウ"
+    ],
+    "romaji_on": [
+      "kaku",
+      "kou"
+    ],
+    "readings_kun": [
+      "たし.か",
+      "たし.かめる"
+    ],
+    "romaji_kun": [
+      "tashika",
+      "tashikameru"
+    ],
+    "examples": [
+      {
+        "word": "確認(かくにん)",
+        "meaning": "확인",
+        "romaji": "kakunin"
+      },
+      {
+        "word": "正確(せいかく)",
+        "meaning": "정확",
+        "romaji": "seikaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "メールを送る前に内容を確認する。",
+        "kana": "めーるをおくるまえにないようをかくにんする。",
+        "meaning": "이메일을 보내기 전에 내용을 확인한다."
+      },
+      {
+        "kanji": "確実に目標を達成するための計画を立てる。",
+        "kana": "かくじつにもくひょうをたっせいするためのけいかくをたてる。",
+        "meaning": "확실하게 목표를 달성하기 위한 계획을 세운다."
+      }
+    ]
+  },
+  {
+    "kanji": "示",
+    "grade": 5,
+    "strokes": 5,
+    "meanings": [
+      "display",
+      "express",
+      "indicate",
+      "point out",
+      "show"
+    ],
+    "kor_meaning": "보일",
+    "kor_sound": "시",
+    "readings_on": [
+      "シ",
+      "ジ"
+    ],
+    "romaji_on": [
+      "shi",
+      "ji"
+    ],
+    "readings_kun": [
+      "しめ.す"
+    ],
+    "romaji_kun": [
+      "shimesu"
+    ],
+    "examples": [
+      {
+        "word": "指示(しじ)",
+        "meaning": "지지",
+        "romaji": "shiji"
+      },
+      {
+        "word": "表示(ひょうじ)",
+        "meaning": "표시",
+        "romaji": "hyouji"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "グラフで結果を視覚的に示した。",
+        "kana": "ぐらふでけっかをしかくてきにしめした。",
+        "meaning": "그래프로 결과를 시각적으로 나타냈다."
+      },
+      {
+        "kanji": "新しい指示に従って作業を進める。",
+        "kana": "あたらしいしじにしたがってさぎょうをすすめる。",
+        "meaning": "새로운 지시에 따라 작업을 진행한다."
+      }
+    ]
+  },
+  {
+    "kanji": "祖",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "ancestor",
+      "founder",
+      "pioneer"
+    ],
+    "kor_meaning": "조상",
+    "kor_sound": "조",
+    "readings_on": [
+      "ソ"
+    ],
+    "romaji_on": [
+      "so"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "祖父(そふ)",
+        "meaning": "할아버지",
+        "romaji": "sofu"
+      },
+      {
+        "word": "祖国(そこく)",
+        "meaning": "조국",
+        "romaji": "sokoku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "祖国の発展のために力を尽くす。",
+        "kana": "そこくのはってんのためにちからをつくす。",
+        "meaning": "조국의 발전을 위해 힘을 다한다."
+      },
+      {
+        "kanji": "先祖から受け継いだ伝統を守り続ける。",
+        "kana": "せんぞからうけついだでんとうをまもりつづける。",
+        "meaning": "선조로부터 이어받은 전통을 계속 지킨다."
+      }
+    ]
+  },
+  {
+    "kanji": "禁",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "ban",
+      "forbid",
+      "prohibition"
+    ],
+    "kor_meaning": "금할",
+    "kor_sound": "금",
+    "readings_on": [
+      "キン"
+    ],
+    "romaji_on": [
+      "kin"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "禁止(きんし)",
+        "meaning": "금지",
+        "romaji": "kinshi"
+      },
+      {
+        "word": "禁煙(きんえん)",
+        "meaning": "금연",
+        "romaji": "kinen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "この建物は全館禁煙になっている。",
+        "kana": "このたてものはぜんかんきんえんになっている。",
+        "meaning": "이 건물은 전관 금연이 되어 있다."
+      },
+      {
+        "kanji": "飲酒運転は法律で厳しく禁じられている。",
+        "kana": "いんしゅうんてんはほうりつできびしくきんじられている。",
+        "meaning": "음주 운전은 법률로 엄격히 금지되어 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "移",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "catch (cold, fire)",
+      "change",
+      "drift",
+      "move",
+      "pass into",
+      "shift"
+    ],
+    "kor_meaning": "옮길",
+    "kor_sound": "이",
+    "readings_on": [
+      "イ"
+    ],
+    "romaji_on": [
+      "i"
+    ],
+    "readings_kun": [
+      "うつ.す",
+      "うつ.る"
+    ],
+    "romaji_kun": [
+      "utsusu",
+      "utsuru"
+    ],
+    "examples": [
+      {
+        "word": "移動(いどう)",
+        "meaning": "이동",
+        "romaji": "idou"
+      },
+      {
+        "word": "移住(いじゅう)",
+        "meaning": "이주",
+        "romaji": "ijuu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "転職をして新しい会社に移った。",
+        "kana": "てんしょくをしてあたらしいかいしゃにうつった。",
+        "meaning": "이직하여 새로운 회사로 옮겼다."
+      },
+      {
+        "kanji": "データの移行を完了してからシステムを更新する。",
+        "kana": "でーたのいこうをかんりょうしてからしすてむをこうしんする。",
+        "meaning": "데이터 이전을 완료한 후에 시스템을 업데이트한다."
+      }
+    ]
+  },
+  {
+    "kanji": "程",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "amount",
+      "degree",
+      "distance",
+      "extent",
+      "formula",
+      "law",
+      "limits"
+    ],
+    "kor_meaning": "법",
+    "kor_sound": "정",
+    "readings_on": [
+      "テイ"
+    ],
+    "romaji_on": [
+      "tei"
+    ],
+    "readings_kun": [
+      "-ほど",
+      "ほど"
+    ],
+    "romaji_kun": [
+      "-hodo",
+      "hodo"
+    ],
+    "examples": [
+      {
+        "word": "程度(ていど)",
+        "meaning": "정도",
+        "romaji": "teido"
+      },
+      {
+        "word": "日程(にってい)",
+        "meaning": "일정",
+        "romaji": "nittei"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "進捗状況を定期的に上司に報告する。",
+        "kana": "しんちょくじょうきょうをていきてきにじょうしにほうこくする。",
+        "meaning": "진행 상황을 정기적으로 상사에게 보고한다."
+      },
+      {
+        "kanji": "ある程度の失敗は成長のための経験だ。",
+        "kana": "あるていどのしっぱいはせいちょうのためのけいけんだ。",
+        "meaning": "어느 정도의 실패는 성장을 위한 경험이다."
+      }
+    ]
+  },
+  {
+    "kanji": "税",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "duty",
+      "tax"
+    ],
+    "kor_meaning": "벗을",
+    "kor_sound": "탈",
+    "readings_on": [
+      "ゼイ"
+    ],
+    "romaji_on": [
+      "ゼi"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "税金(ぜいきん)",
+        "meaning": "세금",
+        "romaji": "zeikin"
+      },
+      {
+        "word": "消費税(しょうひぜい)",
+        "meaning": "소비세",
+        "romaji": "shouhizei"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "所得税の申告を忘れずに行う。",
+        "kana": "しょとくぜいのしんこくをわすれずにおこなう。",
+        "meaning": "소득세 신고를 잊지 않고 한다."
+      },
+      {
+        "kanji": "消費税が上昇して家計への影響が出た。",
+        "kana": "しょうひぜいがじょうしょうしてかけいへのえいきょうがでた。",
+        "meaning": "소비세가 상승하여 가계에 영향이 나타났다."
+      }
+    ]
+  },
+  {
+    "kanji": "築",
+    "grade": 5,
+    "strokes": 16,
+    "meanings": [
+      "build",
+      "construct",
+      "fabricate"
+    ],
+    "kor_meaning": "다질",
+    "kor_sound": "축",
+    "readings_on": [
+      "チク"
+    ],
+    "romaji_on": [
+      "chiku"
+    ],
+    "readings_kun": [
+      "きず.く"
+    ],
+    "romaji_kun": [
+      "kizuku"
+    ],
+    "examples": [
+      {
+        "word": "建築(けんちく)",
+        "meaning": "건축",
+        "romaji": "kenchiku"
+      },
+      {
+        "word": "築く(きずく)",
+        "meaning": "쌓다",
+        "romaji": "kizuku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "信頼関係を築くには時間と努力が必要だ。",
+        "kana": "しんらいかんけいをきずくにはじかんとどりょくがひつようだ。",
+        "meaning": "신뢰 관계를 쌓으려면 시간과 노력이 필요하다."
+      },
+      {
+        "kanji": "古い建物を修築して文化財として保存する。",
+        "kana": "ふるいたてものをしゅうちくしてぶんかざいとしてほぞんする。",
+        "meaning": "오래된 건물을 수축하여 문화재로 보존한다."
+      }
+    ]
+  },
+  {
+    "kanji": "精",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "energy",
+      "excellence",
+      "fairy",
+      "ghost",
+      "purity",
+      "refined",
+      "semen",
+      "skill",
+      "vitality"
+    ],
+    "kor_meaning": "정교할",
+    "kor_sound": "정",
+    "readings_on": [
+      "ショウ",
+      "セイ"
+    ],
+    "romaji_on": [
+      "shou",
+      "sei"
+    ],
+    "readings_kun": [
+      "くわ.しい",
+      "しら.げる"
+    ],
+    "romaji_kun": [
+      "kuwashii",
+      "shirageru"
+    ],
+    "examples": [
+      {
+        "word": "精神(せいしん)",
+        "meaning": "정신",
+        "romaji": "seishin"
+      },
+      {
+        "word": "精密(せいみつ)",
+        "meaning": "정밀",
+        "romaji": "seimitsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "精一杯努力して試験に臨んだ。",
+        "kana": "せいいっぱいどりょくしてしけんにのぞんだ。",
+        "meaning": "온 힘을 다해 노력하고 시험에 임했다."
+      },
+      {
+        "kanji": "精神的な健康も身体の健康と同様に大切だ。",
+        "kana": "せいしんてきなけんこうもしんたいのけんこうとどうようにたいせつだ。",
+        "meaning": "정신적인 건강도 신체의 건강과 마찬가지로 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "素",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "elementary",
+      "naked",
+      "principle",
+      "uncovered"
+    ],
+    "kor_meaning": "흴",
+    "kor_sound": "소",
+    "readings_on": [
+      "ス",
+      "ソ"
+    ],
+    "romaji_on": [
+      "su",
+      "so"
+    ],
+    "readings_kun": [
+      "もと"
+    ],
+    "romaji_kun": [
+      "moto"
+    ],
+    "examples": [
+      {
+        "word": "素材(そざい)",
+        "meaning": "소재",
+        "romaji": "sozai"
+      },
+      {
+        "word": "素朴(そぼく)",
+        "meaning": "소박",
+        "romaji": "soboku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "素晴らしい演奏に会場から拍手が起きた。",
+        "kana": "すばらしいえんそうにかいじょうからはくしゅがおきた。",
+        "meaning": "훌륭한 연주에 행사장에서 박수가 일어났다."
+      },
+      {
+        "kanji": "素直に失敗を認めることが大切だ。",
+        "kana": "すなおにしっぱいをみとめることがたいせつだ。",
+        "meaning": "솔직하게 실패를 인정하는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "経",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "expire",
+      "longitude",
+      "pass thru",
+      "sutra",
+      "warp"
+    ],
+    "kor_meaning": "날",
+    "kor_sound": "경",
+    "readings_on": [
+      "キョウ",
+      "キン",
+      "ケイ"
+    ],
+    "romaji_on": [
+      "kyou",
+      "kin",
+      "kei"
+    ],
+    "readings_kun": [
+      "た.つ",
+      "たていと",
+      "のり",
+      "はか.る",
+      "へ.る"
+    ],
+    "romaji_kun": [
+      "tatsu",
+      "tateito",
+      "nori",
+      "hakaru",
+      "heru"
+    ],
+    "examples": [
+      {
+        "word": "経済(けいざい)",
+        "meaning": "경제",
+        "romaji": "keizai"
+      },
+      {
+        "word": "経験(けいけん)",
+        "meaning": "경험",
+        "romaji": "keiken"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "豊富な経験が仕事に活かされている。",
+        "kana": "ほうふなけいけんがしごとにいかされている。",
+        "meaning": "풍부한 경험이 일에 활용되고 있다."
+      },
+      {
+        "kanji": "景気が経済全体に影響を与えている。",
+        "kana": "けいきがけいざいぜんたいにえいきょうをあたえている。",
+        "meaning": "경기가 경제 전체에 영향을 주고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "統",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "governing",
+      "overall",
+      "relationship",
+      "ruling"
+    ],
+    "kor_meaning": "거느릴",
+    "kor_sound": "통",
+    "readings_on": [
+      "トウ"
+    ],
+    "romaji_on": [
+      "tou"
+    ],
+    "readings_kun": [
+      "す.べる",
+      "ほび.る"
+    ],
+    "romaji_kun": [
+      "suberu",
+      "hobiru"
+    ],
+    "examples": [
+      {
+        "word": "大統領(だいとうりょう)",
+        "meaning": "대통령",
+        "romaji": "daitouryou"
+      },
+      {
+        "word": "統一(とういつ)",
+        "meaning": "통일",
+        "romaji": "touitsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "統計データを分析して結論を導き出す。",
+        "kana": "とうけいでーたをぶんせきしてけつろんをみちびきだす。",
+        "meaning": "통계 데이터를 분석하여 결론을 도출한다."
+      },
+      {
+        "kanji": "国を統治するリーダーには誠実さが必要だ。",
+        "kana": "くにをとうちするりーだーにはせいじつさがひつようだ。",
+        "meaning": "나라를 통치하는 리더에게는 성실함이 필요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "絶",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "abstain",
+      "be beyond",
+      "cut off",
+      "discontinue",
+      "interrupt",
+      "peerless",
+      "sever",
+      "suppress",
+      "unparalleled",
+      "without match"
+    ],
+    "kor_meaning": "끊을",
+    "kor_sound": "절",
+    "readings_on": [
+      "ゼツ"
+    ],
+    "romaji_on": [
+      "ゼtsu"
+    ],
+    "readings_kun": [
+      "た.える",
+      "た.つ",
+      "た.やす"
+    ],
+    "romaji_kun": [
+      "taeru",
+      "tatsu",
+      "tayasu"
+    ],
+    "examples": [
+      {
+        "word": "絶対(ぜったい)",
+        "meaning": "절대",
+        "romaji": "zettai"
+      },
+      {
+        "word": "絶望(ぜつぼう)",
+        "meaning": "절망",
+        "romaji": "zetsubou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "絶対に諦めずに最後まで頑張る。",
+        "kana": "ぜったいにあきらめずにさいごまでがんばる。",
+        "meaning": "절대로 포기하지 않고 끝까지 열심히 한다."
+      },
+      {
+        "kanji": "山頂からの絶景に感動した。",
+        "kana": "さんちょうからのぜっけいにかんどうした。",
+        "meaning": "산 정상에서의 절경에 감동했다."
+      }
+    ]
+  },
+  {
+    "kanji": "綿",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "cotton"
+    ],
+    "kor_meaning": "이어질",
+    "kor_sound": "면",
+    "readings_on": [
+      "メン"
+    ],
+    "romaji_on": [
+      "men"
+    ],
+    "readings_kun": [
+      "わた"
+    ],
+    "romaji_kun": [
+      "wata"
+    ],
+    "examples": [
+      {
+        "word": "綿布(めんぷ)",
+        "meaning": "면포",
+        "romaji": "menpu"
+      },
+      {
+        "word": "木綿(もめん)",
+        "meaning": "무명",
+        "romaji": "momen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "天然の綿素材は肌に優しくて人気がある。",
+        "kana": "てんねんのめんそざいははだにやさしくてにんきがある。",
+        "meaning": "천연 면 소재는 피부에 부드러워서 인기가 있다."
+      },
+      {
+        "kanji": "長年にわたって綿密に研究してきた。",
+        "kana": "ながねんにわたってめんみつにけんきゅうしてきた。",
+        "meaning": "오랫동안 꼼꼼하게 연구해 왔다."
+      }
+    ]
+  },
+  {
+    "kanji": "総",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "all",
+      "full",
+      "general",
+      "total",
+      "whole"
+    ],
+    "kor_meaning": "다",
+    "kor_sound": "총",
+    "readings_on": [
+      "ソウ"
+    ],
+    "romaji_on": [
+      "sou"
+    ],
+    "readings_kun": [
+      "す.べて",
+      "すべ.て",
+      "ふさ"
+    ],
+    "romaji_kun": [
+      "subete",
+      "subete",
+      "fusa"
+    ],
+    "examples": [
+      {
+        "word": "総合(そうごう)",
+        "meaning": "종합",
+        "romaji": "sougou"
+      },
+      {
+        "word": "総理(そうり)",
+        "meaning": "총리",
+        "romaji": "souri"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "総合的な判断を下すことが求められる。",
+        "kana": "そうごうてきなはんだんをくだすことがもとめられる。",
+        "meaning": "종합적인 판단을 내리는 것이 요구된다."
+      },
+      {
+        "kanji": "総務部に相談して手続きを進めた。",
+        "kana": "そうむぶにそうだんしててつづきをすすめた。",
+        "meaning": "총무부에 상담하여 절차를 진행했다."
+      }
+    ]
+  },
+  {
+    "kanji": "編",
+    "grade": 5,
+    "strokes": 15,
+    "meanings": [
+      "braid",
+      "compilation",
+      "completed poem",
+      "editing",
+      "knit",
+      "part of a book",
+      "plait",
+      "twist"
+    ],
+    "kor_meaning": "책편",
+    "kor_sound": "편",
+    "readings_on": [
+      "ヘン"
+    ],
+    "romaji_on": [
+      "hen"
+    ],
+    "readings_kun": [
+      "-あ.み",
+      "あ.む"
+    ],
+    "romaji_kun": [
+      "-ami",
+      "amu"
+    ],
+    "examples": [
+      {
+        "word": "編集(へんしゅう)",
+        "meaning": "편집",
+        "romaji": "henshuu"
+      },
+      {
+        "word": "編み物(あみもの)",
+        "meaning": "뜨개질",
+        "romaji": "amimono"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "雑誌の編集作業に携わっている。",
+        "kana": "ざっしのへんしゅうさぎょうにたずさわっている。",
+        "meaning": "잡지의 편집 작업에 관여하고 있다."
+      },
+      {
+        "kanji": "毛糸を使ってセーターを編んだ。",
+        "kana": "けいとをつかってせーたーをあんだ。",
+        "meaning": "털실을 사용하여 스웨터를 짰다."
+      }
+    ]
+  },
+  {
+    "kanji": "績",
+    "grade": 5,
+    "strokes": 17,
+    "meanings": [
+      "achievements",
+      "exploits",
+      "unreeling cocoons"
+    ],
+    "kor_meaning": "길쌈",
+    "kor_sound": "적",
+    "readings_on": [
+      "セキ"
+    ],
+    "romaji_on": [
+      "seki"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "成績(せいせき)",
+        "meaning": "성적",
+        "romaji": "seiseki"
+      },
+      {
+        "word": "実績(じっせき)",
+        "meaning": "실적",
+        "romaji": "jisseki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "今年は昨年より業績が大幅に改善した。",
+        "kana": "ことしはさくねんよりぎょうせきがおおはばにかいぜんした。",
+        "meaning": "올해는 작년보다 업적이 크게 개선되었다."
+      },
+      {
+        "kanji": "学業成績を向上させるために努力する。",
+        "kana": "がくぎょうせいせきをこうじょうさせるためにどりょくする。",
+        "meaning": "학업 성적을 향상시키기 위해 노력한다."
+      }
+    ]
+  },
+  {
+    "kanji": "織",
+    "grade": 5,
+    "strokes": 18,
+    "meanings": [
+      "fabric",
+      "weave"
+    ],
+    "kor_meaning": "짤",
+    "kor_sound": "직",
+    "readings_on": [
+      "シキ",
+      "ショク"
+    ],
+    "romaji_on": [
+      "shiki",
+      "shoku"
+    ],
+    "readings_kun": [
+      "-お.り",
+      "-おり",
+      "お.り",
+      "お.る",
+      "おり"
+    ],
+    "romaji_kun": [
+      "-ori",
+      "-ori",
+      "ori",
+      "oru",
+      "ori"
+    ],
+    "examples": [
+      {
+        "word": "組織(そしき)",
+        "meaning": "조직",
+        "romaji": "soshiki"
+      },
+      {
+        "word": "織物(おりもの)",
+        "meaning": "직물",
+        "romaji": "orimono"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "伝統的な織物の技術を次世代に伝える。",
+        "kana": "でんとうてきなおりもののぎじゅつをじせだいにつたえる。",
+        "meaning": "전통적인 직물 기술을 다음 세대에 전한다."
+      },
+      {
+        "kanji": "組織全体の連携を強化することが重要だ。",
+        "kana": "そしきぜんたいのれんけいをきょうかすることがじゅうようだ。",
+        "meaning": "조직 전체의 연계를 강화하는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "罪",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "blame",
+      "crime",
+      "fault",
+      "guilt",
+      "offense",
+      "sin"
+    ],
+    "kor_meaning": "허물",
+    "kor_sound": "죄",
+    "readings_on": [
+      "ザイ"
+    ],
+    "romaji_on": [
+      "zai"
+    ],
+    "readings_kun": [
+      "つみ"
+    ],
+    "romaji_kun": [
+      "tsumi"
+    ],
+    "examples": [
+      {
+        "word": "犯罪(はんざい)",
+        "meaning": "범죄",
+        "romaji": "hanzai"
+      },
+      {
+        "word": "有罪(ゆうざい)",
+        "meaning": "유죄",
+        "romaji": "yuuzai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "罪を犯した場合は必ず責任を取らなければならない。",
+        "kana": "つみをおかしたばあいはかならずせきにんをとらなければならない。",
+        "meaning": "죄를 저질렀을 경우에는 반드시 책임을 져야 한다."
+      },
+      {
+        "kanji": "無罪が証明されて釈放された。",
+        "kana": "むざいがしょうめいされてしゃくほうされた。",
+        "meaning": "무죄가 증명되어 석방되었다."
+      }
+    ]
+  },
+  {
+    "kanji": "群",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "cluster",
+      "crowd",
+      "flock",
+      "group",
+      "herd",
+      "swarm"
+    ],
+    "kor_meaning": "무리",
+    "kor_sound": "군",
+    "readings_on": [
+      "グン"
+    ],
+    "romaji_on": [
+      "グn"
+    ],
+    "readings_kun": [
+      "む.れ",
+      "む.れる",
+      "むら",
+      "むら.がる"
+    ],
+    "romaji_kun": [
+      "mure",
+      "mureru",
+      "mura",
+      "muragaru"
+    ],
+    "examples": [
+      {
+        "word": "群衆(ぐんしゅう)",
+        "meaning": "군중",
+        "romaji": "gunshuu"
+      },
+      {
+        "word": "群れ(むれ)",
+        "meaning": "무리",
+        "romaji": "mure"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "群衆の中で迷子になってしまった。",
+        "kana": "ぐんしゅうのなかでまいごになってしまった。",
+        "meaning": "군중 속에서 길을 잃어버렸다."
+      },
+      {
+        "kanji": "沖縄諸島には美しい群島が広がっている。",
+        "kana": "おきなわしょとうにはうつくしいぐんとうがひろがっている。",
+        "meaning": "오키나와 제도에는 아름다운 군도가 펼쳐져 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "義",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "honor",
+      "justice",
+      "loyalty",
+      "meaning",
+      "morality",
+      "righteousness"
+    ],
+    "kor_meaning": "옳을",
+    "kor_sound": "의",
+    "readings_on": [
+      "ギ"
+    ],
+    "romaji_on": [
+      "gi"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "義務(ぎむ)",
+        "meaning": "의무",
+        "romaji": "gimu"
+      },
+      {
+        "word": "正義(せいぎ)",
+        "meaning": "정의",
+        "romaji": "seigi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "義務を果たすことと権利を主張することは両立する。",
+        "kana": "ぎむをはたすこととけんりをしゅちょうすることはりょうりつする。",
+        "meaning": "의무를 다하는 것과 권리를 주장하는 것은 양립한다."
+      },
+      {
+        "kanji": "正義のために声を上げる勇気が必要だ。",
+        "kana": "せいぎのためにこえをあげるゆうきがひつようだ。",
+        "meaning": "정의를 위해 목소리를 높일 용기가 필요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "耕",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "cultivate",
+      "plow",
+      "till"
+    ],
+    "kor_meaning": "밭갈",
+    "kor_sound": "경",
+    "readings_on": [
+      "コウ"
+    ],
+    "romaji_on": [
+      "kou"
+    ],
+    "readings_kun": [
+      "たがや.す"
+    ],
+    "romaji_kun": [
+      "tagayasu"
+    ],
+    "examples": [
+      {
+        "word": "耕作(こうさく)",
+        "meaning": "경작",
+        "romaji": "kousaku"
+      },
+      {
+        "word": "耕す(たがやす)",
+        "meaning": "밭을 갈다",
+        "romaji": "tagayasu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "農家が毎朝早くから畑を耕している。",
+        "kana": "のうかがまいあさはやくからはたけをたがやしている。",
+        "meaning": "농가가 매일 아침 일찍부터 밭을 갈고 있다."
+      },
+      {
+        "kanji": "土地を耕して新しい農地を開拓した。",
+        "kana": "とちをたがやしてあたらしいのうちをかいたくした。",
+        "meaning": "토지를 개간하여 새로운 농지를 개척했다."
+      }
+    ]
+  },
+  {
+    "kanji": "職",
+    "grade": 5,
+    "strokes": 18,
+    "meanings": [
+      "employment",
+      "post",
+      "work"
+    ],
+    "kor_meaning": "벼슬",
+    "kor_sound": "직",
+    "readings_on": [
+      "ショク",
+      "ソク"
+    ],
+    "romaji_on": [
+      "shoku",
+      "soku"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "職業(しょくぎょう)",
+        "meaning": "직업",
+        "romaji": "shokugyou"
+      },
+      {
+        "word": "職場(しょくば)",
+        "meaning": "직장",
+        "romaji": "shokuba"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "就職活動に全力を尽くして内定を得た。",
+        "kana": "しゅうしょくかつどうにぜんりょくをつくしてないていをえた。",
+        "meaning": "취업 활동에 전력을 다해 내정을 얻었다."
+      },
+      {
+        "kanji": "天職に就けたと感じる仕事に出会えた。",
+        "kana": "てんしょくにつけたとかんじるしごとにであえた。",
+        "meaning": "천직에 취직할 수 있었다고 느끼는 일을 만났다."
+      }
+    ]
+  },
+  {
+    "kanji": "肥",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "fertile",
+      "fertilizer",
+      "get fat",
+      "manure",
+      "pamper"
+    ],
+    "kor_meaning": "살찔",
+    "kor_sound": "비",
+    "readings_on": [
+      "ヒ"
+    ],
+    "romaji_on": [
+      "hi"
+    ],
+    "readings_kun": [
+      "こ.える",
+      "こ.やし",
+      "こ.やす",
+      "こえ",
+      "ふと.る"
+    ],
+    "romaji_kun": [
+      "koeru",
+      "koyashi",
+      "koyasu",
+      "koe",
+      "futoru"
+    ],
+    "examples": [
+      {
+        "word": "肥満(ひまん)",
+        "meaning": "비만",
+        "romaji": "himan"
+      },
+      {
+        "word": "肥料(ひりょう)",
+        "meaning": "비료",
+        "romaji": "hiryou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "土壌に肥料を与えて作物を育てる。",
+        "kana": "どじょうにひりょうをあたえてさくもつをそだてる。",
+        "meaning": "토양에 비료를 주어 작물을 키운다."
+      },
+      {
+        "kanji": "不健康な食生活が続いて肥満になった。",
+        "kana": "ふけんこうなしょくせいかつがつづいてひまんになった。",
+        "meaning": "불건강한 식생활이 계속되어 비만이 되었다."
+      }
+    ]
+  },
+  {
+    "kanji": "能",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "ability",
+      "capacity",
+      "skill",
+      "talent"
+    ],
+    "kor_meaning": "능할",
+    "kor_sound": "능",
+    "readings_on": [
+      "ノウ"
+    ],
+    "romaji_on": [
+      "nou"
+    ],
+    "readings_kun": [
+      "あた.う",
+      "よ.く"
+    ],
+    "romaji_kun": [
+      "atau",
+      "yoku"
+    ],
+    "examples": [
+      {
+        "word": "能力(のうりょく)",
+        "meaning": "능력",
+        "romaji": "nouryoku"
+      },
+      {
+        "word": "機能(きのう)",
+        "meaning": "기능",
+        "romaji": "kinou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "能力を最大限に発揮するための環境を整える。",
+        "kana": "のうりょくをさいだいげんにはっきするためのかんきょうをととのえる。",
+        "meaning": "능력을 최대한 발휘하기 위한 환경을 갖춘다."
+      },
+      {
+        "kanji": "彼は伝統芸能の能楽師として活躍している。",
+        "kana": "かれはでんとうげいのうののうがくしとしてかつやくしている。",
+        "meaning": "그는 전통 예능 노가쿠 배우로서 활약하고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "興",
+    "grade": 5,
+    "strokes": 16,
+    "meanings": [
+      "entertain",
+      "interest",
+      "pleasure",
+      "retrieve",
+      "revive"
+    ],
+    "kor_meaning": "일",
+    "kor_sound": "흥",
+    "readings_on": [
+      "キョウ",
+      "コウ"
+    ],
+    "romaji_on": [
+      "kyou",
+      "kou"
+    ],
+    "readings_kun": [
+      "おこ.す",
+      "おこ.る"
+    ],
+    "romaji_kun": [
+      "okosu",
+      "okoru"
+    ],
+    "examples": [
+      {
+        "word": "興味(きょうみ)",
+        "meaning": "흥미",
+        "romaji": "kyoumi"
+      },
+      {
+        "word": "新興(しんこう)",
+        "meaning": "신흥",
+        "romaji": "shinkou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新しいプロジェクトへの興味が湧いてきた。",
+        "kana": "あたらしいぷろじぇくとへのきょうみがわいてきた。",
+        "meaning": "새로운 프로젝트에 대한 흥미가 생겨났다."
+      },
+      {
+        "kanji": "地域の観光業を振興させる取り組みが始まった。",
+        "kana": "ちいきのかんこうぎょうをしんこうさせるとりくみがはじまった。",
+        "meaning": "지역 관광업을 진흥시키는 노력이 시작되었다."
+      }
+    ]
+  },
+  {
+    "kanji": "舌",
+    "grade": 5,
+    "strokes": 6,
+    "meanings": [
+      "clapper",
+      "reed",
+      "tongue"
+    ],
+    "kor_meaning": "혀",
+    "kor_sound": "설",
+    "readings_on": [
+      "ゼツ"
+    ],
+    "romaji_on": [
+      "ゼtsu"
+    ],
+    "readings_kun": [
+      "した"
+    ],
+    "romaji_kun": [
+      "shita"
+    ],
+    "examples": [
+      {
+        "word": "毒舌(どくぜつ)",
+        "meaning": "독설",
+        "romaji": "dokuzetsu"
+      },
+      {
+        "word": "舌先(したさき)",
+        "meaning": "혀끝",
+        "romaji": "shitasaki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "辛い食べ物で舌がひりひりした。",
+        "kana": "からいたべものでしたがひりひりした。",
+        "meaning": "매운 음식으로 혀가 얼얼해졌다."
+      },
+      {
+        "kanji": "口から舌がすべって言い間違えた。",
+        "kana": "くちからしたがすべっていいまちがえた。",
+        "meaning": "말이 새어나와 잘못 말했다."
+      }
+    ]
+  },
+  {
+    "kanji": "舎",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "cottage",
+      "house",
+      "hut",
+      "inn",
+      "mansion"
+    ],
+    "kor_meaning": "",
+    "kor_sound": "",
+    "readings_on": [
+      "シャ",
+      "セキ"
+    ],
+    "romaji_on": [
+      "sha",
+      "seki"
+    ],
+    "readings_kun": [
+      "やど.る"
+    ],
+    "romaji_kun": [
+      "yadoru"
+    ],
+    "examples": [
+      {
+        "word": "宿舎(しゅくしゃ)",
+        "meaning": "숙소",
+        "romaji": "shukusha"
+      },
+      {
+        "word": "田舎(いなか)",
+        "meaning": "시골",
+        "romaji": "inaka"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "田舎の空気は都市と違って新鮮だ。",
+        "kana": "いなかのくうきはとしとちがってしんせんだ。",
+        "meaning": "시골 공기는 도시와 달리 신선하다."
+      },
+      {
+        "kanji": "校舎の修復工事が完成した。",
+        "kana": "こうしゃのしゅうふくこうじがかんせいした。",
+        "meaning": "교사(교건물) 수복 공사가 완성되었다."
+      }
+    ]
+  },
+  {
+    "kanji": "術",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "art",
+      "magic",
+      "means",
+      "resources",
+      "skill",
+      "technique",
+      "trick"
+    ],
+    "kor_meaning": "재주",
+    "kor_sound": "술",
+    "readings_on": [
+      "ジュツ"
+    ],
+    "romaji_on": [
+      "jutsu"
+    ],
+    "readings_kun": [
+      "すべ"
+    ],
+    "romaji_kun": [
+      "sube"
+    ],
+    "examples": [
+      {
+        "word": "技術(ぎじゅつ)",
+        "meaning": "기술",
+        "romaji": "gijutsu"
+      },
+      {
+        "word": "芸術(げいじゅつ)",
+        "meaning": "예술",
+        "romaji": "geijutsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "医術の進歩が多くの患者を救っている。",
+        "kana": "いじゅつのしんぽがおおくのかんじゃをすくっている。",
+        "meaning": "의술의 발전이 많은 환자를 구하고 있다."
+      },
+      {
+        "kanji": "芸術作品を通じて作家の思いを感じる。",
+        "kana": "げいじゅつさくひんをつうじてさっかのおもいをかんじる。",
+        "meaning": "예술 작품을 통해 작가의 마음을 느낀다."
+      }
+    ]
+  },
+  {
+    "kanji": "衛",
+    "grade": 5,
+    "strokes": 16,
+    "meanings": [
+      "defense",
+      "protection"
+    ],
+    "kor_meaning": "지킬",
+    "kor_sound": "위",
+    "readings_on": [
+      "エ",
+      "エイ"
+    ],
+    "romaji_on": [
+      "e",
+      "ei"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "衛生(えいせい)",
+        "meaning": "위생",
+        "romaji": "eisei"
+      },
+      {
+        "word": "防衛(ぼうえい)",
+        "meaning": "방위",
+        "romaji": "bouei"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "衛生管理を徹底して食中毒を防ぐ。",
+        "kana": "えいせいかんりをてっていしてしょくちゅうどくをふせぐ。",
+        "meaning": "위생 관리를 철저히 하여 식중독을 예방한다."
+      },
+      {
+        "kanji": "人工衛星が地球の周りを回っている。",
+        "kana": "じんこうえいせいがちきゅうのまわりをまわっている。",
+        "meaning": "인공위성이 지구 주변을 돌고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "製",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "made in...",
+      "manufacture"
+    ],
+    "kor_meaning": "만들",
+    "kor_sound": "제",
+    "readings_on": [
+      "セイ"
+    ],
+    "romaji_on": [
+      "sei"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "製品(せいひん)",
+        "meaning": "제품",
+        "romaji": "seihin"
+      },
+      {
+        "word": "製作(せいさく)",
+        "meaning": "제작",
+        "romaji": "seisaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "国産製品の品質は世界的に高く評価されている。",
+        "kana": "こくさんせいひんのひんしつはせかいてきにたかくひょうかされている。",
+        "meaning": "국내산 제품의 품질은 세계적으로 높이 평가되고 있다."
+      },
+      {
+        "kanji": "製造過程の品質管理を徹底する。",
+        "kana": "せいぞうかていのひんしつかんりをてっていする。",
+        "meaning": "제조 과정의 품질 관리를 철저히 한다."
+      }
+    ]
+  },
+  {
+    "kanji": "複",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "compound",
+      "double",
+      "duplicate",
+      "multiple"
+    ],
+    "kor_meaning": "겹칠",
+    "kor_sound": "부",
+    "readings_on": [
+      "フク"
+    ],
+    "romaji_on": [
+      "fuku"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "複雑(ふくざつ)",
+        "meaning": "복잡",
+        "romaji": "fukuzatsu"
+      },
+      {
+        "word": "複数(ふくすう)",
+        "meaning": "복수",
+        "romaji": "fukusuu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "複数の候補者から最適な人を選ぶ。",
+        "kana": "ふくすうのこうほしゃからさいてきなひとをえらぶ。",
+        "meaning": "복수의 후보자 중에서 가장 적합한 사람을 선택한다."
+      },
+      {
+        "kanji": "複雑な問題をシンプルに解決する方法を考える。",
+        "kana": "ふくざつなもんだいをしんぷるにかいけつするほうほうをかんがえる。",
+        "meaning": "복잡한 문제를 단순하게 해결하는 방법을 생각한다."
+      }
+    ]
+  },
+  {
+    "kanji": "規",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "measure",
+      "standard"
+    ],
+    "kor_meaning": "그림쇠",
+    "kor_sound": "규",
+    "readings_on": [
+      "キ"
+    ],
+    "romaji_on": [
+      "ki"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "規則(きそく)",
+        "meaning": "규칙",
+        "romaji": "kisoku"
+      },
+      {
+        "word": "規模(きぼ)",
+        "meaning": "규모",
+        "romaji": "kibo"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "会社の規則に従って業務を行う。",
+        "kana": "かいしゃのきそくにしたがってぎょうむをおこなう。",
+        "meaning": "회사 규칙에 따라 업무를 수행한다."
+      },
+      {
+        "kanji": "規模が大きいプロジェクトには入念な準備が必要だ。",
+        "kana": "きぼがおおきいぷろじぇくとにはねんみつなじゅんびがひつようだ。",
+        "meaning": "규모가 큰 프로젝트에는 세심한 준비가 필요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "解",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "absolve",
+      "answer",
+      "cancel",
+      "explain",
+      "explanation",
+      "key",
+      "minute",
+      "notes",
+      "solve",
+      "understanding",
+      "undo",
+      "unravel",
+      "untie"
+    ],
+    "kor_meaning": "쪼갤",
+    "kor_sound": "해",
+    "readings_on": [
+      "カイ",
+      "ゲ"
+    ],
+    "romaji_on": [
+      "kai",
+      "ゲ"
+    ],
+    "readings_kun": [
+      "さと.る",
+      "と.かす",
+      "と.く",
+      "と.ける",
+      "ほど.く",
+      "ほど.ける",
+      "わか.る"
+    ],
+    "romaji_kun": [
+      "satoru",
+      "tokasu",
+      "toku",
+      "tokeru",
+      "hodoku",
+      "hodokeru",
+      "wakaru"
+    ],
+    "examples": [
+      {
+        "word": "解決(かいけつ)",
+        "meaning": "해결",
+        "romaji": "kaiketsu"
+      },
+      {
+        "word": "理解(りかい)",
+        "meaning": "이해",
+        "romaji": "rikai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "難しい問題を解くのに時間がかかった。",
+        "kana": "むずかしいもんだいをとくのにじかんがかかった。",
+        "meaning": "어려운 문제를 푸는 데 시간이 걸렸다."
+      },
+      {
+        "kanji": "誤解を解いて和解することができた。",
+        "kana": "ごかいをといてわかいすることができた。",
+        "meaning": "오해를 풀고 화해할 수 있었다."
+      }
+    ]
+  },
+  {
+    "kanji": "設",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "establishment",
+      "prepare",
+      "provision"
+    ],
+    "kor_meaning": "베풀",
+    "kor_sound": "설",
+    "readings_on": [
+      "セツ"
+    ],
+    "romaji_on": [
+      "setsu"
+    ],
+    "readings_kun": [
+      "もう.ける"
+    ],
+    "romaji_kun": [
+      "moukeru"
+    ],
+    "examples": [
+      {
+        "word": "設計(せっけい)",
+        "meaning": "설계",
+        "romaji": "sekkei"
+      },
+      {
+        "word": "建設(けんせつ)",
+        "meaning": "건설",
+        "romaji": "kensetsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新しい施設を設置するための計画が進む。",
+        "kana": "あたらしいしせつをせっちするためのけいかくがすすむ。",
+        "meaning": "새로운 시설을 설치하기 위한 계획이 진행된다."
+      },
+      {
+        "kanji": "設備の点検を定期的に行うことが必要だ。",
+        "kana": "せつびのてんけんをていきてきにおこなうことがひつようだ。",
+        "meaning": "설비 점검을 정기적으로 실시하는 것이 필요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "許",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "approve",
+      "permit"
+    ],
+    "kor_meaning": "이영차",
+    "kor_sound": "호",
+    "readings_on": [
+      "キョ"
+    ],
+    "romaji_on": [
+      "kyo"
+    ],
+    "readings_kun": [
+      "もと",
+      "ゆる.す"
+    ],
+    "romaji_kun": [
+      "moto",
+      "yurusu"
+    ],
+    "examples": [
+      {
+        "word": "許可(きょか)",
+        "meaning": "허가",
+        "romaji": "kyoka"
+      },
+      {
+        "word": "許す(ゆるす)",
+        "meaning": "허락하다",
+        "romaji": "yurusu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "運転免許を取るために教習所に通った。",
+        "kana": "うんてんめんきょをとるためにきょうしゅうじょにかよった。",
+        "meaning": "운전 면허를 따기 위해 운전 학원에 다녔다."
+      },
+      {
+        "kanji": "上司に許可をもらって早退した。",
+        "kana": "じょうしにきょかをもらってそうたいした。",
+        "meaning": "상사에게 허가를 받아 조퇴했다."
+      }
+    ]
+  },
+  {
+    "kanji": "証",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "certificate",
+      "evidence",
+      "proof"
+    ],
+    "kor_meaning": "간할",
+    "kor_sound": "정",
+    "readings_on": [
+      "ショウ"
+    ],
+    "romaji_on": [
+      "shou"
+    ],
+    "readings_kun": [
+      "あかし"
+    ],
+    "romaji_kun": [
+      "akashi"
+    ],
+    "examples": [
+      {
+        "word": "証明(しょうめい)",
+        "meaning": "증명",
+        "romaji": "shoumei"
+      },
+      {
+        "word": "証拠(しょうこ)",
+        "meaning": "증거",
+        "romaji": "shouko"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "身分証明書を提示して入場した。",
+        "kana": "みぶんしょうめいしょをていじしてにゅうじょうした。",
+        "meaning": "신분증명서를 제시하고 입장했다."
+      },
+      {
+        "kanji": "無実を証明するための証拠を集めた。",
+        "kana": "むじつをしょうめいするためのしょうこをあつめた。",
+        "meaning": "무고함을 증명하기 위한 증거를 모았다."
+      }
+    ]
+  },
+  {
+    "kanji": "評",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "comment",
+      "criticism",
+      "evaluate"
+    ],
+    "kor_meaning": "평론할",
+    "kor_sound": "평",
+    "readings_on": [
+      "ヒョウ"
+    ],
+    "romaji_on": [
+      "hyou"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "評価(ひょうか)",
+        "meaning": "평가",
+        "romaji": "hyouka"
+      },
+      {
+        "word": "評判(ひょうばん)",
+        "meaning": "평판",
+        "romaji": "hyouban"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "専門家の評価が高い商品を購入した。",
+        "kana": "せんもんかのひょうかがたかいしょうひんをこうにゅうした。",
+        "meaning": "전문가의 평가가 높은 상품을 구입했다."
+      },
+      {
+        "kanji": "批評を参考にして作品を改善した。",
+        "kana": "ひひょうをさんこうにしてさくひんをかいぜんした。",
+        "meaning": "비평을 참고하여 작품을 개선했다."
+      }
+    ]
+  },
+  {
+    "kanji": "講",
+    "grade": 5,
+    "strokes": 17,
+    "meanings": [
+      "association",
+      "club",
+      "lecture"
+    ],
+    "kor_meaning": "강론할",
+    "kor_sound": "강",
+    "readings_on": [
+      "コウ"
+    ],
+    "romaji_on": [
+      "kou"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "講義(こうぎ)",
+        "meaning": "강의",
+        "romaji": "kougi"
+      },
+      {
+        "word": "講演(こうえん)",
+        "meaning": "강연",
+        "romaji": "kouen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "大学で哲学の講義を受けた。",
+        "kana": "だいがくでてつがくのこうぎをうけた。",
+        "meaning": "대학에서 철학 강의를 들었다."
+      },
+      {
+        "kanji": "料理教室の講師として週に一度教えている。",
+        "kana": "りょうりきょうしつのこうしとしてしゅうにいちどおしえている。",
+        "meaning": "요리 교실 강사로서 일주일에 한 번 가르치고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "謝",
+    "grade": 5,
+    "strokes": 17,
+    "meanings": [
+      "apologize",
+      "refuse",
+      "thank"
+    ],
+    "kor_meaning": "사례할",
+    "kor_sound": "사",
+    "readings_on": [
+      "シャ"
+    ],
+    "romaji_on": [
+      "sha"
+    ],
+    "readings_kun": [
+      "あやま.る"
+    ],
+    "romaji_kun": [
+      "ayamaru"
+    ],
+    "examples": [
+      {
+        "word": "感謝(かんしゃ)",
+        "meaning": "감사",
+        "romaji": "kansha"
+      },
+      {
+        "word": "謝罪(しゃざい)",
+        "meaning": "사죄",
+        "romaji": "shazai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "失礼なことを言ってしまって素直に謝った。",
+        "kana": "しつれいなことをいってしまってすなおにあやまった。",
+        "meaning": "실례되는 말을 해버려서 솔직하게 사과했다."
+      },
+      {
+        "kanji": "感謝の気持ちを言葉で伝えることが大切だ。",
+        "kana": "かんしゃのきもちをことばでつたえることがたいせつだ。",
+        "meaning": "감사의 마음을 말로 전하는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "識",
+    "grade": 5,
+    "strokes": 19,
+    "meanings": [
+      "discriminating",
+      "know",
+      "write"
+    ],
+    "kor_meaning": "표할",
+    "kor_sound": "지",
+    "readings_on": [
+      "シキ"
+    ],
+    "romaji_on": [
+      "shiki"
+    ],
+    "readings_kun": [
+      "し.る",
+      "しる.す"
+    ],
+    "romaji_kun": [
+      "shiru",
+      "shirusu"
+    ],
+    "examples": [
+      {
+        "word": "知識(ちしき)",
+        "meaning": "지식",
+        "romaji": "chishiki"
+      },
+      {
+        "word": "意識(いしき)",
+        "meaning": "의식",
+        "romaji": "ishiki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "専門的な知識を身につけてキャリアを築く。",
+        "kana": "せんもんてきなちしきをみにつけてきゃりあをきずく。",
+        "meaning": "전문적인 지식을 갖추어 커리어를 쌓는다."
+      },
+      {
+        "kanji": "常識的な判断力を持って行動することが大切だ。",
+        "kana": "じょうしきてきなはんだんりょくをもってこうどうすることがたいせつだ。",
+        "meaning": "상식적인 판단력을 갖고 행동하는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "護",
+    "grade": 5,
+    "strokes": 20,
+    "meanings": [
+      "protect",
+      "safeguard"
+    ],
+    "kor_meaning": "보호할",
+    "kor_sound": "호",
+    "readings_on": [
+      "ゴ"
+    ],
+    "romaji_on": [
+      "ゴ"
+    ],
+    "readings_kun": [
+      "まも.る"
+    ],
+    "romaji_kun": [
+      "mamoru"
+    ],
+    "examples": [
+      {
+        "word": "保護(ほご)",
+        "meaning": "보호",
+        "romaji": "hogo"
+      },
+      {
+        "word": "看護(かんご)",
+        "meaning": "간호",
+        "romaji": "kango"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "環境保護のためにゴミを減らす努力をする。",
+        "kana": "かんきょうほごのためにごみをへらすどりょくをする。",
+        "meaning": "환경 보호를 위해 쓰레기를 줄이는 노력을 한다."
+      },
+      {
+        "kanji": "弁護士が依頼人の権利を守るために戦う。",
+        "kana": "べんごしがいらいにんのけんりをまもるためにたたかう。",
+        "meaning": "변호사가 의뢰인의 권리를 지키기 위해 싸운다."
+      }
+    ]
+  },
+  {
+    "kanji": "豊",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "bountiful",
+      "excellent",
+      "rich"
+    ],
+    "kor_meaning": "풍년",
+    "kor_sound": "풍",
+    "readings_on": [
+      "ブ",
+      "ホウ"
+    ],
+    "romaji_on": [
+      "bu",
+      "hou"
+    ],
+    "readings_kun": [
+      "とよ",
+      "ゆた.か"
+    ],
+    "romaji_kun": [
+      "toyo",
+      "yutaka"
+    ],
+    "examples": [
+      {
+        "word": "豊富(ほうふ)",
+        "meaning": "풍부",
+        "romaji": "houfu"
+      },
+      {
+        "word": "豊作(ほうさく)",
+        "meaning": "풍작",
+        "romaji": "housaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "豊かな自然の中でリフレッシュした。",
+        "kana": "ゆたかなしぜんのなかでりふれっしゅした。",
+        "meaning": "풍요로운 자연 속에서 리프레시했다."
+      },
+      {
+        "kanji": "農業は豊かな食生活を支える基盤だ。",
+        "kana": "のうぎょうはゆたかなしょくせいかつをささえるきばんだ。",
+        "meaning": "농업은 풍요로운 식생활을 지탱하는 기반이다."
+      }
+    ]
+  },
+  {
+    "kanji": "財",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "assets",
+      "money",
+      "property",
+      "wealth"
+    ],
+    "kor_meaning": "재물",
+    "kor_sound": "재",
+    "readings_on": [
+      "サイ",
+      "ザイ",
+      "ゾク"
+    ],
+    "romaji_on": [
+      "sai",
+      "zai",
+      "ゾku"
+    ],
+    "readings_kun": [
+      "たから"
+    ],
+    "romaji_kun": [
+      "takara"
+    ],
+    "examples": [
+      {
+        "word": "財布(さいふ)",
+        "meaning": "지갑",
+        "romaji": "saifu"
+      },
+      {
+        "word": "財産(ざいさん)",
+        "meaning": "재산",
+        "romaji": "zaisan"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "財産を適切に管理することが将来のためになる。",
+        "kana": "ざいさんをてきせつにかんりすることがしょうらいのためになる。",
+        "meaning": "재산을 적절하게 관리하는 것이 장래를 위해 도움이 된다."
+      },
+      {
+        "kanji": "会社の財務状況を分析する仕事をしている。",
+        "kana": "かいしゃのざいむじょうきょうをぶんせきするしごとをしている。",
+        "meaning": "회사의 재무 상황을 분석하는 일을 하고 있다."
+      }
+    ]
+  },
+  {
+    "kanji": "貧",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "poor",
+      "poverty"
+    ],
+    "kor_meaning": "가난할",
+    "kor_sound": "빈",
+    "readings_on": [
+      "ヒン",
+      "ビン"
+    ],
+    "romaji_on": [
+      "hin",
+      "bin"
+    ],
+    "readings_kun": [
+      "まず.しい"
+    ],
+    "romaji_kun": [
+      "mazushii"
+    ],
+    "examples": [
+      {
+        "word": "貧困(ひんこん)",
+        "meaning": "빈곤",
+        "romaji": "hinkon"
+      },
+      {
+        "word": "貧しい(まずしい)",
+        "meaning": "가난하다",
+        "romaji": "mazushii"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "貧困問題の解決には社会全体の取り組みが必要だ。",
+        "kana": "ひんこんもんだいのかいけつにはしゃかいぜんたいのとりくみがひつようだ。",
+        "meaning": "빈곤 문제 해결에는 사회 전체의 노력이 필요하다."
+      },
+      {
+        "kanji": "経済的に貧しくても夢を持ち続けることが大切だ。",
+        "kana": "けいざいてきにまずしくてもゆめをもちつづけることがたいせつだ。",
+        "meaning": "경제적으로 가난해도 꿈을 계속 갖는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "責",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "blame",
+      "censure",
+      "condemn"
+    ],
+    "kor_meaning": "꾸짖을",
+    "kor_sound": "책",
+    "readings_on": [
+      "セキ"
+    ],
+    "romaji_on": [
+      "seki"
+    ],
+    "readings_kun": [
+      "せ.める"
+    ],
+    "romaji_kun": [
+      "semeru"
+    ],
+    "examples": [
+      {
+        "word": "責任(せきにん)",
+        "meaning": "책임",
+        "romaji": "sekinin"
+      },
+      {
+        "word": "責める(せめる)",
+        "meaning": "비난하다",
+        "romaji": "semeru"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "自分の行動に責任を持って行動する。",
+        "kana": "じぶんのこうどうにせきにんをもってこうどうする。",
+        "meaning": "자신의 행동에 책임을 갖고 행동한다."
+      },
+      {
+        "kanji": "失敗の責任を取って辞表を提出した。",
+        "kana": "しっぱいのせきにんをとってじひょうをていしゅつした。",
+        "meaning": "실패의 책임을 지고 사표를 제출했다."
+      }
+    ]
+  },
+  {
+    "kanji": "貸",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "lend"
+    ],
+    "kor_meaning": "빌릴",
+    "kor_sound": "특",
+    "readings_on": [
+      "タイ"
+    ],
+    "romaji_on": [
+      "tai"
+    ],
+    "readings_kun": [
+      "か.し-",
+      "か.す",
+      "かし-"
+    ],
+    "romaji_kun": [
+      "kashi-",
+      "kasu",
+      "kashi-"
+    ],
+    "examples": [
+      {
+        "word": "貸出(かしだし)",
+        "meaning": "대출",
+        "romaji": "kashidashi"
+      },
+      {
+        "word": "貸家(かしや)",
+        "meaning": "셋집",
+        "romaji": "kashiya"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "友人にお金を貸したがなかなか返ってこない。",
+        "kana": "ゆうじんにおかねをかしたがなかなかかえってこない。",
+        "meaning": "친구에게 돈을 빌려줬지만 좀처럼 돌아오지 않는다."
+      },
+      {
+        "kanji": "賃貸物件を探して新しい住まいに引っ越した。",
+        "kana": "ちんたいぶっけんをさがしてあたらしいすまいにひっこした。",
+        "meaning": "임대 물건을 찾아 새로운 주거지로 이사했다."
+      }
+    ]
+  },
+  {
+    "kanji": "貿",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "exchange",
+      "trade"
+    ],
+    "kor_meaning": "바꿀",
+    "kor_sound": "무",
+    "readings_on": [
+      "ボウ"
+    ],
+    "romaji_on": [
+      "bou"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "貿易(ぼうえき)",
+        "meaning": "무역",
+        "romaji": "boueki"
+      },
+      {
+        "word": "密貿易(みつぼうえき)",
+        "meaning": "밀무역",
+        "romaji": "mitsuboueki"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "自由貿易協定が締結されて輸出が増えた。",
+        "kana": "じゆうぼうえききょうていがていけつされてゆしゅつがふえた。",
+        "meaning": "자유무역협정이 체결되어 수출이 늘었다."
+      },
+      {
+        "kanji": "国際貿易の拡大は世界経済に重要だ。",
+        "kana": "こくさいぼうえきのかくだいはせかいけいざいにじゅうようだ。",
+        "meaning": "국제 무역의 확대는 세계 경제에 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "賀",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "congratulations",
+      "joy"
+    ],
+    "kor_meaning": "축하할",
+    "kor_sound": "하",
+    "readings_on": [
+      "ガ"
+    ],
+    "romaji_on": [
+      "ga"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "年賀状(ねんがじょう)",
+        "meaning": "연하장",
+        "romaji": "nengajou"
+      },
+      {
+        "word": "賀詞(がし)",
+        "meaning": "축하말",
+        "romaji": "gashi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新年のお祝いに年賀状を送った。",
+        "kana": "しんねんのおいわいにねんがじょうをおくった。",
+        "meaning": "새해 축하에 연하장을 보냈다."
+      },
+      {
+        "kanji": "祝賀パーティーで優勝を祝った。",
+        "kana": "しゅくがぱーてぃーでゆうしょうをいわった。",
+        "meaning": "축하 파티에서 우승을 기뻐했다."
+      }
+    ]
+  },
+  {
+    "kanji": "資",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "assets",
+      "be conducive to",
+      "capital",
+      "contribute to",
+      "data",
+      "funds",
+      "resources"
+    ],
+    "kor_meaning": "재물",
+    "kor_sound": "자",
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "資料(しりょう)",
+        "meaning": "자료",
+        "romaji": "shiryou"
+      },
+      {
+        "word": "資源(しげん)",
+        "meaning": "자원",
+        "romaji": "shigen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "プロジェクトに必要な資金を調達した。",
+        "kana": "ぷろじぇくとにひつようなしきんをちょうたつした。",
+        "meaning": "프로젝트에 필요한 자금을 조달했다."
+      },
+      {
+        "kanji": "豊富な資源を有効に活用することが大切だ。",
+        "kana": "ほうふなしげんをゆうこうにかつようすることがたいせつだ。",
+        "meaning": "풍부한 자원을 유효하게 활용하는 것이 중요하다."
+      }
+    ]
+  },
+  {
+    "kanji": "賛",
+    "grade": 5,
+    "strokes": 15,
+    "meanings": [
+      "agree with",
+      "approve",
+      "assist",
+      "praise",
+      "title or inscription on picture"
+    ],
+    "kor_meaning": "도울",
+    "kor_sound": "찬",
+    "readings_on": [
+      "サン"
+    ],
+    "romaji_on": [
+      "san"
+    ],
+    "readings_kun": [
+      "たす.ける",
+      "たた.える"
+    ],
+    "romaji_kun": [
+      "tasukeru",
+      "tataeru"
+    ],
+    "examples": [
+      {
+        "word": "賛成(さんせい)",
+        "meaning": "찬성",
+        "romaji": "sansei"
+      },
+      {
+        "word": "賛美(さんび)",
+        "meaning": "찬미",
+        "romaji": "sanbi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "新しい提案に全員が賛成した。",
+        "kana": "あたらしいていあんにぜんいんがさんせいした。",
+        "meaning": "새로운 제안에 전원이 찬성했다."
+      },
+      {
+        "kanji": "彼の意見には私も賛同します。",
+        "kana": "かれのいけんにはわたしもさんどうします。",
+        "meaning": "그의 의견에 저도 찬동합니다."
+      }
+    ]
+  },
+  {
+    "kanji": "質",
+    "grade": 5,
+    "strokes": 15,
+    "meanings": [
+      "matter",
+      "quality",
+      "substance",
+      "temperament"
+    ],
+    "kor_meaning": "바탕",
+    "kor_sound": "질",
+    "readings_on": [
+      "シチ",
+      "シツ",
+      "チ"
+    ],
+    "romaji_on": [
+      "shichi",
+      "shitsu",
+      "chi"
+    ],
+    "readings_kun": [
+      "ただ.す",
+      "たち",
+      "もと",
+      "わりふ"
+    ],
+    "romaji_kun": [
+      "tadasu",
+      "tachi",
+      "moto",
+      "warifu"
+    ],
+    "examples": [
+      {
+        "word": "質問(しつもん)",
+        "meaning": "질문",
+        "romaji": "shitsumon"
+      },
+      {
+        "word": "品質(ひんしつ)",
+        "meaning": "품질",
+        "romaji": "hinshitsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "品質の向上に向けて継続的な改善を行う。",
+        "kana": "ひんしつのこうじょうにむけてけいぞくてきなかいぜんをおこなう。",
+        "meaning": "품질 향상을 위해 지속적인 개선을 실시한다."
+      },
+      {
+        "kanji": "質問があれば遠慮なく聞いてください。",
+        "kana": "しつもんがあればえんりょなくきいてください。",
+        "meaning": "질문이 있으면 사양하지 말고 물어보세요."
+      }
+    ]
+  },
+  {
+    "kanji": "輸",
+    "grade": 5,
+    "strokes": 16,
+    "meanings": [
+      "be inferior",
+      "send",
+      "transport"
+    ],
+    "kor_meaning": "떨어뜨릴",
+    "kor_sound": "수",
+    "readings_on": [
+      "シュ",
+      "ユ"
+    ],
+    "romaji_on": [
+      "shu",
+      "yu"
+    ],
+    "readings_kun": [],
+    "romaji_kun": [],
+    "examples": [
+      {
+        "word": "輸入(ゆにゅう)",
+        "meaning": "수입",
+        "romaji": "yunyuu"
+      },
+      {
+        "word": "輸出(ゆしゅつ)",
+        "meaning": "수출",
+        "romaji": "yushutsu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "輸出品の品質管理を徹底する。",
+        "kana": "ゆしゅつひんのひんしつかんりをてっていする。",
+        "meaning": "수출품의 품질 관리를 철저히 한다."
+      },
+      {
+        "kanji": "石油の輸入量が増加して価格が上昇した。",
+        "kana": "せきゆのゆにゅうりょうがぞうかしてかかくがじょうしょうした。",
+        "meaning": "석유 수입량이 증가하여 가격이 상승했다."
+      }
+    ]
+  },
+  {
+    "kanji": "述",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "mention",
+      "relate",
+      "speak",
+      "state"
+    ],
+    "kor_meaning": "이을",
+    "kor_sound": "술",
+    "readings_on": [
+      "ジュツ"
+    ],
+    "romaji_on": [
+      "jutsu"
+    ],
+    "readings_kun": [
+      "の.べる"
+    ],
+    "romaji_kun": [
+      "noberu"
+    ],
+    "examples": [
+      {
+        "word": "記述(きじゅつ)",
+        "meaning": "기술",
+        "romaji": "kijutsu"
+      },
+      {
+        "word": "述べる(のべる)",
+        "meaning": "진술하다",
+        "romaji": "noberu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "論文で自分の考えを明確に述べた。",
+        "kana": "ろんぶんでじぶんのかんがえをめいかくにのべた。",
+        "meaning": "논문에서 자신의 생각을 명확하게 서술했다."
+      },
+      {
+        "kanji": "口頭で意見を述べる機会をもらった。",
+        "kana": "こうとうでいけんをのべるきかいをもらった。",
+        "meaning": "구두로 의견을 말할 기회를 얻었다."
+      }
+    ]
+  },
+  {
+    "kanji": "迷",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "astray",
+      "be perplexed",
+      "err",
+      "illusion",
+      "in doubt",
+      "lost"
+    ],
+    "kor_meaning": "미혹할",
+    "kor_sound": "미",
+    "readings_on": [
+      "メイ"
+    ],
+    "romaji_on": [
+      "mei"
+    ],
+    "readings_kun": [
+      "まよ.う"
+    ],
+    "romaji_kun": [
+      "mayou"
+    ],
+    "examples": [
+      {
+        "word": "迷子(まいご)",
+        "meaning": "미아",
+        "romaji": "maigo"
+      },
+      {
+        "word": "迷惑(めいわく)",
+        "meaning": "민폐",
+        "romaji": "meiwaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "どちらを選ぶか迷って決められなかった。",
+        "kana": "どちらをえらぶかまよってきめられなかった。",
+        "meaning": "어느 쪽을 선택할지 망설여서 결정하지 못했다."
+      },
+      {
+        "kanji": "知らない街で迷子になってしまった。",
+        "kana": "しらないまちでまいごになってしまった。",
+        "meaning": "낯선 마을에서 길을 잃어버렸다."
+      }
+    ]
+  },
+  {
+    "kanji": "退",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "expel",
+      "reject",
+      "repel",
+      "resign",
+      "retire",
+      "retreat",
+      "withdraw"
+    ],
+    "kor_meaning": "물러갈",
+    "kor_sound": "퇴",
+    "readings_on": [
+      "タイ"
+    ],
+    "romaji_on": [
+      "tai"
+    ],
+    "readings_kun": [
+      "しりぞ.く",
+      "しりぞ.ける",
+      "ど.く",
+      "の.く",
+      "の.ける",
+      "ひ.く"
+    ],
+    "romaji_kun": [
+      "shirizoku",
+      "shirizokeru",
+      "doku",
+      "noku",
+      "nokeru",
+      "hiku"
+    ],
+    "examples": [
+      {
+        "word": "退職(たいしょく)",
+        "meaning": "퇴직",
+        "romaji": "taishoku"
+      },
+      {
+        "word": "退学(たいがく)",
+        "meaning": "퇴학",
+        "romaji": "taigaku"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "病気が回復したので病院を退院した。",
+        "kana": "びょうきがかいふくしたのでびょういんをたいいんした。",
+        "meaning": "병이 회복되어 병원에서 퇴원했다."
+      },
+      {
+        "kanji": "定年退職後の生活について計画を立てた。",
+        "kana": "ていねんたいしょくごのせいかつについてけいかくをたてた。",
+        "meaning": "정년 퇴직 후의 생활에 대해 계획을 세웠다."
+      }
+    ]
+  },
+  {
+    "kanji": "逆",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "inverted",
+      "opposite",
+      "reverse",
+      "wicked"
+    ],
+    "kor_meaning": "거스를",
+    "kor_sound": "역",
+    "readings_on": [
+      "ギャク",
+      "ゲキ"
+    ],
+    "romaji_on": [
+      "gyaku",
+      "ゲki"
+    ],
+    "readings_kun": [
+      "さか",
+      "さか.さ",
+      "さか.らう"
+    ],
+    "romaji_kun": [
+      "saka",
+      "sakasa",
+      "sakarau"
+    ],
+    "examples": [
+      {
+        "word": "逆転(ぎゃくてん)",
+        "meaning": "역전",
+        "romaji": "gyakuten"
+      },
+      {
+        "word": "逆風(ぎゃくふう)",
+        "meaning": "역풍",
+        "romaji": "gyakufuu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "逆境に負けずに前を向いて進む。",
+        "kana": "ぎゃっきょうにまけずにまえをむいてすすむ。",
+        "meaning": "역경에 지지 않고 앞을 보며 나아간다."
+      },
+      {
+        "kanji": "反対意見を逆手にとって説得した。",
+        "kana": "はんたいいけんをさかてにとってせっとくした。",
+        "meaning": "반대 의견을 역이용하여 설득했다."
+      }
+    ]
+  },
+  {
+    "kanji": "造",
+    "grade": 5,
+    "strokes": 10,
+    "meanings": [
+      "create",
+      "make",
+      "physique",
+      "structure"
+    ],
+    "kor_meaning": "지을",
+    "kor_sound": "조",
+    "readings_on": [
+      "ゾウ"
+    ],
+    "romaji_on": [
+      "ゾu"
+    ],
+    "readings_kun": [
+      "-づく.り",
+      "つく.り",
+      "つく.る"
+    ],
+    "romaji_kun": [
+      "-dukuri",
+      "tsukuri",
+      "tsukuru"
+    ],
+    "examples": [
+      {
+        "word": "製造(せいぞう)",
+        "meaning": "제조",
+        "romaji": "seizou"
+      },
+      {
+        "word": "木造(もくぞう)",
+        "meaning": "목조",
+        "romaji": "mokuzou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "独自の製品を製造して市場に出した。",
+        "kana": "どくじのせいひんをせいぞうしてしじょうにだした。",
+        "meaning": "독자적인 제품을 제조하여 시장에 내놓았다."
+      },
+      {
+        "kanji": "人工物を自然環境に調和させて建造する。",
+        "kana": "じんこうぶつをしぜんかんきょうにちょうわさせてけんぞうする。",
+        "meaning": "인공물을 자연환경에 조화시켜 건조한다."
+      }
+    ]
+  },
+  {
+    "kanji": "過",
+    "grade": 5,
+    "strokes": 12,
+    "meanings": [
+      "error",
+      "exceed",
+      "go beyond",
+      "overdo"
+    ],
+    "kor_meaning": "지날",
+    "kor_sound": "과",
+    "readings_on": [
+      "カ"
+    ],
+    "romaji_on": [
+      "ka"
+    ],
+    "readings_kun": [
+      "あやま.ち",
+      "あやま.つ",
+      "す.ぎる",
+      "す.ごす",
+      "よ.ぎる",
+      "よぎ.る"
+    ],
+    "romaji_kun": [
+      "ayamachi",
+      "ayamatsu",
+      "sugiru",
+      "sugosu",
+      "yogiru",
+      "yogiru"
+    ],
+    "examples": [
+      {
+        "word": "過去(かこ)",
+        "meaning": "과거",
+        "romaji": "kako"
+      },
+      {
+        "word": "過半数(かはんすう)",
+        "meaning": "과반수",
+        "romaji": "kahansuu"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "過去の経験から多くのことを学べる。",
+        "kana": "かこのけいけんからおおくのことをまなべる。",
+        "meaning": "과거의 경험으로부터 많은 것을 배울 수 있다."
+      },
+      {
+        "kanji": "仕事で失敗を過大に気にしすぎない。",
+        "kana": "しごとでしっぱいをかだいにきにしすぎない。",
+        "meaning": "일에서 실패를 너무 과대하게 신경 쓰지 않는다."
+      }
+    ]
+  },
+  {
+    "kanji": "適",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "capable",
+      "occasional",
+      "qualified",
+      "rare",
+      "suitable"
+    ],
+    "kor_meaning": "갈",
+    "kor_sound": "척",
+    "readings_on": [
+      "テキ"
+    ],
+    "romaji_on": [
+      "teki"
+    ],
+    "readings_kun": [
+      "かな.う"
+    ],
+    "romaji_kun": [
+      "kanau"
+    ],
+    "examples": [
+      {
+        "word": "適切(てきせつ)",
+        "meaning": "적절",
+        "romaji": "tekisetsu"
+      },
+      {
+        "word": "適応(てきおう)",
+        "meaning": "적응",
+        "romaji": "tekiou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "適切な対応が問題解決につながる。",
+        "kana": "てきせつなたいおうがもんだいかいけつにつながる。",
+        "meaning": "적절한 대응이 문제 해결로 이어진다."
+      },
+      {
+        "kanji": "この仕事は自分に適しているか考える。",
+        "kana": "このしごとはじぶんにてきしているかかんがえる。",
+        "meaning": "이 일이 자신에게 적합한지 생각한다."
+      }
+    ]
+  },
+  {
+    "kanji": "酸",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "acid",
+      "bitterness",
+      "sour",
+      "tart"
+    ],
+    "kor_meaning": "초",
+    "kor_sound": "산",
+    "readings_on": [
+      "サン"
+    ],
+    "romaji_on": [
+      "san"
+    ],
+    "readings_kun": [
+      "す.い"
+    ],
+    "romaji_kun": [
+      "sui"
+    ],
+    "examples": [
+      {
+        "word": "酸素(さんそ)",
+        "meaning": "산소",
+        "romaji": "sanso"
+      },
+      {
+        "word": "酸性(さんせい)",
+        "meaning": "산성",
+        "romaji": "sansei"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "酸っぱいレモンを食べて顔をしかめた。",
+        "kana": "すっぱいれもんをたべてかおをしかめた。",
+        "meaning": "신 레몬을 먹고 얼굴을 찡그렸다."
+      },
+      {
+        "kanji": "酸素の供給が不足すると危険になる。",
+        "kana": "さんそのきょうきゅうがふそくするとそんになる。",
+        "meaning": "산소 공급이 부족하면 위험해진다."
+      }
+    ]
+  },
+  {
+    "kanji": "鉱",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "mineral",
+      "ore"
+    ],
+    "kor_meaning": "쇳돌",
+    "kor_sound": "광",
+    "readings_on": [
+      "コウ"
+    ],
+    "romaji_on": [
+      "kou"
+    ],
+    "readings_kun": [
+      "あらがね"
+    ],
+    "romaji_kun": [
+      "aragane"
+    ],
+    "examples": [
+      {
+        "word": "鉱物(こうぶつ)",
+        "meaning": "광물",
+        "romaji": "koubutsu"
+      },
+      {
+        "word": "炭鉱(たんこう)",
+        "meaning": "탄광",
+        "romaji": "tankou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "鉱山から希少な鉱物を採掘している。",
+        "kana": "こうざんからきしょうなこうぶつをさいくつしている。",
+        "meaning": "광산에서 희귀한 광물을 채굴하고 있다."
+      },
+      {
+        "kanji": "鉱物資源の開発が経済成長を促した。",
+        "kana": "こうぶつしげんのかいはつがけいざいせいちょうをうながした。",
+        "meaning": "광물 자원의 개발이 경제 성장을 촉진했다."
+      }
+    ]
+  },
+  {
+    "kanji": "銅",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "copper"
+    ],
+    "kor_meaning": "구리",
+    "kor_sound": "동",
+    "readings_on": [
+      "ドウ"
+    ],
+    "romaji_on": [
+      "dou"
+    ],
+    "readings_kun": [
+      "あかがね"
+    ],
+    "romaji_kun": [
+      "akagane"
+    ],
+    "examples": [
+      {
+        "word": "銅像(どうぞう)",
+        "meaning": "동상",
+        "romaji": "douzou"
+      },
+      {
+        "word": "青銅(せいどう)",
+        "meaning": "청동",
+        "romaji": "seidou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "オリンピックで銅メダルを獲得した。",
+        "kana": "おりんぴっくでどうめだるをかくとくした。",
+        "meaning": "올림픽에서 동메달을 획득했다."
+      },
+      {
+        "kanji": "銅像が公園の中央に建てられた。",
+        "kana": "どうぞうがこうえんのちゅうおうにたてられた。",
+        "meaning": "동상이 공원 중앙에 세워졌다."
+      }
+    ]
+  },
+  {
+    "kanji": "銭",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      ".01 yen",
+      "coin",
+      "money"
+    ],
+    "kor_meaning": "돈",
+    "kor_sound": "전",
+    "readings_on": [
+      "セン",
+      "ゼン"
+    ],
+    "romaji_on": [
+      "sen",
+      "ゼn"
+    ],
+    "readings_kun": [
+      "すき",
+      "ぜに"
+    ],
+    "romaji_kun": [
+      "suki",
+      "zeni"
+    ],
+    "examples": [
+      {
+        "word": "小銭(こぜに)",
+        "meaning": "잔돈",
+        "romaji": "kozeni"
+      },
+      {
+        "word": "金銭(きんせん)",
+        "meaning": "금전",
+        "romaji": "kinsen"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "財布の中に小銭がたくさんある。",
+        "kana": "さいふのなかにこぜにがたくさんある。",
+        "meaning": "지갑 안에 잔돈이 많이 있다."
+      },
+      {
+        "kanji": "賃銭を正確に計算して支払った。",
+        "kana": "ちんせんをせいかくにけいさんしてしはらった。",
+        "meaning": "임금을 정확하게 계산하여 지불했다."
+      }
+    ]
+  },
+  {
+    "kanji": "防",
+    "grade": 5,
+    "strokes": 7,
+    "meanings": [
+      "defend",
+      "protect",
+      "resist",
+      "ward off"
+    ],
+    "kor_meaning": "둑",
+    "kor_sound": "방",
+    "readings_on": [
+      "ボウ"
+    ],
+    "romaji_on": [
+      "bou"
+    ],
+    "readings_kun": [
+      "ふせ.ぐ"
+    ],
+    "romaji_kun": [
+      "fusegu"
+    ],
+    "examples": [
+      {
+        "word": "防止(ぼうし)",
+        "meaning": "방지",
+        "romaji": "boushi"
+      },
+      {
+        "word": "予防(よぼう)",
+        "meaning": "예방",
+        "romaji": "yobou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "インフルエンザを防ぐためにワクチンを接種した。",
+        "kana": "いんふるえんざをふせぐためにわくちんをせっしゅした。",
+        "meaning": "인플루엔자를 예방하기 위해 백신을 접종했다."
+      },
+      {
+        "kanji": "地震対策として防災グッズを用意する。",
+        "kana": "じしんたいさくとしてぼうさいぐっずをようするする。",
+        "meaning": "지진 대책으로 방재 용품을 준비한다."
+      }
+    ]
+  },
+  {
+    "kanji": "限",
+    "grade": 5,
+    "strokes": 9,
+    "meanings": [
+      "limit",
+      "restrict",
+      "to best of ability"
+    ],
+    "kor_meaning": "한정할",
+    "kor_sound": "한",
+    "readings_on": [
+      "ゲン"
+    ],
+    "romaji_on": [
+      "ゲn"
+    ],
+    "readings_kun": [
+      "-かぎ.り",
+      "かぎ.り",
+      "かぎ.る"
+    ],
+    "romaji_kun": [
+      "-kagiri",
+      "kagiri",
+      "kagiru"
+    ],
+    "examples": [
+      {
+        "word": "制限(せいげん)",
+        "meaning": "제한",
+        "romaji": "seigen"
+      },
+      {
+        "word": "限界(げんかい)",
+        "meaning": "한계",
+        "romaji": "genkai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "期限までに課題を提出しなければならない。",
+        "kana": "きげんまでにかだいをていしゅつしなければならない。",
+        "meaning": "기한까지 과제를 제출해야 한다."
+      },
+      {
+        "kanji": "可能性を限定せずに広い視野で考える。",
+        "kana": "かのうせいをげんていせずにひろいしやでかんがえる。",
+        "meaning": "가능성을 한정하지 않고 넓은 시야로 생각한다."
+      }
+    ]
+  },
+  {
+    "kanji": "険",
+    "grade": 5,
+    "strokes": 11,
+    "meanings": [
+      "impregnable position",
+      "inaccessible place",
+      "precipitous",
+      "sharp eyes",
+      "steep place"
+    ],
+    "kor_meaning": "험할",
+    "kor_sound": "험",
+    "readings_on": [
+      "ケン"
+    ],
+    "romaji_on": [
+      "ken"
+    ],
+    "readings_kun": [
+      "けわ.しい"
+    ],
+    "romaji_kun": [
+      "kewashii"
+    ],
+    "examples": [
+      {
+        "word": "危険(きけん)",
+        "meaning": "위험",
+        "romaji": "kiken"
+      },
+      {
+        "word": "保険(ほけん)",
+        "meaning": "보험",
+        "romaji": "hoken"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "険しい山道を注意深く歩いた。",
+        "kana": "けわしいやまみちをちゅういぶかくあるいた。",
+        "meaning": "험준한 산길을 조심스럽게 걸었다."
+      },
+      {
+        "kanji": "生命保険に加入して万一に備えた。",
+        "kana": "せいめいほけんにかにゅうしてまんいちにそなえた。",
+        "meaning": "생명보험에 가입하여 만일의 경우에 대비했다."
+      }
+    ]
+  },
+  {
+    "kanji": "際",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "adventurous",
+      "dangerous",
+      "edge",
+      "indecent",
+      "occasion",
+      "side",
+      "time",
+      "verge",
+      "when"
+    ],
+    "kor_meaning": "사이",
+    "kor_sound": "제",
+    "readings_on": [
+      "サイ"
+    ],
+    "romaji_on": [
+      "sai"
+    ],
+    "readings_kun": [
+      "-ぎわ",
+      "きわ"
+    ],
+    "romaji_kun": [
+      "-giwa",
+      "kiwa"
+    ],
+    "examples": [
+      {
+        "word": "国際(こくさい)",
+        "meaning": "국제",
+        "romaji": "kokusai"
+      },
+      {
+        "word": "交際(こうさい)",
+        "meaning": "교제",
+        "romaji": "kousai"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "困った際はいつでも相談してください。",
+        "kana": "こまったさいはいつでもそうだんしてください。",
+        "meaning": "어려울 때는 언제든지 상담해 주세요."
+      },
+      {
+        "kanji": "国際社会で活躍できる人材を育てる。",
+        "kana": "こくさいしゃかいでかつやくできるじんざいをそだてる。",
+        "meaning": "국제 사회에서 활약할 수 있는 인재를 키운다."
+      }
+    ]
+  },
+  {
+    "kanji": "雑",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "miscellaneous"
+    ],
+    "kor_meaning": "섞일",
+    "kor_sound": "잡",
+    "readings_on": [
+      "ザツ",
+      "ゾウ"
+    ],
+    "romaji_on": [
+      "zatsu",
+      "ゾu"
+    ],
+    "readings_kun": [
+      "まじ.える",
+      "まじ.る"
+    ],
+    "romaji_kun": [
+      "majieru",
+      "majiru"
+    ],
+    "examples": [
+      {
+        "word": "複雑(ふくざつ)",
+        "meaning": "복잡",
+        "romaji": "fukuzatsu"
+      },
+      {
+        "word": "雑誌(ざっし)",
+        "meaning": "잡지",
+        "romaji": "zasshi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "複雑な手続きを簡略化することが課題だ。",
+        "kana": "ふくざつなてつづきをかんりゃくかすることがかだいだ。",
+        "meaning": "복잡한 절차를 간소화하는 것이 과제이다."
+      },
+      {
+        "kanji": "雑誌のインタビュー記事を読んだ。",
+        "kana": "ざっしのいんたびゅーきじをよんだ。",
+        "meaning": "잡지의 인터뷰 기사를 읽었다."
+      }
+    ]
+  },
+  {
+    "kanji": "非",
+    "grade": 5,
+    "strokes": 8,
+    "meanings": [
+      "injustice",
+      "mistake",
+      "negative",
+      "non-",
+      "un-"
+    ],
+    "kor_meaning": "아닐",
+    "kor_sound": "비",
+    "readings_on": [
+      "ヒ"
+    ],
+    "romaji_on": [
+      "hi"
+    ],
+    "readings_kun": [
+      "あら.ず"
+    ],
+    "romaji_kun": [
+      "arazu"
+    ],
+    "examples": [
+      {
+        "word": "非常(ひじょう)",
+        "meaning": "비상",
+        "romaji": "hijou"
+      },
+      {
+        "word": "非難(ひなん)",
+        "meaning": "비난",
+        "romaji": "hinan"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "非常時には冷静に行動することが大切だ。",
+        "kana": "ひじょうじにはれいせいにこうどうすることがたいせつだ。",
+        "meaning": "비상시에는 냉정하게 행동하는 것이 중요하다."
+      },
+      {
+        "kanji": "彼の行動は非常に非常識だと思う。",
+        "kana": "かれのこうどうはひじょうにひじょうしきだとおもう。",
+        "meaning": "그의 행동은 매우 몰상식하다고 생각한다."
+      }
+    ]
+  },
+  {
+    "kanji": "預",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "custody",
+      "deposit",
+      "entrust to",
+      "leave with"
+    ],
+    "kor_meaning": "미리",
+    "kor_sound": "예",
+    "readings_on": [
+      "ヨ"
+    ],
+    "romaji_on": [
+      "yo"
+    ],
+    "readings_kun": [
+      "あず.かる",
+      "あず.ける"
+    ],
+    "romaji_kun": [
+      "azukaru",
+      "azukeru"
+    ],
+    "examples": [
+      {
+        "word": "預金(よきん)",
+        "meaning": "예금",
+        "romaji": "yokin"
+      },
+      {
+        "word": "預ける(あずける)",
+        "meaning": "맡기다",
+        "romaji": "azukeru"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "銀行に定期預金口座を開設した。",
+        "kana": "ぎんこうにていきよきんこうざをかいせつした。",
+        "meaning": "은행에 정기예금 계좌를 개설했다."
+      },
+      {
+        "kanji": "大切なものを友人に預けて出かけた。",
+        "kana": "たいせつなものをゆうじんにあずけてでかけた。",
+        "meaning": "소중한 것을 친구에게 맡기고 나갔다."
+      }
+    ]
+  },
+  {
+    "kanji": "領",
+    "grade": 5,
+    "strokes": 14,
+    "meanings": [
+      "dominion",
+      "fief",
+      "jurisdiction",
+      "reign",
+      "territory"
+    ],
+    "kor_meaning": "옷깃",
+    "kor_sound": "령",
+    "readings_on": [
+      "リョウ"
+    ],
+    "romaji_on": [
+      "ryou"
+    ],
+    "readings_kun": [
+      "えり"
+    ],
+    "romaji_kun": [
+      "eri"
+    ],
+    "examples": [
+      {
+        "word": "領土(りょうど)",
+        "meaning": "영토",
+        "romaji": "ryoudo"
+      },
+      {
+        "word": "大統領(だいとうりょう)",
+        "meaning": "대통령",
+        "romaji": "daitouryou"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "領収書を必ずもらって経費精算をする。",
+        "kana": "りょうしゅうしょをかならずもらってけいひせいさんをする。",
+        "meaning": "영수증을 반드시 받아 경비 정산을 한다."
+      },
+      {
+        "kanji": "リーダーとして全体を領導する。",
+        "kana": "りーだーとしてぜんたいをりょうどうする。",
+        "meaning": "리더로서 전체를 통솔한다."
+      }
+    ]
+  },
+  {
+    "kanji": "額",
+    "grade": 5,
+    "strokes": 18,
+    "meanings": [
+      "amount",
+      "forehead",
+      "framed picture",
+      "plaque",
+      "sum",
+      "tablet",
+      "volume"
+    ],
+    "kor_meaning": "이마",
+    "kor_sound": "액",
+    "readings_on": [
+      "ガク"
+    ],
+    "romaji_on": [
+      "gaku"
+    ],
+    "readings_kun": [
+      "ひたい"
+    ],
+    "romaji_kun": [
+      "hitai"
+    ],
+    "examples": [
+      {
+        "word": "金額(きんがく)",
+        "meaning": "금액",
+        "romaji": "kingaku"
+      },
+      {
+        "word": "額縁(がくぶち)",
+        "meaning": "액자",
+        "romaji": "gakubuchi"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "予算の総額を超えないように管理する。",
+        "kana": "よさんのそうがくをこえないようにかんりする。",
+        "meaning": "예산 총액을 초과하지 않도록 관리한다."
+      },
+      {
+        "kanji": "額縁に入れた写真を壁に飾った。",
+        "kana": "がくぶちにいれたしゃしんをかべにかざった。",
+        "meaning": "액자에 넣은 사진을 벽에 장식했다."
+      }
+    ]
+  },
+  {
+    "kanji": "飼",
+    "grade": 5,
+    "strokes": 13,
+    "meanings": [
+      "domesticate",
+      "feed",
+      "keep",
+      "raise"
+    ],
+    "kor_meaning": "먹일",
+    "kor_sound": "사",
+    "readings_on": [
+      "シ"
+    ],
+    "romaji_on": [
+      "shi"
+    ],
+    "readings_kun": [
+      "か.う"
+    ],
+    "romaji_kun": [
+      "kau"
+    ],
+    "examples": [
+      {
+        "word": "飼育(しいく)",
+        "meaning": "사육",
+        "romaji": "shiiku"
+      },
+      {
+        "word": "飼う(かう)",
+        "meaning": "기르다",
+        "romaji": "kau"
+      }
+    ],
+    "sentences": [
+      {
+        "kanji": "犬を飼い始めてから生活が変わった。",
+        "kana": "いぬをかいはじめてからせいかつがかわった。",
+        "meaning": "개를 키우기 시작하고 나서 생활이 바뀌었다."
+      },
+      {
+        "kanji": "動物を飼うには責任が伴う。",
+        "kana": "どうぶつをかうにはせきにんがともなう。",
+        "meaning": "동물을 기르는 것에는 책임이 따른다."
+      }
+    ]
+  }
+]
