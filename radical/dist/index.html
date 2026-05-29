@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>일본어 한자 부수 마스터</title>
+    <script type="module" crossorigin src="/radical/dist/assets/index-CAvqzEXt.js"></script>
+    <link rel="stylesheet" crossorigin href="/radical/dist/assets/index-HNP_x_9-.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="debug-error-console" style="color: #c53030; font-family: monospace; padding: 20px; background: #fff5f5; border: 2px solid #feb2b2; margin: 20px; border-radius: 8px; display: none; z-index: 9999; position: relative;">
+      <h3 style="margin-top: 0; font-size: 1.2rem; font-weight: bold;">🚨 런타임 에러 감지됨 (디버그 화면)</h3>
+      <pre id="debug-error-message" style="white-space: pre-wrap; word-break: break-all; margin: 10px 0 0 0; font-size: 0.9rem; line-height: 1.4;"></pre>
+    </div>
+    <script>
+      window.addEventListener('error', function(e) {
+        var consoleDiv = document.getElementById('debug-error-console');
+        var messagePre = document.getElementById('debug-error-message');
+        if (consoleDiv && messagePre) {
+          consoleDiv.style.display = 'block';
+          messagePre.textContent = e.message + '\nURL: ' + e.filename + ':' + e.lineno + ':' + e.colno + '\n\nStack:\n' + (e.error ? e.error.stack : 'N/A');
+        }
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        var consoleDiv = document.getElementById('debug-error-console');
+        var messagePre = document.getElementById('debug-error-message');
+        if (consoleDiv && messagePre) {
+          consoleDiv.style.display = 'block';
+          messagePre.textContent = 'Unhandled Rejection: ' + e.reason + (e.reason && e.reason.stack ? '\n\nStack:\n' + e.reason.stack : '');
+        }
+      });
+    </script>
+  </body>
+</html>
