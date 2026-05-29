@@ -456,13 +456,17 @@
                     <span class="badge">Scenes</span>
                     편의점
                 </button>
-                <button class="grade-btn coming-soon">
+                <button class="grade-btn" onclick="openSceneModal('shopping_scenesv1.JSON')">
                     <span class="badge">Scenes</span>
                     쇼핑몰
                 </button>
-                <button class="grade-btn coming-soon">
+                <button class="grade-btn" onclick="openSceneModal('airport_scenesv1.JSON')">
                     <span class="badge">Scenes</span>
                     공항
+                </button>
+                <button class="grade-btn" onclick="openSceneModal('izakaya_scenesv1.JSON')">
+                    <span class="badge">Scenes</span>
+                    이자카야
                 </button>
             </div>
 
@@ -489,9 +493,12 @@
         <!-- Game Container -->
         <div id="game-container" class="hidden">
             <header>
-                <div class="home-btn-wrapper">
+                <div class="home-btn-wrapper" style="display:flex; gap:10px;">
                     <button class="nav-btn home-btn" onclick="goHome()" title="홈으로">
                         <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </button>
+                    <button id="scene-back-btn" class="nav-btn hidden" onclick="goBackToScenarios()" title="상황 선택으로 돌아가기">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"></path></svg>
                     </button>
                 </div>
                 <div class="nav-container">
@@ -531,10 +538,17 @@
 
                     <div id="finish-dialog" class="finish-dialog hidden">
                         <div class="finish-title">🎉 모든 문장 완료! 🎉</div>
-                        <p class="finish-info">동화 한 권을 완독하셨습니다!<br>정말 대단해요!</p>
-                        <div class="finish-btns">
+                        <p id="finish-info-story" class="finish-info">동화 한 권을 완독하셨습니다!<br>정말 대단해요!</p>
+                        <p id="finish-info-scene" class="finish-info hidden">모든 대화를 완료하셨습니다!<br>정말 잘 하셨어요!</p>
+                        <!-- Story mode buttons -->
+                        <div id="finish-btns-story" class="finish-btns">
                             <button class="finish-badge" onclick="restartStory()">다시 읽기 (Enter ↵)</button>
                             <button class="finish-link" onclick="goHome()">메인 화면으로 (Esc)</button>
+                        </div>
+                        <!-- Scene mode buttons -->
+                        <div id="finish-btns-scene" class="finish-btns hidden">
+                            <button class="finish-badge" onclick="restartStory()">다시 읽기 (Enter ↵)</button>
+                            <button class="finish-link" onclick="goBackToScenarios()">상황 선택으로 (Esc)</button>
                         </div>
                     </div>
 
@@ -972,6 +986,7 @@
         function selectScene(scene, fileName) {
             playClickSound();
             document.getElementById('scenario-modal').classList.add('hidden');
+            document.getElementById('scene-back-btn').classList.remove('hidden');
             initAudioContext();
             state.isStoryMode = true;
             state.learningMode = 'SCENE';
@@ -1060,8 +1075,27 @@
             }
         }
 
+        function goBackToScenarios() {
+            playClickSound();
+            state.isFinish = false;
+            state.isAudiobookMode = false;
+            if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
+            els.card.classList.remove('audiobook-active');
+            if (els.finishDialog) els.finishDialog.classList.add('hidden');
+            window.speechSynthesis.cancel();
+            audiobookSessionId++; // Increment to stop any active loop
+            if (typeof stopAudio === 'function') stopAudio();
+            document.getElementById('game-container').classList.add('hidden');
+            document.getElementById('start-screen').classList.remove('hidden');
+            document.getElementById('scene-back-btn').classList.add('hidden');
+            document.getElementById('scenario-modal').classList.remove('hidden');
+            state.currentIndex = 0;
+            state.isComplete = false;
+        }
+
         function goHome() {
             playClickSound();
+            document.getElementById('scene-back-btn').classList.add('hidden');
             state.isFinish = false;
             state.isAudiobookMode = false;
             if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
@@ -1563,7 +1597,7 @@
                     state.currentIndex++;
                     if (state.currentIndex >= KANJI_DATA.length) {
                         state.isFinish = true;
-                        els.finishDialog.classList.remove('hidden');
+                        showFinishDialog();
                         if (currentAudio) {
                             currentAudio.pause();
                             currentAudio = null;
@@ -1598,6 +1632,15 @@
                 els.input.focus();
             }, 500);
         }
+        function showFinishDialog() {
+            const isScene = state.learningMode === 'SCENE';
+            document.getElementById('finish-info-story').classList.toggle('hidden', isScene);
+            document.getElementById('finish-info-scene').classList.toggle('hidden', !isScene);
+            document.getElementById('finish-btns-story').classList.toggle('hidden', isScene);
+            document.getElementById('finish-btns-scene').classList.toggle('hidden', !isScene);
+            els.finishDialog.classList.remove('hidden');
+        }
+
         function restartStory() {
             playClickSound();
             state.isFinish = false;
@@ -1630,7 +1673,11 @@
             }
 
             if (e.key === 'Escape') {
-                goHome();
+                if (state.learningMode === 'SCENE') {
+                    goBackToScenarios();
+                } else {
+                    goHome();
+                }
                 return;
             }
             if (state.isFinish) {
@@ -1871,7 +1918,7 @@
                 state.currentIndex++;
                 if (state.currentIndex >= KANJI_DATA.length) {
                     state.isFinish = true;
-                    els.finishDialog.classList.remove('hidden');
+                    showFinishDialog();
                     stopAudio();
                 } else {
                     loadKanji();

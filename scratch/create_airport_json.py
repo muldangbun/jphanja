@@ -1,0 +1,625 @@
+import json
+
+data = {
+    "category": "Airport",
+    "version": "1.0",
+    "scenarios": [
+        {
+            "id": "air-01-checkin",
+            "title": "체크인 카운터: 탑승수속 및 수하물 위탁",
+            "level": "N3",
+            "description": "공항 체크인 카운터에서 탑승수속을 하고 수하물을 부치는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "こんにちは、ソウル行きの飛行機のチェックインをお願いします。",
+                    "kana": "こんにちは、ソウルいきのひこうきのチェックインをおねがいします。",
+                    "romaji": "konnichiwa, souru iki no hikouki no chekkuin o onegaishimasu",
+                    "meaning": "안녕하세요, 서울행 비행기 체크인을 하려고 하는데요."
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "はい、パスポートと予約の確認書を見せていただけますか。",
+                    "kana": "はい、パスポートとよやくのかくにんしょをみせていただけますか。",
+                    "romaji": "hai, pasupooto to yoyaku no kakuninsho o misete itadakemasu ka",
+                    "meaning": "네, 여권과 예약 확인서를 보여 주시겠습니까?"
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "こちらです。あの、窓側の席にしていただけますか。",
+                    "kana": "こちらです。あの、まどがわのせきにしていただけますか。",
+                    "romaji": "kochira desu. ano, madogawa no seki ni shite itadakemasu ka",
+                    "meaning": "여기 있습니다. 혹시 창가 쪽 좌석으로 배정받을 수 있을까요?"
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "確認いたします。はい、窓側のお席でご用意いたします。お預けになる荷物はいくつですか。",
+                    "kana": "かくにんいたします。はい、まどがわのおせきでごよういいたします。おあずけになるにもつはいくつですか。",
+                    "romaji": "kakunin itashimasu. hai, madogawa no oseki de goyoui itashimasu. oazuke ni naru nimotsu wa ikutsu desu ka",
+                    "meaning": "확인해 보겠습니다. 네, 창가 좌석으로 준비해 드리겠습니다. 부치실 수하물은 몇 개인가요?"
+                },
+                {
+                    "id": 5,
+                    "speaker": "손님",
+                    "kanji": "このスーツケース一つです。重量はオーバーしていませんか。",
+                    "kana": "このスーツケースひとつです。じゅうりょうはオーバーしていませんか。",
+                    "romaji": "kono suutsukeesu hitotsu desu. juuryou wa oobaa shite imasen ka",
+                    "meaning": "이 캐리어 하나입니다. 혹시 무게가 초과되진 않았나요?"
+                },
+                {
+                    "id": 6,
+                    "speaker": "점원",
+                    "kanji": "十八キロですので、規定内です。カバンの中にモバイルバッテリーやライターなどは入っていませんか。",
+                    "kana": "じゅうはちキロですので、きていないです。カバンのなかにモバイルバッテリーやライターなどははいっていませんか。",
+                    "romaji": "juuhachi kiro desu node, kiteinai desu. kaban no naka ni mobairu batterii ya raitaa nado wa haitte imasen ka",
+                    "meaning": "18킬로그램으로 규정 이내입니다. 가방 안에 보조 배터리나 라이터는 안 들어있나요?"
+                },
+                {
+                    "id": 7,
+                    "speaker": "손님",
+                    "kanji": "はい、バッテリーは機内持ち込み用のカバンに入れてあります。",
+                    "kana": "はい、バッテリーはきないもちこみようのカバンにいれてあります。",
+                    "romaji": "hai, batterii wa kinai mochikomiyou no kaban ni irete arimasu",
+                    "meaning": "네, 배터리는 제 기내용 가방에 빼 두었습니다."
+                },
+                {
+                    "id": 8,
+                    "speaker": "점원",
+                    "kanji": "ありがとうございます。搭乗券と手荷物の引換証です。搭乗ゲートは十五番で、十時半までにお越しください。",
+                    "kana": "ありがとうございます。とうじょうけんとてにもつのひきかえしょうです。とうじょうゲートはじゅうごばんで、じゅうじはんまでにおこしください。",
+                    "romaji": "arigatou gozaimasu. toujouken to tenimotsu no hikikaeshou desu. toujou geeto wa juugoban de, juujihan made ni okoshi kudasai",
+                    "meaning": "감사합니다. 탑승권과 수하물 태그 영수증입니다. 탑승 게이트는 15번이며, 10시 30분까지 가주세요."
+                },
+                {
+                    "id": 9,
+                    "speaker": "손님",
+                    "kanji": "はい、わかりました。ありがとうございます。",
+                    "kana": "はい、わかりました。ありがとうございます。",
+                    "romaji": "hai, wakarimashita. arigatou gozaimasu",
+                    "meaning": "네, 알겠습니다. 감사합니다."
+                },
+                {
+                    "id": 10,
+                    "speaker": "점원",
+                    "kanji": "良いご旅行を。",
+                    "kana": "よいごりょこうを。",
+                    "romaji": "yoi goryokou o",
+                    "meaning": "즐거운 여행 되십시오."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～行き (～いき)",
+                        "desc": ["'~행(도착지)'을 나타냅니다. (예: ソウル行き - 서울행)"]
+                    },
+                    {
+                        "title": "お～になる",
+                        "desc": ["존경어 표현입니다. (예: お預けになる - 맡기시다)"]
+                    },
+                    {
+                        "title": "～てある",
+                        "desc": ["누군가의 의도적인 행위에 의해 상태가 유지되고 있음을 나타냅니다. (예: 入れてあります - 넣어 두었습니다)"]
+                    },
+                    {
+                        "title": "窓側 (まどがわ)",
+                        "desc": ["창가 쪽 (반대말: 通路側 - 통로 쪽)"]
+                    },
+                    {
+                        "title": "規定内 (きていない)",
+                        "desc": ["규정 이내"]
+                    },
+                    {
+                        "title": "機内持ち込み (きないもちこみ)",
+                        "desc": ["기내 반입"]
+                    },
+                    {
+                        "title": "引換証 (ひきかえしょう)",
+                        "desc": ["교환증 (수하물 태그)"]
+                    }
+                ],
+                "summary": "체크인 카운터에서 목적지를 확인하고, 좌석 배정과 수하물을 부치며 주의사항을 안내받는 대화입니다."
+            }
+        },
+        {
+            "id": "air-02-security",
+            "title": "보안 검색대: 수하물 검사 및 규정 안내",
+            "level": "N3",
+            "description": "보안 검색대에서 짐을 검사받고, 기내 반입이 금지된 물품에 대해 안내받는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "점원",
+                    "kanji": "次の方、搭乗券とパスポートを見せてください。",
+                    "kana": "つぎのかた、とうじょうけんとパスポートをみせてください。",
+                    "romaji": "tsugi no kata, toujouken to pasupooto o misete kudasai",
+                    "meaning": "다음 분, 탑승권과 여권을 보여주세요."
+                },
+                {
+                    "id": 2,
+                    "speaker": "손님",
+                    "kanji": "はい、こちらです。",
+                    "kana": "はい、こちらです。",
+                    "romaji": "hai, kochira desu",
+                    "meaning": "네, 여기 있습니다."
+                },
+                {
+                    "id": 3,
+                    "speaker": "점원",
+                    "kanji": "カバンの中にパソコンやタブレットがある場合は、かごに別に出してください。",
+                    "kana": "カバンのなかにパソコンやタブレットがあるばあいは、かごにべつにだしてください。",
+                    "romaji": "kaban no naka ni pasokon ya taburetto ga aru baai wa, kago ni betsu ni dashite kudasai",
+                    "meaning": "가방 안에 노트북이나 태블릿 PC가 있다면 바구니에 따로 꺼내 주십시오."
+                },
+                {
+                    "id": 4,
+                    "speaker": "손님",
+                    "kanji": "タブレットが一つあります。ポケットにあるスマホや財布も出したほうがいいですか。",
+                    "kana": "タブレットがひとつあります。ポケットにあるスマホやさいふもだしたほうがいいですか。",
+                    "romaji": "taburetto ga hitotsu arimasu. poketto ni aru sumaho ya saifu mo dashita hou ga ii desu ka",
+                    "meaning": "태블릿이 하나 있습니다. 주머니에 있는 스마트폰이나 지갑도 빼야 하나요?"
+                },
+                {
+                    "id": 5,
+                    "speaker": "점원",
+                    "kanji": "はい、金属類と電子機器はすべて出して、上着も脱いでかごに入れてください。",
+                    "kana": "はい、きんぞくるいとでんしききはすべてだして、うわぎもぬいでかごにいれてください。",
+                    "romaji": "hai, kinzokurui to denshikiki wa subete dashite, uwagi mo nuide kago ni irete kudasai",
+                    "meaning": "네, 금속류와 전자기기는 모두 꺼내 주시고, 겉옷도 벗어서 바구니에 담아주세요."
+                },
+                {
+                    "id": 6,
+                    "speaker": "손님",
+                    "kanji": "はい、全部出しました。（検査ゲート通過後）",
+                    "kana": "はい、ぜんぶだしました。（けんさゲートつうかご）",
+                    "romaji": "hai, zenbu dashimashita. (kensa geeto tsuukago)",
+                    "meaning": "네, 다 꺼냈습니다. (검색대 통과 후)"
+                },
+                {
+                    "id": 7,
+                    "speaker": "점원",
+                    "kanji": "お客様、申し訳ございませんが、カバンの中に飲みかけのペットボトルがあります。液体の持ち込みは禁止されております。",
+                    "kana": "おきゃくさま、もうしわけございませんが、カバンのなかにのみかけのペットボトルがあります。えきたいのもちこみはきんしされております。",
+                    "romaji": "okyakusama, moushiwake gozaimasen ga, kaban no naka ni nomikake no pettobotoru ga arimasu. ekitai no mochikomi wa kinshi sarete orimasu",
+                    "meaning": "손님, 죄송하지만 가방 안에 마시던 생수병이 있습니다. 액체류는 반입이 금지되어 있습니다."
+                },
+                {
+                    "id": 8,
+                    "speaker": "손님",
+                    "kanji": "あ、うっかりしていました。じゃあ、ここで捨てていただけますか。",
+                    "kana": "あ、うっかりしていました。じゃあ、ここですてていただけますか。",
+                    "romaji": "a, ukkari shite imashita. jaa, koko de sutete itadakemasu ka",
+                    "meaning": "아, 깜빡했네요. 그럼 여기서 버려 주실 수 있나요?"
+                },
+                {
+                    "id": 9,
+                    "speaker": "점원",
+                    "kanji": "はい、こちらのゴミ箱に廃棄いたします。ご協力ありがとうございます。荷物を持ってお進みください。",
+                    "kana": "はい、こちらのゴミばこにはいきいたします。ごきょうりょくありがとうございます。にもつをもっておすすみください。",
+                    "romaji": "hai, kochira no gomibako ni haiki itashimasu. gokyouryoku arigatou gozaimasu. nimotsu o motte osusumi kudasai",
+                    "meaning": "네, 이쪽 휴지통에 폐기하겠습니다. 협조해 주셔서 감사합니다. 짐 챙겨서 이동해 주세요."
+                },
+                {
+                    "id": 10,
+                    "speaker": "손님",
+                    "kanji": "はい、ご苦労様です。",
+                    "kana": "はい、ごくろうさまです。",
+                    "romaji": "hai, gokurousama desu",
+                    "meaning": "네, 수고하세요."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～たほうがいい",
+                        "desc": ["'~하는 편이 좋다'라는 충고나 조언을 구하는 표현입니다. (예: 出したほうがいいですか - 꺼내는 게 좋을까요?)"]
+                    },
+                    {
+                        "title": "～かけ",
+                        "desc": ["'~하다 만 것', '진행 중인 것'을 뜻합니다. (예: 飲みかけ - 마시다 만)"]
+                    },
+                    {
+                        "title": "うっかりする",
+                        "desc": ["깜빡하다, 무심코 실수하다"]
+                    },
+                    {
+                        "title": "かご",
+                        "desc": ["바구니"]
+                    },
+                    {
+                        "title": "禁止 (きんし)",
+                        "desc": ["금지"]
+                    },
+                    {
+                        "title": "廃棄 (はいき)",
+                        "desc": ["폐기, 버림"]
+                    }
+                ],
+                "summary": "보안 검색대에서 겉옷과 전자기기를 따로 꺼내고, 실수로 챙긴 액체류를 폐기하는 과정의 대화입니다."
+            }
+        },
+        {
+            "id": "air-03-immigration",
+            "title": "출입국 심사: 방문 목적 및 체류 기간",
+            "level": "N3",
+            "description": "입국 심사대에서 심사관에게 방문 목적, 체류 기간, 숙소 정보 등을 답변하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "점원",
+                    "kanji": "パスポートと入国カードを提出してください。",
+                    "kana": "パスポートとにゅうこくカードをていしゅつしてください。",
+                    "romaji": "pasupooto to nyuukoku kaado o teishutsu shite kudasai",
+                    "meaning": "여권과 입국 신고서를 제출해 주세요."
+                },
+                {
+                    "id": 2,
+                    "speaker": "손님",
+                    "kanji": "はい、こちらです。",
+                    "kana": "はい、こちらです。",
+                    "romaji": "hai, kochira desu",
+                    "meaning": "네, 여기 있습니다."
+                },
+                {
+                    "id": 3,
+                    "speaker": "점원",
+                    "kanji": "日本への入国目的は何ですか。",
+                    "kana": "にほんへのにゅうこくもくてきはなんですか。",
+                    "romaji": "nihon e no nyuukoku mokuteki wa nan desu ka",
+                    "meaning": "일본 방문 목적은 무엇입니까?"
+                },
+                {
+                    "id": 4,
+                    "speaker": "손님",
+                    "kanji": "観光しに来ました。",
+                    "kana": "かんこうしにきました。",
+                    "romaji": "kankou shi ni kimashita",
+                    "meaning": "관광하러 왔습니다."
+                },
+                {
+                    "id": 5,
+                    "speaker": "점원",
+                    "kanji": "どのくらい滞在する予定ですか。",
+                    "kana": "どのくらいたいざいするよていですか。",
+                    "romaji": "dono kurai taizai suru yotei desu ka",
+                    "meaning": "얼마 동안 체류하실 예정입니까?"
+                },
+                {
+                    "id": 6,
+                    "speaker": "손님",
+                    "kanji": "三泊四日滞在する予定です。",
+                    "kana": "さんぱくよっかたいざいするよていです。",
+                    "romaji": "sanpaku yokka taizai suru yotei desu",
+                    "meaning": "3박 4일 동안 머무를 예정입니다."
+                },
+                {
+                    "id": 7,
+                    "speaker": "점원",
+                    "kanji": "滞在中、どこに泊まりますか。",
+                    "kana": "たいざいちゅう、どこにとまりますか。",
+                    "romaji": "taizaichuu, doko ni tomarimasu ka",
+                    "meaning": "체류하시는 동안 어디에서 지내시나요?"
+                },
+                {
+                    "id": 8,
+                    "speaker": "손님",
+                    "kanji": "新宿にあるパークホテルに泊まります。",
+                    "kana": "しんじゅくにあるパークホテルにとまります。",
+                    "romaji": "shinjuku ni aru paaku hoteru ni tomarimasu",
+                    "meaning": "신주쿠에 있는 파크 호텔에서 묵습니다."
+                },
+                {
+                    "id": 9,
+                    "speaker": "점원",
+                    "kanji": "わかりました。では、カメラを見て、人差し指をスキャナーに置いてください。",
+                    "kana": "わかりました。では、カメラをみて、ひとさしゆびをスキャナーにおいてください。",
+                    "romaji": "wakarimashita. dewa, kamera o mite, hitosashiyubi o skyanaa ni oite kudasai",
+                    "meaning": "알겠습니다. 그러면 카메라를 보시고, 검지에 지문 스캐너를 올려주세요."
+                },
+                {
+                    "id": 10,
+                    "speaker": "손님",
+                    "kanji": "はい、終わりましたか。",
+                    "kana": "はい、おわりましたか。",
+                    "romaji": "hai, owarimashita ka",
+                    "meaning": "네, 다 됐나요?"
+                },
+                {
+                    "id": 11,
+                    "speaker": "점원",
+                    "kanji": "はい、手続きは終了です。楽しい時間をお過ごしください。",
+                    "kana": "はい、てつづきはしゅうりょうです。たのしいじかんをおすごしください。",
+                    "romaji": "hai, tetsuduki wa shuuryou desu. tanoshii jikan o osugoshi kudasai",
+                    "meaning": "네, 수속이 끝났습니다. 즐거운 시간 보내세요."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～しに来る (～しにくる)",
+                        "desc": ["'~하러 오다'라는 목적을 나타냅니다. (예: 観光しに来ました - 관광하러 왔습니다)"]
+                    },
+                    {
+                        "title": "～中 (～ちゅう)",
+                        "desc": ["'~하는 동안', '~중'을 나타냅니다. (예: 滞在中 - 체류하는 동안)"]
+                    },
+                    {
+                        "title": "提出 (ていしゅつ)",
+                        "desc": ["제출"]
+                    },
+                    {
+                        "title": "滞在 (たいざい)",
+                        "desc": ["체류, 머무름"]
+                    },
+                    {
+                        "title": "泊まる (とまる)",
+                        "desc": ["묵다, 숙박하다"]
+                    },
+                    {
+                        "title": "人差し指 (ひとさしゆび)",
+                        "desc": ["집게손가락, 검지"]
+                    }
+                ],
+                "summary": "입국 심사대에서 여권을 제출하고, 방문 목적과 체류 기간, 숙박 장소를 묻고 답하는 필수적인 대화입니다."
+            }
+        },
+        {
+            "id": "air-04-baggage",
+            "title": "수하물 수취대: 수하물 미도착 및 분실 신고",
+            "level": "N3",
+            "description": "수하물이 도착하지 않아 항공사 직원에게 문의하고, 분실 신고서를 작성하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "あの、私の荷物がまだ出てこないんですが、どうすればいいですか。",
+                    "kana": "あの、わたしのにもつがまだでてこないんですが、どうすればいいですか。",
+                    "romaji": "ano, watashi no nimotsu ga mada detekonain desu ga, dou sureba ii desu ka",
+                    "meaning": "저기요, 제 수하물이 아직 나오지 않았는데 어떻게 해야 하나요?"
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "ご利用の便名と手荷物の番号札を見せていただけますか。",
+                    "kana": "ごりようのびんめいとてにもつのばんごうふだをみせていただけますか。",
+                    "romaji": "goriyou no binmei to tenimotsu no bangoufuda o misete itadakemasu ka",
+                    "meaning": "이용하신 항공편 명과 수하물 번호표를 보여 주시겠습니까?"
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "はい、JL123便で、番号札はこれです。",
+                    "kana": "はい、ジェーエルいちにさんびんで、ばんごうふだはこれです。",
+                    "romaji": "hai, jeieru ichinisan bin de, bangoufuda wa kore desu",
+                    "meaning": "네, JL123편이고, 번호표는 여기 있습니다."
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "お調べいたします。申し訳ございませんが、お客様の荷物は次の便で遅れて到着する予定です。",
+                    "kana": "おしらべいたします。もうしわけございませんが、おきゃくさまのにもつはつぎのびんでおくれてとうちゃくするよていです。",
+                    "romaji": "oshirabe itashimasu. moushiwake gozaimasen ga, okyakusama no nimotsu wa tsugi no bin de okurete touchaku suru yotei desu",
+                    "meaning": "확인해 보겠습니다. 죄송합니다만, 손님의 짐이 다음 비행기로 지연 도착할 예정입니다."
+                },
+                {
+                    "id": 5,
+                    "speaker": "손님",
+                    "kanji": "えっ、じゃあ私はどうすればいいんですか。すぐに必要なものがあるんですが。",
+                    "kana": "えっ、じゃあわたしはどうすればいいんですか。すぐにひつようなものがあるんですが。",
+                    "romaji": "e, jaa watashi wa dou sureba iin desu ka. sugu ni hitsuyou na mono ga arun desu ga",
+                    "meaning": "네? 그럼 저는 어떻게 해야 하나요? 당장 필요한 물건이 있는데요."
+                },
+                {
+                    "id": 6,
+                    "speaker": "점원",
+                    "kanji": "誠に申し訳ございません。荷物が到着次第、お客様が滞在されるホテルへ直接お送りいたします。",
+                    "kana": "まことにもうしわけございません。にもつがとうちゃくしだい、おきゃくさまがたいざいされるホテルへちょくせつおおくりいたします。",
+                    "romaji": "makoto ni moushiwake gozaimasen. nimotsu ga touchaku shidai, okyakusama ga taizai sareru hoteru e chokusetsu ookuri itashimasu",
+                    "meaning": "정말 죄송합니다. 짐이 도착하는 대로 손님이 계신 호텔로 바로 배송해 드리겠습니다."
+                },
+                {
+                    "id": 7,
+                    "speaker": "손님",
+                    "kanji": "仕方ないですね。カバンは青いハードケースで、中くらいの大きさです。",
+                    "kana": "しかたないですね。カバンはあおいハードケースで、ちゅうくらいのおおきさです。",
+                    "romaji": "shikatanai desu ne. kaban wa aoi haadokeesu de, chuukurai no ookisa desu",
+                    "meaning": "어쩔 수 없네요. 가방은 파란색 하드 캐리어이고 중간 크기입니다."
+                },
+                {
+                    "id": 8,
+                    "speaker": "점원",
+                    "kanji": "かしこまりました。こちらの紛失届にお名前と滞在先の住所、連絡先をご記入ください。",
+                    "kana": "かしこまりました。こちらのふんしつとどけにおなまえとたいざいさきのじゅうしょ、れんらくさきをごきにゅうください。",
+                    "romaji": "kashikomarimashita. kochira no funshitsutodoke ni onamae to taizaisaki no juusho, renrakusaki o gokinyuu kudasai",
+                    "meaning": "알겠습니다. 이 분실물 신고서에 이름과 머무시는 호텔 주소, 연락처를 적어 주세요."
+                },
+                {
+                    "id": 9,
+                    "speaker": "손님",
+                    "kanji": "書きました。今日の夜までには必ず届くようにしてください。",
+                    "kana": "かきました。きょうのよるまでにはかならずとどくようにしてください。",
+                    "romaji": "kakimashita. kyou no yoru made ni wa kanarazu todoku youni shite kudasai",
+                    "meaning": "다 적었습니다. 오늘 밤 안에는 꼭 받을 수 있게 해 주세요."
+                },
+                {
+                    "id": 10,
+                    "speaker": "점원",
+                    "kanji": "はい、できるだけ早くお渡しできるように手配いたします。ご迷惑をおかけして大変申し訳ございません。",
+                    "kana": "はい、できるだけはやくおわたしできるようにてはいいたします。ごめいわくをおかけしてたいへんもうしわけございません。",
+                    "romaji": "hai, dekiru dake hayaku owatashi dekiru youni tehai itashimasu. gomeiwaku o okakeshite taihen moushiwake gozaimasen",
+                    "meaning": "네, 최대한 빨리 전달해 드리겠습니다. 불편을 드려 대단히 죄송합니다."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～次第 (～しだい)",
+                        "desc": ["'~하는 대로'라는 뜻으로 어떤 조건이 완료되면 바로 행동함을 의미합니다. (예: 到着次第 - 도착하는 대로)"]
+                    },
+                    {
+                        "title": "～ようにする",
+                        "desc": ["'~하도록 하다'라는 뜻으로 노력이나 배려를 요구할 때 쓰입니다. (예: 届くようにしてください - 받게 해 주세요)"]
+                    },
+                    {
+                        "title": "遅れる (おくれる)",
+                        "desc": ["늦다, 지연되다"]
+                    },
+                    {
+                        "title": "直接 (ちょくせつ)",
+                        "desc": ["직접"]
+                    },
+                    {
+                        "title": "紛失届 (ふんしつとどけ)",
+                        "desc": ["분실물 신고서"]
+                    },
+                    {
+                        "title": "手配 (てはい)",
+                        "desc": ["수배, 조치, 준비"]
+                    }
+                ],
+                "summary": "수하물이 도착하지 않아 지연 도착 안내를 받고 호텔로 짐을 배송받기 위해 서류를 작성하는 상황입니다."
+            }
+        },
+        {
+            "id": "air-05-exchange",
+            "title": "환전소: 환전 요청 및 권종 선택",
+            "level": "N3",
+            "description": "공항 환전소에서 원화를 엔화로 바꾸며 환율과 수수료를 묻고 지폐 권종을 요청하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "こんにちは、両替をしたいんですが。",
+                    "kana": "こんにちは、りょうがえをしたいんですが。",
+                    "romaji": "konnichiwa, ryougae o shitain desu ga",
+                    "meaning": "안녕하세요, 환전을 좀 하고 싶은데요."
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "はい、どの国の通貨に両替なさいますか。",
+                    "kana": "はい、どのくにのつうかにりょうがえなさいますか。",
+                    "romaji": "hai, dono kuni no tsuuka ni ryougae nasaimasu ka",
+                    "meaning": "네, 어느 나라 통화로 환전하시겠습니까?"
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "韓国ウォンを日本円に替えたいです。今日のレートはどうなっていますか。",
+                    "kana": "かんこくウォンをにほんえんにかえたいです。きょうのレートはどうなっていますか。",
+                    "romaji": "kankoku won o nihon en ni kaetai desu. kyou no reeto wa dou natte imasu ka",
+                    "meaning": "한국 원화를 일본 엔화로 바꾸려고 합니다. 오늘 환율은 어떻게 되나요?"
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "本日のウォン対円のレートは、百円につき九百十ウォンです。",
+                    "kana": "ほんじつのウォンたいえんのレートは、ひゃくえんにつききゅうひゃくじゅうウォンです。",
+                    "romaji": "honjitsu no won tai en no reeto wa, hyakuen ni tsuki kyuuhyakujuu won desu",
+                    "meaning": "오늘 원화 대 엔화 환율은, 100엔당 910원입니다."
+                },
+                {
+                    "id": 5,
+                    "speaker": "손님",
+                    "kanji": "そうですか。じゃあ、十万ウォンを円に替えてください。",
+                    "kana": "そうですか。じゃあ、じゅうまんウォンをえんにかえてください。",
+                    "romaji": "sou desu ka. jaa, juuman won o en ni kaete kudasai",
+                    "meaning": "그렇군요. 그럼 10만 원을 엔화로 바꿔주세요."
+                },
+                {
+                    "id": 6,
+                    "speaker": "점원",
+                    "kanji": "はい、十万ウォンを両替しますと、手数料を引いて一万八百円になります。",
+                    "kana": "はい、じゅうまんウォンをりょうがえしますと、てすうりょうをひいていちまんはっぴゃくえんになります。",
+                    "romaji": "hai, juuman won o ryougae shimasu to, tesuuryou o hiite ichiman happyakuen ni narimasu",
+                    "meaning": "네, 10만 원을 환전하시면 수수료를 제외하고 10,800엔이 됩니다."
+                },
+                {
+                    "id": 7,
+                    "speaker": "손님",
+                    "kanji": "わかりました。あの、一万円札一枚と、千円札を混ぜていただけますか。",
+                    "kana": "わかりました。あの、いちまんえんさついちまいと、せんえんさつをまぜていただけますか。",
+                    "romaji": "wakarimashita. ano, ichimanensatsu ichimai to, senensatsu o mazete itadakemasu ka",
+                    "meaning": "알겠습니다. 혹시 만 엔짜리 하나랑, 천 엔짜리 섞어서 주실 수 있나요?"
+                },
+                {
+                    "id": 8,
+                    "speaker": "점원",
+                    "kanji": "それでは、一万円札一枚と、八百円は硬貨でお渡しすることになります。",
+                    "kana": "それでは、いちまんえんさついちまいと、はっぴゃくえんはこうかでおわたしすることになります。",
+                    "romaji": "soredewa, ichimanensatsu ichimai to, happyakuen wa kouka de owatashi suru koto ni narimasu",
+                    "meaning": "네, 그럼 만 엔권 한 장과 800엔은 동전으로 드리겠습니다."
+                },
+                {
+                    "id": 9,
+                    "speaker": "손님",
+                    "kanji": "千円札はないんですか。",
+                    "kana": "せんえんさつはないんですか。",
+                    "romaji": "senensatsu wa nain desu ka",
+                    "meaning": "천 엔짜리가 없는 건가요?"
+                },
+                {
+                    "id": 10,
+                    "speaker": "점원",
+                    "kanji": "あ、申し訳ございません。千円札をお渡しするには、一万円札を崩すしかありません。",
+                    "kana": "あ、もうしわけございません。せんえんさつをおわたしするには、いちまんえんさつをくずすしかありません。",
+                    "romaji": "a, moushiwake gozaimasen. senensatsu o owatashi suru ni wa, ichimanensatsu o kuzusu shika arimasen",
+                    "meaning": "아, 죄송합니다. 천 엔권으로 드리려면 만 엔짜리 지폐를 바꿀 수밖에 없습니다."
+                },
+                {
+                    "id": 11,
+                    "speaker": "손님",
+                    "kanji": "あ、それなら一万円札一枚と小銭でいいです。",
+                    "kana": "あ、それならいちまんえんさついちまいとこぜにでいいです。",
+                    "romaji": "a, sorenara ichimanensatsu ichimai to kozeni de ii desu",
+                    "meaning": "아, 그럼 그냥 만 엔권 한 장과 잔돈으로 주세요."
+                },
+                {
+                    "id": 12,
+                    "speaker": "점원",
+                    "kanji": "はい、こちらで金額をご確認ください。レシートです。ありがとうございます。",
+                    "kana": "はい、こちらできんがくをごかくにんください。レシートです。ありがとうございます。",
+                    "romaji": "hai, kochira de kingaku o gokakunin kudasai. reshiito desu. arigatou gozaimasu",
+                    "meaning": "네, 이쪽에서 금액 확인해 주세요. 영수증입니다. 감사합니다."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～につき",
+                        "desc": ["'~당(per)'이라는 비율이나 단위를 나타냅니다. (예: 百円につき - 100엔당)"]
+                    },
+                    {
+                        "title": "～しか ない",
+                        "desc": ["'~할 수밖에 없다'는 어쩔 수 없는 상황을 나타냅니다. (예: 崩すしかありません - 바꿀 수밖에 없습니다)"]
+                    },
+                    {
+                        "title": "両替 (りょうがえ)",
+                        "desc": ["환전"]
+                    },
+                    {
+                        "title": "通貨 (つうか)",
+                        "desc": ["통화, 화폐"]
+                    },
+                    {
+                        "title": "硬貨 (こうか)",
+                        "desc": ["동전 (반대말: お札 / 紙幣 - 지폐)"]
+                    },
+                    {
+                        "title": "崩す (くずす)",
+                        "desc": ["(큰돈을 작은 돈으로) 바꾸다, 헐다"]
+                    }
+                ],
+                "summary": "환전소에서 환율을 확인하고 원하는 금액을 엔화로 바꾸면서 지폐와 동전의 교환 방식을 묻고 답하는 상황입니다."
+            }
+        }
+    ]
+}
+
+with open('airport_scenesv1.JSON', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+print("Created airport_scenesv1.JSON")

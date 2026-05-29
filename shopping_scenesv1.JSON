@@ -1,0 +1,671 @@
+{
+    "category": "Shopping Mall",
+    "version": "1.0",
+    "scenarios": [
+        {
+            "id": "shop-01-clothes",
+            "title": "옷 가게: 사이즈/색상 문의 및 피팅룸 이용",
+            "level": "N3",
+            "description": "옷 가게에서 옷의 사이즈나 색상을 문의하고, 피팅룸에서 입어보는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "すみません、このコート、Mサイズはありますか。",
+                    "kana": "すみません、このコート、エムサイズはありますか。",
+                    "romaji": "sumimasen, kono kooto, emusaizu wa arimasu ka",
+                    "meaning": "실례합니다. 이 코트, M 사이즈 있나요?"
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "少々お待ちください、在庫を確認いたします。（しばらくして）申し訳ございませんが、Mサイズはネイビー色しか残っておりません。",
+                    "kana": "しょうしょうおまちください、ざいこをかくにんいたします。（しばらくして）もうしわけございませんが、エムサイズはネイビーいろしかのこっておりません。",
+                    "romaji": "shoushou omachi kudasai, zaiko o kakunin itashimasu. (shibaraku shite) moushiwake gozaimasen ga, emusaizu wa neibii iro shika nokotte orimasen",
+                    "meaning": "잠시만요, 재고를 확인해 보겠습니다. (잠시 후) 죄송하지만 M 사이즈는 네이비 색상만 남아있습니다."
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "あ、そうなんですね。試着室で着てみてもいいですか。",
+                    "kana": "あ、そうなんですね。しちゃくしつできてみてもいいですか。",
+                    "romaji": "a, sou nan desu ne. shichakushitsu de kite mite mo ii desu ka",
+                    "meaning": "아, 그렇군요. 혹시 피팅룸에서 입어봐도 될까요?"
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "はい、もちろんです。こちらへどうぞ。ご試着の際は、フェイスカバーのご利用をお願いいたします。",
+                    "kana": "はい、もちろんです。こちらへどうぞ。ごしちゃくのさいは、フェイスカバーのごりようをおねがいいたします。",
+                    "romaji": "hai, mochiron desu. kochira e douzo. goshichaku no sai wa, feisukabaa no goriyou o onegai itashimasu",
+                    "meaning": "네, 물론입니다. 이쪽으로 오세요. 입어보실 때 화장이 묻지 않도록 페이스 커버 사용을 부탁드립니다."
+                },
+                {
+                    "id": 5,
+                    "speaker": "손님",
+                    "kanji": "はい、わかりました。（試着後）あの、肩が少しきついんですが、Lサイズを着てみることはできますか。",
+                    "kana": "はい、わかりました。（しちゃくご）あの、かたがすこしきついんですが、エルサイズをきてみることはできますか。",
+                    "romaji": "hai, wakarimashita. (shichakugo) ano, kata ga sukoshi kitsuin desu ga, erusaizu o kite miru koto wa dekimasu ka",
+                    "meaning": "네, 알겠습니다. (입어본 후) 저기요, 어깨가 조금 꽉 끼는데 L 사이즈로 입어볼 수 있을까요?"
+                },
+                {
+                    "id": 6,
+                    "speaker": "점원",
+                    "kanji": "Lサイズですね。ベージュのLサイズをお持ちいたします。",
+                    "kana": "エルサイズですね。ベージュのエルサイズをおもちいたします。",
+                    "romaji": "erusaizu desu ne. beeju no erusaizu o omochi itashimasu",
+                    "meaning": "L 사이즈 말씀이시죠? 베이지색 L 사이즈로 가져다 드리겠습니다."
+                },
+                {
+                    "id": 7,
+                    "speaker": "손님",
+                    "kanji": "ありがとうございます。うん、こちらのほうが楽でぴったりですね。",
+                    "kana": "ありがとうございます。うん、こちらのほうがらくでぴったりですね。",
+                    "romaji": "arigatou gozaimasu. un, kochira no hou ga raku de pittari desu ne",
+                    "meaning": "감사합니다. 음, 이게 더 편하고 잘 맞네요."
+                },
+                {
+                    "id": 8,
+                    "speaker": "점원",
+                    "kanji": "はい、とてもよくお似合いです。サイズがちょうどいいですね。",
+                    "kana": "はい、とてもよくおにあいです。サイズがちょうどいいですね。",
+                    "romaji": "hai, totemo yoku oniai desu. saizu ga choudo ii desu ne",
+                    "meaning": "네, 아주 잘 어울리십니다. 사이즈가 딱 맞네요."
+                },
+                {
+                    "id": 9,
+                    "speaker": "손님",
+                    "kanji": "じゃあ、これにします。カードでお願いします。",
+                    "kana": "じゃあ、これにします。カードでおねがいします。",
+                    "romaji": "jaa, kore ni shimasu. kaado de onegaishimasu",
+                    "meaning": "네, 이걸로 할게요. 카드로 계산해 주세요."
+                },
+                {
+                    "id": 10,
+                    "speaker": "점원",
+                    "kanji": "かしこまりました。レジへご案内いたします。こちらへどうぞ。",
+                    "kana": "かしこまりました。レジへごあんないいたします。こちらへどうぞ。",
+                    "romaji": "kashikomarimashita. reji e goannai itashimasu. kochira e douzo",
+                    "meaning": "알겠습니다. 카운터로 안내해 드리겠습니다. 이쪽으로 오시죠."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～しか ～ない",
+                        "desc": [
+                            "'~밖에 ~없다'는 뜻으로 한정이나 부족함을 나타냅니다. (예: ネイビー色しか残っておりません)"
+                        ]
+                    },
+                    {
+                        "title": "～てみる",
+                        "desc": [
+                            "'~해 보다'라는 뜻으로 시험 삼아 어떤 행동을 해볼 때 사용합니다."
+                        ]
+                    },
+                    {
+                        "title": "～の際(さい)",
+                        "desc": [
+                            "'~할 때', '~할 즈음'이라는 뜻의 격식 있는 표현입니다."
+                        ]
+                    },
+                    {
+                        "title": "似合う (にあう)",
+                        "desc": [
+                            "어울리다 (예: よくお似合いです - 잘 어울리십니다)"
+                        ]
+                    },
+                    {
+                        "title": "試着室 (しちゃくしつ)",
+                        "desc": [
+                            "피팅룸, 탈의실"
+                        ]
+                    },
+                    {
+                        "title": "案内 (あんない)",
+                        "desc": [
+                            "안내"
+                        ]
+                    }
+                ],
+                "summary": "옷 가게에서 옷의 사이즈나 색상을 묻고, 피팅룸에서 여러 사이즈를 입어본 뒤 구매를 결정하는 상황의 대화입니다."
+            }
+        },
+        {
+            "id": "shop-02-taxfree",
+            "title": "면세 데스크: 면세(Tax-Free) 카운터 이용",
+            "level": "N3",
+            "description": "쇼핑 후 면세 카운터에서 여권과 영수증을 제시하고 면세 혜택을 받는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "こんにちは。免税手続きをしたいんですが。",
+                    "kana": "こんにちは。めんぜいてつづきをしたいんですが。",
+                    "romaji": "konnichiwa. menzei tetsuduki o shitain desu ga",
+                    "meaning": "안녕하세요. 면세 수속을 하고 싶은데요."
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "はい、パスポートと本日お買い上げのレシート、そして商品を見せていただけますか。",
+                    "kana": "はい、パスポートとほんじつおかいあげのレシート、そしてしょうひんをみせていただけますか。",
+                    "romaji": "hai, pasupooto to honjitsu okaiage no reshiito, soshite shouhin o misete itadakemasu ka",
+                    "meaning": "네, 여권과 오늘 구입하신 영수증, 그리고 상품을 보여 주시겠습니까?"
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "こちらがパスポートとレシートです。商品はすべてこのカバンの中に入っています。",
+                    "kana": "こちらがパスポートとレシートです。しょうひんはすべてこのカバンのなかにはいっています。",
+                    "romaji": "kochira ga pasupooto to reshiito desu. shouhin wa subete kono kaban no naka ni haitte imasu",
+                    "meaning": "여기 여권이랑 영수증 있습니다. 상품은 이 가방 안에 다 들어있어요."
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "確認いたします。あ、こちらの化粧品は消耗品ですので、特殊な包装をする必要があります。",
+                    "kana": "かくにんいたします。あ、こちらのけしょうひんはしょうもうひんですので、とくしゅなほうそうをするひつようがあります。",
+                    "romaji": "kakunin itashimasu. a, kochira no keshouhin wa shoumouhin desu node, tokushuna housou o suru hitsuyou ga arimasu",
+                    "meaning": "확인하겠습니다. 아, 이 화장품은 소모품이라 특수 포장을 해야 합니다."
+                },
+                {
+                    "id": 5,
+                    "speaker": "손님",
+                    "kanji": "あ、包装を開けちゃいけないんですか。",
+                    "kana": "あ、ほうそうをあけちゃいけないんですか。",
+                    "romaji": "a, housou o akecha ikenai n desu ka",
+                    "meaning": "아, 포장을 뜯으면 안 되나요?"
+                },
+                {
+                    "id": 6,
+                    "speaker": "점원",
+                    "kanji": "はい、日本国内で消費しない条件で免税になりますので、帰国されるまで開封してはいけません。",
+                    "kana": "はい、にほんこくないでしょうひしないじょうけんでめんぜいになりますので、きこくされるまでかいふうしてはいけません。",
+                    "romaji": "hai, nihon kokunai de shouhishinai jouken de menzei ni narimasu node, kikoku sareru made kaifuu shite wa ikemasen",
+                    "meaning": "네, 일본 내에서 소비하지 않는 조건으로 면세가 되기 때문에 귀국하실 때까지 개봉하시면 안 됩니다."
+                },
+                {
+                    "id": 7,
+                    "speaker": "손님",
+                    "kanji": "わかりました。じゃあ、開けずにそのまま持って帰ります。",
+                    "kana": "わかりました。じゃあ、あけずにそのままもってかえります。",
+                    "romaji": "wakarimashita. jaa, akezuni sonomama motte kaerimasu",
+                    "meaning": "알겠습니다. 그럼 뜯지 않고 그대로 가져갈게요."
+                },
+                {
+                    "id": 8,
+                    "speaker": "점원",
+                    "kanji": "ありがとうございます。確認が終わりました。こちらの書類にサインをお願いします。",
+                    "kana": "ありがとうございます。かくにんがおわりました。こちらのしょるいにサインをおねがいします。",
+                    "romaji": "arigatou gozaimasu. kakunin ga owarimashita. kochira no shorui ni sain o onegaishimasu",
+                    "meaning": "감사합니다. 확인이 끝났습니다. 이 서류에 서명 부탁드립니다."
+                },
+                {
+                    "id": 9,
+                    "speaker": "손님",
+                    "kanji": "はい、サインしました。還付金は現金でもらえますか。",
+                    "kana": "はい、サインしました。かんぷきんはげんきんでもらえますか。",
+                    "romaji": "hai, sain shimashita. kanpukin wa genkin de moraemasu ka",
+                    "meaning": "네, 서명했습니다. 환급은 현금으로 받나요?"
+                },
+                {
+                    "id": 10,
+                    "speaker": "점원",
+                    "kanji": "はい、消費税の千五百円を現金でお返しいたします。良いご旅行を。",
+                    "kana": "はい、しょうひぜいのせんごひゃくえんをげんきんでおかえしいたします。よいごりょこうを。",
+                    "romaji": "hai, shouhizei no sengohyakuen o genkin de okaeshi itashimasu. yoi goryokou o",
+                    "meaning": "네, 소비세 1,500엔을 현금으로 돌려드립니다. 즐거운 여행 되세요."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～てはいけない / ～ちゃいけない",
+                        "desc": [
+                            "'~해서는 안 된다'는 금지의 표현입니다. (회화체에서는 ~ちゃいけない를 자주 씁니다)"
+                        ]
+                    },
+                    {
+                        "title": "～ずに",
+                        "desc": [
+                            "'~하지 않고'라는 뜻으로, ないで와 같은 의미의 격식 있는 표현입니다. (예: 開けずに - 열지 않고)"
+                        ]
+                    },
+                    {
+                        "title": "免税 (めんぜい)",
+                        "desc": [
+                            "면세"
+                        ]
+                    },
+                    {
+                        "title": "手続き (てつづき)",
+                        "desc": [
+                            "수속, 절차"
+                        ]
+                    },
+                    {
+                        "title": "消耗品 (しょうもうひん)",
+                        "desc": [
+                            "소모품 (화장품, 식품 등)"
+                        ]
+                    },
+                    {
+                        "title": "開封 (かいふう)",
+                        "desc": [
+                            "개봉"
+                        ]
+                    },
+                    {
+                        "title": "還付金 (かんぷきん)",
+                        "desc": [
+                            "환급금 (돌려받는 돈)"
+                        ]
+                    }
+                ],
+                "summary": "면세 카운터에서 여권과 영수증을 제시하여 부가세 환급을 받고, 소모품 개봉 금지 규정을 안내받는 상황입니다."
+            }
+        },
+        {
+            "id": "shop-03-info",
+            "title": "안내 데스크: 매장 위치 안내 및 유실물 문의",
+            "level": "N3",
+            "description": "안내 데스크(인포메이션)에서 특정 매장의 위치를 묻고, 잃어버린 물건(분실물)을 찾는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "すみません、無印良品の店舗は何階にありますか。",
+                    "kana": "すみません、むじるしりょうひんのてんぽはなんがいにありますか。",
+                    "romaji": "sumimasen, mujirushi ryouhin no tenpo wa nangai ni arimasu ka",
+                    "meaning": "실례합니다. 무인양품 매장은 몇 층에 있나요?"
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "無印良品は４階にございます。エスカレーターに乗って上がると、すぐ右側に見えます。",
+                    "kana": "むじるしりょうひんはよんかいにございます。エスカレーターにのってあがると、すぐみぎがわにみえます。",
+                    "romaji": "mujirushi ryouhin wa yonkai ni gozaimasu. esukareetaa ni notte agaru to, sugu migigawa ni miemasu",
+                    "meaning": "무인양품은 4층에 있습니다. 에스컬레이터를 타고 올라가시면 바로 오른쪽에 보입니다."
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "教えていただいてありがとうございます。ちなみに、この建物の中にコインロッカーはありますか。荷物が重くて。",
+                    "kana": "おしえていただいてありがとうございます。ちなみに、このたてもののなかにコインロッカーはありますか。にもつがおもくて。",
+                    "romaji": "oshiete itadaite arigatou gozaimasu. chinamini, kono tatemono no naka ni koin rokkaa wa arimasu ka. nimotsu ga omokute",
+                    "meaning": "알려주셔서 감사합니다. 혹시 이 건물 안에 코인 락커가 있나요? 짐이 무거워서요."
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "はい、コインロッカーは１階の北口出口の近くと、地下１階のトイレの横に設置されております。",
+                    "kana": "はい、コインロッカーはいっかいのきたぐちでぐちのちかくと、ちかいっかいのトイレのよこにせっちされております。",
+                    "romaji": "hai, koin rokkaa wa ikkai no kitaguchi deguchi no chikaku to, chika ikkai no toire no yoko ni setchi sarete orimasu",
+                    "meaning": "네, 코인 락커는 1층 북문 출구 근처와 지하 1층 화장실 옆에 마련되어 있습니다."
+                },
+                {
+                    "id": 5,
+                    "speaker": "손님",
+                    "kanji": "なるほど。あ、もう一つ伺ってもよろしいでしょうか。",
+                    "kana": "なるほど。あ、もうひとつうかがってもよろしいでしょうか。",
+                    "romaji": "naruhodo. a, mou hitotsu ukagatte mo yoroshii deshou ka",
+                    "meaning": "그렇군요. 아, 그리고 한 가지 더 여쭤봐도 될까요?"
+                },
+                {
+                    "id": 6,
+                    "speaker": "점원",
+                    "kanji": "はい、何でもお聞きください。",
+                    "kana": "はい、なんでもおききください。",
+                    "romaji": "hai, nandemo okiki kudasai",
+                    "meaning": "네, 무엇이든 물어보세요."
+                },
+                {
+                    "id": 7,
+                    "speaker": "손님",
+                    "kanji": "さっき２階のトイレに傘を忘れてきたみたいなんですが、忘れ物はどこに行けばいいですか。",
+                    "kana": "さっきにかいのトイレにかさをわすれてきたみたいなんですが、わすれものはどこにいけばいいですか。",
+                    "romaji": "sakki nikai no toire ni kasa o wasurete kita mitai nan desu ga, wasuremono wa doko ni ikeba ii desu ka",
+                    "meaning": "아까 2층 화장실에 우산을 두고 온 것 같은데, 분실물은 어디로 가야 하나요?"
+                },
+                {
+                    "id": 8,
+                    "speaker": "점원",
+                    "kanji": "お忘れ物は現在、１階の防災センターで保管しております。こちらから連絡して、傘が届いているか確認しましょうか。",
+                    "kana": "おわすれものはげんざい、いっかいのぼうさいセンターでほかんしております。こちらかられんらくして、かさがとどいているかかくにんしましょうか。",
+                    "romaji": "owasuremono wa genzai, ikkai no bousai sentaa de hokan shite orimasu. kochira kara renraku shite, kasa ga todoite iru ka kakunin shimashou ka",
+                    "meaning": "분실물은 현재 1층 방재 센터에서 보관하고 있습니다. 제가 그쪽으로 연락해서 우산이 들어왔는지 확인해 드릴까요?"
+                },
+                {
+                    "id": 9,
+                    "speaker": "손님",
+                    "kanji": "はい、ぜひお願いします。黒い折り畳み傘です。",
+                    "kana": "はい、ぜひおねがいします。くろいおりたたみがさです。",
+                    "romaji": "hai, zehi onegaishimasu. kuroi oritatamigasa desu",
+                    "meaning": "네, 꼭 좀 부탁드립니다. 검은색 접이식 우산입니다."
+                },
+                {
+                    "id": 10,
+                    "speaker": "점원",
+                    "kanji": "少々お待ちください。（確認後）はい、先ほど届いた黒い傘があるそうです。案内デスクの後ろにある防災センターへお越しください。",
+                    "kana": "しょうしょうおまちください。（かくにんご）はい、さきほどとどいたくろいかさがあるそうです。あんないデスクのうしろにあるぼうさいセンターへおこしください。",
+                    "romaji": "shoushou omachi kudasai. (kakuningo) hai, sakihodo todoita kuroi kasa ga aru sou desu. annai desuku no ushiro ni aru bousai sentaa e okoshi kudasai",
+                    "meaning": "잠시만 기다려 주세요. (확인 후) 네, 방금 들어온 검은색 우산이 있다고 합니다. 안내 데스크 뒤편 방재 센터로 가시면 됩니다."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～ておく / ～てある",
+                        "desc": [
+                            "'~해 두다 / ~되어 있다'라는 뜻으로 상태나 조치를 나타냅니다. (예: 設置されております - 설치되어 있습니다)"
+                        ]
+                    },
+                    {
+                        "title": "～みたいだ",
+                        "desc": [
+                            "'~인 것 같다'는 추측이나 불확실한 사실을 나타냅니다. (예: 忘れてきたみたいなんですが - 잃어버린 것 같은데요)"
+                        ]
+                    },
+                    {
+                        "title": "～そうだ",
+                        "desc": [
+                            "'~라고 한다'는 전문(전해 들음)을 나타냅니다. (예: あるそうです - 있다고 합니다)"
+                        ]
+                    },
+                    {
+                        "title": "店舗 (てんぽ)",
+                        "desc": [
+                            "점포, 매장"
+                        ]
+                    },
+                    {
+                        "title": "忘れ物 (わすれもの)",
+                        "desc": [
+                            "분실물 (잃어버리거나 두고 온 물건)"
+                        ]
+                    },
+                    {
+                        "title": "折り畳み傘 (おりたたみがさ)",
+                        "desc": [
+                            "접이식 우산"
+                        ]
+                    }
+                ],
+                "summary": "안내 데스크에서 매장 위치와 코인 락커를 찾고, 잃어버린 우산을 방재 센터를 통해 확인하는 대화입니다."
+            }
+        },
+        {
+            "id": "shop-04-shoes",
+            "title": "신발 매장: 재고 확인 및 타 매장 주문(取り寄せ)",
+            "level": "N3",
+            "description": "신발 사이즈가 품절되어 타 매장의 재고를 확인하고, 배송(주문)을 요청하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "あの、ショーウィンドウにあるこのスニーカー、２４センチはありますか。",
+                    "kana": "あの、ショーウィンドウにあるこのスニーカー、にじゅうよんセンチはありますか。",
+                    "romaji": "ano, shoowindou ni aru kono suniikaa, nijuuyon senchi wa arimasu ka",
+                    "meaning": "저기요, 쇼윈도에 있는 이 운동화, 240 사이즈 있나요?"
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "はい、確認いたします。（しばらくして）大変申し訳ございません。こちらの色の２４センチは、先ほど売り切れてしまいました。",
+                    "kana": "はい、かくにんいたします。（しばらくして）たいへんもうしわけございません。こちらのいろのにじゅうよんセンチは、さきほどうりきれてしまいました。",
+                    "romaji": "hai, kakunin itashimasu. (shibaraku shite) taihen moushiwake gozaimasen. kochira no iro no nijuuyon senchi wa, sakihodo urikirete shimaimashita",
+                    "meaning": "네, 확인해 보겠습니다. (잠시 후) 대단히 죄송합니다. 이 색상의 240 사이즈는 방금 품절되었습니다."
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "あ、残念ですね。もしかして、ほかの色はありますか。",
+                    "kana": "あ、ざんねんですね。もしかして、ほかのいろはありますか。",
+                    "romaji": "a, zannen desu ne. moshikashite, hoka no iro wa arimasu ka",
+                    "meaning": "아, 아쉽네요. 혹시 다른 색상은 있나요?"
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "黒とグレーでしたら、２４センチが残っております。一度履いてみますか。",
+                    "kana": "くろとグレーでしたら、にじゅうよんセンチがのこっております。いちどはいてみますか。",
+                    "romaji": "kuro to guree deshitara, nijuuyon senchi ga nokotte orimasu. ichido haite mimasu ka",
+                    "meaning": "검은색과 회색은 240 사이즈가 남아있습니다. 한 번 신어보시겠어요?"
+                },
+                {
+                    "id": 5,
+                    "speaker": "손님",
+                    "kanji": "いいえ、どうしても白いのが欲しくて。近くのほかの店舗には在庫がありますか。",
+                    "kana": "いいえ、どうしてもしろいのがほしくて。ちかくのほかのてんぽにはざいこがありますか。",
+                    "romaji": "iie, doushitemo shiroi no ga hoshikute. chikaku no hoka no tenpo ni wa zaiko ga arimasu ka",
+                    "meaning": "아니요, 저는 꼭 하얀색이 갖고 싶어서요. 근처 다른 매장에는 재고가 있을까요?"
+                },
+                {
+                    "id": 6,
+                    "speaker": "점원",
+                    "kanji": "少しシステムでお調べしますね。あ、歩いて１０分のところにある本店には、在庫が二足ございます。",
+                    "kana": "すこしシステムでおしらべしますね。あ、あるいてじゅっぷんのところにあるほんてんには、ざいこがにそくございます。",
+                    "romaji": "sukoshi shisutemu de oshirabe shimasu ne. a, aruite juppun no tokoro ni aru honten ni wa, zaiko ga nisoku gozaimasu",
+                    "meaning": "잠시 시스템으로 조회해 보겠습니다. 아, 걸어서 10분 거리에 있는 본점에는 재고가 두 켤레 있습니다."
+                },
+                {
+                    "id": 7,
+                    "speaker": "손님",
+                    "kanji": "直接そちらへ行かないといけませんか。こちらの店舗に取り寄せていただくことはできませんか。",
+                    "kana": "ちょくせつそちらへいかないといけませんか。こちらのてんぽにとりよせていただくことはできませんか。",
+                    "romaji": "chokusetsu sochira e ikanai to ikemasen ka. kochira no tenpo ni toriyosete itadaku koto wa dekimasen ka",
+                    "meaning": "직접 거기로 가야 하나요? 혹시 이 매장으로 가져다 주실(주문해 주실) 수는 없나요?"
+                },
+                {
+                    "id": 8,
+                    "speaker": "점원",
+                    "kanji": "はい、ほかの店舗からのお取り寄せは可能ですが、数日ほどかかる場合がございます。",
+                    "kana": "はい、ほかのてんぽからのおとりよせはかのうですが、すうじつほどかかるばあいがございます。",
+                    "romaji": "hai, hoka no tenpo kara no otoriyose wa kanou desu ga, suujitsu hodo kakaru baai ga gozaimasu",
+                    "meaning": "네, 다른 지점에서 가져오는 주문(取り寄せ)이 가능합니다만, 며칠 정도 걸릴 수 있습니다."
+                },
+                {
+                    "id": 9,
+                    "speaker": "손님",
+                    "kanji": "数日後には帰国するので時間がないんです。じゃあ、ホテルに配送してもらうこともできますか。",
+                    "kana": "すうじつごにはきこくするのでじかんがないんです。じゃあ、ホテルにはいそうしてもらうこともできますか。",
+                    "romaji": "suujitsugo ni wa kikoku suru node jikan ga nain desu. jaa, hoteru ni haisou shite morau koto mo dekimasu ka",
+                    "meaning": "며칠 후면 귀국이라 시간이 없어서요. 그럼 호텔로 배송받을 수도 있나요?"
+                },
+                {
+                    "id": 10,
+                    "speaker": "점원",
+                    "kanji": "はい、配送料が五百円追加されますが、配送も可能です。明日の出発となります。",
+                    "kana": "はい、はいそうりょうがごひゃくえんついかされますが、はいそうもかのうです。あすのしゅっぱつとなります。",
+                    "romaji": "hai, haisouryou ga gohyakuen tsuika saremasu ga, haisou mo kanou desu. asu no shuppatsu to narimasu",
+                    "meaning": "네, 배송비 500엔이 추가되지만 배송도 가능합니다. 내일 출발하게 됩니다."
+                },
+                {
+                    "id": 11,
+                    "speaker": "손님",
+                    "kanji": "それなら配送でお願いします。ここに住所を書きますね。",
+                    "kana": "それならはいそうでおねがいします。ここにじゅうしょをかきますね。",
+                    "romaji": "sorenara haisou de onegaishimasu. koko ni juusho o kakimasu ne",
+                    "meaning": "그럼 배송으로 부탁드릴게요. 여기 주소 적겠습니다."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～てしまう",
+                        "desc": [
+                            "'~해 버리다'라는 완료나 아쉬움을 나타내는 표현입니다. (예: 売り切れてしまいました - 다 팔려버렸습니다)"
+                        ]
+                    },
+                    {
+                        "title": "～ていただく / ～てもらう",
+                        "desc": [
+                            "'~해 받다'라는 뜻으로 남에게 어떤 행위를 부탁해서 혜택을 받을 때 씁니다."
+                        ]
+                    },
+                    {
+                        "title": "～ないといけない",
+                        "desc": [
+                            "'~하지 않으면 안 된다', 즉 '~해야 한다'는 의무를 나타냅니다."
+                        ]
+                    },
+                    {
+                        "title": "取り寄せ (とりよせ)",
+                        "desc": [
+                            "재고가 없는 물건을 다른 곳에서 가져오게 하거나 주문하는 것"
+                        ]
+                    },
+                    {
+                        "title": "在庫 (ざいこ)",
+                        "desc": [
+                            "재고"
+                        ]
+                    },
+                    {
+                        "title": "配送 (はいそう)",
+                        "desc": [
+                            "배송"
+                        ]
+                    }
+                ],
+                "summary": "원하는 색상과 사이즈의 신발이 품절되어, 타 매장의 재고를 조회한 뒤 호텔로 배송을 요청하는 대화입니다."
+            }
+        },
+        {
+            "id": "shop-05-electronics",
+            "title": "가전제품 매장: 스펙 비교 및 할인 혜택 문의",
+            "level": "N3",
+            "description": "가전제품 매장에서 태블릿 두 모델을 비교하고, 할인 혜택과 보증 기간을 묻고 결제하는 상황입니다.",
+            "dialogue": [
+                {
+                    "id": 1,
+                    "speaker": "손님",
+                    "kanji": "あの、タブレットを見ているんですが、この二つのモデルの違いは何ですか。",
+                    "kana": "あの、タブレットをみているんですが、このふたつのモデルのちがいはなんですか。",
+                    "romaji": "ano, taburetto o mite iru n desu ga, kono futatsu no moderu no chigai wa nan desu ka",
+                    "meaning": "저기요, 태블릿을 보고 있는데요. 이 두 모델의 차이점이 뭔가요?"
+                },
+                {
+                    "id": 2,
+                    "speaker": "점원",
+                    "kanji": "こちらの最新モデルは、画面がより大きくて処理速度が速いです。その代わり、少しだけ重くなっています。",
+                    "kana": "こちらのさいしんモデルは、がめんがよりおおきくてしょりそくどがはやいです。そのかわり、すこしだけおもくなっています。",
+                    "romaji": "kochira no saishin moderu wa, gamen ga yori ookikute shorisokudo ga hayai desu. sono kawari, sukoshi dake omoku natte imasu",
+                    "meaning": "이쪽 최신 모델은 화면이 더 크고 처리 속도가 빠릅니다. 대신 약간 더 무겁습니다."
+                },
+                {
+                    "id": 3,
+                    "speaker": "손님",
+                    "kanji": "なるほど。私は主に動画を見るつもりなので、画面が大きいほうがいいですね。",
+                    "kana": "なるほど。わたしはおもにどうがをみるつもりなので、がめんがおおきいほうがいいですね。",
+                    "romaji": "naruhodo. watashi wa omoni douga o miru tsumori nanode, gamen ga ookii hou ga ii desu ne",
+                    "meaning": "그렇군요. 저는 주로 영상을 볼 거라 화면이 큰 게 좋겠네요."
+                },
+                {
+                    "id": 4,
+                    "speaker": "점원",
+                    "kanji": "動画を主にご覧になるなら、最新モデルがおすすめです。現在キャンペーン中で、専用ケースも無料でプレゼントしております。",
+                    "kana": "どうがをおもにごらんになるなら、さいしんモデルがおすすめです。げんざいキャンペーンちゅうで、せんようケースもむりょうでプレゼントしております。",
+                    "romaji": "douga o omoni goran ni naru nara, saishin moderu ga osusume desu. genzai kyanpeen chuu de, senyou keesu mo muryou de purezento shite orimasu",
+                    "meaning": "영상을 주로 보신다면 최신 모델을 추천합니다. 지금 캠페인 중이라 전용 케이스도 무료로 증정하고 있습니다."
+                },
+                {
+                    "id": 5,
+                    "speaker": "손님",
+                    "kanji": "お、いいですね。値段が少し高いですが、外国人向けの割引はありますか。",
+                    "kana": "お、いいですね。ねだんがすこしたかいですが、がいこくじんむけのわりびきはありますか。",
+                    "romaji": "o, ii desu ne. nedan ga sukoshi takai desu ga, gaikokujinmuke no waribiki wa arimasu ka",
+                    "meaning": "오, 좋은데요. 가격이 조금 비싼데, 외국인 할인이 되나요?"
+                },
+                {
+                    "id": 6,
+                    "speaker": "점원",
+                    "kanji": "はい、パスポートをご提示いただければ１０パーセント免税になり、さらに指定のカードで決済されると５パーセントの追加割引になります。",
+                    "kana": "はい、パスポートをごていじいただければじゅっパーセントめんぜいになり、さらにしていのカードでけっさいされるとごパーセントのついかわりびきになります。",
+                    "romaji": "hai, pasupooto o goteiji itadakereba juppaasento menzei ni nari, sarani shitei no kaado de kessai sareru to gopaasento no tsuika waribiki ni narimasu",
+                    "meaning": "네, 여권을 보여주시면 10% 면세가 적용되고, 지정된 카드로 결제하시면 5% 추가 할인이 됩니다."
+                },
+                {
+                    "id": 7,
+                    "speaker": "손님",
+                    "kanji": "じゃあ、合計１５パーセントの割引になるんですね。このクレジットカードで払ってもいいですか。",
+                    "kana": "じゃあ、ごうけいじゅうごパーセントのわりびきになるんですね。このクレジットカードではらってもいいですか。",
+                    "romaji": "jaa, goukei juugopaasento no waribiki ni naru n desu ne. kono kurejittokaado de haratte mo ii desu ka",
+                    "meaning": "그럼 총 15% 할인이 되는 거네요? 이 신용카드로 결제해도 되나요?"
+                },
+                {
+                    "id": 8,
+                    "speaker": "점원",
+                    "kanji": "はい、こちらのカードは５パーセントの追加割引が適用されます。保証期間は一年間ですが、日本国内のみでの修理となります。",
+                    "kana": "はい、こちらのカードはごパーセントのついかわりびきがてきようされます。ほしょうきかんはいちねんかんですが、にほんこくないのみでのしゅうりとなります。",
+                    "romaji": "hai, kochira no kaado wa gopaasento no tsuika waribiki ga tekiyou saremasu. hoshoukikan wa ichinenkan desu ga, nihon kokunai nomi de no shuuri to narimasu",
+                    "meaning": "네, 해당 카드는 5% 추가 할인이 적용됩니다. 보증 기간은 1년입니다만, 일본 내에서만 수리가 가능합니다."
+                },
+                {
+                    "id": 9,
+                    "speaker": "손님",
+                    "kanji": "わかりました。壊れないように大切に使わないといけませんね。これにします。",
+                    "kana": "わかりました。こわれないようにたいせつにつかわないといけませんね。これにします。",
+                    "romaji": "wakarimashita. kowarenai youni taisetsu ni tsukawanai to ikemasen ne. kore ni shimasu",
+                    "meaning": "알겠습니다. 고장 안 나게 잘 써야겠네요. 이걸로 주세요."
+                },
+                {
+                    "id": 10,
+                    "speaker": "점원",
+                    "kanji": "ありがとうございます。新しい商品をご用意いたしますので、少々お待ちください。",
+                    "kana": "ありがとうございます。あたらしいしょうひんをごよういいたしますので、しょうしょうおまちください。",
+                    "romaji": "arigatou gozaimasu. atarashii shouhin o goyoui itashimasu node, shoushou omachi kudasai",
+                    "meaning": "감사합니다. 새 상품으로 준비해 드릴 테니 잠시만 기다려 주세요."
+                }
+            ],
+            "grammar": {
+                "points": [
+                    {
+                        "title": "～つもりだ",
+                        "desc": [
+                            "'~할 생각이다/작정이다'라는 의도를 나타냅니다. (예: 動画を見るつもりなので - 영상을 볼 생각이어서)"
+                        ]
+                    },
+                    {
+                        "title": "～なら / ～ば",
+                        "desc": [
+                            "'~라면'이라는 조건을 나타내는 가정법입니다."
+                        ]
+                    },
+                    {
+                        "title": "～向け (～むけ)",
+                        "desc": [
+                            "'~용', '~대상'이라는 뜻입니다. (예: 外国人向け - 외국인 대상)"
+                        ]
+                    },
+                    {
+                        "title": "違い (ちがい)",
+                        "desc": [
+                            "차이, 다름"
+                        ]
+                    },
+                    {
+                        "title": "提示 (ていじ)",
+                        "desc": [
+                            "제시 (서류나 여권 등을 꺼내어 보여줌)"
+                        ]
+                    },
+                    {
+                        "title": "決済 (けっさい)",
+                        "desc": [
+                            "결제"
+                        ]
+                    },
+                    {
+                        "title": "保証期間 (ほしょうきかん)",
+                        "desc": [
+                            "보증 기간"
+                        ]
+                    }
+                ],
+                "summary": "가전제품 매장에서 두 가지 태블릿 모델을 비교하고, 면세 및 카드 할인을 받아 결제하는 대화입니다."
+            }
+        }
+    ]
+}
