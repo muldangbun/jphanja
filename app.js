@@ -375,7 +375,7 @@
             // Convert dialogue into KANJI_DATA format
             KANJI_DATA = scene.dialogue.map((d, index) => ({
                 ...d,
-                grammar: scene.grammar
+                grammar: d.grammar
             }));
 
             document.getElementById('start-screen').classList.add('hidden');

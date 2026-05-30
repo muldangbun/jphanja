@@ -14,7 +14,18 @@
                     "kanji": "マスター、生ビール一つと、串焼きの盛り合わせを五本お願いします。",
                     "kana": "マスター、なまビールひとつと、くしやきのちりあわせをごほんおねがいします。",
                     "romaji": "masutaa, namabiiru hitotsu to, kushiyaki no moriawase o gohon onegaishimasu",
-                    "meaning": "마스터, 생맥주 하나랑 모둠 꼬치구이 5개 부탁드려요."
+                    "meaning": "마스터, 생맥주 하나랑 모둠 꼬치구이 5개 부탁드려요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "盛り合わせ (もりあわせ)",
+                                "desc": [
+                                    "모둠, 여러 가지를 한 접시에 담은 것 (예: 刺身の盛り合わせ - 모둠 회)"
+                                ]
+                            }
+                        ],
+                        "summary": "마스터, 생맥주 하나랑 모둠 꼬치구이 5개 부탁드려요."
+                    }
                 },
                 {
                     "id": 2,
@@ -22,7 +33,11 @@
                     "kanji": "串焼きは塩とタレ、どちらになさいますか。",
                     "kana": "くしやきはしおとタレ、どちらになさいますか。",
                     "romaji": "kushiyaki wa shio to tare, dochira ni nasaimasu ka",
-                    "meaning": "꼬치구이는 소금이랑 타레(간장 양념) 중에 어떤 걸로 해드릴까요?"
+                    "meaning": "꼬치구이는 소금이랑 타레(간장 양념) 중에 어떤 걸로 해드릴까요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "꼬치구이는 소금이랑 타레(간장 양념) 중에 어떤 걸로 해드릴까요?"
+                    }
                 },
                 {
                     "id": 3,
@@ -30,7 +45,18 @@
                     "kanji": "うーん、マスターのおすすめで半分ずつ混ぜてください。",
                     "kana": "うーん、マスターのおすすめではんぶんずつまぜてください。",
                     "romaji": "uun, masutaa no osusume de hanbun zutsu mazete kudasai",
-                    "meaning": "음... 마스터가 추천하시는 걸로 반반 섞어서 주세요."
+                    "meaning": "음... 마스터가 추천하시는 걸로 반반 섞어서 주세요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "半分ずつ (はんぶんずつ)",
+                                "desc": [
+                                    "'半分(절반)' + 'ずつ(~씩)' = '반반씩'이라는 뜻입니다."
+                                ]
+                            }
+                        ],
+                        "summary": "음... 마스터가 추천하시는 걸로 반반 섞어서 주세요."
+                    }
                 },
                 {
                     "id": 4,
@@ -38,7 +64,11 @@
                     "kanji": "はい、かしこまりました。美味しく焼かせていただきます。",
                     "kana": "はい、かしこまりました。おいしくやかせていただきます。",
                     "romaji": "hai, kashikomarimashita. oishiku yakasete itadakimasu",
-                    "meaning": "네, 알겠습니다. 맛있게 구워 드릴게요."
+                    "meaning": "네, 알겠습니다. 맛있게 구워 드릴게요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "네, 알겠습니다. 맛있게 구워 드릴게요."
+                    }
                 },
                 {
                     "id": 5,
@@ -46,7 +76,11 @@
                     "kanji": "お、今の注文聞いてたけど、日本語がすごく上手ですね。旅行者の方ですか。",
                     "kana": "お、いまのちゅうもんきいてたけど、にほんごがすごくじょうずですね。りょこうしゃのかたですか。",
                     "romaji": "o, ima no chuumon kiiteta kedo, nihongo ga sugoku jouzu desu ne. ryokousha no kata desu ka",
-                    "meaning": "오, 방금 주문하시는 거 들었는데 일본어 되게 잘하시네요. 여행객이세요?"
+                    "meaning": "오, 방금 주문하시는 거 들었는데 일본어 되게 잘하시네요. 여행객이세요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "오, 방금 주문하시는 거 들었는데 일본어 되게 잘하시네요. 여행객이세요?"
+                    }
                 },
                 {
                     "id": 6,
@@ -54,7 +88,11 @@
                     "kanji": "はい、韓国から今日到着しました。東京は三回目ですが、この辺りは初めてなんです。",
                     "kana": "はい、かんこくからきょうとうちゃくしました。とうきょうはさんかいめですが、このあたりははじめてなんです。",
                     "romaji": "hai, kankoku kara kyou touchaku shimashita. toukyou wa sankaime desu ga, kono atari wa hajimete nan desu",
-                    "meaning": "네, 한국에서 오늘 도착했습니다. 도쿄는 세 번째인데 이 동네는 처음이에요."
+                    "meaning": "네, 한국에서 오늘 도착했습니다. 도쿄는 세 번째인데 이 동네는 처음이에요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "네, 한국에서 오늘 도착했습니다. 도쿄는 세 번째인데 이 동네는 처음이에요."
+                    }
                 },
                 {
                     "id": 7,
@@ -62,7 +100,24 @@
                     "kanji": "どうりで。ここはガイドブックに載るような店じゃなくて、地元の人しか来ないんですよ。どうやって知ったんですか。",
                     "kana": "どうりで。ここはガイドブックにのるようなみせじゃなくて、じもとのひとしかこないんですよ。どうやってしったんですか。",
                     "romaji": "douride. koko wa gaidobukku ni noru youna mise janakute, jimoto no hito shika konain desu yo. douyatte shittan desu ka",
-                    "meaning": "어쩐지, 여긴 가이드북에 나오는 가게가 아니라서 현지인들만 오거든요. 어떻게 알고 오셨어요?"
+                    "meaning": "어쩐지, 여긴 가이드북에 나오는 가게가 아니라서 현지인들만 오거든요. 어떻게 알고 오셨어요?",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "どうりで",
+                                "desc": [
+                                    "'어쩐지', '그럴 만하더라니'라는 뜻의 회화 표현입니다."
+                                ]
+                            },
+                            {
+                                "title": "～しか～ない",
+                                "desc": [
+                                    "'~밖에 ~없다'는 뜻으로 특정 상황에 한정됨을 강조합니다. (예: 地元の人しか来ない - 현지인밖에 안 온다)"
+                                ]
+                            }
+                        ],
+                        "summary": "어쩐지, 여긴 가이드북에 나오는 가게가 아니라서 현지인들만 오거든요. 어떻게 알고 오셨어요?"
+                    }
                 },
                 {
                     "id": 8,
@@ -70,7 +125,11 @@
                     "kanji": "ただホテルの近くを散歩していたら、路地の雰囲気がとても良さそうだったので、偶然入ってみました。",
                     "kana": "ただホテルのちかくをさんぽしていたら、ろじのふんいきがとてもよさそうだったので、ぐうぜんはいってみました。",
                     "romaji": "tada hoteru no chikaku o sanpo shite itara, roji no fun'iki ga totemo yosasou datta node, guuzen haitte mimashita",
-                    "meaning": "그냥 호텔 근처를 산책하다가 골목 분위기가 너무 좋아 보여서 우연히 들어왔어요."
+                    "meaning": "그냥 호텔 근처를 산책하다가 골목 분위기가 너무 좋아 보여서 우연히 들어왔어요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "그냥 호텔 근처를 산책하다가 골목 분위기가 너무 좋아 보여서 우연히 들어왔어요."
+                    }
                 },
                 {
                     "id": 9,
@@ -78,7 +137,18 @@
                     "kanji": "あ、そういう偶然の出会いがまた旅行の醍醐味ですよね。うちの町へようこそ！",
                     "kana": "あ、そういうぐうぜんのであいがまたりょこうのだいごみですよね。うちのまちへようこそ！",
                     "romaji": "a, souiu guuzen no deai ga mata ryokou no daigomi desu yo ne. uchi no machi e youkoso!",
-                    "meaning": "아, 그런 우연한 만남이 또 여행의 진짜 묘미죠. 저희 동네에 오신 걸 환영합니다!"
+                    "meaning": "아, 그런 우연한 만남이 또 여행의 진짜 묘미죠. 저희 동네에 오신 걸 환영합니다!",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "醍醐味 (だいごみ)",
+                                "desc": [
+                                    "진짜 묘미, 진수, 최고의 맛 (예: 旅行の醍醐味 - 여행의 묘미)"
+                                ]
+                            }
+                        ],
+                        "summary": "아, 그런 우연한 만남이 또 여행의 진짜 묘미죠. 저희 동네에 오신 걸 환영합니다!"
+                    }
                 },
                 {
                     "id": 10,
@@ -86,7 +156,11 @@
                     "kanji": "ありがとうございます。本当にここに来て良かったです。雰囲気が最高ですね。",
                     "kana": "ありがとうございます。ほんとうにここにきてよかったです。ふんいきがさいこうですね。",
                     "romaji": "arigatou gozaimasu. hontou ni koko ni kite yokatta desu. fun'iki ga saikou desu ne",
-                    "meaning": "감사합니다. 정말 잘 찾아온 것 같네요. 분위기가 최고예요."
+                    "meaning": "감사합니다. 정말 잘 찾아온 것 같네요. 분위기가 최고예요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "감사합니다. 정말 잘 찾아온 것 같네요. 분위기가 최고예요."
+                    }
                 },
                 {
                     "id": 11,
@@ -94,7 +168,11 @@
                     "kanji": "それじゃ、見知らぬ町での素敵な旅行のために、軽く乾杯しましょうか。",
                     "kana": "それじゃ、みしらぬまちでのすてきなりょこうのために、かるくかんぱいしましょうか。",
                     "romaji": "soreja, mishiranu machi de no sutekina ryokou no tame ni, karuku kanpai shimashou ka",
-                    "meaning": "그럼, 낯선 곳에서의 멋진 여행을 위해서 가볍게 건배할까요?"
+                    "meaning": "그럼, 낯선 곳에서의 멋진 여행을 위해서 가볍게 건배할까요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "그럼, 낯선 곳에서의 멋진 여행을 위해서 가볍게 건배할까요?"
+                    }
                 },
                 {
                     "id": 12,
@@ -102,50 +180,20 @@
                     "kanji": "はい、喜んで。乾杯！",
                     "kana": "はい、よろこんで。かんぱい！",
                     "romaji": "hai, yorokonde. kanpai!",
-                    "meaning": "네, 좋습니다. 건배! (칸파이)"
-                }
-            ],
-            "grammar": {
-                "points": [
-                    {
-                        "title": "盛り合わせ (もりあわせ)",
-                        "desc": [
-                            "모둠, 여러 가지를 한 접시에 담은 것 (예: 刺身の盛り合わせ - 모둠 회)"
-                        ]
-                    },
-                    {
-                        "title": "半分ずつ (はんぶんずつ)",
-                        "desc": [
-                            "'半分(절반)' + 'ずつ(~씩)' = '반반씩'이라는 뜻입니다."
-                        ]
-                    },
-                    {
-                        "title": "どうりで",
-                        "desc": [
-                            "'어쩐지', '그럴 만하더라니'라는 뜻의 회화 표현입니다."
-                        ]
-                    },
-                    {
-                        "title": "～しか～ない",
-                        "desc": [
-                            "'~밖에 ~없다'는 뜻으로 특정 상황에 한정됨을 강조합니다. (예: 地元の人しか来ない - 현지인밖에 안 온다)"
-                        ]
-                    },
-                    {
-                        "title": "醍醐味 (だいごみ)",
-                        "desc": [
-                            "진짜 묘미, 진수, 최고의 맛 (예: 旅行の醍醐味 - 여행의 묘미)"
-                        ]
-                    },
-                    {
-                        "title": "喜んで (よろこんで)",
-                        "desc": [
-                            "기꺼이, 기쁜 마음으로 (제안에 흔쾌히 응할 때 씁니다)"
-                        ]
+                    "meaning": "네, 좋습니다. 건배! (칸파이)",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "喜んで (よろこんで)",
+                                "desc": [
+                                    "기꺼이, 기쁜 마음으로 (제안에 흔쾌히 응할 때 씁니다)"
+                                ]
+                            }
+                        ],
+                        "summary": "네, 좋습니다. 건배! (칸파이)"
                     }
-                ],
-                "summary": "우연히 들른 이자카야에서 안주를 시키고, 옆자리 현지인 손님과 기분 좋게 대화를 시작하며 건배하는 상황입니다."
-            }
+                }
+            ]
         },
         {
             "id": "iza-02-foodculture",
@@ -159,7 +207,30 @@
                     "kanji": "あの、さっきから召し上がっているそのおつまみは、何という名前ですか。すごく美味しそうですね。",
                     "kana": "あの、さっきからめしあがっているそのおつまみは、なんというなまえですか。すごくおいしそうですね。",
                     "romaji": "ano, sakki kara meshiagatte iru sono otsumami wa, nan to iu namae desu ka. sugoku oishisou desu ne",
-                    "meaning": "저기, 아까부터 드시고 계신 그 안주는 이름이 뭔가요? 엄청 맛있어 보이네요."
+                    "meaning": "저기, 아까부터 드시고 계신 그 안주는 이름이 뭔가요? 엄청 맛있어 보이네요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "召し上がる (めしあがる)",
+                                "desc": [
+                                    "'食べる(먹다)', '飲む(마시다)'의 존경어입니다."
+                                ]
+                            },
+                            {
+                                "title": "鼻にツンとくる",
+                                "desc": [
+                                    "(겨자나 와사비 등이) 코끝을 찡하게 하다"
+                                ]
+                            },
+                            {
+                                "title": "奢る (おごる)",
+                                "desc": [
+                                    "내가 한턱내다, 사다 (예: 私がおごりますよ - 제가 살게요)"
+                                ]
+                            }
+                        ],
+                        "summary": "저기, 아까부터 드시고 계신 그 안주는 이름이 뭔가요? 엄청 맛있어 보이네요."
+                    }
                 },
                 {
                     "id": 2,
@@ -167,7 +238,18 @@
                     "kanji": "あ、これですか。たこわさびって言うんですけど、タコをわさびで和えたしょっぱいおつまみですよ。",
                     "kana": "あ、これですか。たこわさびっていうんですけど、タコをわさびであえたしょっぱいおつまみですよ。",
                     "romaji": "a, kore desu ka. takowasabi tte iun desu kedo, tako o wasabi de aeta shoppai otsumami desu yo",
-                    "meaning": "아, 이거요? 타코와사비라는 건데, 문어를 와사비에 버무린 짭짤한 안주예요."
+                    "meaning": "아, 이거요? 타코와사비라는 건데, 문어를 와사비에 버무린 짭짤한 안주예요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "和える (あえる)",
+                                "desc": [
+                                    "양념에 버무리다, 무치다 (예: わさびで和えた - 와사비로 버무린)"
+                                ]
+                            }
+                        ],
+                        "summary": "아, 이거요? 타코와사비라는 건데, 문어를 와사비에 버무린 짭짤한 안주예요."
+                    }
                 },
                 {
                     "id": 3,
@@ -175,7 +257,11 @@
                     "kanji": "あ、それが噂に聞いていたたこわさびなんですね。実際に生で見るのは初めてです。",
                     "kana": "あ、それがうわさにきいていたたこわさびなんですね。じっさいになまでみるのははじめてです。",
                     "romaji": "a, sore ga uwasa ni kiite ita takowasabi nan desu ne. jissai ni nama de miru no wa hajimete desu",
-                    "meaning": "아, 그게 말로만 듣던 타코와사비군요. 실제로 보는 건 처음이에요."
+                    "meaning": "아, 그게 말로만 듣던 타코와사비군요. 실제로 보는 건 처음이에요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "아, 그게 말로만 듣던 타코와사비군요. 실제로 보는 건 처음이에요."
+                    }
                 },
                 {
                     "id": 4,
@@ -183,7 +269,11 @@
                     "kanji": "よかったら一口食べてみますか。箸をつけてないほうですから。",
                     "kana": "よかったらひとくちたべてみますか。はしをつけてないほうですから。",
                     "romaji": "yokattara hitokuchi tabete mimasu ka. hashi o tsukete nai hou desu kara",
-                    "meaning": "괜찮으시면 한 입 드셔보실래요? 젓가락 안 댄 쪽이에요."
+                    "meaning": "괜찮으시면 한 입 드셔보실래요? 젓가락 안 댄 쪽이에요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "괜찮으시면 한 입 드셔보실래요? 젓가락 안 댄 쪽이에요."
+                    }
                 },
                 {
                     "id": 5,
@@ -191,7 +281,11 @@
                     "kanji": "えっ、いいんですか。ありがとうございます。（食べてみて）うわっ！鼻にツンときますね！",
                     "kana": "えっ、いいんですか。ありがとうございます。（たべてみて）うわっ！はなにツンときますね！",
                     "romaji": "e, iin desu ka. arigatou gozaimasu. (tabete mite) uwa! hana ni tsun to kimasu ne!",
-                    "meaning": "앗, 그래도 될까요? 감사합니다. (먹어보고) 와! 코가 엄청 찡하네요!"
+                    "meaning": "앗, 그래도 될까요? 감사합니다. (먹어보고) 와! 코가 엄청 찡하네요!",
+                    "grammar": {
+                        "points": [],
+                        "summary": "앗, 그래도 될까요? 감사합니다. (먹어보고) 와! 코가 엄청 찡하네요!"
+                    }
                 },
                 {
                     "id": 6,
@@ -199,7 +293,11 @@
                     "kanji": "ははは、結構辛いでしょう？日本のわさびの辛さはこんな感じなんです。",
                     "kana": "ははは、けっこうからいでしょう？にほんのわさびのからさはこんなかんじなんです。",
                     "romaji": "hahaha, kekkou karai deshou? nihon no wasabi no karasa wa konna kanji nan desu",
-                    "meaning": "하하, 꽤 맵죠? 일본의 와사비 매운맛은 이런 느낌이에요."
+                    "meaning": "하하, 꽤 맵죠? 일본의 와사비 매운맛은 이런 느낌이에요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "하하, 꽤 맵죠? 일본의 와사비 매운맛은 이런 느낌이에요."
+                    }
                 },
                 {
                     "id": 7,
@@ -207,7 +305,18 @@
                     "kanji": "韓国の唐辛子の辛さとは全然違って、新鮮ですね。冷たいビールが進む味です。",
                     "kana": "かんこくのとうがらしのからさとはぜんぜんちがって、しんせんですね。つめたいビールがすすむあじです。",
                     "romaji": "kankoku no tougarashi no karasa to wa zenzen chigatte, shinsen desu ne. tsumetai biiru ga susumu aji desu",
-                    "meaning": "한국의 고추 매운맛이랑은 확실히 달라서 신선하네요. 시원한 맥주를 부르는 맛이에요."
+                    "meaning": "한국의 고추 매운맛이랑은 확실히 달라서 신선하네요. 시원한 맥주를 부르는 맛이에요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "ビールが進む",
+                                "desc": [
+                                    "안주가 맛있어서 '맥주가 술술 넘어가다(맥주를 부른다)'라는 표현입니다."
+                                ]
+                            }
+                        ],
+                        "summary": "한국의 고추 매운맛이랑은 확실히 달라서 신선하네요. 시원한 맥주를 부르는 맛이에요."
+                    }
                 },
                 {
                     "id": 8,
@@ -215,7 +324,11 @@
                     "kanji": "でしょう？韓国の方って普段から辛いものをよく食べると聞いてたんですが、わさびはまた別みたいですね。",
                     "kana": "でしょう？かんこくのかたってふだんからからいものをよくたべるときいてたんですが、わさびはまたべつみたいですね。",
                     "romaji": "deshou? kankoku no kata tte fudan kara karai mono o yoku taberu to kiitetaan desu ga, wasabi wa mata betsu mitai desu ne",
-                    "meaning": "그렇죠? 한국 분들은 보통 매운 음식 잘 드신다고 들었는데, 와사비는 또 다른가 보네요."
+                    "meaning": "그렇죠? 한국 분들은 보통 매운 음식 잘 드신다고 들었는데, 와사비는 또 다른가 보네요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "그렇죠? 한국 분들은 보통 매운 음식 잘 드신다고 들었는데, 와사비는 또 다른가 보네요."
+                    }
                 },
                 {
                     "id": 9,
@@ -223,7 +336,11 @@
                     "kanji": "ええ、韓国料理は口の中がヒリヒリするような辛さなら、これは鼻がすーっと抜けるような気分です。",
                     "kana": "ええ、かんこくりょうりはくちのなかがヒリヒリするようなからさなら、これははながすーっとぬけるようなきぶんです。",
                     "romaji": "ee, kankokuryouri wa kuchi no naka ga hirihiri suru youna karasa nara, kore wa hana ga suutto nukeru youna kibun desu",
-                    "meaning": "네, 한국 음식은 입안이 화끈거리는 매운맛이라면, 이건 코가 뻥 뚫리는 기분이에요."
+                    "meaning": "네, 한국 음식은 입안이 화끈거리는 매운맛이라면, 이건 코가 뻥 뚫리는 기분이에요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "네, 한국 음식은 입안이 화끈거리는 매운맛이라면, 이건 코가 뻥 뚫리는 기분이에요."
+                    }
                 },
                 {
                     "id": 10,
@@ -231,7 +348,11 @@
                     "kanji": "表現が的確ですね！マスター、ここにもう一つたこわさびをお願いします。この方の前へ。",
                     "kana": "ひょうげんがてきかくですね！マスター、ここにもうひとつたこわさびをおねがいします。このかたのまえへ。",
                     "romaji": "hyougen ga tekikaku desu ne! masutaa, koko ni mou hitotsu takowasabi o onegaishimasu. kono kata no mae e",
-                    "meaning": "표현이 아주 정확하시네요! 마스터, 여기 타코와사비 하나 더 주세요. 이분 앞으로요."
+                    "meaning": "표현이 아주 정확하시네요! 마스터, 여기 타코와사비 하나 더 주세요. 이분 앞으로요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "표현이 아주 정확하시네요! 마스터, 여기 타코와사비 하나 더 주세요. 이분 앞으로요."
+                    }
                 },
                 {
                     "id": 11,
@@ -239,7 +360,11 @@
                     "kanji": "いやいや、ありがとうございます。私が買わなきゃいけないのに…じゃあ、私がおごりますよ、次のビールを。",
                     "kana": "いやいや、ありがとうございます。わたしがかわなきゃいけないのに…じゃあ、わたしがおごりますよ、つぎのビールを。",
                     "romaji": "iyaiya, arigatou gozaimasu. watashi ga kawanakya ikenai noni... jaa, watashi ga ogorimasu yo, tsugi no biiru o",
-                    "meaning": "어휴, 감사합니다. 제가 사야 하는데... 그럼 제가 다음 맥주를 사겠습니다."
+                    "meaning": "어휴, 감사합니다. 제가 사야 하는데... 그럼 제가 다음 맥주를 사겠습니다.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "어휴, 감사합니다. 제가 사야 하는데... 그럼 제가 다음 맥주를 사겠습니다."
+                    }
                 },
                 {
                     "id": 12,
@@ -247,50 +372,20 @@
                     "kanji": "いえいえ、気にしないでください。遠くから来たお客さんに、地元の人がおもてなししてるんですから。",
                     "kana": "いえいえ、きにしないでください。とおくからきたおきゃくさんに、じもとのひとがおもてなししてるんですから。",
                     "romaji": "ieie, ki ni shinaide kudasai. tooku kara kita okyakusan ni, jimoto no hito ga omotenashi shiterun desu kara",
-                    "meaning": "아유, 신경 쓰지 마세요. 멀리서 온 손님에게 동네 주민이 대접하는 거니까요."
-                }
-            ],
-            "grammar": {
-                "points": [
-                    {
-                        "title": "召し上がる (めしあがる)",
-                        "desc": [
-                            "'食べる(먹다)', '飲む(마시다)'의 존경어입니다."
-                        ]
-                    },
-                    {
-                        "title": "和える (あえる)",
-                        "desc": [
-                            "양념에 버무리다, 무치다 (예: わさびで和えた - 와사비로 버무린)"
-                        ]
-                    },
-                    {
-                        "title": "鼻にツンとくる",
-                        "desc": [
-                            "(겨자나 와사비 등이) 코끝을 찡하게 하다"
-                        ]
-                    },
-                    {
-                        "title": "ビールが進む",
-                        "desc": [
-                            "안주가 맛있어서 '맥주가 술술 넘어가다(맥주를 부른다)'라는 표현입니다."
-                        ]
-                    },
-                    {
-                        "title": "奢る (おごる)",
-                        "desc": [
-                            "내가 한턱내다, 사다 (예: 私がおごりますよ - 제가 살게요)"
-                        ]
-                    },
-                    {
-                        "title": "おもてなし",
-                        "desc": [
-                            "진심을 담은 대접, 환대"
-                        ]
+                    "meaning": "아유, 신경 쓰지 마세요. 멀리서 온 손님에게 동네 주민이 대접하는 거니까요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "おもてなし",
+                                "desc": [
+                                    "진심을 담은 대접, 환대"
+                                ]
+                            }
+                        ],
+                        "summary": "아유, 신경 쓰지 마세요. 멀리서 온 손님에게 동네 주민이 대접하는 거니까요."
                     }
-                ],
-                "summary": "타코와사비를 나누어 먹으며 한국의 고추와 일본의 와사비 매운맛 차이에 대해 재미있게 이야기하는 상황입니다."
-            }
+                }
+            ]
         },
         {
             "id": "iza-03-travel",
@@ -304,7 +399,11 @@
                     "kanji": "今回の旅行は、何日間の予定で来たんですか。",
                     "kana": "こんかいのりょこうは、なんにちかんのよていできたんですか。",
                     "romaji": "konkai no ryokou wa, nannichikan no yotei de kitan desu ka",
-                    "meaning": "이번 여행은 며칠 일정으로 오셨어요?"
+                    "meaning": "이번 여행은 며칠 일정으로 오셨어요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "이번 여행은 며칠 일정으로 오셨어요?"
+                    }
                 },
                 {
                     "id": 2,
@@ -312,7 +411,11 @@
                     "kanji": "今回は長めに休みを取って、一週間ぐらい来ました。都内も見て、近郊にも行こうと思って。",
                     "kana": "こんかいはながめにやすみをとって、いっしゅうかんぐらいきました。とないもみて、きんこうにもいこうとおもって。",
                     "romaji": "konkai wa nagame ni yasumi o totte, isshuukan gurai kimashita. tonai mo mite, kinkou ni mo ikou to omotte",
-                    "meaning": "이번엔 휴가를 좀 길게 내서 일주일 정도 왔어요. 도쿄 시내도 보고 근교도 가보려고요."
+                    "meaning": "이번엔 휴가를 좀 길게 내서 일주일 정도 왔어요. 도쿄 시내도 보고 근교도 가보려고요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "이번엔 휴가를 좀 길게 내서 일주일 정도 왔어요. 도쿄 시내도 보고 근교도 가보려고요."
+                    }
                 },
                 {
                     "id": 3,
@@ -320,7 +423,11 @@
                     "kanji": "一週間もですか。結構余裕を持っていらしたんですね。昨日はどこへ行かれたんですか。",
                     "kana": "いっしゅうかんもですか。けっこうよゆうをもってらしたんですね。きのうはどこへいかれたんですか。",
                     "romaji": "isshuukan mo desu ka. kekkou yoyuu o motte irashitan desu ne. kinou wa doko e ikaretan desu ka",
-                    "meaning": "일주일이나요? 꽤 여유 있게 오셨네요. 어제는 어디 가보셨어요?"
+                    "meaning": "일주일이나요? 꽤 여유 있게 오셨네요. 어제는 어디 가보셨어요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "일주일이나요? 꽤 여유 있게 오셨네요. 어제는 어디 가보셨어요?"
+                    }
                 },
                 {
                     "id": 4,
@@ -328,7 +435,11 @@
                     "kanji": "昨日は浅草で浅草寺も見て、夜はスカイツリーの夜景を見物しました。",
                     "kana": "きのうはあさくさでせんそうじもみて、よるはスカイツリーのやけいをけんぶつしました。",
                     "romaji": "kinou wa asakusa de sensouji mo mite, yoru wa sukaitsurii no yakei o kenbutsu shimashita",
-                    "meaning": "어제는 아사쿠사에서 센소지도 보고, 저녁엔 스카이트리 야경을 구경했어요."
+                    "meaning": "어제는 아사쿠사에서 센소지도 보고, 저녁엔 스카이트리 야경을 구경했어요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "어제는 아사쿠사에서 센소지도 보고, 저녁엔 스카이트리 야경을 구경했어요."
+                    }
                 },
                 {
                     "id": 5,
@@ -336,7 +447,11 @@
                     "kanji": "お、典型的な東京観光コースですね！じゃあ、明日はどこへ行く予定ですか。",
                     "kana": "お、てんけいてきなとうきょうかんこうコースですね！じゃあ、あしたはどこへいくよていですか。",
                     "romaji": "o, tenkeitekina toukyou kankou koosu desu ne! jaa, ashita wa doko e iku yotei desu ka",
-                    "meaning": "오, 전형적인 도쿄 관광 코스네요! 그럼 내일은 어디 가실 예정인가요?"
+                    "meaning": "오, 전형적인 도쿄 관광 코스네요! 그럼 내일은 어디 가실 예정인가요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "오, 전형적인 도쿄 관광 코스네요! 그럼 내일은 어디 가실 예정인가요?"
+                    }
                 },
                 {
                     "id": 6,
@@ -344,7 +459,24 @@
                     "kanji": "明日は一日中温泉でのんびり休もうかと考えています。箱根のほうへ行こうと思って。",
                     "kana": "あしたはいちにちじゅうおんせんでのんびりやすもうかとかんがえています。はこねのほうへいこうとおもって。",
                     "romaji": "ashita wa ichinichijuu onsen de nonbiri yasumou ka to kangaete imasu. hakone no hou e ikou to omotte",
-                    "meaning": "내일은 하루 종일 온천에서 푹 쉴까 생각 중이에요. 하코네 쪽으로 가려고요."
+                    "meaning": "내일은 하루 종일 온천에서 푹 쉴까 생각 중이에요. 하코네 쪽으로 가려고요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "～ようと思う / 考える",
+                                "desc": [
+                                    "'~하려고 생각하다'라는 의도나 계획을 나타냅니다. (예: 温泉で休もうかと - 온천에서 쉴까 하고)"
+                                ]
+                            },
+                            {
+                                "title": "のんびり",
+                                "desc": [
+                                    "느긋하게, 여유롭게"
+                                ]
+                            }
+                        ],
+                        "summary": "내일은 하루 종일 온천에서 푹 쉴까 생각 중이에요. 하코네 쪽으로 가려고요."
+                    }
                 },
                 {
                     "id": 7,
@@ -352,7 +484,11 @@
                     "kanji": "箱根もいいですけど、もしあまり遠くない所がよければ、この近くにも結構いい温泉がありますよ。",
                     "kana": "はこねもいいですけど、もしあまりとおくないところがよければ、このちかくにもけっこういいおんせんがありますよ。",
                     "romaji": "hakone mo ii desu kedo, moshi amari tookunai tokoro ga yokereba, kono chikaku ni mo kekkou ii onsen ga arimasu yo",
-                    "meaning": "하코네도 좋지만, 혹시 너무 멀지 않은 곳을 원하시면 이 근처에도 꽤 좋은 온천이 있어요."
+                    "meaning": "하코네도 좋지만, 혹시 너무 멀지 않은 곳을 원하시면 이 근처에도 꽤 좋은 온천이 있어요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "하코네도 좋지만, 혹시 너무 멀지 않은 곳을 원하시면 이 근처에도 꽤 좋은 온천이 있어요."
+                    }
                 },
                 {
                     "id": 8,
@@ -360,7 +496,18 @@
                     "kanji": "あ、そうですか。東京のど真ん中にも温泉があるんですか。",
                     "kana": "あ、そうですか。とうきょうのどまんなかにもおんせんがあるんですか。",
                     "romaji": "a, sou desu ka. toukyou no domannaka ni mo onsen ga arun desu ka",
-                    "meaning": "아, 그래요? 도쿄 시내 한복판에도 온천이 있나요?"
+                    "meaning": "아, 그래요? 도쿄 시내 한복판에도 온천이 있나요?",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "ど真ん中 (どまんなか)",
+                                "desc": [
+                                    "한가운데, 한복판"
+                                ]
+                            }
+                        ],
+                        "summary": "아, 그래요? 도쿄 시내 한복판에도 온천이 있나요?"
+                    }
                 },
                 {
                     "id": 9,
@@ -368,7 +515,18 @@
                     "kanji": "ええ、「大和の湯」っていう所なんですが、観光客はほとんど知らなくて、近所の人たちだけが行く隠れた名所です。",
                     "kana": "ええ、「やまとのゆ」っていうところなんですが、かんこうきゃくはほとんどしらなくて、きんじょのひとたちだけがいくかくれためいしょです。",
                     "romaji": "ee, 'yamatonoyu' tte iu tokoro nan desu ga, kankoukyaku wa hotondo shiranakute, kinjo no hitotachi dake ga iku kakureta meisho desu",
-                    "meaning": "네, '야마토노유'라는 곳인데, 관광객은 거의 모르고 동네 사람들만 가는 숨겨진 명소죠."
+                    "meaning": "네, '야마토노유'라는 곳인데, 관광객은 거의 모르고 동네 사람들만 가는 숨겨진 명소죠.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "隠れた名所 (かくれためいしょ)",
+                                "desc": [
+                                    "숨겨진 명소"
+                                ]
+                            }
+                        ],
+                        "summary": "네, '야마토노유'라는 곳인데, 관광객은 거의 모르고 동네 사람들만 가는 숨겨진 명소죠."
+                    }
                 },
                 {
                     "id": 10,
@@ -376,7 +534,11 @@
                     "kanji": "わあ、そんなローカルな名所があったなんて！もしかして露天風呂もありますか。",
                     "kana": "わあ、そんなローカルなめいしょがあったなんて！もしかしてろてんぶろもありますか。",
                     "romaji": "waa, sonna rookaruna meisho ga atta nante! moshikashite rotenburo mo arimasu ka",
-                    "meaning": "와, 그런 로컬 명소가 있다니! 혹시 노천탕도 있나요?"
+                    "meaning": "와, 그런 로컬 명소가 있다니! 혹시 노천탕도 있나요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "와, 그런 로컬 명소가 있다니! 혹시 노천탕도 있나요?"
+                    }
                 },
                 {
                     "id": 11,
@@ -384,7 +546,18 @@
                     "kanji": "もちろん。小さいけれど、とても風情のある露天風呂があって、旅行の疲れを取るのにぴったりですよ。",
                     "kana": "もちろん。ちいさいけれど、とてもふぜいのあるろてんぶろがあって、りょこうのつかれをとるのにぴったりですよ。",
                     "romaji": "mochiron. chiisai keredo, totemo fuzei no aru rotenburo ga atte, ryokou no tsukare o toru noni pittari desu yo",
-                    "meaning": "그럼요. 작지만 아주 운치 있는 노천탕이 있어서 여행 피로 풀기에 딱 좋을 거예요."
+                    "meaning": "그럼요. 작지만 아주 운치 있는 노천탕이 있어서 여행 피로 풀기에 딱 좋을 거예요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "風情 (ふぜい)",
+                                "desc": [
+                                    "풍취, 운치 (예: 風情のある - 운치 있는)"
+                                ]
+                            }
+                        ],
+                        "summary": "그럼요. 작지만 아주 운치 있는 노천탕이 있어서 여행 피로 풀기에 딱 좋을 거예요."
+                    }
                 },
                 {
                     "id": 12,
@@ -392,50 +565,20 @@
                     "kanji": "教えていただいて本当にありがとうございます。箱根の代わりに明日はそこへ行ってみます。早速メモしておかなくちゃ。",
                     "kana": "おしえていただいてほんとうにありがとうございます。はこねのかわりにあしたはそこへいってみます。さっそくメモしておかなくちゃ。",
                     "romaji": "oshiete itadaite hontou ni arigatou gozaimasu. hakone no kawari ni ashita wa soko e itte mimasu. sassoku memo shite okanakucha",
-                    "meaning": "알려주셔서 정말 감사합니다. 하코네 대신 내일은 거기로 가봐야겠네요. 당장 메모해 둬야겠어요."
-                }
-            ],
-            "grammar": {
-                "points": [
-                    {
-                        "title": "～ようと思う / 考える",
-                        "desc": [
-                            "'~하려고 생각하다'라는 의도나 계획을 나타냅니다. (예: 温泉で休もうかと - 온천에서 쉴까 하고)"
-                        ]
-                    },
-                    {
-                        "title": "のんびり",
-                        "desc": [
-                            "느긋하게, 여유롭게"
-                        ]
-                    },
-                    {
-                        "title": "ど真ん中 (どまんなか)",
-                        "desc": [
-                            "한가운데, 한복판"
-                        ]
-                    },
-                    {
-                        "title": "隠れた名所 (かくれためいしょ)",
-                        "desc": [
-                            "숨겨진 명소"
-                        ]
-                    },
-                    {
-                        "title": "風情 (ふぜい)",
-                        "desc": [
-                            "풍취, 운치 (예: 風情のある - 운치 있는)"
-                        ]
-                    },
-                    {
-                        "title": "～なくちゃ / ～なきゃ",
-                        "desc": [
-                            "'~하지 않으면 안 된다(해야 한다)'는 뜻의 회화체입니다. (예: メモしておかなくちゃ - 메모해 두어야지)"
-                        ]
+                    "meaning": "알려주셔서 정말 감사합니다. 하코네 대신 내일은 거기로 가봐야겠네요. 당장 메모해 둬야겠어요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "～なくちゃ / ～なきゃ",
+                                "desc": [
+                                    "'~하지 않으면 안 된다(해야 한다)'는 뜻의 회화체입니다. (예: メモしておかなくちゃ - 메모해 두어야지)"
+                                ]
+                            }
+                        ],
+                        "summary": "알려주셔서 정말 감사합니다. 하코네 대신 내일은 거기로 가봐야겠네요. 당장 메모해 둬야겠어요."
                     }
-                ],
-                "summary": "서로의 여행 코스를 이야기하고, 도심 속에 있는 숨겨진 노천탕을 추천받는 대화입니다."
-            }
+                }
+            ]
         },
         {
             "id": "iza-04-language",
@@ -449,7 +592,18 @@
                     "kanji": "ところでさっきから思ってたんですが、日本語が本当に自然ですね。どこで習ったんですか。",
                     "kana": "ところでさっきからおもってたんですが、にほんごがほんとうにしぜんですね。どこでならったんですか。",
                     "romaji": "tokorode sakki kara omotteta n desu ga, nihongo ga hontou ni shizen desu ne. doko de naratta n desu ka",
-                    "meaning": "그런데 아까부터 생각했는데, 일본어가 정말 자연스러우시네요. 어디서 배우셨어요?"
+                    "meaning": "그런데 아까부터 생각했는데, 일본어가 정말 자연스러우시네요. 어디서 배우셨어요?",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "～させてください",
+                                "desc": [
+                                    "'~하게 해 주세요'라는 뜻으로 자신의 행동을 허락받을 때 씁니다. (예: 奢らせてください - 제가 사게 해주세요)"
+                                ]
+                            }
+                        ],
+                        "summary": "그런데 아까부터 생각했는데, 일본어가 정말 자연스러우시네요. 어디서 배우셨어요?"
+                    }
                 },
                 {
                     "id": 2,
@@ -457,7 +611,18 @@
                     "kanji": "いえいえ、まだ知らない単語も多くて全然足りないですよ。塾には通ってなくて、ただ家で独学しました。",
                     "kana": "いえいえ、まだしらないたんごもおおくてぜんぜんたりないですよ。じゅくにはかよってなくて、ただいえでどくがくしました。",
                     "romaji": "ieie, mada shiranai tango mo ookute zenzen tarinai desu yo. juku ni wa kayottenakute, tada ie de dokugaku shimashita",
-                    "meaning": "아니에요, 아직 모르는 단어도 많고 많이 부족해요. 학원은 안 다녔고 그냥 집에서 독학했어요."
+                    "meaning": "아니에요, 아직 모르는 단어도 많고 많이 부족해요. 학원은 안 다녔고 그냥 집에서 독학했어요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "独学 (どくがく)",
+                                "desc": [
+                                    "독학 (스스로 공부함)"
+                                ]
+                            }
+                        ],
+                        "summary": "아니에요, 아직 모르는 단어도 많고 많이 부족해요. 학원은 안 다녔고 그냥 집에서 독학했어요."
+                    }
                 },
                 {
                     "id": 3,
@@ -465,7 +630,11 @@
                     "kanji": "独学でこのレベルなんてすごいですね！もしかして日本のドラマやアニメが好きですか。",
                     "kana": "どくがくでこのレベルなんてすごいですね！もしかしてにほんのドラマやアニメがすきですか。",
                     "romaji": "dokugaku de kono reberu nante sugoi desu ne! moshikashite nihon no dorama ya anime ga suki desu ka",
-                    "meaning": "독학으로 이 정도라니 대단하네요! 혹시 일본 드라마나 애니메이션 좋아하세요?"
+                    "meaning": "독학으로 이 정도라니 대단하네요! 혹시 일본 드라마나 애니메이션 좋아하세요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "독학으로 이 정도라니 대단하네요! 혹시 일본 드라마나 애니메이션 좋아하세요?"
+                    }
                 },
                 {
                     "id": 4,
@@ -473,7 +642,18 @@
                     "kanji": "はい、そうです。日本のドラマを見ながら、セリフを真似する練習をたくさんしたんです。",
                     "kana": "はい、そうです。にほんのドラマをみながら、セリフをまねするれんしゅうをたくさんしたんです。",
                     "romaji": "hai, sou desu. nihon no dorama o minagara, serifu o mane suru renshuu o takusan shitan desu",
-                    "meaning": "네, 맞아요. 일본 드라마를 보면서 대사를 따라 하는 연습을 많이 했거든요."
+                    "meaning": "네, 맞아요. 일본 드라마를 보면서 대사를 따라 하는 연습을 많이 했거든요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "～ながら",
+                                "desc": [
+                                    "'~하면서'라는 뜻으로 두 가지 동작을 동시에 할 때 씁니다. (예: 見ながら - 보면서)"
+                                ]
+                            }
+                        ],
+                        "summary": "네, 맞아요. 일본 드라마를 보면서 대사를 따라 하는 연습을 많이 했거든요."
+                    }
                 },
                 {
                     "id": 5,
@@ -481,7 +661,11 @@
                     "kanji": "あはは、やっぱり。最近面白かったドラマとかありますか。",
                     "kana": "あはは、やっぱり。さいきんおもしろかったドラマとかありますか。",
                     "romaji": "ahaha, yappari. saikin omoshirokatta dorama toka arimasu ka",
-                    "meaning": "아하, 역시. 최근에 재밌게 본 드라마 있어요?"
+                    "meaning": "아하, 역시. 최근에 재밌게 본 드라마 있어요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "아하, 역시. 최근에 재밌게 본 드라마 있어요?"
+                    }
                 },
                 {
                     "id": 6,
@@ -489,7 +673,18 @@
                     "kanji": "最近は『孤独のグルメ』をまた一から見直しました。主人公の五郎さんが、食べ物をとても美味しそうに召し上がるので。",
                     "kana": "さいきんは『こどくのグルメ』をまたいちからみなおしました。しゅじんこうのごろうさんが、たべものをとてもおいしそうにめしあがるので。",
                     "romaji": "saikin wa 'kodoku no gurume' o mata ichi kara minaoshimashita. shujinkou no gorou san ga, tabemono o totemo oishisou ni meshiagaru node",
-                    "meaning": "최근에는 '고독한 미식가'를 다시 정주행했어요. 주인공 고로 씨가 음식을 너무 맛있게 드셔서요."
+                    "meaning": "최근에는 '고독한 미식가'를 다시 정주행했어요. 주인공 고로 씨가 음식을 너무 맛있게 드셔서요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "一から (いちから)",
+                                "desc": [
+                                    "처음부터 (예: 一から見直しました - 1편부터 다시 정주행했습니다)"
+                                ]
+                            }
+                        ],
+                        "summary": "최근에는 '고독한 미식가'를 다시 정주행했어요. 주인공 고로 씨가 음식을 너무 맛있게 드셔서요."
+                    }
                 },
                 {
                     "id": 7,
@@ -497,7 +692,11 @@
                     "kanji": "ははは！だから今日、一人で居酒屋に来たんですね。完全に五郎さんスタイルじゃないですか。",
                     "kana": "ははは！だからきょう、ひとりでいざかやにきたんですね。かんぜんにごろうさんスタイルじゃないですか。",
                     "romaji": "hahaha! dakara kyou, hitori de izakaya ni kitan desu ne. kanzen ni gorou san sutairu janai desu ka",
-                    "meaning": "하하! 그래서 오늘 혼자 이자카야에 오신 거군요? 완전 고로 씨 스타일이네요."
+                    "meaning": "하하! 그래서 오늘 혼자 이자카야에 오신 거군요? 완전 고로 씨 스타일이네요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "하하! 그래서 오늘 혼자 이자카야에 오신 거군요? 완전 고로 씨 스타일이네요."
+                    }
                 },
                 {
                     "id": 8,
@@ -505,7 +704,11 @@
                     "kanji": "はい、実はあのドラマを見ながら、絶対に現地の居酒屋のカウンター席で一人で飲んでみたいと思ってたんです。",
                     "kana": "はい、じつはあのドラマをみながら、ぜったいにげんちのいざかやのカウンターせきでひとでのんでみたいとおもってたんです。",
                     "romaji": "hai, jitsu wa ano dorama o minagara, zettai ni genchi no izakaya no kauntaaseki de hitori de nonde mitai to omottetan desu",
-                    "meaning": "네, 사실 그 드라마 보면서 꼭 현지 이자카야의 카운터석에서 혼자 술을 마셔보고 싶었거든요."
+                    "meaning": "네, 사실 그 드라마 보면서 꼭 현지 이자카야의 카운터석에서 혼자 술을 마셔보고 싶었거든요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "네, 사실 그 드라마 보면서 꼭 현지 이자카야의 카운터석에서 혼자 술을 마셔보고 싶었거든요."
+                    }
                 },
                 {
                     "id": 9,
@@ -513,7 +716,24 @@
                     "kanji": "今日は見事に願いが叶いましたね。うちの町はドラマの背景としてもよく登場する、人情味のある所なんですよ。",
                     "kana": "きょうはみごとにねがいがかないましたね。うちのまちはドラマのはいけいとしてもよくとうじょうする、にんじょうみのあるところなんですよ。",
                     "romaji": "kyou wa migoto ni negai ga kanaimashita ne. uchi no machi wa dorama no haikei to shite mo yoku toujou suru, ninjoumi no aru tokoro nan desu yo",
-                    "meaning": "오늘 제대로 소원 성취하셨네요. 저희 동네가 드라마 배경으로도 자주 나오는 정겨운 곳이거든요."
+                    "meaning": "오늘 제대로 소원 성취하셨네요. 저희 동네가 드라마 배경으로도 자주 나오는 정겨운 곳이거든요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "願いが叶う (ねがいがかなう)",
+                                "desc": [
+                                    "소원이 이루어지다"
+                                ]
+                            },
+                            {
+                                "title": "人情味 (にんじょうみ)",
+                                "desc": [
+                                    "인정, 사람 냄새가 남"
+                                ]
+                            }
+                        ],
+                        "summary": "오늘 제대로 소원 성취하셨네요. 저희 동네가 드라마 배경으로도 자주 나오는 정겨운 곳이거든요."
+                    }
                 },
                 {
                     "id": 10,
@@ -521,7 +741,11 @@
                     "kanji": "本当ですか。どうりで、路地の隅々まで全部映画のセットみたいに雰囲気があると思いました。",
                     "kana": "ほんとうですか。どうりで、ろじのすみずみまでぜんぶえいがのセットみたいにふんいきがあるとおもいました。",
                     "romaji": "hontou desu ka. douride, roji no sumizumi made zenbu eiga no setto mitai ni fun'iki ga aru to omoimashita",
-                    "meaning": "정말요? 어쩐지 골목골목이 전부 다 영화 세트장처럼 분위기가 있더라고요."
+                    "meaning": "정말요? 어쩐지 골목골목이 전부 다 영화 세트장처럼 분위기가 있더라고요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "정말요? 어쩐지 골목골목이 전부 다 영화 세트장처럼 분위기가 있더라고요."
+                    }
                 },
                 {
                     "id": 11,
@@ -529,7 +753,11 @@
                     "kanji": "話しているうちにお酒が空になっちゃいましたね。マスター！ここに生ビールをもう二つください！",
                     "kana": "はなしているうちにおさけがからになっちゃいましたね。マスター！ここになまビールをもうふたつください！",
                     "romaji": "hanashite iru uchi ni osake ga kara ni nacchatta ne. masutaa! koko ni namabiiru o mou futatsu kudasai!",
-                    "meaning": "얘기하다 보니 술이 다 떨어졌네요. 마스터! 여기 생맥주 두 잔 더 주세요!"
+                    "meaning": "얘기하다 보니 술이 다 떨어졌네요. 마스터! 여기 생맥주 두 잔 더 주세요!",
+                    "grammar": {
+                        "points": [],
+                        "summary": "얘기하다 보니 술이 다 떨어졌네요. 마스터! 여기 생맥주 두 잔 더 주세요!"
+                    }
                 },
                 {
                     "id": 12,
@@ -537,50 +765,13 @@
                     "kanji": "あっ、この杯はさっき言った通り、ぜひ私に奢らせてください！私ともう一度乾杯していただけますか。",
                     "kana": "あっ、このさかずきはさっきいったとおり、ぜひわたしにおごらせてください！わたしともういちどかんぱいしていただけますか。",
                     "romaji": "a, kono sakazuki wa sakki itta toori, zehi watashi ni ogorasete kudasai! watashi to mou ichido kanpai shite itadakemasu ka",
-                    "meaning": "앗, 이번 잔은 아까 말씀드린 대로 꼭 제가 살게요! 저랑 건배 한 번 더 해주시겠어요?"
-                }
-            ],
-            "grammar": {
-                "points": [
-                    {
-                        "title": "～ながら",
-                        "desc": [
-                            "'~하면서'라는 뜻으로 두 가지 동작을 동시에 할 때 씁니다. (예: 見ながら - 보면서)"
-                        ]
-                    },
-                    {
-                        "title": "独学 (どくがく)",
-                        "desc": [
-                            "독학 (스스로 공부함)"
-                        ]
-                    },
-                    {
-                        "title": "一から (いちから)",
-                        "desc": [
-                            "처음부터 (예: 一から見直しました - 1편부터 다시 정주행했습니다)"
-                        ]
-                    },
-                    {
-                        "title": "願いが叶う (ねがいがかなう)",
-                        "desc": [
-                            "소원이 이루어지다"
-                        ]
-                    },
-                    {
-                        "title": "人情味 (にんじょうみ)",
-                        "desc": [
-                            "인정, 사람 냄새가 남"
-                        ]
-                    },
-                    {
-                        "title": "～させてください",
-                        "desc": [
-                            "'~하게 해 주세요'라는 뜻으로 자신의 행동을 허락받을 때 씁니다. (예: 奢らせてください - 제가 사게 해주세요)"
-                        ]
+                    "meaning": "앗, 이번 잔은 아까 말씀드린 대로 꼭 제가 살게요! 저랑 건배 한 번 더 해주시겠어요?",
+                    "grammar": {
+                        "points": [],
+                        "summary": "앗, 이번 잔은 아까 말씀드린 대로 꼭 제가 살게요! 저랑 건배 한 번 더 해주시겠어요?"
                     }
-                ],
-                "summary": "서로의 일본어 공부법과 좋아하는 드라마에 대해 이야기하며 한층 더 친밀해지는 훈훈한 대화입니다."
-            }
+                }
+            ]
         },
         {
             "id": "iza-05-farewell",
@@ -594,7 +785,11 @@
                     "kanji": "あちゃ、もうこんな時間ですね。終電の時間があるので、そろそろ失礼しないと。",
                     "kana": "あちゃ、もうこんなじかんですね。しゅうでんのじかんがあるので、そろそろしつれいしないと。",
                     "romaji": "acha, mou konna jikan desu ne. shuuden no jikan ga aru node, sorosoro shitsurei shinai to",
-                    "meaning": "아이고, 시간이 벌써 이렇게 됐네요. 막차 시간 때문에 이제 슬슬 일어나야겠어요."
+                    "meaning": "아이고, 시간이 벌써 이렇게 됐네요. 막차 시간 때문에 이제 슬슬 일어나야겠어요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "아이고, 시간이 벌써 이렇게 됐네요. 막차 시간 때문에 이제 슬슬 일어나야겠어요."
+                    }
                 },
                 {
                     "id": 2,
@@ -602,7 +797,24 @@
                     "kanji": "もうそんな時間ですか。話が楽しすぎて、時間が経つのも忘れていましたよ。",
                     "kana": "もうそんなじかんですか。はなしがたのしすぎて、じかんがたつのもわすれていましたよ。",
                     "romaji": "mou sonna jikan desu ka. hanashi ga tanoshisugite, jikan ga tatsu no mo wasurete imashita yo",
-                    "meaning": "벌써 시간이 그렇게 됐나요? 대화가 너무 재밌어서 시간 가는 줄도 몰랐네요."
+                    "meaning": "벌써 시간이 그렇게 됐나요? 대화가 너무 재밌어서 시간 가는 줄도 몰랐네요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "～すぎる",
+                                "desc": [
+                                    "'너무 ~하다'라는 뜻으로 도가 지나침을 나타냅니다. (예: 楽しすぎて - 너무 즐거워서)"
+                                ]
+                            },
+                            {
+                                "title": "時間が経つ (じかんがたつ)",
+                                "desc": [
+                                    "시간이 지나가다, 흐르다"
+                                ]
+                            }
+                        ],
+                        "summary": "벌써 시간이 그렇게 됐나요? 대화가 너무 재밌어서 시간 가는 줄도 몰랐네요."
+                    }
                 },
                 {
                     "id": 3,
@@ -610,7 +822,11 @@
                     "kanji": "私もです。見知らぬ土地でこんなにいい方に出会えて、今夜が私の旅行で最高の瞬間になりました。",
                     "kana": "わたしもです。みしらぬとちでこんなにいいかたにであえて、こんやがわたしのりょこうでさいこうのしゅんかんになりました。",
                     "romaji": "watashi mo desu. mishiranu tochi de konna ni ii kata ni deaete, konya ga watashi no ryokou de saikou no shunkan ni narimashita",
-                    "meaning": "저도요. 낯선 곳에서 이렇게 좋은 분을 만나서 오늘 밤이 제 여행 최고의 순간이 되었습니다."
+                    "meaning": "저도요. 낯선 곳에서 이렇게 좋은 분을 만나서 오늘 밤이 제 여행 최고의 순간이 되었습니다.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "저도요. 낯선 곳에서 이렇게 좋은 분을 만나서 오늘 밤이 제 여행 최고의 순간이 되었습니다."
+                    }
                 },
                 {
                     "id": 4,
@@ -618,7 +834,11 @@
                     "kanji": "えー、褒めすぎですよ。私も久しぶりに外国の方とお話ができて、本当に楽しくて新鮮でした。",
                     "kana": "えー、ほめすぎですよ。わたしもひさしぶりのがいこくのかたとおはなしができて、ほんとうにたのしくてしんせんでした。",
                     "romaji": "ee, homesugi desu yo. watashi mo hisashiburi ni gaikoku no kata to ohanashi ga dekite, hontou ni tanoshikute shinsen deshita",
-                    "meaning": "에이, 과찬이세요. 저도 모처럼 외국 분이랑 얘기 나눠서 정말 즐겁고 신선했어요."
+                    "meaning": "에이, 과찬이세요. 저도 모처럼 외국 분이랑 얘기 나눠서 정말 즐겁고 신선했어요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "에이, 과찬이세요. 저도 모처럼 외국 분이랑 얘기 나눠서 정말 즐겁고 신선했어요."
+                    }
                 },
                 {
                     "id": 5,
@@ -626,7 +846,11 @@
                     "kanji": "この町に来て本当に良かったです。次に日本に来たら、また絶対に来たくなりました。",
                     "kana": "このまちにきてほんとうによかったです。つぎににほんにきたら、またぜったいにきたくなりました。",
                     "romaji": "kono machi ni kite hontou ni yokatta desu. tsugi ni nihon ni kitara, mata zettai ni kitaku narimashita",
-                    "meaning": "이 동네에 오길 정말 잘한 것 같아요. 다음에 일본에 오면 꼭 다시 오고 싶어졌어요."
+                    "meaning": "이 동네에 오길 정말 잘한 것 같아요. 다음에 일본에 오면 꼭 다시 오고 싶어졌어요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "이 동네에 오길 정말 잘한 것 같아요. 다음에 일본에 오면 꼭 다시 오고 싶어졌어요."
+                    }
                 },
                 {
                     "id": 6,
@@ -634,7 +858,18 @@
                     "kanji": "次に東京に来る時も、またこのお店に寄ってくださいね。運が良ければここでまた会えるかもしれないじゃないですか。",
                     "kana": "つぎにとうきょうにくるときも、またこのおみせによってくださいね。うんがよければここでまたあえるかもしれないじゃないですか。",
                     "romaji": "tsugi ni toukyou ni kuru toki mo, mata kono omise ni yotte kudasai ne. un ga yokereba koko de mata aeru kamoshirenai janai desu ka",
-                    "meaning": "다음에 도쿄 오시면 또 이 가게 들러주세요. 운 좋으면 여기서 또 만날지도 모르잖아요?"
+                    "meaning": "다음에 도쿄 오시면 또 이 가게 들러주세요. 운 좋으면 여기서 또 만날지도 모르잖아요?",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "～かもしれない",
+                                "desc": [
+                                    "'~일지도 모른다'는 가능성이나 추측을 나타냅니다. (예: 会えるかもしれない - 만날 수 있을지도 모른다)"
+                                ]
+                            }
+                        ],
+                        "summary": "다음에 도쿄 오시면 또 이 가게 들러주세요. 운 좋으면 여기서 또 만날지도 모르잖아요?"
+                    }
                 },
                 {
                     "id": 7,
@@ -642,7 +877,24 @@
                     "kanji": "はい、必ずそうします。すみませんマスター、お会計をお願いします。私のは別々に計算してください。",
                     "kana": "はい、かならずそうします。すみませんマスター、おかいけいをおねがいします。わたしのはべつべつにけいさんしてください。",
                     "romaji": "hai, kanarazu sou shimasu. sumimasen masutaa, okaikei o onegaishimasu. watashi no wa betsubetsu ni keisan shite kudasai",
-                    "meaning": "네, 꼭 그럴게요. 저기요 마스터, 계산(お会計) 부탁드립니다. 제 건 따로 계산해 주세요."
+                    "meaning": "네, 꼭 그럴게요. 저기요 마스터, 계산(お会計) 부탁드립니다. 제 건 따로 계산해 주세요.",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "お会計 (おかいけい)",
+                                "desc": [
+                                    "계산 (식당이나 술집에서 지불할 때 흔히 씁니다)"
+                                ]
+                            },
+                            {
+                                "title": "別々に (べつべつに)",
+                                "desc": [
+                                    "따로따로, 각자 (예: 別々に計算してください - 따로 계산해 주세요)"
+                                ]
+                            }
+                        ],
+                        "summary": "네, 꼭 그럴게요. 저기요 마스터, 계산(お会計) 부탁드립니다. 제 건 따로 계산해 주세요."
+                    }
                 },
                 {
                     "id": 8,
@@ -650,7 +902,11 @@
                     "kanji": "あ、さっきのたこわさびは私が払ったから、残りの串焼きとビールの分だけ払えばいいですよ。",
                     "kana": "あ、さっきのたこわさびはわたしがはらったから、のこりのくしやきとビールのぶんだけはらえばいいですよ。",
                     "romaji": "a, sakki no takowasabi wa watashi ga haratta kara, nokori no kushiyaki to biiru no bun dake haraeba ii desu yo",
-                    "meaning": "아, 아까 타코와사비는 제가 샀으니까 나머지 꼬치랑 맥주값만 내시면 돼요."
+                    "meaning": "아, 아까 타코와사비는 제가 샀으니까 나머지 꼬치랑 맥주값만 내시면 돼요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "아, 아까 타코와사비는 제가 샀으니까 나머지 꼬치랑 맥주값만 내시면 돼요."
+                    }
                 },
                 {
                     "id": 9,
@@ -658,7 +914,11 @@
                     "kanji": "あ、本当にいろいろとありがとうございます。おかげさまで、ごちそうさまでした。",
                     "kana": "あ、ほんとうにいろいろとありがとうございます。おかげさまで、ごちそうさまでした。",
                     "romaji": "a, hontou ni iroiro to arigatou gozaimasu. okagesama de, gochisousama deshita",
-                    "meaning": "아, 정말 여러모로 감사합니다. 덕분에 너무 잘 먹었습니다."
+                    "meaning": "아, 정말 여러모로 감사합니다. 덕분에 너무 잘 먹었습니다.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "아, 정말 여러모로 감사합니다. 덕분에 너무 잘 먹었습니다."
+                    }
                 },
                 {
                     "id": 10,
@@ -666,7 +926,11 @@
                     "kanji": "とんでもないです。残りの旅行も美味しいものをたくさん食べて、気をつけて楽しんできてくださいね。",
                     "kana": "とんでもないです。のこりのりょこうもおいしいものをたくさんたべて、きをつけてたのしんできてくださいね。",
                     "romaji": "tondemonai desu. nokori no ryokou mo oishii mono o takusan tabete, ki o tsukete tanoshinde kite kudasai ne",
-                    "meaning": "아닙니다. 남은 여행도 맛있는 거 많이 드시고 조심해서 잘 다녀요."
+                    "meaning": "아닙니다. 남은 여행도 맛있는 거 많이 드시고 조심해서 잘 다녀요.",
+                    "grammar": {
+                        "points": [],
+                        "summary": "아닙니다. 남은 여행도 맛있는 거 많이 드시고 조심해서 잘 다녀요."
+                    }
                 },
                 {
                     "id": 11,
@@ -674,7 +938,11 @@
                     "kanji": "ありがとうございます。お元気で。さようなら！",
                     "kana": "ありがとうございます。おげんきで。さようなら！",
                     "romaji": "arigatou gozaimasu. ogenki de. sayounara!",
-                    "meaning": "감사합니다. 항상 건강하시고요. 안녕히 계세요!"
+                    "meaning": "감사합니다. 항상 건강하시고요. 안녕히 계세요!",
+                    "grammar": {
+                        "points": [],
+                        "summary": "감사합니다. 항상 건강하시고요. 안녕히 계세요!"
+                    }
                 },
                 {
                     "id": 12,
@@ -682,50 +950,20 @@
                     "kanji": "はい、お気をつけて！良い旅になることを願ってますよ！",
                     "kana": "はい、おきをつけて！よいたびになることをねがってますよ！",
                     "romaji": "hai, oki o tsukete! yoi tabi ni naru koto o negattemasu yo!",
-                    "meaning": "네, 조심히 들어가요! 좋은 여행 되길 바랄게요!"
-                }
-            ],
-            "grammar": {
-                "points": [
-                    {
-                        "title": "～すぎる",
-                        "desc": [
-                            "'너무 ~하다'라는 뜻으로 도가 지나침을 나타냅니다. (예: 楽しすぎて - 너무 즐거워서)"
-                        ]
-                    },
-                    {
-                        "title": "時間が経つ (じかんがたつ)",
-                        "desc": [
-                            "시간이 지나가다, 흐르다"
-                        ]
-                    },
-                    {
-                        "title": "～かもしれない",
-                        "desc": [
-                            "'~일지도 모른다'는 가능성이나 추측을 나타냅니다. (예: 会えるかもしれない - 만날 수 있을지도 모른다)"
-                        ]
-                    },
-                    {
-                        "title": "お会計 (おかいけい)",
-                        "desc": [
-                            "계산 (식당이나 술집에서 지불할 때 흔히 씁니다)"
-                        ]
-                    },
-                    {
-                        "title": "別々に (べつべつに)",
-                        "desc": [
-                            "따로따로, 각자 (예: 別々に計算してください - 따로 계산해 주세요)"
-                        ]
-                    },
-                    {
-                        "title": "お気をつけて (おきをつけて)",
-                        "desc": [
-                            "조심해서 (가세요) - 작별 인사로 자주 쓰입니다."
-                        ]
+                    "meaning": "네, 조심히 들어가요! 좋은 여행 되길 바랄게요!",
+                    "grammar": {
+                        "points": [
+                            {
+                                "title": "お気をつけて (おきをつけて)",
+                                "desc": [
+                                    "조심해서 (가세요) - 작별 인사로 자주 쓰입니다."
+                                ]
+                            }
+                        ],
+                        "summary": "네, 조심히 들어가요! 좋은 여행 되길 바랄게요!"
                     }
-                ],
-                "summary": "막차 시간이 되어 훈훈한 작별 인사를 나누고 꼬치와 맥주값을 각자 계산하며 다음을 기약하는 대화입니다."
-            }
+                }
+            ]
         }
     ]
 }
