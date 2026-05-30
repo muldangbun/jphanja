@@ -1,4 +1,4 @@
-# Zen Kanji Master - 프로젝트 상태 보고서 (2026-05-30)
+# Zen Kanji Master - 프로젝트 상태 보고서 (2026-05-31)
 
 본 문서는 프로젝트의 현재 개발 상태를 상세히 기록하여, AI Antigravity가 작업 상황을 즉시 파악하고 보조할 수 있도록 돕기 위해 작성되었습니다.
 
@@ -19,7 +19,8 @@
 - **상황별 대화 모드 (Scene Mode) - [확장 및 고도화]**: 
   - 편의점, 쇼핑몰, 공항, 이자카야 등 총 4개 카테고리, 각각 5개씩 총 20개의 상황별 회화 시나리오 완비.
   - 각 대본별로 역할(손님, 점원, 옆 손님 등)에 맞춰 서로 다른 **VOICEVOX 캐릭터 목소리 배정** 완료.
-  - 대화 단위의 텍스트 타이핑 연습 및 상세 문법 해설 지원.
+  - 대화 단위의 텍스트 타이핑 연습 지원.
+  - **문장별 상세 문법 해설 보강**: 편의점, 쇼핑몰, 공항, 이자카야 테마의 모든 문장에 대해 핵심 단어, 유용한 패턴, 문화적 맥락을 포함한 상세한 문법 해설 데이터 주입 완료 및 UI 연동 완료.
 - **동화 읽기 모드 (Story Mode)**: 
   - *'게의 장사(かにの商売)'*, *'나비와 애벌레(なびわぷる)'*, *'달팽이의 슬픔(でんでんむしのかなしみ)'* 수록.
   - 문장 단위 타이핑 연습 및 오디오북(자동 진행) 기능.
@@ -32,9 +33,9 @@
 - **모듈화된 디렉토리 구조 (2026-05-29 리팩토링 완료)**:
   - `data/kanji`, `data/stories`, `data/scenes` 등 성격별 데이터 폴더 분리.
   - `scripts/audio`, `scripts/data_update` 등 목적별 파이썬 관리 스크립트 분리.
-- **오디오 생성 및 관리 파이프라인**:
-  - `scripts/audio/` 폴더 내에 상황별 파이썬 자동화 스크립트(`generate_convenience_audio.py`, `generate_shopping_audio.py` 등) 구현.
-  - JSON 대본을 파싱하여 VOICEVOX를 통해 화자별 동적 음성 합성 자동화 및 폴더별(`audio/{scenario_id}`) 자동 분류.
+- **데이터 자동화 파이프라인**:
+  - `scripts/audio/` 폴더 내에 상황별 파이썬 자동화 스크립트(`generate_convenience_audio.py`, `generate_shopping_audio.py` 등)를 통해 VOICEVOX 동적 음성 합성 자동화 및 분류.
+  - `scripts/data_update/` 폴더 내 스크립트를 통한 대량의 문법 해설 데이터(`enrich_convenience.py`, `enrich_shopping.py` 등) JSON 일괄 주입 구조 확립.
 
 ## 4. UI/UX 및 모바일 최적화
 - **디자인 시스템**: Glassmorphism 기반의 카드 레이아웃 및 애니메이션 효과.
@@ -51,8 +52,8 @@
   - `scenes/`: 상황별 대화 데이터 (`convenience_scenesv1.JSON`, `shopping_scenesv1.JSON`, `airport_scenesv1.JSON`, `izakaya_scenesv1.JSON`, `hospital_scenesv1.JSON` 등).
 - `audio/`: 동화 및 상황별 MP3 오디오 폴더 모음.
 - `scripts/`:
-  - `audio/`: 오디오 파일 생성 스크립트 모음 (`generate_audio.py`, `generate_izakaya_audio.py` 등).
-  - `data_update/`: 데이터 병합 및 정제용 스크립트.
+  - `audio/`: 오디오 파일 생성 스크립트 모음.
+  - `data_update/`: 데이터 병합 및 문법 해설 주입용 스크립트 모음.
 - `radical/`: 일본어 한자 부수 학습 독립 서브 프로젝트.
 
 ## 6. 개발자 참고 사항 (AI 전용)
@@ -65,5 +66,5 @@
 - [ ] 한자 조립 분해 관련 데이터 JSON 고도화 및 콘텐츠 보강.
 
 ---
-**최종 업데이트 일시**: 2026-05-30
+**최종 업데이트 일시**: 2026-05-31
 **작성자**: AI Antigravity
