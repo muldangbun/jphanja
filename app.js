@@ -395,7 +395,7 @@
             state.isStoryMode = true;
             state.learningMode = 'STORY';
             // Extract story name from file name (e.g. 'kaninotokoya.JSON' -> 'kaninotokoya')
-            state.currentStoryName = fileName.replace(/\.[^/.]+$/, "");
+            state.currentStoryName = fileName.split('/').pop().replace(/\.[^/.]+$/, "");
             els.container.classList.add('story-mode');
             els.furiganaControls.classList.remove('hidden');
             state.currentIndex = 0;
