@@ -809,6 +809,7 @@
                 els.phaseTag.innerText = "Reading Practice (동화 읽기)";
                 els.kanjiView.classList.add('hidden');
                 els.wordView.classList.add('hidden');
+                els.kanjiSentencesView.classList.add('hidden');
                 els.sentenceView.classList.remove('hidden');
                 els.sentenceMeaning.innerHTML = state.currentSentence.meaning;
                 els.romajiGuide.innerText = "";

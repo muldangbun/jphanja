@@ -3,7 +3,7 @@
     "kanji": "並",
     "reading_on": "ヘイ",
     "reading_kun": "なみ、なら(べる)、なら(ぶ)、なら(びに)",
-    "meaning": "나란할",
+    "meaning": "나란 히 병",
     "components": [
       {
         "char": "立",
@@ -36,7 +36,7 @@
     "kanji": "乱",
     "reading_on": "ラン",
     "reading_kun": "みだ(れる)、みだ(す)",
-    "meaning": "어지러울",
+    "meaning": "어지러울 란",
     "components": [
       {
         "char": "舌",
@@ -69,7 +69,7 @@
     "kanji": "乳",
     "reading_on": "ニュウ",
     "reading_kun": "ちち、ち",
-    "meaning": "젖",
+    "meaning": "젖 유",
     "components": [
       {
         "char": "孚",
@@ -102,7 +102,7 @@
     "kanji": "亡",
     "reading_on": "ボウ、モウ",
     "reading_kun": "な(い)",
-    "meaning": "망할 (없을)",
+    "meaning": "없을 무",
     "components": [
       {
         "char": "亠",
@@ -135,7 +135,7 @@
     "kanji": "仁",
     "reading_on": "ジン、ニ",
     "reading_kun": "",
-    "meaning": "어질",
+    "meaning": "어질 인",
     "components": [
       {
         "char": "亻",
@@ -168,7 +168,7 @@
     "kanji": "供",
     "reading_on": "キョウ、ク",
     "reading_kun": "そな(える)、とも",
-    "meaning": "이바지할 (바칠)",
+    "meaning": "이바지할 공",
     "components": [
       {
         "char": "亻",
@@ -201,7 +201,7 @@
     "kanji": "俳",
     "reading_on": "ハイ",
     "reading_kun": "",
-    "meaning": "배우",
+    "meaning": "광대 배",
     "components": [
       {
         "char": "亻",
@@ -234,7 +234,7 @@
     "kanji": "値",
     "reading_on": "チ",
     "reading_kun": "ね、あたい",
-    "meaning": "값 (가치)",
+    "meaning": "값 치",
     "components": [
       {
         "char": "亻",
@@ -267,7 +267,7 @@
     "kanji": "傷",
     "reading_on": "ショウ",
     "reading_kun": "きず、いた(む)、いた(める)",
-    "meaning": "상할 (다칠)",
+    "meaning": "상처 상",
     "components": [
       {
         "char": "亻",
@@ -305,7 +305,7 @@
     "kanji": "優",
     "reading_on": "ユウ",
     "reading_kun": "やさ(しい)、すぐ(れる)",
-    "meaning": "넉넉할 (뛰어날)",
+    "meaning": "넉넉할 우",
     "components": [
       {
         "char": "亻",
@@ -338,7 +338,7 @@
     "kanji": "党",
     "reading_on": "トウ",
     "reading_kun": "",
-    "meaning": "무리 (당)",
+    "meaning": "무리 당",
     "components": [
       {
         "char": "尚",
@@ -371,7 +371,7 @@
     "kanji": "冊",
     "reading_on": "サツ、サク",
     "reading_kun": "",
-    "meaning": "책 (권)",
+    "meaning": "책 책",
     "components": [
       {
         "char": "冂",
@@ -404,7 +404,7 @@
     "kanji": "処",
     "reading_on": "ショ",
     "reading_kun": "",
-    "meaning": "곳 (처리할)",
+    "meaning": "위치할 처",
     "components": [
       {
         "char": "夂",
@@ -437,7 +437,7 @@
     "kanji": "刻",
     "reading_on": "コク",
     "reading_kun": "きざ(む)",
-    "meaning": "새길",
+    "meaning": "새길 각",
     "components": [
       {
         "char": "亥",
@@ -470,7 +470,7 @@
     "kanji": "割",
     "reading_on": "カツ",
     "reading_kun": "わ(る)、わ(れる)、わ(り)、さ(く)",
-    "meaning": "나눌 (벨)",
+    "meaning": "벨 할",
     "components": [
       {
         "char": "害",
@@ -503,7 +503,7 @@
     "kanji": "創",
     "reading_on": "ソウ",
     "reading_kun": "",
-    "meaning": "비롯할 (창조할)",
+    "meaning": "비롯할 창",
     "components": [
       {
         "char": "倉",
@@ -536,7 +536,7 @@
     "kanji": "劇",
     "reading_on": "ゲキ",
     "reading_kun": "",
-    "meaning": "심할 (연극)",
+    "meaning": "심할 극",
     "components": [
       {
         "char": "虍",
@@ -574,7 +574,7 @@
     "kanji": "勤",
     "reading_on": "キン、ゴン",
     "reading_kun": "つと(める)、つと(まる)",
-    "meaning": "부지런할 (근무할)",
+    "meaning": "부지런할 근",
     "components": [
       {
         "char": "菫",
@@ -607,7 +607,7 @@
     "kanji": "危",
     "reading_on": "キ",
     "reading_kun": "あぶ(ない)、あや(うい)",
-    "meaning": "위태할",
+    "meaning": "위태할 위",
     "components": [
       {
         "char": "厄",
@@ -640,7 +640,7 @@
     "kanji": "卵",
     "reading_on": "ラン",
     "reading_kun": "たまご",
-    "meaning": "알",
+    "meaning": "알 란",
     "components": [
       {
         "char": "卩",
@@ -668,7 +668,7 @@
     "kanji": "厳",
     "reading_on": "ゲン、ゴン",
     "reading_kun": "きび(しい)",
-    "meaning": "엄할",
+    "meaning": "엄할 엄",
     "components": [
       {
         "char": "ツ",
@@ -739,7 +739,7 @@
     "kanji": "后",
     "reading_on": "コウ",
     "reading_kun": "",
-    "meaning": "왕후 (뒤)",
+    "meaning": "임금 후",
     "components": [
       {
         "char": "厂",
@@ -772,7 +772,7 @@
     "kanji": "否",
     "reading_on": "ヒ",
     "reading_kun": "いな",
-    "meaning": "아닐 (부정할)",
+    "meaning": "막힐 비",
     "components": [
       {
         "char": "不",
@@ -805,7 +805,7 @@
     "kanji": "吸",
     "reading_on": "キュウ",
     "reading_kun": "す(う)",
-    "meaning": "마실 (숨쉴)",
+    "meaning": "숨 들이쉴 흡",
     "components": [
       {
         "char": "口",
@@ -838,7 +838,7 @@
     "kanji": "呼",
     "reading_on": "コ",
     "reading_kun": "よ(ぶ)",
-    "meaning": "부를",
+    "meaning": "부를 호",
     "components": [
       {
         "char": "口",
@@ -871,7 +871,7 @@
     "kanji": "善",
     "reading_on": "ゼン",
     "reading_kun": "よ(い)",
-    "meaning": "착할 (좋을)",
+    "meaning": "착할 선",
     "components": [
       {
         "char": "羊",
@@ -904,7 +904,7 @@
     "kanji": "困",
     "reading_on": "コン",
     "reading_kun": "こま(る)",
-    "meaning": "곤할 (곤란할)",
+    "meaning": "괴로울 곤",
     "components": [
       {
         "char": "囗",
@@ -937,7 +937,7 @@
     "kanji": "垂",
     "reading_on": "スイ",
     "reading_kun": "た(れる)、た(らす)",
-    "meaning": "드리울 (늘어질)",
+    "meaning": "드리울 수",
     "components": [
       {
         "char": "土",
@@ -970,7 +970,7 @@
     "kanji": "城",
     "reading_on": "ジョウ",
     "reading_kun": "しろ",
-    "meaning": "성 (성곽)",
+    "meaning": "보루 성",
     "components": [
       {
         "char": "土",
@@ -1003,7 +1003,7 @@
     "kanji": "域",
     "reading_on": "イキ",
     "reading_kun": "",
-    "meaning": "지경 (지역)",
+    "meaning": "경계 역",
     "components": [
       {
         "char": "土",
@@ -1036,7 +1036,7 @@
     "kanji": "奏",
     "reading_on": "ソウ",
     "reading_kun": "かな(でる)",
-    "meaning": "아뢸 (연주할)",
+    "meaning": "아뢸 주",
     "components": [
       {
         "char": "大",
@@ -1074,7 +1074,7 @@
     "kanji": "奮",
     "reading_on": "フン",
     "reading_kun": "ふる(う)",
-    "meaning": "떨칠 (분발할)",
+    "meaning": "떨칠 분",
     "components": [
       {
         "char": "大",
@@ -1112,7 +1112,7 @@
     "kanji": "姿",
     "reading_on": "シ",
     "reading_kun": "すがた",
-    "meaning": "모양 (자태)",
+    "meaning": "맵시 자",
     "components": [
       {
         "char": "次",
@@ -1145,7 +1145,7 @@
     "kanji": "存",
     "reading_on": "ソン、ゾン",
     "reading_kun": "",
-    "meaning": "있을 (존재할)",
+    "meaning": "있을 존",
     "components": [
       {
         "char": "子",
@@ -1178,7 +1178,7 @@
     "kanji": "孝",
     "reading_on": "コウ",
     "reading_kun": "",
-    "meaning": "효도",
+    "meaning": "효도 효",
     "components": [
       {
         "char": "老",
@@ -1211,7 +1211,7 @@
     "kanji": "宅",
     "reading_on": "タク",
     "reading_kun": "",
-    "meaning": "집 (댁)",
+    "meaning": "집 택",
     "components": [
       {
         "char": "宀",
@@ -1244,7 +1244,7 @@
     "kanji": "宇",
     "reading_on": "ウ",
     "reading_kun": "",
-    "meaning": "집 (우주)",
+    "meaning": "집 우",
     "components": [
       {
         "char": "宀",
@@ -1277,7 +1277,7 @@
     "kanji": "宗",
     "reading_on": "シュウ、ソウ",
     "reading_kun": "",
-    "meaning": "마루 (근본)",
+    "meaning": "마루 종",
     "components": [
       {
         "char": "宀",
@@ -1310,7 +1310,7 @@
     "kanji": "宙",
     "reading_on": "チュウ",
     "reading_kun": "",
-    "meaning": "집 (우주)",
+    "meaning": "집 주",
     "components": [
       {
         "char": "宀",
@@ -1343,7 +1343,7 @@
     "kanji": "宝",
     "reading_on": "ホウ",
     "reading_kun": "たから",
-    "meaning": "보배",
+    "meaning": "보배 보",
     "components": [
       {
         "char": "宀",
@@ -1376,7 +1376,7 @@
     "kanji": "宣",
     "reading_on": "セン",
     "reading_kun": "",
-    "meaning": "베풀 (선포할)",
+    "meaning": "베풀 선",
     "components": [
       {
         "char": "宀",
@@ -1409,7 +1409,7 @@
     "kanji": "密",
     "reading_on": "ミツ",
     "reading_kun": "",
-    "meaning": "빽빽할 (비밀)",
+    "meaning": "빽빽할 밀",
     "components": [
       {
         "char": "宀",
@@ -1447,7 +1447,7 @@
     "kanji": "寸",
     "reading_on": "スン",
     "reading_kun": "",
-    "meaning": "마디 (촌)",
+    "meaning": "치 촌",
     "components": [
       {
         "char": "寸",
@@ -1475,7 +1475,7 @@
     "kanji": "専",
     "reading_on": "セン",
     "reading_kun": "もっぱ(ら)",
-    "meaning": "오로지 (전념할)",
+    "meaning": "펼 부",
     "components": [
       {
         "char": "叀",
@@ -1508,7 +1508,7 @@
     "kanji": "射",
     "reading_on": "シャ",
     "reading_kun": "い(る)",
-    "meaning": "쏠",
+    "meaning": "맞힐 석",
     "components": [
       {
         "char": "身",
@@ -1541,7 +1541,7 @@
     "kanji": "将",
     "reading_on": "ショウ",
     "reading_kun": "",
-    "meaning": "장수 (장차)",
+    "meaning": "장수 장",
     "components": [
       {
         "char": "丬",
@@ -1579,7 +1579,7 @@
     "kanji": "尊",
     "reading_on": "ソン",
     "reading_kun": "とうと(い)、たっと(い)、とうと(ぶ)、たっと(ぶ)",
-    "meaning": "높을 (귀할)",
+    "meaning": "술그릇 준",
     "components": [
       {
         "char": "酋",
@@ -1612,7 +1612,7 @@
     "kanji": "就",
     "reading_on": "シュウ、ジュ",
     "reading_kun": "つ(く)、つ(ける)",
-    "meaning": "나아갈 (이룰)",
+    "meaning": "좇을 취",
     "components": [
       {
         "char": "京",
@@ -1645,7 +1645,7 @@
     "kanji": "尺",
     "reading_on": "シャク",
     "reading_kun": "",
-    "meaning": "자 (길이)",
+    "meaning": "자 척",
     "components": [
       {
         "char": "尸",
@@ -1711,7 +1711,7 @@
     "kanji": "展",
     "reading_on": "テン",
     "reading_kun": "",
-    "meaning": "펼",
+    "meaning": "펼칠 전",
     "components": [
       {
         "char": "尸",
@@ -1749,7 +1749,7 @@
     "kanji": "層",
     "reading_on": "ソウ",
     "reading_kun": "",
-    "meaning": "층",
+    "meaning": "겹 층",
     "components": [
       {
         "char": "尸",
@@ -1782,7 +1782,7 @@
     "kanji": "己",
     "reading_on": "コ、キ",
     "reading_kun": "おのれ",
-    "meaning": "몸 (자기)",
+    "meaning": "자기 기",
     "components": [
       {
         "char": "己",
@@ -1810,7 +1810,7 @@
     "kanji": "巻",
     "reading_on": "カン",
     "reading_kun": "ま(く)、ま(き)",
-    "meaning": "말 (권)",
+    "meaning": "말 권",
     "components": [
       {
         "char": "龹",
@@ -1843,7 +1843,7 @@
     "kanji": "幕",
     "reading_on": "マク、バク",
     "reading_kun": "",
-    "meaning": "막",
+    "meaning": "막 막",
     "components": [
       {
         "char": "莫",
@@ -1876,7 +1876,7 @@
     "kanji": "干",
     "reading_on": "カン",
     "reading_kun": "ほ(す)、ひ(る)",
-    "meaning": "방패 (마를)",
+    "meaning": "생강 강",
     "components": [
       {
         "char": "干",
@@ -1904,7 +1904,7 @@
     "kanji": "幼",
     "reading_on": "ヨウ",
     "reading_kun": "おさな(い)",
-    "meaning": "어릴",
+    "meaning": "어릴 유",
     "components": [
       {
         "char": "幺",
@@ -1937,7 +1937,7 @@
     "kanji": "庁",
     "reading_on": "チョウ",
     "reading_kun": "",
-    "meaning": "관청",
+    "meaning": "관청 청",
     "components": [
       {
         "char": "广",
@@ -1970,7 +1970,7 @@
     "kanji": "座",
     "reading_on": "ザ",
     "reading_kun": "すわ(る)",
-    "meaning": "자리 (앉을)",
+    "meaning": "자리 좌",
     "components": [
       {
         "char": "广",
@@ -2003,7 +2003,7 @@
     "kanji": "延",
     "reading_on": "エン",
     "reading_kun": "の(びる)、の(べる)、の(ばす)",
-    "meaning": "늘일",
+    "meaning": "미칠 연",
     "components": [
       {
         "char": "廴",
@@ -2036,7 +2036,7 @@
     "kanji": "律",
     "reading_on": "リツ、リチ",
     "reading_kun": "",
-    "meaning": "법칙",
+    "meaning": "법 률",
     "components": [
       {
         "char": "彳",
@@ -2069,7 +2069,7 @@
     "kanji": "従",
     "reading_on": "ジュウ",
     "reading_kun": "したが(う)、したが(える)",
-    "meaning": "좇을 (따를)",
+    "meaning": "좆을 종",
     "components": [
       {
         "char": "彳",
@@ -2107,7 +2107,7 @@
     "kanji": "忘",
     "reading_on": "ボウ",
     "reading_kun": "わす(れる)",
-    "meaning": "잊을",
+    "meaning": "잊을 망",
     "components": [
       {
         "char": "亡",
@@ -2140,7 +2140,7 @@
     "kanji": "忠",
     "reading_on": "チュウ",
     "reading_kun": "",
-    "meaning": "충성 (충실할)",
+    "meaning": "충성 충",
     "components": [
       {
         "char": "中",
@@ -2173,7 +2173,7 @@
     "kanji": "憲",
     "reading_on": "ケン",
     "reading_kun": "",
-    "meaning": "법",
+    "meaning": "법 헌",
     "components": [
       {
         "char": "宀",
@@ -2211,7 +2211,7 @@
     "kanji": "我",
     "reading_on": "ガ",
     "reading_kun": "われ、わ",
-    "meaning": "나",
+    "meaning": "자기 아",
     "components": [
       {
         "char": "戈",
@@ -2239,7 +2239,7 @@
     "kanji": "批",
     "reading_on": "ヒ",
     "reading_kun": "",
-    "meaning": "비판할",
+    "meaning": "칠 비",
     "components": [
       {
         "char": "扌",
@@ -2272,7 +2272,7 @@
     "kanji": "担",
     "reading_on": "タン",
     "reading_kun": "にな(う)",
-    "meaning": "멜 (담당할)",
+    "meaning": "원숭이 같은 짐승 단",
     "components": [
       {
         "char": "扌",
@@ -2338,7 +2338,7 @@
     "kanji": "拡",
     "reading_on": "カク",
     "reading_kun": "",
-    "meaning": "넓힐",
+    "meaning": "넓힐 확",
     "components": [
       {
         "char": "扌",
@@ -2371,7 +2371,7 @@
     "kanji": "捨",
     "reading_on": "シャ",
     "reading_kun": "す(てる)",
-    "meaning": "버릴",
+    "meaning": "버릴 사",
     "components": [
       {
         "char": "扌",
@@ -2404,7 +2404,7 @@
     "kanji": "探",
     "reading_on": "タン",
     "reading_kun": "さが(す)",
-    "meaning": "찾을 (탐구할)",
+    "meaning": "더듬을 탐",
     "components": [
       {
         "char": "扌",
@@ -2437,7 +2437,7 @@
     "kanji": "推",
     "reading_on": "スイ",
     "reading_kun": "",
-    "meaning": "밀 (추천할)",
+    "meaning": "밀 퇴",
     "components": [
       {
         "char": "扌",
@@ -2470,7 +2470,7 @@
     "kanji": "揮",
     "reading_on": "キ",
     "reading_kun": "",
-    "meaning": "휘두를 (지휘할)",
+    "meaning": "휘두를 휘",
     "components": [
       {
         "char": "扌",
@@ -2503,7 +2503,7 @@
     "kanji": "操",
     "reading_on": "ソウ",
     "reading_kun": "あやつ(る)",
-    "meaning": "잡을 (조종할)",
+    "meaning": "잡을 조",
     "components": [
       {
         "char": "扌",
@@ -2536,7 +2536,7 @@
     "kanji": "敬",
     "reading_on": "ケイ",
     "reading_kun": "うやま(う)",
-    "meaning": "공경할",
+    "meaning": "공경할 경",
     "components": [
       {
         "char": "苟",
@@ -2569,7 +2569,7 @@
     "kanji": "映",
     "reading_on": "エイ",
     "reading_kun": "うつ(る)、うつ(す)、は(える)",
-    "meaning": "비칠",
+    "meaning": "비칠 영",
     "components": [
       {
         "char": "日",
@@ -2602,7 +2602,7 @@
     "kanji": "晩",
     "reading_on": "バン",
     "reading_kun": "",
-    "meaning": "늦을 (저녁)",
+    "meaning": "저물 만",
     "components": [
       {
         "char": "日",
@@ -2635,7 +2635,7 @@
     "kanji": "暖",
     "reading_on": "ダン",
     "reading_kun": "あたた(かい)、あたた(まる)、あたた(める)",
-    "meaning": "따뜻할",
+    "meaning": "부드러울 훤",
     "components": [
       {
         "char": "日",
@@ -2668,7 +2668,7 @@
     "kanji": "暮",
     "reading_on": "ボ",
     "reading_kun": "く(れる)、く(らす)",
-    "meaning": "저물",
+    "meaning": "저물 모",
     "components": [
       {
         "char": "莫",
@@ -2701,7 +2701,7 @@
     "kanji": "朗",
     "reading_on": "ロウ",
     "reading_kun": "ほが(らか)",
-    "meaning": "밝을",
+    "meaning": "밝을 랑",
     "components": [
       {
         "char": "良",
@@ -2734,7 +2734,7 @@
     "kanji": "机",
     "reading_on": "キ",
     "reading_kun": "つくえ",
-    "meaning": "책상 (안석)",
+    "meaning": "느티나무 궤",
     "components": [
       {
         "char": "木",
@@ -2767,7 +2767,7 @@
     "kanji": "枚",
     "reading_on": "マイ",
     "reading_kun": "",
-    "meaning": "낱장 (매)",
+    "meaning": "줄기 매",
     "components": [
       {
         "char": "木",
@@ -2800,7 +2800,7 @@
     "kanji": "染",
     "reading_on": "セン",
     "reading_kun": "そ(める)、そ(まる)、し(みる)",
-    "meaning": "물들일 (염색할)",
+    "meaning": "꼭두서니 염",
     "components": [
       {
         "char": "氵",
@@ -2838,7 +2838,7 @@
     "kanji": "株",
     "reading_on": "シュ",
     "reading_kun": "かぶ",
-    "meaning": "그루 (주식)",
+    "meaning": "그루 주",
     "components": [
       {
         "char": "木",
@@ -2871,7 +2871,7 @@
     "kanji": "棒",
     "reading_on": "ボウ",
     "reading_kun": "",
-    "meaning": "막대",
+    "meaning": "몽둥이 봉",
     "components": [
       {
         "char": "木",
@@ -2904,7 +2904,7 @@
     "kanji": "模",
     "reading_on": "モ、ボ",
     "reading_kun": "",
-    "meaning": "본뜰",
+    "meaning": "법 모",
     "components": [
       {
         "char": "木",
@@ -2937,7 +2937,7 @@
     "kanji": "権",
     "reading_on": "ケン、ゴン",
     "reading_kun": "",
-    "meaning": "권세 (권리)",
+    "meaning": "권세 권",
     "components": [
       {
         "char": "木",
@@ -2970,7 +2970,7 @@
     "kanji": "樹",
     "reading_on": "ジュ",
     "reading_kun": "",
-    "meaning": "나무",
+    "meaning": "나무 수",
     "components": [
       {
         "char": "木",
@@ -3003,7 +3003,7 @@
     "kanji": "欲",
     "reading_on": "ヨク",
     "reading_kun": "ほっ(する)、ほ(しい)",
-    "meaning": "하고자 할 (바랄)",
+    "meaning": "욕심낼 욕",
     "components": [
       {
         "char": "谷",
@@ -3036,7 +3036,7 @@
     "kanji": "段",
     "reading_on": "ダン",
     "reading_kun": "",
-    "meaning": "층계 (단)",
+    "meaning": "층계 단",
     "components": [
       {
         "char": "叚",
@@ -3069,7 +3069,7 @@
     "kanji": "沿",
     "reading_on": "エン",
     "reading_kun": "そ(う)",
-    "meaning": "물따라갈 (따를)",
+    "meaning": "물 따라 내려갈 연",
     "components": [
       {
         "char": "氵",
@@ -3102,7 +3102,7 @@
     "kanji": "泉",
     "reading_on": "セン",
     "reading_kun": "いずみ",
-    "meaning": "샘",
+    "meaning": "샘 천",
     "components": [
       {
         "char": "白",
@@ -3135,7 +3135,7 @@
     "kanji": "洗",
     "reading_on": "セン",
     "reading_kun": "あら(う)",
-    "meaning": "씻을",
+    "meaning": "씻을 세",
     "components": [
       {
         "char": "氵",
@@ -3168,7 +3168,7 @@
     "kanji": "派",
     "reading_on": "ハ",
     "reading_kun": "",
-    "meaning": "갈래 (파)",
+    "meaning": "물 갈래 파",
     "components": [
       {
         "char": "氵",
@@ -3201,7 +3201,7 @@
     "kanji": "済",
     "reading_on": "サイ、ザイ",
     "reading_kun": "す(む)、す(ます)",
-    "meaning": "건널 (구제할)",
+    "meaning": "건널 제",
     "components": [
       {
         "char": "氵",
@@ -3234,7 +3234,7 @@
     "kanji": "源",
     "reading_on": "ゲン",
     "reading_kun": "みなもと",
-    "meaning": "근원 (수원)",
+    "meaning": "근원 원",
     "components": [
       {
         "char": "氵",
@@ -3267,7 +3267,7 @@
     "kanji": "潮",
     "reading_on": "チョウ",
     "reading_kun": "しお",
-    "meaning": "조수 (밀물)",
+    "meaning": "조수 조",
     "components": [
       {
         "char": "氵",
@@ -3300,7 +3300,7 @@
     "kanji": "激",
     "reading_on": "ゲキ",
     "reading_kun": "はげ(しい)",
-    "meaning": "격할 (부딪칠)",
+    "meaning": "물결 부딪혀 흐를 격",
     "components": [
       {
         "char": "氵",
@@ -3333,7 +3333,7 @@
     "kanji": "灰",
     "reading_on": "カイ",
     "reading_kun": "はい",
-    "meaning": "재",
+    "meaning": "재 회",
     "components": [
       {
         "char": "厂",
@@ -3366,7 +3366,7 @@
     "kanji": "熟",
     "reading_on": "ジュク",
     "reading_kun": "う(れる)",
-    "meaning": "익을 (숙련될)",
+    "meaning": "익힐 숙",
     "components": [
       {
         "char": "孰",
@@ -3399,7 +3399,7 @@
     "kanji": "片",
     "reading_on": "ヘン",
     "reading_kun": "かた",
-    "meaning": "조각 (한쪽)",
+    "meaning": "조각 편",
     "components": [
       {
         "char": "片",
@@ -3427,7 +3427,7 @@
     "kanji": "班",
     "reading_on": "ハン",
     "reading_kun": "",
-    "meaning": "나눌 (조)",
+    "meaning": "나눌 반",
     "components": [
       {
         "char": "王",
@@ -3460,7 +3460,7 @@
     "kanji": "異",
     "reading_on": "イ",
     "reading_kun": "こと(なる)",
-    "meaning": "다를 (기이할)",
+    "meaning": "다를 이",
     "components": [
       {
         "char": "田",
@@ -3493,7 +3493,7 @@
     "kanji": "疑",
     "reading_on": "ギ",
     "reading_kun": "うたが(う)",
-    "meaning": "의심할",
+    "meaning": "의심할 의",
     "components": [
       {
         "char": "匕",
@@ -3531,7 +3531,7 @@
     "kanji": "痛",
     "reading_on": "ツウ",
     "reading_kun": "いた(い)、いた(む)、いた(める)",
-    "meaning": "아플",
+    "meaning": "아플 통",
     "components": [
       {
         "char": "疒",
@@ -3564,7 +3564,7 @@
     "kanji": "皇",
     "reading_on": "コウ、オウ",
     "reading_kun": "",
-    "meaning": "임금 (황제)",
+    "meaning": "임금 황",
     "components": [
       {
         "char": "白",
@@ -3597,7 +3597,7 @@
     "kanji": "盛",
     "reading_on": "セイ、ジョウ",
     "reading_kun": "も(る)、さか(ん)",
-    "meaning": "성할 (담을)",
+    "meaning": "담을 성",
     "components": [
       {
         "char": "成",
@@ -3630,7 +3630,7 @@
     "kanji": "盟",
     "reading_on": "メイ",
     "reading_kun": "",
-    "meaning": "맹세할",
+    "meaning": "맹세할 맹",
     "components": [
       {
         "char": "明",
@@ -3663,7 +3663,7 @@
     "kanji": "看",
     "reading_on": "カン",
     "reading_kun": "",
-    "meaning": "볼 (간호할)",
+    "meaning": "볼 간",
     "components": [
       {
         "char": "手",
@@ -3696,7 +3696,7 @@
     "kanji": "砂",
     "reading_on": "サ、シャ",
     "reading_kun": "すな",
-    "meaning": "모래",
+    "meaning": "모래 사",
     "components": [
       {
         "char": "石",
@@ -3729,7 +3729,7 @@
     "kanji": "磁",
     "reading_on": "ジ",
     "reading_kun": "",
-    "meaning": "자석 (자기)",
+    "meaning": "자석 자",
     "components": [
       {
         "char": "石",
@@ -3762,7 +3762,7 @@
     "kanji": "私",
     "reading_on": "シ",
     "reading_kun": "わたし、わたくし",
-    "meaning": "나 (사사로울)",
+    "meaning": "사사 사",
     "components": [
       {
         "char": "禾",
@@ -3795,7 +3795,7 @@
     "kanji": "秘",
     "reading_on": "ヒ",
     "reading_kun": "ひ(める)",
-    "meaning": "숨길 (비밀)",
+    "meaning": "숨길 비",
     "components": [
       {
         "char": "禾",
@@ -3828,7 +3828,7 @@
     "kanji": "穀",
     "reading_on": "コク",
     "reading_kun": "",
-    "meaning": "곡식",
+    "meaning": "녹봉 구",
     "components": [
       {
         "char": "禾",
@@ -3861,7 +3861,7 @@
     "kanji": "穴",
     "reading_on": "ケツ",
     "reading_kun": "あな",
-    "meaning": "구멍",
+    "meaning": "굴 혈",
     "components": [
       {
         "char": "穴",
@@ -3889,7 +3889,7 @@
     "kanji": "窓",
     "reading_on": "ソウ",
     "reading_kun": "まど",
-    "meaning": "창문",
+    "meaning": "창 창",
     "components": [
       {
         "char": "穴",
@@ -3927,7 +3927,7 @@
     "kanji": "筋",
     "reading_on": "キン",
     "reading_kun": "すじ",
-    "meaning": "힘줄 (줄거리)",
+    "meaning": "힘줄 근",
     "components": [
       {
         "char": "竹",
@@ -3960,7 +3960,7 @@
     "kanji": "策",
     "reading_on": "サク",
     "reading_kun": "",
-    "meaning": "꾀 (채찍)",
+    "meaning": "채찍 책",
     "components": [
       {
         "char": "竹",
@@ -3993,7 +3993,7 @@
     "kanji": "簡",
     "reading_on": "カン",
     "reading_kun": "",
-    "meaning": "대쪽 (간단할)",
+    "meaning": "대쪽 간",
     "components": [
       {
         "char": "竹",
@@ -4026,7 +4026,7 @@
     "kanji": "糖",
     "reading_on": "トウ",
     "reading_kun": "",
-    "meaning": "엿 (사탕)",
+    "meaning": "엿 당",
     "components": [
       {
         "char": "米",
@@ -4059,7 +4059,7 @@
     "kanji": "系",
     "reading_on": "ケイ",
     "reading_kun": "",
-    "meaning": "이을",
+    "meaning": "이을 계",
     "components": [
       {
         "char": "丿",
@@ -4092,7 +4092,7 @@
     "kanji": "紅",
     "reading_on": "コウ、ク",
     "reading_kun": "べに、くれない",
-    "meaning": "붉을",
+    "meaning": "붉을 홍",
     "components": [
       {
         "char": "糸",
@@ -4125,7 +4125,7 @@
     "kanji": "納",
     "reading_on": "ノウ、ナッ、ナ、ナン、トウ",
     "reading_kun": "おさ(める)、おさ(まる)",
-    "meaning": "들일 (바칠)",
+    "meaning": "바칠 납",
     "components": [
       {
         "char": "糸",
@@ -4158,7 +4158,7 @@
     "kanji": "純",
     "reading_on": "ジュン",
     "reading_kun": "",
-    "meaning": "순수할",
+    "meaning": "선으로 두를 준",
     "components": [
       {
         "char": "糸",
@@ -4191,7 +4191,7 @@
     "kanji": "絹",
     "reading_on": "ケン",
     "reading_kun": "きぬ",
-    "meaning": "명주 (비단)",
+    "meaning": "비단 견",
     "components": [
       {
         "char": "糸",
@@ -4224,7 +4224,7 @@
     "kanji": "縦",
     "reading_on": "ジュウ",
     "reading_kun": "たて",
-    "meaning": "세로",
+    "meaning": "바뿔 총",
     "components": [
       {
         "char": "糸",
@@ -4257,7 +4257,7 @@
     "kanji": "縮",
     "reading_on": "シュク",
     "reading_kun": "ちぢ(む)、ちぢ(まる)、ちぢ(める)、ちぢ(れる)、ちぢ(らす)",
-    "meaning": "오그라들",
+    "meaning": "줄어들 축",
     "components": [
       {
         "char": "糸",
@@ -4290,7 +4290,7 @@
     "kanji": "署",
     "reading_on": "ショ",
     "reading_kun": "",
-    "meaning": "관청 (서명할)",
+    "meaning": "관청 서",
     "components": [
       {
         "char": "罒",
@@ -4323,7 +4323,7 @@
     "kanji": "翌",
     "reading_on": "ヨク",
     "reading_kun": "",
-    "meaning": "다음 날",
+    "meaning": "다음날 익",
     "components": [
       {
         "char": "羽",
@@ -4356,7 +4356,7 @@
     "kanji": "聖",
     "reading_on": "セイ",
     "reading_kun": "",
-    "meaning": "성스러울",
+    "meaning": "성인 성",
     "components": [
       {
         "char": "耳",
@@ -4394,7 +4394,7 @@
     "kanji": "肺",
     "reading_on": "ハイ",
     "reading_kun": "",
-    "meaning": "허파",
+    "meaning": "허파 폐",
     "components": [
       {
         "char": "月",
@@ -4427,7 +4427,7 @@
     "kanji": "背",
     "reading_on": "ハイ",
     "reading_kun": "せ、せい、そむ(く)、そむ(ける)",
-    "meaning": "등 (배반할)",
+    "meaning": "버릴 패",
     "components": [
       {
         "char": "北",
@@ -4460,7 +4460,7 @@
     "kanji": "胸",
     "reading_on": "キョウ",
     "reading_kun": "むね、むな",
-    "meaning": "가슴",
+    "meaning": "가슴 흉",
     "components": [
       {
         "char": "月",
@@ -4493,7 +4493,7 @@
     "kanji": "脳",
     "reading_on": "ノウ",
     "reading_kun": "",
-    "meaning": "뇌",
+    "meaning": "머리골 뇌",
     "components": [
       {
         "char": "月",
@@ -4526,7 +4526,7 @@
     "kanji": "腹",
     "reading_on": "フク",
     "reading_kun": "はら",
-    "meaning": "배 (마음)",
+    "meaning": "배 복",
     "components": [
       {
         "char": "月",
@@ -4559,7 +4559,7 @@
     "kanji": "臓",
     "reading_on": "ゾウ",
     "reading_kun": "",
-    "meaning": "오장",
+    "meaning": "창자 장",
     "components": [
       {
         "char": "月",
@@ -4592,7 +4592,7 @@
     "kanji": "臨",
     "reading_on": "リン",
     "reading_kun": "のぞ(む)",
-    "meaning": "임할",
+    "meaning": "임할 림",
     "components": [
       {
         "char": "臣",
@@ -4625,7 +4625,7 @@
     "kanji": "至",
     "reading_on": "シ",
     "reading_kun": "いた(る)",
-    "meaning": "이르를",
+    "meaning": "이를 지",
     "components": [
       {
         "char": "至",
@@ -4653,7 +4653,7 @@
     "kanji": "若",
     "reading_on": "ジャク、ニャク",
     "reading_kun": "わか(い)、も(しくわ)",
-    "meaning": "같을 (젊을)",
+    "meaning": "같을 약",
     "components": [
       {
         "char": "艹",
@@ -4686,7 +4686,7 @@
     "kanji": "著",
     "reading_on": "チョ",
     "reading_kun": "あらわ(す)",
-    "meaning": "나타날 (지을)",
+    "meaning": "분명할 착",
     "components": [
       {
         "char": "艹",
@@ -4719,7 +4719,7 @@
     "kanji": "蒸",
     "reading_on": "ジョウ",
     "reading_kun": "む(す)",
-    "meaning": "찔",
+    "meaning": "찔 증",
     "components": [
       {
         "char": "艹",
@@ -4752,7 +4752,7 @@
     "kanji": "蔵",
     "reading_on": "ゾウ",
     "reading_kun": "くら",
-    "meaning": "감출 (곳집)",
+    "meaning": "감출 장",
     "components": [
       {
         "char": "艹",
@@ -4785,7 +4785,7 @@
     "kanji": "蚕",
     "reading_on": "サン",
     "reading_kun": "かいこ",
-    "meaning": "누에",
+    "meaning": "지렁이 천",
     "components": [
       {
         "char": "天",
@@ -4818,7 +4818,7 @@
     "kanji": "衆",
     "reading_on": "シュウ、シュ",
     "reading_kun": "",
-    "meaning": "무리 (많을)",
+    "meaning": "무리 중",
     "components": [
       {
         "char": "血",
@@ -4851,7 +4851,7 @@
     "kanji": "裁",
     "reading_on": "サイ",
     "reading_kun": "た(つ)",
-    "meaning": "마름질할 (결단할)",
+    "meaning": "마름질할 재",
     "components": [
       {
         "char": "𢦏",
@@ -4884,7 +4884,7 @@
     "kanji": "装",
     "reading_on": "ソウ、ショウ",
     "reading_kun": "よそお(う)",
-    "meaning": "꾸밀",
+    "meaning": "차려 입을 장",
     "components": [
       {
         "char": "壮",
@@ -4917,7 +4917,7 @@
     "kanji": "裏",
     "reading_on": "リ",
     "reading_kun": "うら",
-    "meaning": "속 (뒤)",
+    "meaning": "속 리",
     "components": [
       {
         "char": "衣",
@@ -4950,7 +4950,7 @@
     "kanji": "補",
     "reading_on": "ホ",
     "reading_kun": "おぎな(う)",
-    "meaning": "기울 (도울)",
+    "meaning": "기울 보",
     "components": [
       {
         "char": "衤",
@@ -4983,7 +4983,7 @@
     "kanji": "視",
     "reading_on": "シ",
     "reading_kun": "み(る)",
-    "meaning": "볼",
+    "meaning": "볼 시",
     "components": [
       {
         "char": "示",
@@ -5016,7 +5016,7 @@
     "kanji": "覧",
     "reading_on": "ラン",
     "reading_kun": "",
-    "meaning": "볼",
+    "meaning": "볼 람",
     "components": [
       {
         "char": "監",
@@ -5049,7 +5049,7 @@
     "kanji": "討",
     "reading_on": "トウ",
     "reading_kun": "う(つ)",
-    "meaning": "칠 (토벌할)",
+    "meaning": "다스릴 토",
     "components": [
       {
         "char": "言",
@@ -5082,7 +5082,7 @@
     "kanji": "訪",
     "reading_on": "ホウ",
     "reading_kun": "おとず(れる)、たず(ねる)",
-    "meaning": "찾을 (방문할)",
+    "meaning": "찾을 방",
     "components": [
       {
         "char": "言",
@@ -5115,7 +5115,7 @@
     "kanji": "訳",
     "reading_on": "ヤク",
     "reading_kun": "わけ",
-    "meaning": "번역할 (까닭)",
+    "meaning": "번역할 역",
     "components": [
       {
         "char": "言",
@@ -5148,7 +5148,7 @@
     "kanji": "詞",
     "reading_on": "シ",
     "reading_kun": "",
-    "meaning": "말씀 (글)",
+    "meaning": "말씀 사",
     "components": [
       {
         "char": "言",
@@ -5181,7 +5181,7 @@
     "kanji": "誌",
     "reading_on": "シ",
     "reading_kun": "",
-    "meaning": "기록할 (잡지)",
+    "meaning": "기록할 지",
     "components": [
       {
         "char": "言",
@@ -5214,7 +5214,7 @@
     "kanji": "認",
     "reading_on": "ニン",
     "reading_kun": "みと(める)",
-    "meaning": "알 (인정할)",
+    "meaning": "알 인",
     "components": [
       {
         "char": "言",
@@ -5247,7 +5247,7 @@
     "kanji": "誕",
     "reading_on": "タン",
     "reading_kun": "",
-    "meaning": "낳을",
+    "meaning": "기를 탄",
     "components": [
       {
         "char": "言",
@@ -5280,7 +5280,7 @@
     "kanji": "誠",
     "reading_on": "セイ",
     "reading_kun": "まこと",
-    "meaning": "정성 (참)",
+    "meaning": "미쁠 성",
     "components": [
       {
         "char": "言",
@@ -5313,7 +5313,7 @@
     "kanji": "誤",
     "reading_on": "ゴ",
     "reading_kun": "あやま(る)",
-    "meaning": "그르칠 (잘못)",
+    "meaning": "그릇할 오",
     "components": [
       {
         "char": "言",
@@ -5346,7 +5346,7 @@
     "kanji": "論",
     "reading_on": "ロン",
     "reading_kun": "",
-    "meaning": "논할",
+    "meaning": "차례 륜",
     "components": [
       {
         "char": "言",
@@ -5379,7 +5379,7 @@
     "kanji": "諸",
     "reading_on": "ショ",
     "reading_kun": "",
-    "meaning": "모든 (제)",
+    "meaning": "모든 제",
     "components": [
       {
         "char": "言",
@@ -5412,7 +5412,7 @@
     "kanji": "警",
     "reading_on": "ケイ",
     "reading_kun": "",
-    "meaning": "경계할",
+    "meaning": "경계할 경",
     "components": [
       {
         "char": "敬",
@@ -5445,7 +5445,7 @@
     "kanji": "貴",
     "reading_on": "キ",
     "reading_kun": "たっと(い)、とうと(い)、たっと(ぶ)、とうと(ぶ)",
-    "meaning": "귀할",
+    "meaning": "높을 귀",
     "components": [
       {
         "char": "𠀐",
@@ -5478,7 +5478,7 @@
     "kanji": "賃",
     "reading_on": "チン",
     "reading_kun": "",
-    "meaning": "품삯",
+    "meaning": "품팔이 임",
     "components": [
       {
         "char": "任",
@@ -5511,7 +5511,7 @@
     "kanji": "遺",
     "reading_on": "イ、ユイ",
     "reading_kun": "",
-    "meaning": "남길",
+    "meaning": "잃어버릴 유",
     "components": [
       {
         "char": "辶",
@@ -5544,7 +5544,7 @@
     "kanji": "郵",
     "reading_on": "ユウ",
     "reading_kun": "",
-    "meaning": "우편 (역참)",
+    "meaning": "역말 우",
     "components": [
       {
         "char": "垂",
@@ -5577,7 +5577,7 @@
     "kanji": "郷",
     "reading_on": "キョウ、ゴウ",
     "reading_kun": "さと",
-    "meaning": "시골 (고향)",
+    "meaning": "시골 향",
     "components": [
       {
         "char": "郷",
@@ -5605,7 +5605,7 @@
     "kanji": "針",
     "reading_on": "シン",
     "reading_kun": "はり",
-    "meaning": "바늘",
+    "meaning": "바늘 침",
     "components": [
       {
         "char": "金",
@@ -5638,7 +5638,7 @@
     "kanji": "鋼",
     "reading_on": "コウ",
     "reading_kun": "はがね",
-    "meaning": "강철",
+    "meaning": "쇠 강",
     "components": [
       {
         "char": "金",
@@ -5671,7 +5671,7 @@
     "kanji": "閉",
     "reading_on": "ヘイ",
     "reading_kun": "と(じる)、と(ざす)、し(める)、し(まる)",
-    "meaning": "닫을",
+    "meaning": "닫을 폐",
     "components": [
       {
         "char": "門",
@@ -5704,7 +5704,7 @@
     "kanji": "閣",
     "reading_on": "カク",
     "reading_kun": "",
-    "meaning": "문설주 (누각)",
+    "meaning": "문설주 각",
     "components": [
       {
         "char": "門",
@@ -5737,7 +5737,7 @@
     "kanji": "降",
     "reading_on": "コウ",
     "reading_kun": "お(りる)、お(ろす)、ふ(る)",
-    "meaning": "내릴 (항복할)",
+    "meaning": "항복할 항",
     "components": [
       {
         "char": "阝",
@@ -5770,7 +5770,7 @@
     "kanji": "陛",
     "reading_on": "ヘイ",
     "reading_kun": "",
-    "meaning": "섬돌",
+    "meaning": "대궐 섬돌 폐",
     "components": [
       {
         "char": "阝",
@@ -5803,7 +5803,7 @@
     "kanji": "除",
     "reading_on": "ジョ、ジ",
     "reading_kun": "のぞ(く)",
-    "meaning": "덜 (없앨)",
+    "meaning": "섬돌 제",
     "components": [
       {
         "char": "阝",
@@ -5836,7 +5836,7 @@
     "kanji": "障",
     "reading_on": "ショウ",
     "reading_kun": "さわ(る)",
-    "meaning": "막을",
+    "meaning": "막을 장",
     "components": [
       {
         "char": "阝",
@@ -5869,7 +5869,7 @@
     "kanji": "難",
     "reading_on": "ナン",
     "reading_kun": "むずか(しい)、かた(い)",
-    "meaning": "어려울",
+    "meaning": "어려울 난",
     "components": [
       {
         "char": "𦰩",
@@ -5902,7 +5902,7 @@
     "kanji": "革",
     "reading_on": "カク",
     "reading_kun": "かわ",
-    "meaning": "가죽",
+    "meaning": "가죽 혁",
     "components": [
       {
         "char": "革",
@@ -5930,7 +5930,7 @@
     "kanji": "頂",
     "reading_on": "チョウ",
     "reading_kun": "いただ(く)、いただき",
-    "meaning": "정수리",
+    "meaning": "이마 정",
     "components": [
       {
         "char": "丁",
@@ -5963,7 +5963,7 @@
     "kanji": "骨",
     "reading_on": "コツ",
     "reading_kun": "ほね",
-    "meaning": "뼈",
+    "meaning": "뼈 골",
     "components": [
       {
         "char": "骨",

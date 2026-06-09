@@ -878,7 +878,14 @@ export default function App() {
                           <span className="text-2xl font-serif font-black text-slate-950 group-hover:text-emerald-700 transition-colors duration-300">
                             {wordObj.word}
                           </span>
-                          <span className="text-sm font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-lg font-sans">
+                          <span 
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              speakJapanese(wordObj.reading);
+                            }}
+                            className="text-sm font-bold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 cursor-pointer px-2 py-0.5 rounded-lg font-sans transition-colors"
+                            title="발음 듣기"
+                          >
                             {wordObj.reading}
                           </span>
                         </div>
