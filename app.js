@@ -1,5 +1,4 @@
-
-        let KANJI_DATA = [];
+let KANJI_DATA = [];
 
         // 전역 로마자-가나 변환 맵 (백스페이스 처리에서도 참조)
         const ROMAJI_MAP = {
@@ -286,7 +285,7 @@
 
         async function selectMode(grade, mode) {
             playClickSound();
-            if (grade > 4) {
+            if (grade > 6) {
                 alert(`${grade}학년 데이터는 서비스 준비 중입니다!`);
                 return;
             }
@@ -362,6 +361,7 @@
         function selectScene(scene, fileName) {
             playClickSound();
             document.getElementById('scenario-modal').classList.add('hidden');
+            document.getElementById('scene-back-btn').classList.remove('hidden');
             initAudioContext();
             state.isStoryMode = true;
             state.learningMode = 'SCENE';
@@ -394,7 +394,7 @@
             initAudioContext();
             state.isStoryMode = true;
             state.learningMode = 'STORY';
-            // Extract story name from file name (e.g. 'kaninotokoya.JSON' -> 'kaninotokoya')
+            // Extract story name from file name (e.g. 'data/stories/kaninotokoya.JSON' -> 'kaninotokoya')
             state.currentStoryName = fileName.split('/').pop().replace(/\.[^/.]+$/, "");
             els.container.classList.add('story-mode');
             els.furiganaControls.classList.remove('hidden');
@@ -450,8 +450,27 @@
             }
         }
 
+        function goBackToScenarios() {
+            playClickSound();
+            state.isFinish = false;
+            state.isAudiobookMode = false;
+            if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
+            els.card.classList.remove('audiobook-active');
+            if (els.finishDialog) els.finishDialog.classList.add('hidden');
+            window.speechSynthesis.cancel();
+            audiobookSessionId++; // Increment to stop any active loop
+            if (typeof stopAudio === 'function') stopAudio();
+            document.getElementById('game-container').classList.add('hidden');
+            document.getElementById('start-screen').classList.remove('hidden');
+            document.getElementById('scene-back-btn').classList.add('hidden');
+            document.getElementById('scenario-modal').classList.remove('hidden');
+            state.currentIndex = 0;
+            state.isComplete = false;
+        }
+
         function goHome() {
             playClickSound();
+            document.getElementById('scene-back-btn').classList.add('hidden');
             state.isFinish = false;
             state.isAudiobookMode = false;
             if (els.audiobookSwitch) els.audiobookSwitch.checked = false;
@@ -528,52 +547,34 @@
             }
             if (currentBlock) blocks.push({ text: currentBlock, isKanji: currentIsKanji });
 
-            let kStrIdx = 0;
-            const clean = (s) => s.replace(/[ \f\n\r\t\v\u2028\u2029、。,.!?？！]/g, '');
-
-            for (let i = 0; i < blocks.length; i++) {
-                let block = blocks[i];
-                if (!block.isKanji) {
-                    // 비한자 블록(히라가나 등)이 가나 문자열의 어디에 있는지 찾음
-                    // 공백이나 문장부호 차이를 무시하기 위해 검색 로직 강화
-                    let target = clean(block.text);
-                    let foundIdx = -1;
-
-                    if (target.length === 0) {
-                        // 문장 부호만 있는 블록인 경우, 가장 가까운 문장 부호 위치를 찾음
-                        foundIdx = kanaStr.split('').findIndex((c, idx) => idx >= kStrIdx && !isKanji(c) && clean(c) === "");
-                    } else {
-                        // 가나 문자가 포함된 경우, 해당 가나가 나타나는 위치를 찾음
-                        for (let j = kStrIdx; j <= kanaStr.length - target.length; j++) {
-                            if (clean(kanaStr.substring(j, j + block.text.length + 5)).startsWith(target)) {
-                                foundIdx = j;
-                                break;
-                            }
-                        }
-                    }
-
-                    if (foundIdx >= kStrIdx) {
-                        if (result.length > 0 && result[result.length - 1].isKanji) {
-                            result[result.length - 1].kana = kanaStr.substring(kStrIdx, foundIdx);
-                        }
-                        result.push({ text: block.text });
-                        kStrIdx = foundIdx + block.text.length;
-                        // 실제 kanaStr에서 해당 블록이 끝나는 지점을 정확히 맞추기 위해 보정
-                        while (kStrIdx < kanaStr.length && clean(kanaStr[kStrIdx - 1]) === "" && clean(block.text).length > 0 && clean(kanaStr[kStrIdx]) === "") {
-                            // 기호 처리 로직 보강 가능
-                        }
-                    } else {
-                        // 매핑 실패 시 안전 장치
-                        result.push({ text: block.text });
-                    }
+            let regexStr = "^";
+            blocks.forEach(b => {
+                if (b.isKanji) {
+                    regexStr += "(.*)";
                 } else {
-                    result.push({ text: block.text, isKanji: true });
-                    if (i === blocks.length - 1) {
-                        result[result.length - 1].kana = kanaStr.substring(kStrIdx);
-                    }
+                    regexStr += b.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
                 }
+            });
+            regexStr += "$";
+
+            try {
+                let match = new RegExp(regexStr).exec(kanaStr);
+                if (match) {
+                    let groupIdx = 1;
+                    blocks.forEach(b => {
+                        if (b.isKanji) {
+                            b.kana = match[groupIdx++];
+                        }
+                        result.push(b);
+                    });
+                    return result;
+                }
+            } catch(e) {
+                console.error("Regex align failed", e);
             }
-            return result;
+
+            // Fallback
+            return blocks.map(b => ({text: b.text, isKanji: b.isKanji, kana: b.isKanji ? "" : undefined}));
         }
 
         function renderSentence() {
@@ -972,7 +973,7 @@
                     state.currentIndex++;
                     if (state.currentIndex >= KANJI_DATA.length) {
                         state.isFinish = true;
-                        els.finishDialog.classList.remove('hidden');
+                        showFinishDialog();
                         if (currentAudio) {
                             currentAudio.pause();
                             currentAudio = null;
@@ -1007,6 +1008,15 @@
                 els.input.focus();
             }, 500);
         }
+        function showFinishDialog() {
+            const isScene = state.learningMode === 'SCENE';
+            document.getElementById('finish-info-story').classList.toggle('hidden', isScene);
+            document.getElementById('finish-info-scene').classList.toggle('hidden', !isScene);
+            document.getElementById('finish-btns-story').classList.toggle('hidden', isScene);
+            document.getElementById('finish-btns-scene').classList.toggle('hidden', !isScene);
+            els.finishDialog.classList.remove('hidden');
+        }
+
         function restartStory() {
             playClickSound();
             state.isFinish = false;
@@ -1039,7 +1049,11 @@
             }
 
             if (e.key === 'Escape') {
-                goHome();
+                if (state.learningMode === 'SCENE') {
+                    goBackToScenarios();
+                } else {
+                    goHome();
+                }
                 return;
             }
             if (state.isFinish) {
@@ -1280,7 +1294,7 @@
                 state.currentIndex++;
                 if (state.currentIndex >= KANJI_DATA.length) {
                     state.isFinish = true;
-                    els.finishDialog.classList.remove('hidden');
+                    showFinishDialog();
                     stopAudio();
                 } else {
                     loadKanji();
@@ -1336,7 +1350,7 @@
                 sDiv.innerHTML = `
                     <div class="sentence-text-row">
                         <span class="sentence-ruby-text">${rubyHtml}</span>
-                        <button class="audio-btn small-audio-btn" onclick="playTTS('${sentence.kanji.replace(/'/g, "\'")}')" title="발음 듣기">
+                        <button class="audio-btn small-audio-btn" onclick="playTTS('${sentence.kanji.replace(/'/g, "\\'")}', () => {})" title="발음 듣기">
                             <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
                         </button>
                     </div>
@@ -1348,12 +1362,3 @@
                 els.sentencesContainer.appendChild(sDiv);
             });
         }
-
-        function playTTS(text) {
-            window.speechSynthesis.cancel();
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = 'ja-JP';
-            window.speechSynthesis.speak(utterance);
-        }
-
-    
