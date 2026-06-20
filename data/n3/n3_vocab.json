@@ -1,0 +1,4844 @@
+[
+  {
+    "word": "諦める",
+    "reading": "あきらめる",
+    "meaning": "포기하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "諦",
+        "kor_meaning": "체념할",
+        "kor_sound": "체"
+      }
+    ]
+  },
+  {
+    "word": "集まる",
+    "reading": "あつまる",
+    "meaning": "모이다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "集",
+        "kor_meaning": "모을",
+        "kor_sound": "집"
+      }
+    ]
+  },
+  {
+    "word": "集める",
+    "reading": "あつめる",
+    "meaning": "모으다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "集",
+        "kor_meaning": "모을",
+        "kor_sound": "집"
+      }
+    ]
+  },
+  {
+    "word": "現れる",
+    "reading": "あらわれる",
+    "meaning": "나타나다, 드러나다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "現",
+        "kor_meaning": "나타날",
+        "kor_sound": "현"
+      }
+    ]
+  },
+  {
+    "word": "怒る",
+    "reading": "おこる",
+    "meaning": "화내다, 꾸짖다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "怒",
+        "kor_meaning": "성낼",
+        "kor_sound": "노"
+      }
+    ]
+  },
+  {
+    "word": "行う",
+    "reading": "おこなう",
+    "meaning": "행하다, 실시하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "行",
+        "kor_meaning": "다닐/항렬",
+        "kor_sound": "행"
+      }
+    ]
+  },
+  {
+    "word": "贈る",
+    "reading": "おくる",
+    "meaning": "보내다, 선물하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "贈",
+        "kor_meaning": "줄",
+        "kor_sound": "증"
+      }
+    ]
+  },
+  {
+    "word": "落ち込む",
+    "reading": "おちこむ",
+    "meaning": "우울해지다, 침울해지다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "落",
+        "kor_meaning": "떨어질",
+        "kor_sound": "락"
+      },
+      {
+        "kanji": "込",
+        "kor_meaning": "담을",
+        "kor_sound": "곡"
+      }
+    ]
+  },
+  {
+    "word": "思い出る",
+    "reading": "おもいだす",
+    "meaning": "생각해내다, 기억해내다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "思",
+        "kor_meaning": "생각",
+        "kor_sound": "사"
+      },
+      {
+        "kanji": "出",
+        "kor_meaning": "날",
+        "kor_sound": "출"
+      }
+    ]
+  },
+  {
+    "word": "片付く",
+    "reading": "かたづく",
+    "meaning": "정리되다, 해결되다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "片",
+        "kor_meaning": "조각",
+        "kor_sound": "편"
+      },
+      {
+        "kanji": "付",
+        "kor_meaning": "붙을",
+        "kor_sound": "부"
+      }
+    ]
+  },
+  {
+    "word": "完成する",
+    "reading": "かんせいする",
+    "meaning": "완성하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "完",
+        "kor_meaning": "완전할",
+        "kor_sound": "완"
+      },
+      {
+        "kanji": "成",
+        "kor_meaning": "이룰",
+        "kor_sound": "성"
+      }
+    ]
+  },
+  {
+    "word": "気がつく",
+    "reading": "きがつく",
+    "meaning": "깨닫다, 눈치채다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "気",
+        "kor_meaning": "기운",
+        "kor_sound": "기"
+      }
+    ]
+  },
+  {
+    "word": "決まる",
+    "reading": "きまる",
+    "meaning": "결정되다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "決",
+        "kor_meaning": "결단할",
+        "kor_sound": "결"
+      }
+    ]
+  },
+  {
+    "word": "決める",
+    "reading": "きめる",
+    "meaning": "결정하다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "決",
+        "kor_meaning": "결단할",
+        "kor_sound": "결"
+      }
+    ]
+  },
+  {
+    "word": "比べる",
+    "reading": "くらべる",
+    "meaning": "비교하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "比",
+        "kor_meaning": "견줄",
+        "kor_sound": "비"
+      }
+    ]
+  },
+  {
+    "word": "経験する",
+    "reading": "けいけんする",
+    "meaning": "경험하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "経",
+        "kor_meaning": "날",
+        "kor_sound": "경"
+      },
+      {
+        "kanji": "験",
+        "kor_meaning": "시험",
+        "kor_sound": "험"
+      }
+    ]
+  },
+  {
+    "word": "進む",
+    "reading": "すすむ",
+    "meaning": "나아가다, 진행되다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "進",
+        "kor_meaning": "나아갈",
+        "kor_sound": "신"
+      }
+    ]
+  },
+  {
+    "word": "進める",
+    "reading": "すすめる",
+    "meaning": "진행시키다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "進",
+        "kor_meaning": "나아갈",
+        "kor_sound": "신"
+      }
+    ]
+  },
+  {
+    "word": "育てる",
+    "reading": "そだてる",
+    "meaning": "키우다, 육성하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "育",
+        "kor_meaning": "기를",
+        "kor_sound": "육"
+      }
+    ]
+  },
+  {
+    "word": "達する",
+    "reading": "たっする",
+    "meaning": "도달하다, 이르다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "達",
+        "kor_meaning": "통달할",
+        "kor_sound": "달"
+      }
+    ]
+  },
+  {
+    "word": "助ける",
+    "reading": "たすける",
+    "meaning": "돕다, 구하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "助",
+        "kor_meaning": "도울",
+        "kor_sound": "조"
+      }
+    ]
+  },
+  {
+    "word": "試す",
+    "reading": "ためす",
+    "meaning": "시험하다, 시도하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "試",
+        "kor_meaning": "시험할",
+        "kor_sound": "시"
+      }
+    ]
+  },
+  {
+    "word": "頼る",
+    "reading": "たよる",
+    "meaning": "의지하다, 믿다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "頼",
+        "kor_meaning": "의지할",
+        "kor_sound": "뢰"
+      }
+    ]
+  },
+  {
+    "word": "伝える",
+    "reading": "つたえる",
+    "meaning": "전하다, 알리다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "伝",
+        "kor_meaning": "전할",
+        "kor_sound": "전"
+      }
+    ]
+  },
+  {
+    "word": "続ける",
+    "reading": "つづける",
+    "meaning": "계속하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "続",
+        "kor_meaning": "이을",
+        "kor_sound": "속"
+      }
+    ]
+  },
+  {
+    "word": "延ばす",
+    "reading": "のばす",
+    "meaning": "(기간 등을) 늘이다, 연장하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "延",
+        "kor_meaning": "미칠",
+        "kor_sound": "연"
+      }
+    ]
+  },
+  {
+    "word": "発表する",
+    "reading": "はっぴょうする",
+    "meaning": "발표하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "発",
+        "kor_meaning": "필",
+        "kor_sound": "발"
+      },
+      {
+        "kanji": "表",
+        "kor_meaning": "겉",
+        "kor_sound": "표"
+      }
+    ]
+  },
+  {
+    "word": "反対する",
+    "reading": "はんたいする",
+    "meaning": "반대하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "反",
+        "kor_meaning": "돌이킬",
+        "kor_sound": "반"
+      },
+      {
+        "kanji": "対",
+        "kor_meaning": "대답할/대할",
+        "kor_sound": "대"
+      }
+    ]
+  },
+  {
+    "word": "引き出す",
+    "reading": "ひきだす",
+    "meaning": "꺼내다, 인출하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "引",
+        "kor_meaning": "끌",
+        "kor_sound": "인"
+      },
+      {
+        "kanji": "出",
+        "kor_meaning": "날",
+        "kor_sound": "출"
+      }
+    ]
+  },
+  {
+    "word": "褒める",
+    "reading": "ほめる",
+    "meaning": "칭찬하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "褒",
+        "kor_meaning": "기릴",
+        "kor_sound": "포"
+      }
+    ]
+  },
+  {
+    "word": "翻訳する",
+    "reading": "ほんやくする",
+    "meaning": "번역하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "翻",
+        "kor_meaning": "날릴",
+        "kor_sound": "번"
+      },
+      {
+        "kanji": "訳",
+        "kor_meaning": "번역할",
+        "kor_sound": "역"
+      }
+    ]
+  },
+  {
+    "word": "増える",
+    "reading": "ふえる",
+    "meaning": "늘다, 증가하다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "増",
+        "kor_meaning": "더할",
+        "kor_sound": "증"
+      }
+    ]
+  },
+  {
+    "word": "増やす",
+    "reading": "ふやす",
+    "meaning": "늘리다, 증가시키다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "増",
+        "kor_meaning": "더할",
+        "kor_sound": "증"
+      }
+    ]
+  },
+  {
+    "word": "減る",
+    "reading": "へる",
+    "meaning": "줄다, 감소하다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "減",
+        "kor_meaning": "덜",
+        "kor_sound": "감"
+      }
+    ]
+  },
+  {
+    "word": "減らす",
+    "reading": "へらす",
+    "meaning": "줄이다, 감소시키다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "減",
+        "kor_meaning": "덜",
+        "kor_sound": "감"
+      }
+    ]
+  },
+  {
+    "word": "迷う",
+    "reading": "まよう",
+    "meaning": "헤매다, 망설이다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "迷",
+        "kor_meaning": "미혹할",
+        "kor_sound": "미"
+      }
+    ]
+  },
+  {
+    "word": "間違える",
+    "reading": "まちがえる",
+    "meaning": "틀리다, 실수하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "間",
+        "kor_meaning": "사이",
+        "kor_sound": "간"
+      },
+      {
+        "kanji": "違",
+        "kor_meaning": "어긋날",
+        "kor_sound": "위"
+      }
+    ]
+  },
+  {
+    "word": "戻す",
+    "reading": "もどす",
+    "meaning": "되돌리다, 반납하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "戻",
+        "kor_meaning": "어그러질",
+        "kor_sound": "려"
+      }
+    ]
+  },
+  {
+    "word": "申し込む",
+    "reading": "もうしこむ",
+    "meaning": "신청하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "申",
+        "kor_meaning": "거듭",
+        "kor_sound": "신"
+      },
+      {
+        "kanji": "込",
+        "kor_meaning": "담을",
+        "kor_sound": "곡"
+      }
+    ]
+  },
+  {
+    "word": "約束する",
+    "reading": "やくそくする",
+    "meaning": "약속하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "約",
+        "kor_meaning": "맺을",
+        "kor_sound": "약"
+      },
+      {
+        "kanji": "束",
+        "kor_meaning": "묶을",
+        "kor_sound": "속"
+      }
+    ]
+  },
+  {
+    "word": "役立つ",
+    "reading": "やくだつ",
+    "meaning": "도움이 되다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "役",
+        "kor_meaning": "부릴",
+        "kor_sound": "역"
+      },
+      {
+        "kanji": "立",
+        "kor_meaning": "설",
+        "kor_sound": "립"
+      }
+    ]
+  },
+  {
+    "word": "止む",
+    "reading": "やむ",
+    "meaning": "(비/눈 등이) 그치다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "止",
+        "kor_meaning": "그칠",
+        "kor_sound": "지"
+      }
+    ]
+  },
+  {
+    "word": "許す",
+    "reading": "ゆるす",
+    "meaning": "용서하다, 허락하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "許",
+        "kor_meaning": "이영차",
+        "kor_sound": "호"
+      }
+    ]
+  },
+  {
+    "word": "渡る",
+    "reading": "わたる",
+    "meaning": "건너다 (길, 다리 등)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "渡",
+        "kor_meaning": "건널",
+        "kor_sound": "도"
+      }
+    ]
+  },
+  {
+    "word": "別れる",
+    "reading": "わかれる",
+    "meaning": "헤어지다, 갈라지다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "別",
+        "kor_meaning": "다를",
+        "kor_sound": "별"
+      }
+    ]
+  },
+  {
+    "word": "喜ぶ",
+    "reading": "よろこぶ",
+    "meaning": "기뻐하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "喜",
+        "kor_meaning": "기쁠",
+        "kor_sound": "희"
+      }
+    ]
+  },
+  {
+    "word": "失敗する",
+    "reading": "しっぱいする",
+    "meaning": "실패하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "失",
+        "kor_meaning": "잃을",
+        "kor_sound": "실"
+      },
+      {
+        "kanji": "敗",
+        "kor_meaning": "패할",
+        "kor_sound": "패"
+      }
+    ]
+  },
+  {
+    "word": "成功する",
+    "reading": "せいこうする",
+    "meaning": "성공하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "成",
+        "kor_meaning": "이룰",
+        "kor_sound": "성"
+      },
+      {
+        "kanji": "功",
+        "kor_meaning": "공",
+        "kor_sound": "공"
+      }
+    ]
+  },
+  {
+    "word": "相談する",
+    "reading": "そうだんする",
+    "meaning": "상담하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "相",
+        "kor_meaning": "서로/바탕",
+        "kor_sound": "상"
+      },
+      {
+        "kanji": "談",
+        "kor_meaning": "말씀",
+        "kor_sound": "담"
+      }
+    ]
+  },
+  {
+    "word": "連絡する",
+    "reading": "れんらくする",
+    "meaning": "연락하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "連",
+        "kor_meaning": "잇닿을",
+        "kor_sound": "련"
+      },
+      {
+        "kanji": "絡",
+        "kor_meaning": "이을",
+        "kor_sound": "락"
+      }
+    ]
+  },
+  {
+    "word": "案内する",
+    "reading": "あんないする",
+    "meaning": "안내하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "案",
+        "kor_meaning": "책상",
+        "kor_sound": "안"
+      },
+      {
+        "kanji": "内",
+        "kor_meaning": "안",
+        "kor_sound": "내"
+      }
+    ]
+  },
+  {
+    "word": "意識する",
+    "reading": "いしきする",
+    "meaning": "의식하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "意",
+        "kor_meaning": "뜻",
+        "kor_sound": "의"
+      },
+      {
+        "kanji": "識",
+        "kor_meaning": "표할",
+        "kor_sound": "지"
+      }
+    ]
+  },
+  {
+    "word": "印刷する",
+    "reading": "いんさつする",
+    "meaning": "인쇄하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "印",
+        "kor_meaning": "도장",
+        "kor_sound": "인"
+      },
+      {
+        "kanji": "刷",
+        "kor_meaning": "인쇄할",
+        "kor_sound": "쇄"
+      }
+    ]
+  },
+  {
+    "word": "受け取る",
+    "reading": "うけとる",
+    "meaning": "받아들이다, 수령하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "受",
+        "kor_meaning": "받을",
+        "kor_sound": "수"
+      },
+      {
+        "kanji": "取",
+        "kor_meaning": "취할",
+        "kor_sound": "취"
+      }
+    ]
+  },
+  {
+    "word": "生まれる",
+    "reading": "うまれる",
+    "meaning": "태어나다, 생기다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "生",
+        "kor_meaning": "날",
+        "kor_sound": "생"
+      }
+    ]
+  },
+  {
+    "word": "追いかける",
+    "reading": "おいかける",
+    "meaning": "뒤쫓다, 따라가다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "追",
+        "kor_meaning": "쫓을",
+        "kor_sound": "추"
+      }
+    ]
+  },
+  {
+    "word": "終える",
+    "reading": "おえる",
+    "meaning": "끝내다, 마치다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "終",
+        "kor_meaning": "마칠",
+        "kor_sound": "종"
+      }
+    ]
+  },
+  {
+    "word": "片付ける",
+    "reading": "かたづける",
+    "meaning": "정리하다, 치우다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "片",
+        "kor_meaning": "조각",
+        "kor_sound": "편"
+      },
+      {
+        "kanji": "付",
+        "kor_meaning": "붙을",
+        "kor_sound": "부"
+      }
+    ]
+  },
+  {
+    "word": "関わる",
+    "reading": "かかわる",
+    "meaning": "관계하다, 관련되다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "関",
+        "kor_meaning": "관계할",
+        "kor_sound": "관"
+      }
+    ]
+  },
+  {
+    "word": "通う",
+    "reading": "かよう",
+    "meaning": "다니다 (학교, 직장 등)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "通",
+        "kor_meaning": "통할",
+        "kor_sound": "통"
+      }
+    ]
+  },
+  {
+    "word": "代わる",
+    "reading": "かわる",
+    "meaning": "대신하다, 바뀌다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "代",
+        "kor_meaning": "대신할",
+        "kor_sound": "대"
+      }
+    ]
+  },
+  {
+    "word": "変える",
+    "reading": "かえる",
+    "meaning": "바꾸다, 변화시키다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "変",
+        "kor_meaning": "변할",
+        "kor_sound": "변"
+      }
+    ]
+  },
+  {
+    "word": "工夫する",
+    "reading": "くふうする",
+    "meaning": "궁리하다, 연구하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "工",
+        "kor_meaning": "장인",
+        "kor_sound": "공"
+      },
+      {
+        "kanji": "夫",
+        "kor_meaning": "지아비",
+        "kor_sound": "부"
+      }
+    ]
+  },
+  {
+    "word": "工夫する",
+    "reading": "くふうする",
+    "meaning": "노력하다, 힘쓰다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "工",
+        "kor_meaning": "장인",
+        "kor_sound": "공"
+      },
+      {
+        "kanji": "夫",
+        "kor_meaning": "지아비",
+        "kor_sound": "부"
+      }
+    ]
+  },
+  {
+    "word": "超える",
+    "reading": "こえる",
+    "meaning": "넘다, 초과하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "超",
+        "kor_meaning": "뛰어넘을",
+        "kor_sound": "초"
+      }
+    ]
+  },
+  {
+    "word": "壊れる",
+    "reading": "こわれる",
+    "meaning": "부서지다, 고장나다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "壊",
+        "kor_meaning": "무너질",
+        "kor_sound": "괴"
+      }
+    ]
+  },
+  {
+    "word": "壊す",
+    "reading": "こわす",
+    "meaning": "부수다, 고장내다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "壊",
+        "kor_meaning": "무너질",
+        "kor_sound": "괴"
+      }
+    ]
+  },
+  {
+    "word": "探す",
+    "reading": "さがす",
+    "meaning": "찾다 (잃어버린 물건 등)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "探",
+        "kor_meaning": "더듬을",
+        "kor_sound": "탐"
+      }
+    ]
+  },
+  {
+    "word": "支える",
+    "reading": "ささえる",
+    "meaning": "지탱하다, 떠받치다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "支",
+        "kor_meaning": "가를",
+        "kor_sound": "지"
+      }
+    ]
+  },
+  {
+    "word": "誘う",
+    "reading": "さそう",
+    "meaning": "권유하다, 꼬시다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "誘",
+        "kor_meaning": "꾈",
+        "kor_sound": "유"
+      }
+    ]
+  },
+  {
+    "word": "仕上げる",
+    "reading": "しあげる",
+    "meaning": "마무리하다, 완성하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "仕",
+        "kor_meaning": "벼슬",
+        "kor_sound": "사"
+      },
+      {
+        "kanji": "上",
+        "kor_meaning": "윗",
+        "kor_sound": "상"
+      }
+    ]
+  },
+  {
+    "word": "進める",
+    "reading": "すすめる",
+    "meaning": "추천하다, 권하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "進",
+        "kor_meaning": "나아갈",
+        "kor_sound": "신"
+      }
+    ]
+  },
+  {
+    "word": "捨てる",
+    "reading": "すてる",
+    "meaning": "버리다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "捨",
+        "kor_meaning": "버릴",
+        "kor_sound": "사"
+      }
+    ]
+  },
+  {
+    "word": "成⻑する",
+    "reading": "せいちょうする",
+    "meaning": "성장하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "成",
+        "kor_meaning": "이룰",
+        "kor_sound": "성"
+      }
+    ]
+  },
+  {
+    "word": "設立する",
+    "reading": "せつりつする",
+    "meaning": "설립하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "設",
+        "kor_meaning": "베풀",
+        "kor_sound": "설"
+      },
+      {
+        "kanji": "立",
+        "kor_meaning": "설",
+        "kor_sound": "립"
+      }
+    ]
+  },
+  {
+    "word": "育つ",
+    "reading": "そだつ",
+    "meaning": "자라다, 성장하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "育",
+        "kor_meaning": "기를",
+        "kor_sound": "육"
+      }
+    ]
+  },
+  {
+    "word": "助かる",
+    "reading": "たすかる",
+    "meaning": "살다, 도움이 되다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "助",
+        "kor_meaning": "도울",
+        "kor_sound": "조"
+      }
+    ]
+  },
+  {
+    "word": "尋ねる",
+    "reading": "たずねる",
+    "meaning": "묻다, 질문하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "尋",
+        "kor_meaning": "찾을",
+        "kor_sound": "심"
+      }
+    ]
+  },
+  {
+    "word": "楽しむ",
+    "reading": "たのしむ",
+    "meaning": "즐기다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "楽",
+        "kor_meaning": "즐거울/노래",
+        "kor_sound": "락"
+      }
+    ]
+  },
+  {
+    "word": "直す",
+    "reading": "なおす",
+    "meaning": "고치다, 수정하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "直",
+        "kor_meaning": "곧을",
+        "kor_sound": "직"
+      }
+    ]
+  },
+  {
+    "word": "治る",
+    "reading": "なおる",
+    "meaning": "(병이) 낫다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "治",
+        "kor_meaning": "다스릴",
+        "kor_sound": "치"
+      }
+    ]
+  },
+  {
+    "word": "逃げる",
+    "reading": "にげる",
+    "meaning": "도망치다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "逃",
+        "kor_meaning": "도망할",
+        "kor_sound": "도"
+      }
+    ]
+  },
+  {
+    "word": "除く",
+    "reading": "のぞく",
+    "meaning": "제거하다, 제외하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "除",
+        "kor_meaning": "섬돌",
+        "kor_sound": "제"
+      }
+    ]
+  },
+  {
+    "word": "残る",
+    "reading": "のこる",
+    "meaning": "남다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "残",
+        "kor_meaning": "남을",
+        "kor_sound": "잔"
+      }
+    ]
+  },
+  {
+    "word": "残す",
+    "reading": "のこす",
+    "meaning": "남기다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "残",
+        "kor_meaning": "남을",
+        "kor_sound": "잔"
+      }
+    ]
+  },
+  {
+    "word": "測る",
+    "reading": "はかる",
+    "meaning": "재다, 측정하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "測",
+        "kor_meaning": "측량할",
+        "kor_sound": "측"
+      }
+    ]
+  },
+  {
+    "word": "破る",
+    "reading": "やぶる",
+    "meaning": "깨다, 어기다 (약속, 규칙 등)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "破",
+        "kor_meaning": "깨뜨릴",
+        "kor_sound": "파"
+      }
+    ]
+  },
+  {
+    "word": "張る",
+    "reading": "はる",
+    "meaning": "펴다, 붙이다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "張",
+        "kor_meaning": "베풀",
+        "kor_sound": "장"
+      }
+    ]
+  },
+  {
+    "word": "開く",
+    "reading": "ひらく",
+    "meaning": "열다, 개최하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "開",
+        "kor_meaning": "열",
+        "kor_sound": "개"
+      }
+    ]
+  },
+  {
+    "word": "表現する",
+    "reading": "ひょうげんする",
+    "meaning": "표현하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "表",
+        "kor_meaning": "겉",
+        "kor_sound": "표"
+      },
+      {
+        "kanji": "現",
+        "kor_meaning": "나타날",
+        "kor_sound": "현"
+      }
+    ]
+  },
+  {
+    "word": "深まる",
+    "reading": "ふかまる",
+    "meaning": "깊어지다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "深",
+        "kor_meaning": "깊을",
+        "kor_sound": "신"
+      }
+    ]
+  },
+  {
+    "word": "深める",
+    "reading": "ふかめる",
+    "meaning": "깊게 하다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "深",
+        "kor_meaning": "깊을",
+        "kor_sound": "신"
+      }
+    ]
+  },
+  {
+    "word": "増す",
+    "reading": "ます",
+    "meaning": "증가하다, 더해지다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "増",
+        "kor_meaning": "더할",
+        "kor_sound": "증"
+      }
+    ]
+  },
+  {
+    "word": "目指す",
+    "reading": "めざす",
+    "meaning": "목표로 하다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "目",
+        "kor_meaning": "눈",
+        "kor_sound": "목"
+      },
+      {
+        "kanji": "指",
+        "kor_meaning": "손가락",
+        "kor_sound": "지"
+      }
+    ]
+  },
+  {
+    "word": "燃える",
+    "reading": "もえる",
+    "meaning": "불타다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "燃",
+        "kor_meaning": "불사를",
+        "kor_sound": "연"
+      }
+    ]
+  },
+  {
+    "word": "燃やす",
+    "reading": "もやす",
+    "meaning": "태우다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "燃",
+        "kor_meaning": "불사를",
+        "kor_sound": "연"
+      }
+    ]
+  },
+  {
+    "word": "役立つ",
+    "reading": "やくだつ",
+    "meaning": "도움이 되다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "役",
+        "kor_meaning": "부릴",
+        "kor_sound": "역"
+      },
+      {
+        "kanji": "立",
+        "kor_meaning": "설",
+        "kor_sound": "립"
+      }
+    ]
+  },
+  {
+    "word": "譲る",
+    "reading": "ゆずる",
+    "meaning": "양보하다, 물려주다",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "譲",
+        "kor_meaning": "사양할",
+        "kor_sound": "양"
+      }
+    ]
+  },
+  {
+    "word": "沸く",
+    "reading": "わく",
+    "meaning": "(물이) 끓다 (자동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "沸",
+        "kor_meaning": "끓을",
+        "kor_sound": "비"
+      }
+    ]
+  },
+  {
+    "word": "沸かす",
+    "reading": "わかす",
+    "meaning": "(물을) 끓이다 (타동사)",
+    "type": "verb",
+    "kanji_breakdown": [
+      {
+        "kanji": "沸",
+        "kor_meaning": "끓을",
+        "kor_sound": "비"
+      }
+    ]
+  },
+  {
+    "word": "諦め",
+    "reading": "あきらめ",
+    "meaning": "포기",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "諦",
+        "kor_meaning": "체념할",
+        "kor_sound": "체"
+      }
+    ]
+  },
+  {
+    "word": "安心",
+    "reading": "あんしん",
+    "meaning": "안심",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "安",
+        "kor_meaning": "편안할",
+        "kor_sound": "안"
+      },
+      {
+        "kanji": "心",
+        "kor_meaning": "마음",
+        "kor_sound": "심"
+      }
+    ]
+  },
+  {
+    "word": "意見",
+    "reading": "いけん",
+    "meaning": "의견",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "意",
+        "kor_meaning": "뜻",
+        "kor_sound": "의"
+      },
+      {
+        "kanji": "見",
+        "kor_meaning": "볼",
+        "kor_sound": "견"
+      }
+    ]
+  },
+  {
+    "word": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "meaning": "열심히, 전력투구",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "一",
+        "kor_meaning": "한",
+        "kor_sound": "일"
+      },
+      {
+        "kanji": "生",
+        "kor_meaning": "날",
+        "kor_sound": "생"
+      },
+      {
+        "kanji": "懸",
+        "kor_meaning": "달",
+        "kor_sound": "현"
+      },
+      {
+        "kanji": "命",
+        "kor_meaning": "목숨",
+        "kor_sound": "명"
+      }
+    ]
+  },
+  {
+    "word": "受付",
+    "reading": "うけつけ",
+    "meaning": "접수처, 접수",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "受",
+        "kor_meaning": "받을",
+        "kor_sound": "수"
+      },
+      {
+        "kanji": "付",
+        "kor_meaning": "붙을",
+        "kor_sound": "부"
+      }
+    ]
+  },
+  {
+    "word": "遠慮",
+    "reading": "えんりょ",
+    "meaning": "사양, 삼가함",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "遠",
+        "kor_meaning": "멀",
+        "kor_sound": "원"
+      },
+      {
+        "kanji": "慮",
+        "kor_meaning": "생각할",
+        "kor_sound": "려"
+      }
+    ]
+  },
+  {
+    "word": "大勢",
+    "reading": "おおぜい",
+    "meaning": "많은 사람, 다수",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "大",
+        "kor_meaning": "큰",
+        "kor_sound": "대"
+      },
+      {
+        "kanji": "勢",
+        "kor_meaning": "권세",
+        "kor_sound": "세"
+      }
+    ]
+  },
+  {
+    "word": "可笑しい",
+    "reading": "おかしい",
+    "meaning": "이상함, 우스움",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "可",
+        "kor_meaning": "오랑캐 임금 이름",
+        "kor_sound": "극"
+      },
+      {
+        "kanji": "笑",
+        "kor_meaning": "웃을",
+        "kor_sound": "소"
+      }
+    ]
+  },
+  {
+    "word": "代わり",
+    "reading": "かわり",
+    "meaning": "대신, 대리",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "代",
+        "kor_meaning": "대신할",
+        "kor_sound": "대"
+      }
+    ]
+  },
+  {
+    "word": "期限",
+    "reading": "きげん",
+    "meaning": "기한",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "期",
+        "kor_meaning": "기약할",
+        "kor_sound": "기"
+      },
+      {
+        "kanji": "限",
+        "kor_meaning": "한정할",
+        "kor_sound": "한"
+      }
+    ]
+  },
+  {
+    "word": "決まり",
+    "reading": "きまり",
+    "meaning": "규칙, 결정",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "決",
+        "kor_meaning": "결단할",
+        "kor_sound": "결"
+      }
+    ]
+  },
+  {
+    "word": "教育",
+    "reading": "きょういく",
+    "meaning": "교육",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "教",
+        "kor_meaning": "가르칠",
+        "kor_sound": "교"
+      },
+      {
+        "kanji": "育",
+        "kor_meaning": "기를",
+        "kor_sound": "육"
+      }
+    ]
+  },
+  {
+    "word": "経験",
+    "reading": "けいけん",
+    "meaning": "경험",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "経",
+        "kor_meaning": "날",
+        "kor_sound": "경"
+      },
+      {
+        "kanji": "験",
+        "kor_meaning": "시험",
+        "kor_sound": "험"
+      }
+    ]
+  },
+  {
+    "word": "結構",
+    "reading": "けっこう",
+    "meaning": "훌륭함, 충분함",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "結",
+        "kor_meaning": "맺을",
+        "kor_sound": "결"
+      },
+      {
+        "kanji": "構",
+        "kor_meaning": "집세울",
+        "kor_sound": "구"
+      }
+    ]
+  },
+  {
+    "word": "原因",
+    "reading": "げんいん",
+    "meaning": "원인",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "原",
+        "kor_meaning": "근원",
+        "kor_sound": "원"
+      },
+      {
+        "kanji": "因",
+        "kor_meaning": "인할",
+        "kor_sound": "인"
+      }
+    ]
+  },
+  {
+    "word": "国際",
+    "reading": "こくさい",
+    "meaning": "국제",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "国",
+        "kor_meaning": "나라",
+        "kor_sound": "국"
+      },
+      {
+        "kanji": "際",
+        "kor_meaning": "사이",
+        "kor_sound": "제"
+      }
+    ]
+  },
+  {
+    "word": "最近",
+    "reading": "さいきん",
+    "meaning": "최근",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "最",
+        "kor_meaning": "가장",
+        "kor_sound": "최"
+      },
+      {
+        "kanji": "近",
+        "kor_meaning": "가까울",
+        "kor_sound": "근"
+      }
+    ]
+  },
+  {
+    "word": "様々",
+    "reading": "さまざま",
+    "meaning": "여러 가지, 가지각색",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "様",
+        "kor_meaning": "모양",
+        "kor_sound": "양"
+      }
+    ]
+  },
+  {
+    "word": "参加",
+    "reading": "さんか",
+    "meaning": "참가",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "参",
+        "kor_meaning": "참여할",
+        "kor_sound": "참"
+      },
+      {
+        "kanji": "加",
+        "kor_meaning": "더할",
+        "kor_sound": "가"
+      }
+    ]
+  },
+  {
+    "word": "自信",
+    "reading": "じしん",
+    "meaning": "자신감",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "自",
+        "kor_meaning": "스스로",
+        "kor_sound": "자"
+      },
+      {
+        "kanji": "信",
+        "kor_meaning": "믿을",
+        "kor_sound": "신"
+      }
+    ]
+  },
+  {
+    "word": "事実",
+    "reading": "じじつ",
+    "meaning": "사실",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "事",
+        "kor_meaning": "일",
+        "kor_sound": "사"
+      },
+      {
+        "kanji": "実",
+        "kor_meaning": "열매",
+        "kor_sound": "실"
+      }
+    ]
+  },
+  {
+    "word": "失敗",
+    "reading": "しっぱい",
+    "meaning": "실패",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "失",
+        "kor_meaning": "잃을",
+        "kor_sound": "실"
+      },
+      {
+        "kanji": "敗",
+        "kor_meaning": "패할",
+        "kor_sound": "패"
+      }
+    ]
+  },
+  {
+    "word": "準備",
+    "reading": "じゅんび",
+    "meaning": "준비",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "準",
+        "kor_meaning": "수준기",
+        "kor_sound": "준"
+      },
+      {
+        "kanji": "備",
+        "kor_meaning": "갖출",
+        "kor_sound": "비"
+      }
+    ]
+  },
+  {
+    "word": "紹介",
+    "reading": "しょうかい",
+    "meaning": "소개",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "紹",
+        "kor_meaning": "이을",
+        "kor_sound": "소"
+      },
+      {
+        "kanji": "介",
+        "kor_meaning": "끼일",
+        "kor_sound": "개"
+      }
+    ]
+  },
+  {
+    "word": "性格",
+    "reading": "せいかく",
+    "meaning": "성격",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "性",
+        "kor_meaning": "성품",
+        "kor_sound": "성"
+      },
+      {
+        "kanji": "格",
+        "kor_meaning": "막힐",
+        "kor_sound": "락"
+      }
+    ]
+  },
+  {
+    "word": "成⻑",
+    "reading": "せいちょう",
+    "meaning": "성장",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "成",
+        "kor_meaning": "이룰",
+        "kor_sound": "성"
+      }
+    ]
+  },
+  {
+    "word": "説明",
+    "reading": "せつめい",
+    "meaning": "설명",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "説",
+        "kor_meaning": "말씀",
+        "kor_sound": "설"
+      },
+      {
+        "kanji": "明",
+        "kor_meaning": "밝을",
+        "kor_sound": "명"
+      }
+    ]
+  },
+  {
+    "word": "絶対",
+    "reading": "ぜったい",
+    "meaning": "절대",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "絶",
+        "kor_meaning": "끊을",
+        "kor_sound": "절"
+      },
+      {
+        "kanji": "対",
+        "kor_meaning": "대답할/대할",
+        "kor_sound": "대"
+      }
+    ]
+  },
+  {
+    "word": "退院",
+    "reading": "たいいん",
+    "meaning": "퇴원",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "退",
+        "kor_meaning": "물러갈",
+        "kor_sound": "퇴"
+      },
+      {
+        "kanji": "院",
+        "kor_meaning": "집",
+        "kor_sound": "원"
+      }
+    ]
+  },
+  {
+    "word": "努力",
+    "reading": "どりょく",
+    "meaning": "노력",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "努",
+        "kor_meaning": "힘쓸",
+        "kor_sound": "노"
+      },
+      {
+        "kanji": "力",
+        "kor_meaning": "힘",
+        "kor_sound": "력"
+      }
+    ]
+  },
+  {
+    "word": "苦手",
+    "reading": "にがて",
+    "meaning": "서투름, 약점",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "苦",
+        "kor_meaning": "쓸",
+        "kor_sound": "고"
+      },
+      {
+        "kanji": "手",
+        "kor_meaning": "손",
+        "kor_sound": "수"
+      }
+    ]
+  },
+  {
+    "word": "入院",
+    "reading": "にゅういん",
+    "meaning": "입원",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "入",
+        "kor_meaning": "들",
+        "kor_sound": "입"
+      },
+      {
+        "kanji": "院",
+        "kor_meaning": "집",
+        "kor_sound": "원"
+      }
+    ]
+  },
+  {
+    "word": "場合",
+    "reading": "ばあい",
+    "meaning": "경우",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "場",
+        "kor_meaning": "마당",
+        "kor_sound": "장"
+      },
+      {
+        "kanji": "合",
+        "kor_meaning": "합할",
+        "kor_sound": "합"
+      }
+    ]
+  },
+  {
+    "word": "販売",
+    "reading": "はんばい",
+    "meaning": "판매",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "販",
+        "kor_meaning": "팔",
+        "kor_sound": "판"
+      },
+      {
+        "kanji": "売",
+        "kor_meaning": "팔",
+        "kor_sound": "매"
+      }
+    ]
+  },
+  {
+    "word": "比較",
+    "reading": "ひかく",
+    "meaning": "비교",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "比",
+        "kor_meaning": "견줄",
+        "kor_sound": "비"
+      },
+      {
+        "kanji": "較",
+        "kor_meaning": "견줄",
+        "kor_sound": "교"
+      }
+    ]
+  },
+  {
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning": "필요",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "必",
+        "kor_meaning": "반드시",
+        "kor_sound": "필"
+      },
+      {
+        "kanji": "要",
+        "kor_meaning": "요긴할",
+        "kor_sound": "요"
+      }
+    ]
+  },
+  {
+    "word": "普段",
+    "reading": "ふだん",
+    "meaning": "평소, 보통 때",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "普",
+        "kor_meaning": "넓을",
+        "kor_sound": "보"
+      },
+      {
+        "kanji": "段",
+        "kor_meaning": "층계",
+        "kor_sound": "단"
+      }
+    ]
+  },
+  {
+    "word": "夫婦",
+    "reading": "ふうふ",
+    "meaning": "부부",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "夫",
+        "kor_meaning": "지아비",
+        "kor_sound": "부"
+      },
+      {
+        "kanji": "婦",
+        "kor_meaning": "며느리",
+        "kor_sound": "부"
+      }
+    ]
+  },
+  {
+    "word": "部分",
+    "reading": "ぶぶん",
+    "meaning": "부분",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "部",
+        "kor_meaning": "떼",
+        "kor_sound": "부"
+      },
+      {
+        "kanji": "分",
+        "kor_meaning": "나눌",
+        "kor_sound": "분"
+      }
+    ]
+  },
+  {
+    "word": "目標",
+    "reading": "もくひょう",
+    "meaning": "목표",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "目",
+        "kor_meaning": "눈",
+        "kor_sound": "목"
+      },
+      {
+        "kanji": "標",
+        "kor_meaning": "표",
+        "kor_sound": "표"
+      }
+    ]
+  },
+  {
+    "word": "役割",
+    "reading": "やくわり",
+    "meaning": "역할",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "役",
+        "kor_meaning": "부릴",
+        "kor_sound": "역"
+      },
+      {
+        "kanji": "割",
+        "kor_meaning": "벨",
+        "kor_sound": "할"
+      }
+    ]
+  },
+  {
+    "word": "理由",
+    "reading": "りゆう",
+    "meaning": "이유",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "理",
+        "kor_meaning": "다스릴",
+        "kor_sound": "리"
+      },
+      {
+        "kanji": "由",
+        "kor_meaning": "말미암을",
+        "kor_sound": "유"
+      }
+    ]
+  },
+  {
+    "word": "連絡",
+    "reading": "れんらく",
+    "meaning": "연락",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "連",
+        "kor_meaning": "잇닿을",
+        "kor_sound": "련"
+      },
+      {
+        "kanji": "絡",
+        "kor_meaning": "이을",
+        "kor_sound": "락"
+      }
+    ]
+  },
+  {
+    "word": "話題",
+    "reading": "わだい",
+    "meaning": "화제",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "話",
+        "kor_meaning": "말씀",
+        "kor_sound": "화"
+      },
+      {
+        "kanji": "題",
+        "kor_meaning": "제목",
+        "kor_sound": "제"
+      }
+    ]
+  },
+  {
+    "word": "案内",
+    "reading": "あんない",
+    "meaning": "안내",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "案",
+        "kor_meaning": "책상",
+        "kor_sound": "안"
+      },
+      {
+        "kanji": "内",
+        "kor_meaning": "안",
+        "kor_sound": "내"
+      }
+    ]
+  },
+  {
+    "word": "意外",
+    "reading": "いがい",
+    "meaning": "의외",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "意",
+        "kor_meaning": "뜻",
+        "kor_sound": "의"
+      },
+      {
+        "kanji": "外",
+        "kor_meaning": "바깥",
+        "kor_sound": "외"
+      }
+    ]
+  },
+  {
+    "word": "一列",
+    "reading": "いちれつ",
+    "meaning": "한 줄, 일렬",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "一",
+        "kor_meaning": "한",
+        "kor_sound": "일"
+      },
+      {
+        "kanji": "列",
+        "kor_meaning": "벌일",
+        "kor_sound": "렬"
+      }
+    ]
+  },
+  {
+    "word": "お礼",
+    "reading": "おれい",
+    "meaning": "감사, 사례",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "礼",
+        "kor_meaning": "예도",
+        "kor_sound": "례"
+      }
+    ]
+  },
+  {
+    "word": "改札",
+    "reading": "かいさつ",
+    "meaning": "개찰, 개찰구",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "改",
+        "kor_meaning": "고칠",
+        "kor_sound": "개"
+      },
+      {
+        "kanji": "札",
+        "kor_meaning": "편지",
+        "kor_sound": "찰"
+      }
+    ]
+  },
+  {
+    "word": "管理",
+    "reading": "かんり",
+    "meaning": "관리",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "管",
+        "kor_meaning": "대롱",
+        "kor_sound": "관"
+      },
+      {
+        "kanji": "理",
+        "kor_meaning": "다스릴",
+        "kor_sound": "리"
+      }
+    ]
+  },
+  {
+    "word": "気温",
+    "reading": "きおん",
+    "meaning": "기온",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "気",
+        "kor_meaning": "기운",
+        "kor_sound": "기"
+      },
+      {
+        "kanji": "温",
+        "kor_meaning": "따뜻할",
+        "kor_sound": "온"
+      }
+    ]
+  },
+  {
+    "word": "芸術",
+    "reading": "げいじゅつ",
+    "meaning": "예술",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "芸",
+        "kor_meaning": "재주",
+        "kor_sound": "예"
+      },
+      {
+        "kanji": "術",
+        "kor_meaning": "재주",
+        "kor_sound": "술"
+      }
+    ]
+  },
+  {
+    "word": "合格",
+    "reading": "ごうかく",
+    "meaning": "합격",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "合",
+        "kor_meaning": "합할",
+        "kor_sound": "합"
+      },
+      {
+        "kanji": "格",
+        "kor_meaning": "막힐",
+        "kor_sound": "락"
+      }
+    ]
+  },
+  {
+    "word": "最後",
+    "reading": "さいご",
+    "meaning": "최후, 마지막",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "最",
+        "kor_meaning": "가장",
+        "kor_sound": "최"
+      },
+      {
+        "kanji": "後",
+        "kor_meaning": "뒤",
+        "kor_sound": "후"
+      }
+    ]
+  },
+  {
+    "word": "寂しさ",
+    "reading": "さびしさ",
+    "meaning": "쓸쓸함, 외로움",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "寂",
+        "kor_meaning": "고요할",
+        "kor_sound": "적"
+      }
+    ]
+  },
+  {
+    "word": "支度",
+    "reading": "したく",
+    "meaning": "채비, 준비",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "支",
+        "kor_meaning": "가를",
+        "kor_sound": "지"
+      },
+      {
+        "kanji": "度",
+        "kor_meaning": "법도/횟수",
+        "kor_sound": "도"
+      }
+    ]
+  },
+  {
+    "word": "修理",
+    "reading": "しゅうり",
+    "meaning": "수리",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "修",
+        "kor_meaning": "닦을",
+        "kor_sound": "수"
+      },
+      {
+        "kanji": "理",
+        "kor_meaning": "다스릴",
+        "kor_sound": "리"
+      }
+    ]
+  },
+  {
+    "word": "出張",
+    "reading": "しゅっちょう",
+    "meaning": "출장",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "出",
+        "kor_meaning": "날",
+        "kor_sound": "출"
+      },
+      {
+        "kanji": "張",
+        "kor_meaning": "베풀",
+        "kor_sound": "장"
+      }
+    ]
+  },
+  {
+    "word": "節約",
+    "reading": "せつやく",
+    "meaning": "절약",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "節",
+        "kor_meaning": "마디",
+        "kor_sound": "절"
+      },
+      {
+        "kanji": "約",
+        "kor_meaning": "맺을",
+        "kor_sound": "약"
+      }
+    ]
+  },
+  {
+    "word": "相談",
+    "reading": "そうだん",
+    "meaning": "상담",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "相",
+        "kor_meaning": "서로/바탕",
+        "kor_sound": "상"
+      },
+      {
+        "kanji": "談",
+        "kor_meaning": "말씀",
+        "kor_sound": "담"
+      }
+    ]
+  },
+  {
+    "word": "退屈",
+    "reading": "たいくつ",
+    "meaning": "지루함, 심심풀이",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "退",
+        "kor_meaning": "물러갈",
+        "kor_sound": "퇴"
+      },
+      {
+        "kanji": "屈",
+        "kor_meaning": "굽힐",
+        "kor_sound": "굴"
+      }
+    ]
+  },
+  {
+    "word": "試し",
+    "reading": "ためし",
+    "meaning": "시험, 시도",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "試",
+        "kor_meaning": "시험할",
+        "kor_sound": "시"
+      }
+    ]
+  },
+  {
+    "word": "近頃",
+    "reading": "ちかごろ",
+    "meaning": "요즈음, 근래",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "近",
+        "kor_meaning": "가까울",
+        "kor_sound": "근"
+      },
+      {
+        "kanji": "頃",
+        "kor_meaning": "잠깐",
+        "kor_sound": "경"
+      }
+    ]
+  },
+  {
+    "word": "通訳",
+    "reading": "つうやく",
+    "meaning": "통역",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "通",
+        "kor_meaning": "통할",
+        "kor_sound": "통"
+      },
+      {
+        "kanji": "訳",
+        "kor_meaning": "번역할",
+        "kor_sound": "역"
+      }
+    ]
+  },
+  {
+    "word": "突然",
+    "reading": "とつぜん",
+    "meaning": "돌연, 갑자기",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "突",
+        "kor_meaning": "갑자기",
+        "kor_sound": "돌"
+      },
+      {
+        "kanji": "然",
+        "kor_meaning": "그러할",
+        "kor_sound": "연"
+      }
+    ]
+  },
+  {
+    "word": "熱心",
+    "reading": "ねっしん",
+    "meaning": "열심",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "熱",
+        "kor_meaning": "더울",
+        "kor_sound": "열"
+      },
+      {
+        "kanji": "心",
+        "kor_meaning": "마음",
+        "kor_sound": "심"
+      }
+    ]
+  },
+  {
+    "word": "反対",
+    "reading": "はんたい",
+    "meaning": "반대",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "反",
+        "kor_meaning": "돌이킬",
+        "kor_sound": "반"
+      },
+      {
+        "kanji": "対",
+        "kor_meaning": "대답할/대할",
+        "kor_sound": "대"
+      }
+    ]
+  },
+  {
+    "word": "美術",
+    "reading": "びじゅつ",
+    "meaning": "미술",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "美",
+        "kor_meaning": "아름다울",
+        "kor_sound": "미"
+      },
+      {
+        "kanji": "術",
+        "kor_meaning": "재주",
+        "kor_sound": "술"
+      }
+    ]
+  },
+  {
+    "word": "文句",
+    "reading": "もんく",
+    "meaning": "불평, 불만",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "文",
+        "kor_meaning": "글월",
+        "kor_sound": "문"
+      },
+      {
+        "kanji": "句",
+        "kor_meaning": "글귀",
+        "kor_sound": "귀"
+      }
+    ]
+  },
+  {
+    "word": "優勝",
+    "reading": "ゆうしょう",
+    "meaning": "우승",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "優",
+        "kor_meaning": "넉넉할",
+        "kor_sound": "우"
+      },
+      {
+        "kanji": "勝",
+        "kor_meaning": "이길",
+        "kor_sound": "승"
+      }
+    ]
+  },
+  {
+    "word": "余裕",
+    "reading": "よゆう",
+    "meaning": "여유",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "余",
+        "kor_meaning": "자기",
+        "kor_sound": "여"
+      },
+      {
+        "kanji": "裕",
+        "kor_meaning": "넉넉할",
+        "kor_sound": "유"
+      }
+    ]
+  },
+  {
+    "word": "量",
+    "reading": "りょう",
+    "meaning": "양",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "量",
+        "kor_meaning": "헤아릴",
+        "kor_sound": "량"
+      }
+    ]
+  },
+  {
+    "word": "割合",
+    "reading": "わりあい",
+    "meaning": "비율",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "割",
+        "kor_meaning": "벨",
+        "kor_sound": "할"
+      },
+      {
+        "kanji": "合",
+        "kor_meaning": "합할",
+        "kor_sound": "합"
+      }
+    ]
+  },
+  {
+    "word": "意識",
+    "reading": "いしき",
+    "meaning": "의식",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "意",
+        "kor_meaning": "뜻",
+        "kor_sound": "의"
+      },
+      {
+        "kanji": "識",
+        "kor_meaning": "표할",
+        "kor_sound": "지"
+      }
+    ]
+  },
+  {
+    "word": "運転",
+    "reading": "うんてん",
+    "meaning": "운전",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "運",
+        "kor_meaning": "옮길",
+        "kor_sound": "운"
+      },
+      {
+        "kanji": "転",
+        "kor_meaning": "구를",
+        "kor_sound": "전"
+      }
+    ]
+  },
+  {
+    "word": "環境",
+    "reading": "かんきょう",
+    "meaning": "환경",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "環",
+        "kor_meaning": "고리",
+        "kor_sound": "환"
+      },
+      {
+        "kanji": "境",
+        "kor_meaning": "지경",
+        "kor_sound": "경"
+      }
+    ]
+  },
+  {
+    "word": "活動",
+    "reading": "かつどう",
+    "meaning": "활동",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "活",
+        "kor_meaning": "살",
+        "kor_sound": "활"
+      },
+      {
+        "kanji": "動",
+        "kor_meaning": "움직일",
+        "kor_sound": "동"
+      }
+    ]
+  },
+  {
+    "word": "結果",
+    "reading": "けっか",
+    "meaning": "결과",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "結",
+        "kor_meaning": "맺을",
+        "kor_sound": "결"
+      },
+      {
+        "kanji": "果",
+        "kor_meaning": "열매",
+        "kor_sound": "과"
+      }
+    ]
+  },
+  {
+    "word": "交通",
+    "reading": "こうつう",
+    "meaning": "교통",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "交",
+        "kor_meaning": "사귈",
+        "kor_sound": "교"
+      },
+      {
+        "kanji": "通",
+        "kor_meaning": "통할",
+        "kor_sound": "통"
+      }
+    ]
+  },
+  {
+    "word": "国語",
+    "reading": "こくご",
+    "meaning": "국어",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "国",
+        "kor_meaning": "나라",
+        "kor_sound": "국"
+      },
+      {
+        "kanji": "語",
+        "kor_meaning": "말씀",
+        "kor_sound": "어"
+      }
+    ]
+  },
+  {
+    "word": "材料",
+    "reading": "ざいりょう",
+    "meaning": "재료",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "材",
+        "kor_meaning": "재목",
+        "kor_sound": "재"
+      },
+      {
+        "kanji": "料",
+        "kor_meaning": "헤아릴",
+        "kor_sound": "료"
+      }
+    ]
+  },
+  {
+    "word": "事故",
+    "reading": "じこ",
+    "meaning": "사고",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "事",
+        "kor_meaning": "일",
+        "kor_sound": "사"
+      },
+      {
+        "kanji": "故",
+        "kor_meaning": "옛",
+        "kor_sound": "고"
+      }
+    ]
+  },
+  {
+    "word": "自然",
+    "reading": "しぜん",
+    "meaning": "자연",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "自",
+        "kor_meaning": "스스로",
+        "kor_sound": "자"
+      },
+      {
+        "kanji": "然",
+        "kor_meaning": "그러할",
+        "kor_sound": "연"
+      }
+    ]
+  },
+  {
+    "word": "進路",
+    "reading": "しんろ",
+    "meaning": "진로",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "進",
+        "kor_meaning": "나아갈",
+        "kor_sound": "신"
+      },
+      {
+        "kanji": "路",
+        "kor_meaning": "길",
+        "kor_sound": "로"
+      }
+    ]
+  },
+  {
+    "word": "責任",
+    "reading": "せきにん",
+    "meaning": "책임",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "責",
+        "kor_meaning": "꾸짖을",
+        "kor_sound": "책"
+      },
+      {
+        "kanji": "任",
+        "kor_meaning": "맡길",
+        "kor_sound": "임"
+      }
+    ]
+  },
+  {
+    "word": "全体",
+    "reading": "ぜんたい",
+    "meaning": "전체",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "全",
+        "kor_meaning": "온전할",
+        "kor_sound": "전"
+      },
+      {
+        "kanji": "体",
+        "kor_meaning": "몸",
+        "kor_sound": "체"
+      }
+    ]
+  },
+  {
+    "word": "想像",
+    "reading": "そうぞう",
+    "meaning": "상상",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "想",
+        "kor_meaning": "생각",
+        "kor_sound": "상"
+      },
+      {
+        "kanji": "像",
+        "kor_meaning": "형상",
+        "kor_sound": "상"
+      }
+    ]
+  },
+  {
+    "word": "単位",
+    "reading": "たんい",
+    "meaning": "단위",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "単",
+        "kor_meaning": "홑",
+        "kor_sound": "단"
+      },
+      {
+        "kanji": "位",
+        "kor_meaning": "자리",
+        "kor_sound": "위"
+      }
+    ]
+  },
+  {
+    "word": "伝統",
+    "reading": "でんとう",
+    "meaning": "전통",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "伝",
+        "kor_meaning": "전할",
+        "kor_sound": "전"
+      },
+      {
+        "kanji": "統",
+        "kor_meaning": "거느릴",
+        "kor_sound": "통"
+      }
+    ]
+  },
+  {
+    "word": "能力",
+    "reading": "のうりょく",
+    "meaning": "능력",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "能",
+        "kor_meaning": "능할",
+        "kor_sound": "능"
+      },
+      {
+        "kanji": "力",
+        "kor_meaning": "힘",
+        "kor_sound": "력"
+      }
+    ]
+  },
+  {
+    "word": "博物館",
+    "reading": "はくぶつかん",
+    "meaning": "박물관",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "博",
+        "kor_meaning": "넓을",
+        "kor_sound": "박"
+      },
+      {
+        "kanji": "物",
+        "kor_meaning": "만물",
+        "kor_sound": "물"
+      },
+      {
+        "kanji": "館",
+        "kor_meaning": "집",
+        "kor_sound": "관"
+      }
+    ]
+  },
+  {
+    "word": "表現",
+    "reading": "ひょうげん",
+    "meaning": "표현",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "表",
+        "kor_meaning": "겉",
+        "kor_sound": "표"
+      },
+      {
+        "kanji": "現",
+        "kor_meaning": "나타날",
+        "kor_sound": "현"
+      }
+    ]
+  },
+  {
+    "word": "文化",
+    "reading": "ぶんか",
+    "meaning": "문화",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "文",
+        "kor_meaning": "글월",
+        "kor_sound": "문"
+      },
+      {
+        "kanji": "化",
+        "kor_meaning": "될",
+        "kor_sound": "화"
+      }
+    ]
+  },
+  {
+    "word": "未来",
+    "reading": "みらい",
+    "meaning": "미래",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "未",
+        "kor_meaning": "아닐",
+        "kor_sound": "미"
+      },
+      {
+        "kanji": "来",
+        "kor_meaning": "올",
+        "kor_sound": "래"
+      }
+    ]
+  },
+  {
+    "word": "無理",
+    "reading": "むり",
+    "meaning": "무리, 불가능",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "無",
+        "kor_meaning": "없을",
+        "kor_sound": "무"
+      },
+      {
+        "kanji": "理",
+        "kor_meaning": "다스릴",
+        "kor_sound": "리"
+      }
+    ]
+  },
+  {
+    "word": "約束",
+    "reading": "やくそく",
+    "meaning": "약속",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "約",
+        "kor_meaning": "맺을",
+        "kor_sound": "약"
+      },
+      {
+        "kanji": "束",
+        "kor_meaning": "묶을",
+        "kor_sound": "속"
+      }
+    ]
+  },
+  {
+    "word": "様子",
+    "reading": "ようす",
+    "meaning": "모습, 상황",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "様",
+        "kor_meaning": "모양",
+        "kor_sound": "양"
+      },
+      {
+        "kanji": "子",
+        "kor_meaning": "아들",
+        "kor_sound": "자"
+      }
+    ]
+  },
+  {
+    "word": "留学",
+    "reading": "りゅうがく",
+    "meaning": "유학",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "留",
+        "kor_meaning": "머무를",
+        "kor_sound": "류"
+      },
+      {
+        "kanji": "学",
+        "kor_meaning": "배울",
+        "kor_sound": "학"
+      }
+    ]
+  },
+  {
+    "word": "歴史",
+    "reading": "れきし",
+    "meaning": "역사",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "歴",
+        "kor_meaning": "지낼",
+        "kor_sound": "력"
+      },
+      {
+        "kanji": "史",
+        "kor_meaning": "역사",
+        "kor_sound": "사"
+      }
+    ]
+  },
+  {
+    "word": "年齢",
+    "reading": "ねんれい",
+    "meaning": "연령, 나이",
+    "type": "noun",
+    "kanji_breakdown": [
+      {
+        "kanji": "年",
+        "kor_meaning": "해",
+        "kor_sound": "년"
+      },
+      {
+        "kanji": "齢",
+        "kor_meaning": "나이",
+        "kor_sound": "령"
+      }
+    ]
+  },
+  {
+    "word": "형용사 (일본어)",
+    "reading": "히라가나",
+    "meaning": "한국어 뜻",
+    "type": "i-adj",
+    "kanji_breakdown": []
+  },
+  {
+    "word": "浅い",
+    "reading": "あさい",
+    "meaning": "얕다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "浅",
+        "kor_meaning": "얕을",
+        "kor_sound": "천"
+      }
+    ]
+  },
+  {
+    "word": "厚い",
+    "reading": "あつい",
+    "meaning": "두껍다 (책, 벽 등)",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "厚",
+        "kor_meaning": "두터울",
+        "kor_sound": "후"
+      }
+    ]
+  },
+  {
+    "word": "薄い",
+    "reading": "うすい",
+    "meaning": "얇다, 옅다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "薄",
+        "kor_meaning": "엷을",
+        "kor_sound": "박"
+      }
+    ]
+  },
+  {
+    "word": "羨ましい",
+    "reading": "うらやましい",
+    "meaning": "부럽다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "羨",
+        "kor_meaning": "부러워할",
+        "kor_sound": "선"
+      }
+    ]
+  },
+  {
+    "word": "可笑しい",
+    "reading": "おかしい",
+    "meaning": "이상하다, 우습다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "可",
+        "kor_meaning": "오랑캐 임금 이름",
+        "kor_sound": "극"
+      },
+      {
+        "kanji": "笑",
+        "kor_meaning": "웃을",
+        "kor_sound": "소"
+      }
+    ]
+  },
+  {
+    "word": "硬い",
+    "reading": "かたい",
+    "meaning": "딱딱하다, 단단하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "硬",
+        "kor_meaning": "굳을",
+        "kor_sound": "경"
+      }
+    ]
+  },
+  {
+    "word": "細かい",
+    "reading": "こまかい",
+    "meaning": "세세하다, 자세하다, (돈이) 잔돈이다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "細",
+        "kor_meaning": "가늘",
+        "kor_sound": "세"
+      }
+    ]
+  },
+  {
+    "word": "厳しい",
+    "reading": "きびしい",
+    "meaning": "엄격하다, 혹독하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "厳",
+        "kor_meaning": "엄할",
+        "kor_sound": "엄"
+      }
+    ]
+  },
+  {
+    "word": "悔しい",
+    "reading": "くやしい",
+    "meaning": "분하다, 억울하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "悔",
+        "kor_meaning": "뉘우칠",
+        "kor_sound": "회"
+      }
+    ]
+  },
+  {
+    "word": "詳しい",
+    "reading": "くわしい",
+    "meaning": "상세하다, 자세하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "詳",
+        "kor_meaning": "자세할",
+        "kor_sound": "상"
+      }
+    ]
+  },
+  {
+    "word": "濃い",
+    "reading": "こい",
+    "meaning": "진하다 (색, 맛 등)",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "濃",
+        "kor_meaning": "짙을",
+        "kor_sound": "농"
+      }
+    ]
+  },
+  {
+    "word": "寂しい",
+    "reading": "さびしい",
+    "meaning": "쓸쓸하다, 외롭다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "寂",
+        "kor_meaning": "고요할",
+        "kor_sound": "적"
+      }
+    ]
+  },
+  {
+    "word": "眩しい",
+    "reading": "まぶしい",
+    "meaning": "눈부시다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "眩",
+        "kor_meaning": "아찔할",
+        "kor_sound": "현"
+      }
+    ]
+  },
+  {
+    "word": "親しい",
+    "reading": "したしい",
+    "meaning": "친하다, 가깝다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "親",
+        "kor_meaning": "친할",
+        "kor_sound": "친"
+      }
+    ]
+  },
+  {
+    "word": "素早い",
+    "reading": "すばやい",
+    "meaning": "재빠르다, 민첩하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "素",
+        "kor_meaning": "흴",
+        "kor_sound": "소"
+      },
+      {
+        "kanji": "早",
+        "kor_meaning": "이를",
+        "kor_sound": "조"
+      }
+    ]
+  },
+  {
+    "word": "鋭い",
+    "reading": "するどい",
+    "meaning": "날카롭다, 예리하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "鋭",
+        "kor_meaning": "날카로울",
+        "kor_sound": "예"
+      }
+    ]
+  },
+  {
+    "word": "尊い",
+    "reading": "とうとい",
+    "meaning": "귀하다, 존귀하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "尊",
+        "kor_meaning": "술그릇",
+        "kor_sound": "준"
+      }
+    ]
+  },
+  {
+    "word": "苦い",
+    "reading": "にがい",
+    "meaning": "쓰다 (맛)",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "苦",
+        "kor_meaning": "쓸",
+        "kor_sound": "고"
+      }
+    ]
+  },
+  {
+    "word": "温かい",
+    "reading": "あたたかい",
+    "meaning": "따뜻하다 (온도, 마음)",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "温",
+        "kor_meaning": "따뜻할",
+        "kor_sound": "온"
+      }
+    ]
+  },
+  {
+    "word": "鈍い",
+    "reading": "にぶい",
+    "meaning": "둔하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "鈍",
+        "kor_meaning": "둔할",
+        "kor_sound": "둔"
+      }
+    ]
+  },
+  {
+    "word": "恥ずかしい",
+    "reading": "はずかしい",
+    "meaning": "부끄럽다, 창피하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "恥",
+        "kor_meaning": "부끄러울",
+        "kor_sound": "치"
+      }
+    ]
+  },
+  {
+    "word": "深い",
+    "reading": "ふかい",
+    "meaning": "깊다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "深",
+        "kor_meaning": "깊을",
+        "kor_sound": "신"
+      }
+    ]
+  },
+  {
+    "word": "太い",
+    "reading": "ふとい",
+    "meaning": "굵다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "太",
+        "kor_meaning": "클",
+        "kor_sound": "태"
+      }
+    ]
+  },
+  {
+    "word": "細い",
+    "reading": "ほそい",
+    "meaning": "가늘다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "細",
+        "kor_meaning": "가늘",
+        "kor_sound": "세"
+      }
+    ]
+  },
+  {
+    "word": "面倒臭い",
+    "reading": "めんどうくさい",
+    "meaning": "귀찮다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "面",
+        "kor_meaning": "얼굴",
+        "kor_sound": "면"
+      },
+      {
+        "kanji": "倒",
+        "kor_meaning": "넘어질",
+        "kor_sound": "도"
+      },
+      {
+        "kanji": "臭",
+        "kor_meaning": "냄새",
+        "kor_sound": "취"
+      }
+    ]
+  },
+  {
+    "word": "柔らかい",
+    "reading": "やわらかい",
+    "meaning": "부드럽다, 유연하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "柔",
+        "kor_meaning": "부드러울",
+        "kor_sound": "유"
+      }
+    ]
+  },
+  {
+    "word": "幼い",
+    "reading": "おさない",
+    "meaning": "어리다, 유치하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "幼",
+        "kor_meaning": "어릴",
+        "kor_sound": "유"
+      }
+    ]
+  },
+  {
+    "word": "恐ろしい",
+    "reading": "おそろしい",
+    "meaning": "무섭다, 두렵다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "恐",
+        "kor_meaning": "두려울",
+        "kor_sound": "공"
+      }
+    ]
+  },
+  {
+    "word": "片付かない",
+    "reading": "かたづかない",
+    "meaning": "정리되지 않다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "片",
+        "kor_meaning": "조각",
+        "kor_sound": "편"
+      },
+      {
+        "kanji": "付",
+        "kor_meaning": "붙을",
+        "kor_sound": "부"
+      }
+    ]
+  },
+  {
+    "word": "臭い",
+    "reading": "くさい",
+    "meaning": "냄새나다, (악취가) 나다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "臭",
+        "kor_meaning": "냄새",
+        "kor_sound": "취"
+      }
+    ]
+  },
+  {
+    "word": "苦しい",
+    "reading": "くるしい",
+    "meaning": "괴롭다, 고통스럽다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "苦",
+        "kor_meaning": "쓸",
+        "kor_sound": "고"
+      }
+    ]
+  },
+  {
+    "word": "형용사 (일본어)",
+    "reading": "히라가나",
+    "meaning": "한국어 뜻",
+    "type": "i-adj",
+    "kanji_breakdown": []
+  },
+  {
+    "word": "騒がしい",
+    "reading": "さわがしい",
+    "meaning": "시끄럽다, 소란스럽다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "騒",
+        "kor_meaning": "떠들",
+        "kor_sound": "소"
+      }
+    ]
+  },
+  {
+    "word": "仕方ない",
+    "reading": "しかたがない",
+    "meaning": "어쩔 수 없다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "仕",
+        "kor_meaning": "벼슬",
+        "kor_sound": "사"
+      },
+      {
+        "kanji": "方",
+        "kor_meaning": "모/방향",
+        "kor_sound": "방"
+      }
+    ]
+  },
+  {
+    "word": "済まない",
+    "reading": "すまない",
+    "meaning": "미안하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "済",
+        "kor_meaning": "건널",
+        "kor_sound": "제"
+      }
+    ]
+  },
+  {
+    "word": "素晴らしい",
+    "reading": "すばらしい",
+    "meaning": "훌륭하다, 멋지다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "素",
+        "kor_meaning": "흴",
+        "kor_sound": "소"
+      },
+      {
+        "kanji": "晴",
+        "kor_meaning": "맑을",
+        "kor_sound": "청"
+      }
+    ]
+  },
+  {
+    "word": "汚い",
+    "reading": "きたない",
+    "meaning": "더럽다, 지저분하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "汚",
+        "kor_meaning": "더러울",
+        "kor_sound": "오"
+      }
+    ]
+  },
+  {
+    "word": "強い",
+    "reading": "つよい",
+    "meaning": "강하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "強",
+        "kor_meaning": "강할",
+        "kor_sound": "강"
+      }
+    ]
+  },
+  {
+    "word": "弱い",
+    "reading": "よわい",
+    "meaning": "약하다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "弱",
+        "kor_meaning": "약할",
+        "kor_sound": "약"
+      }
+    ]
+  },
+  {
+    "word": "⻑い",
+    "reading": "ながい",
+    "meaning": "길다",
+    "type": "i-adj",
+    "kanji_breakdown": []
+  },
+  {
+    "word": "短い",
+    "reading": "みじかい",
+    "meaning": "짧다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "短",
+        "kor_meaning": "짧을",
+        "kor_sound": "단"
+      }
+    ]
+  },
+  {
+    "word": "早い",
+    "reading": "はやい",
+    "meaning": "빠르다 (속도, 시각)",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "早",
+        "kor_meaning": "이를",
+        "kor_sound": "조"
+      }
+    ]
+  },
+  {
+    "word": "遅い",
+    "reading": "おそい",
+    "meaning": "늦다 (속도, 시각)",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "遅",
+        "kor_meaning": "늦을",
+        "kor_sound": "지"
+      }
+    ]
+  },
+  {
+    "word": "多い",
+    "reading": "おおい",
+    "meaning": "많다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "多",
+        "kor_meaning": "많을",
+        "kor_sound": "다"
+      }
+    ]
+  },
+  {
+    "word": "少ない",
+    "reading": "すくない",
+    "meaning": "적다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "少",
+        "kor_meaning": "적을",
+        "kor_sound": "소"
+      }
+    ]
+  },
+  {
+    "word": "遠い",
+    "reading": "とおい",
+    "meaning": "멀다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "遠",
+        "kor_meaning": "멀",
+        "kor_sound": "원"
+      }
+    ]
+  },
+  {
+    "word": "近い",
+    "reading": "ちかい",
+    "meaning": "가깝다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "近",
+        "kor_meaning": "가까울",
+        "kor_sound": "근"
+      }
+    ]
+  },
+  {
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meaning": "새롭다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "新",
+        "kor_meaning": "새",
+        "kor_sound": "신"
+      }
+    ]
+  },
+  {
+    "word": "古い",
+    "reading": "ふるい",
+    "meaning": "낡다, 오래되다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "古",
+        "kor_meaning": "옛",
+        "kor_sound": "고"
+      }
+    ]
+  },
+  {
+    "word": "広い",
+    "reading": "ひろい",
+    "meaning": "넓다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "広",
+        "kor_meaning": "넓을",
+        "kor_sound": "광"
+      }
+    ]
+  },
+  {
+    "word": "狭い",
+    "reading": "せまい",
+    "meaning": "좁다",
+    "type": "i-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "狭",
+        "kor_meaning": "좁을",
+        "kor_sound": "협"
+      }
+    ]
+  },
+  {
+    "word": "형용사 (일본어)",
+    "reading": "히라가나",
+    "meaning": "한국어 뜻",
+    "type": "na-adj",
+    "kanji_breakdown": []
+  },
+  {
+    "word": "安全",
+    "reading": "あんぜん",
+    "meaning": "안전하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "安",
+        "kor_meaning": "편안할",
+        "kor_sound": "안"
+      },
+      {
+        "kanji": "全",
+        "kor_meaning": "온전할",
+        "kor_sound": "전"
+      }
+    ]
+  },
+  {
+    "word": "意外",
+    "reading": "いがい",
+    "meaning": "의외이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "意",
+        "kor_meaning": "뜻",
+        "kor_sound": "의"
+      },
+      {
+        "kanji": "外",
+        "kor_meaning": "바깥",
+        "kor_sound": "외"
+      }
+    ]
+  },
+  {
+    "word": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "meaning": "열심히, 필사적이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "一",
+        "kor_meaning": "한",
+        "kor_sound": "일"
+      },
+      {
+        "kanji": "生",
+        "kor_meaning": "날",
+        "kor_sound": "생"
+      },
+      {
+        "kanji": "懸",
+        "kor_meaning": "달",
+        "kor_sound": "현"
+      },
+      {
+        "kanji": "命",
+        "kor_meaning": "목숨",
+        "kor_sound": "명"
+      }
+    ]
+  },
+  {
+    "word": "偉大",
+    "reading": "いだい",
+    "meaning": "위대하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "偉",
+        "kor_meaning": "훌륭할",
+        "kor_sound": "위"
+      },
+      {
+        "kanji": "大",
+        "kor_meaning": "큰",
+        "kor_sound": "대"
+      }
+    ]
+  },
+  {
+    "word": "遠慮",
+    "reading": "えんりょ",
+    "meaning": "사양함, 조심함",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "遠",
+        "kor_meaning": "멀",
+        "kor_sound": "원"
+      },
+      {
+        "kanji": "慮",
+        "kor_meaning": "생각할",
+        "kor_sound": "려"
+      }
+    ]
+  },
+  {
+    "word": "勝手",
+    "reading": "かって",
+    "meaning": "제멋대로임",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "勝",
+        "kor_meaning": "이길",
+        "kor_sound": "승"
+      },
+      {
+        "kanji": "手",
+        "kor_meaning": "손",
+        "kor_sound": "수"
+      }
+    ]
+  },
+  {
+    "word": "簡単",
+    "reading": "かんたん",
+    "meaning": "간단하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "簡",
+        "kor_meaning": "대쪽",
+        "kor_sound": "간"
+      },
+      {
+        "kanji": "単",
+        "kor_meaning": "홑",
+        "kor_sound": "단"
+      }
+    ]
+  },
+  {
+    "word": "結構",
+    "reading": "けっこう",
+    "meaning": "훌륭하다, 충분하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "結",
+        "kor_meaning": "맺을",
+        "kor_sound": "결"
+      },
+      {
+        "kanji": "構",
+        "kor_meaning": "집세울",
+        "kor_sound": "구"
+      }
+    ]
+  },
+  {
+    "word": "国際的",
+    "reading": "こくさいてき",
+    "meaning": "국제적이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "国",
+        "kor_meaning": "나라",
+        "kor_sound": "국"
+      },
+      {
+        "kanji": "際",
+        "kor_meaning": "사이",
+        "kor_sound": "제"
+      },
+      {
+        "kanji": "的",
+        "kor_meaning": "과녁",
+        "kor_sound": "적"
+      }
+    ]
+  },
+  {
+    "word": "複雑",
+    "reading": "ふくざつ",
+    "meaning": "복잡하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "複",
+        "kor_meaning": "겹칠",
+        "kor_sound": "부"
+      },
+      {
+        "kanji": "雑",
+        "kor_meaning": "섞일",
+        "kor_sound": "잡"
+      }
+    ]
+  },
+  {
+    "word": "積極的",
+    "reading": "せっきょくてき",
+    "meaning": "적극적이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "積",
+        "kor_meaning": "쌓을",
+        "kor_sound": "적"
+      },
+      {
+        "kanji": "極",
+        "kor_meaning": "다할",
+        "kor_sound": "극"
+      },
+      {
+        "kanji": "的",
+        "kor_meaning": "과녁",
+        "kor_sound": "적"
+      }
+    ]
+  },
+  {
+    "word": "消極的",
+    "reading": "しょうきょくてき",
+    "meaning": "소극적이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "消",
+        "kor_meaning": "사라질",
+        "kor_sound": "소"
+      },
+      {
+        "kanji": "極",
+        "kor_meaning": "다할",
+        "kor_sound": "극"
+      },
+      {
+        "kanji": "的",
+        "kor_meaning": "과녁",
+        "kor_sound": "적"
+      }
+    ]
+  },
+  {
+    "word": "自由",
+    "reading": "じゆう",
+    "meaning": "자유롭다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "自",
+        "kor_meaning": "스스로",
+        "kor_sound": "자"
+      },
+      {
+        "kanji": "由",
+        "kor_meaning": "말미암을",
+        "kor_sound": "유"
+      }
+    ]
+  },
+  {
+    "word": "大切",
+    "reading": "たいせつ",
+    "meaning": "중요하다, 소중하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "大",
+        "kor_meaning": "큰",
+        "kor_sound": "대"
+      },
+      {
+        "kanji": "切",
+        "kor_meaning": "끊을",
+        "kor_sound": "절"
+      }
+    ]
+  },
+  {
+    "word": "得意",
+    "reading": "とくい",
+    "meaning": "능숙하다, 자신있다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "得",
+        "kor_meaning": "얻을",
+        "kor_sound": "득"
+      },
+      {
+        "kanji": "意",
+        "kor_meaning": "뜻",
+        "kor_sound": "의"
+      }
+    ]
+  },
+  {
+    "word": "苦手",
+    "reading": "にがて",
+    "meaning": "서투르다, 약하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "苦",
+        "kor_meaning": "쓸",
+        "kor_sound": "고"
+      },
+      {
+        "kanji": "手",
+        "kor_meaning": "손",
+        "kor_sound": "수"
+      }
+    ]
+  },
+  {
+    "word": "熱心",
+    "reading": "ねっしん",
+    "meaning": "열심이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "熱",
+        "kor_meaning": "더울",
+        "kor_sound": "열"
+      },
+      {
+        "kanji": "心",
+        "kor_meaning": "마음",
+        "kor_sound": "심"
+      }
+    ]
+  },
+  {
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning": "필요하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "必",
+        "kor_meaning": "반드시",
+        "kor_sound": "필"
+      },
+      {
+        "kanji": "要",
+        "kor_meaning": "요긴할",
+        "kor_sound": "요"
+      }
+    ]
+  },
+  {
+    "word": "正直",
+    "reading": "しょうじき",
+    "meaning": "정직하다, 솔직하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "正",
+        "kor_meaning": "바를",
+        "kor_sound": "정"
+      },
+      {
+        "kanji": "直",
+        "kor_meaning": "곧을",
+        "kor_sound": "직"
+      }
+    ]
+  },
+  {
+    "word": "夢中",
+    "reading": "むちゅう",
+    "meaning": "열중함, 몰두함",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "夢",
+        "kor_meaning": "꿈",
+        "kor_sound": "몽"
+      },
+      {
+        "kanji": "中",
+        "kor_meaning": "가운데",
+        "kor_sound": "중"
+      }
+    ]
+  },
+  {
+    "word": "無駄",
+    "reading": "むだ",
+    "meaning": "소용없음, 낭비이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "無",
+        "kor_meaning": "없을",
+        "kor_sound": "무"
+      },
+      {
+        "kanji": "駄",
+        "kor_meaning": "짐실을",
+        "kor_sound": "타"
+      }
+    ]
+  },
+  {
+    "word": "無理",
+    "reading": "むり",
+    "meaning": "무리이다, 불가능하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "無",
+        "kor_meaning": "없을",
+        "kor_sound": "무"
+      },
+      {
+        "kanji": "理",
+        "kor_meaning": "다스릴",
+        "kor_sound": "리"
+      }
+    ]
+  },
+  {
+    "word": "楽",
+    "reading": "らく",
+    "meaning": "편안하다, 쉽다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "楽",
+        "kor_meaning": "즐거울/노래",
+        "kor_sound": "락"
+      }
+    ]
+  },
+  {
+    "word": "真剣",
+    "reading": "しんけん",
+    "meaning": "진지하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "真",
+        "kor_meaning": "참",
+        "kor_sound": "신"
+      },
+      {
+        "kanji": "剣",
+        "kor_meaning": "칼",
+        "kor_sound": "검"
+      }
+    ]
+  },
+  {
+    "word": "新鮮",
+    "reading": "しんせん",
+    "meaning": "신선하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "新",
+        "kor_meaning": "새",
+        "kor_sound": "신"
+      },
+      {
+        "kanji": "鮮",
+        "kor_meaning": "고울",
+        "kor_sound": "선"
+      }
+    ]
+  },
+  {
+    "word": "親切",
+    "reading": "しんせつ",
+    "meaning": "친절하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "親",
+        "kor_meaning": "친할",
+        "kor_sound": "친"
+      },
+      {
+        "kanji": "切",
+        "kor_meaning": "끊을",
+        "kor_sound": "절"
+      }
+    ]
+  },
+  {
+    "word": "丁寧",
+    "reading": "ていねい",
+    "meaning": "정중하다, 공손하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "丁",
+        "kor_meaning": "고무래",
+        "kor_sound": "정"
+      },
+      {
+        "kanji": "寧",
+        "kor_meaning": "편안할",
+        "kor_sound": "녕"
+      }
+    ]
+  },
+  {
+    "word": "特別",
+    "reading": "とくべつ",
+    "meaning": "특별하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "特",
+        "kor_meaning": "특별할",
+        "kor_sound": "특"
+      },
+      {
+        "kanji": "別",
+        "kor_meaning": "다를",
+        "kor_sound": "별"
+      }
+    ]
+  },
+  {
+    "word": "突然",
+    "reading": "とつぜん",
+    "meaning": "갑작스럽다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "突",
+        "kor_meaning": "갑자기",
+        "kor_sound": "돌"
+      },
+      {
+        "kanji": "然",
+        "kor_meaning": "그러할",
+        "kor_sound": "연"
+      }
+    ]
+  },
+  {
+    "word": "普段",
+    "reading": "ふだん",
+    "meaning": "평소이다, 보통이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "普",
+        "kor_meaning": "넓을",
+        "kor_sound": "보"
+      },
+      {
+        "kanji": "段",
+        "kor_meaning": "층계",
+        "kor_sound": "단"
+      }
+    ]
+  },
+  {
+    "word": "本気",
+    "reading": "ほんき",
+    "meaning": "진심이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "本",
+        "kor_meaning": "근본",
+        "kor_sound": "본"
+      },
+      {
+        "kanji": "気",
+        "kor_meaning": "기운",
+        "kor_sound": "기"
+      }
+    ]
+  },
+  {
+    "word": "형용사 (일본어)",
+    "reading": "히라가나",
+    "meaning": "한국어 뜻",
+    "type": "na-adj",
+    "kanji_breakdown": []
+  },
+  {
+    "word": "真面目",
+    "reading": "まじめ",
+    "meaning": "성실하다, 진실하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "真",
+        "kor_meaning": "참",
+        "kor_sound": "신"
+      },
+      {
+        "kanji": "面",
+        "kor_meaning": "얼굴",
+        "kor_sound": "면"
+      },
+      {
+        "kanji": "目",
+        "kor_meaning": "눈",
+        "kor_sound": "목"
+      }
+    ]
+  },
+  {
+    "word": "明確",
+    "reading": "めいかく",
+    "meaning": "명확하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "明",
+        "kor_meaning": "밝을",
+        "kor_sound": "명"
+      },
+      {
+        "kanji": "確",
+        "kor_meaning": "굳을",
+        "kor_sound": "확"
+      }
+    ]
+  },
+  {
+    "word": "立派",
+    "reading": "りっぱ",
+    "meaning": "훌륭하다, 뛰어나다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "立",
+        "kor_meaning": "설",
+        "kor_sound": "립"
+      },
+      {
+        "kanji": "派",
+        "kor_meaning": "물 갈래",
+        "kor_sound": "파"
+      }
+    ]
+  },
+  {
+    "word": "当然",
+    "reading": "とうぜん",
+    "meaning": "당연하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "当",
+        "kor_meaning": "마땅할",
+        "kor_sound": "당"
+      },
+      {
+        "kanji": "然",
+        "kor_meaning": "그러할",
+        "kor_sound": "연"
+      }
+    ]
+  },
+  {
+    "word": "普通",
+    "reading": "ふつう",
+    "meaning": "보통이다, 일반적이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "普",
+        "kor_meaning": "넓을",
+        "kor_sound": "보"
+      },
+      {
+        "kanji": "通",
+        "kor_meaning": "통할",
+        "kor_sound": "통"
+      }
+    ]
+  },
+  {
+    "word": "完璧",
+    "reading": "かんぺき",
+    "meaning": "완벽하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "完",
+        "kor_meaning": "완전할",
+        "kor_sound": "완"
+      },
+      {
+        "kanji": "璧",
+        "kor_meaning": "구슬",
+        "kor_sound": "벽"
+      }
+    ]
+  },
+  {
+    "word": "丁寧",
+    "reading": "ていねい",
+    "meaning": "정성스럽다, 꼼꼼하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "丁",
+        "kor_meaning": "고무래",
+        "kor_sound": "정"
+      },
+      {
+        "kanji": "寧",
+        "kor_meaning": "편안할",
+        "kor_sound": "녕"
+      }
+    ]
+  },
+  {
+    "word": "得意",
+    "reading": "とくい",
+    "meaning": "장점, 잘하는 것",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "得",
+        "kor_meaning": "얻을",
+        "kor_sound": "득"
+      },
+      {
+        "kanji": "意",
+        "kor_meaning": "뜻",
+        "kor_sound": "의"
+      }
+    ]
+  },
+  {
+    "word": "苦手",
+    "reading": "にがて",
+    "meaning": "서투른 것, 약점",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "苦",
+        "kor_meaning": "쓸",
+        "kor_sound": "고"
+      },
+      {
+        "kanji": "手",
+        "kor_meaning": "손",
+        "kor_sound": "수"
+      }
+    ]
+  },
+  {
+    "word": "便利",
+    "reading": "べんり",
+    "meaning": "편리하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "便",
+        "kor_meaning": "편할",
+        "kor_sound": "편"
+      },
+      {
+        "kanji": "利",
+        "kor_meaning": "이로울",
+        "kor_sound": "리"
+      }
+    ]
+  },
+  {
+    "word": "不便",
+    "reading": "ふべん",
+    "meaning": "불편하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "不",
+        "kor_meaning": "아닐",
+        "kor_sound": "불"
+      },
+      {
+        "kanji": "便",
+        "kor_meaning": "편할",
+        "kor_sound": "편"
+      }
+    ]
+  },
+  {
+    "word": "様々",
+    "reading": "さまざま",
+    "meaning": "다양하다, 여러 가지이",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "様",
+        "kor_meaning": "모양",
+        "kor_sound": "양"
+      }
+    ]
+  },
+  {
+    "word": "純粋",
+    "reading": "じゅんすい",
+    "meaning": "순수하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "純",
+        "kor_meaning": "선으로 두를",
+        "kor_sound": "준"
+      },
+      {
+        "kanji": "粋",
+        "kor_meaning": "순수할",
+        "kor_sound": "수"
+      }
+    ]
+  },
+  {
+    "word": "深刻",
+    "reading": "しんこく",
+    "meaning": "심각하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "深",
+        "kor_meaning": "깊을",
+        "kor_sound": "신"
+      },
+      {
+        "kanji": "刻",
+        "kor_meaning": "새길",
+        "kor_sound": "각"
+      }
+    ]
+  },
+  {
+    "word": "平均",
+    "reading": "へいきん",
+    "meaning": "평균적이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "平",
+        "kor_meaning": "평평할",
+        "kor_sound": "평"
+      },
+      {
+        "kanji": "均",
+        "kor_meaning": "고를",
+        "kor_sound": "균"
+      }
+    ]
+  },
+  {
+    "word": "独特",
+    "reading": "どくとく",
+    "meaning": "독특하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "独",
+        "kor_meaning": "홀로",
+        "kor_sound": "도"
+      },
+      {
+        "kanji": "特",
+        "kor_meaning": "특별할",
+        "kor_sound": "특"
+      }
+    ]
+  },
+  {
+    "word": "正確",
+    "reading": "せいかく",
+    "meaning": "정확하다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "正",
+        "kor_meaning": "바를",
+        "kor_sound": "정"
+      },
+      {
+        "kanji": "確",
+        "kor_meaning": "굳을",
+        "kor_sound": "확"
+      }
+    ]
+  },
+  {
+    "word": "不明",
+    "reading": "ふめい",
+    "meaning": "불분명하다, 알 수 없",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "不",
+        "kor_meaning": "아닐",
+        "kor_sound": "불"
+      },
+      {
+        "kanji": "明",
+        "kor_meaning": "밝을",
+        "kor_sound": "명"
+      }
+    ]
+  },
+  {
+    "word": "絶対",
+    "reading": "ぜったい",
+    "meaning": "절대적이다",
+    "type": "na-adj",
+    "kanji_breakdown": [
+      {
+        "kanji": "絶",
+        "kor_meaning": "끊을",
+        "kor_sound": "절"
+      },
+      {
+        "kanji": "対",
+        "kor_meaning": "대답할/대할",
+        "kor_sound": "대"
+      }
+    ]
+  }
+]

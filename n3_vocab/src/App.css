@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+:root {
+  --bg-gradient-start: #0f172a;
+  --bg-gradient-end: #1e1b4b;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --accent-color: #38bdf8;
+  --accent-hover: #0ea5e9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', 'Noto Sans KR', sans-serif;
+  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+/* Background animated shapes for Zen vibe */
+.background-shapes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+  filter: blur(80px);
+  border-radius: 50%;
+  opacity: 0.4;
+  animation: float 20s infinite alternate ease-in-out;
+}
+
+.shape-1 {
+  top: -10%;
+  left: -10%;
+  width: 500px;
+  height: 500px;
+  background: #312e81;
+  animation-delay: 0s;
+}
+
+.shape-2 {
+  bottom: -20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: #0c4a6e;
+  animation-delay: -5s;
+}
+
+.shape-3 {
+  top: 40%;
+  left: 60%;
+  width: 400px;
+  height: 400px;
+  background: #4c1d95;
+  animation-delay: -10s;
+}
+
+@keyframes float {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(50px, 50px) scale(1.1); }
+}
+
+/* Common Glassmorphism utility */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: 24px;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header h1 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+}
+
+.progress {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: var(--accent-color);
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* Flashcard */
+.flashcard {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.flashcard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+.card-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--accent-color);
+  letter-spacing: 2px;
+}
+
+.word {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 5px;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  margin-bottom: 1rem;
+}
+
+.meaning-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.meaning-container.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+}
+
+.meaning-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.meaning {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.type-badge {
+  background: rgba(56, 189, 248, 0.2);
+  color: var(--accent-color);
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card-instruction {
+  position: absolute;
+  bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+/* Kanji Breakdown */
+.kanji-breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.kanji-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 16px;
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.kanji-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.kanji-char {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #e2e8f0;
+}
+
+.kanji-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.kanji-kor-meaning {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.kanji-kor-sound {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.glass-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+  border-color: rgba(56, 189, 248, 0.5);
+  color: var(--accent-color);
+}
+
+.glass-btn:active {
+  transform: scale(0.95);
+}
+
+/* Footer */
+.footer {
+  padding: 2rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .word {
+    font-size: 3.5rem;
+  }
+  .reading {
+    font-size: 1.2rem;
+  }
+  .meaning {
+    font-size: 1.5rem;
+  }
+  .kanji-card {
+    min-width: 150px;
+    padding: 0.8rem 1rem;
+  }
+  .kanji-char {
+    font-size: 2rem;
+  }
+  .kanji-kor-sound {
+    font-size: 1.2rem;
+  }
+}
