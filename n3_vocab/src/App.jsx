@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import './App.css'
 import vocabData from './data/n3_vocab.json'
 
@@ -6,11 +6,26 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [words, setWords] = useState([]);
   const [showMeaning, setShowMeaning] = useState(false);
+  const audioRef = useRef(null);
 
   useEffect(() => {
     // Shuffle or just use directly
     setWords(vocabData);
+    audioRef.current = new Audio();
   }, []);
+
+  const playAudio = (e) => {
+    if (e) e.stopPropagation();
+    if (!audioRef.current) return;
+    audioRef.current.src = `./audio/n3_vocab/${currentIndex}.mp3`;
+    audioRef.current.play().catch(err => console.log('Autoplay prevented:', err));
+  };
+
+  useEffect(() => {
+    if (words.length > 0) {
+      playAudio();
+    }
+  }, [currentIndex, words]);
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1) % words.length);
@@ -60,7 +75,12 @@ function App() {
       <main className="main-content">
         <div className="flashcard glass-panel" onClick={toggleMeaning}>
           <div className="card-content">
-            <h2 className="reading">{currentWord.reading}</h2>
+            <div className="reading-wrapper">
+              <h2 className="reading">{currentWord.reading}</h2>
+              <button className="audio-btn glass-btn" onClick={playAudio} title="Play Audio">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+              </button>
+            </div>
             <h1 className="word">{currentWord.word}</h1>
             
             <div className={`meaning-container ${showMeaning ? 'visible' : 'hidden'}`}>
