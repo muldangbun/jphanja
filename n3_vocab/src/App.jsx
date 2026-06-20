@@ -1,12 +1,25 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
 import vocabData from './data/n3_vocab.json'
+import kanjiDict from './data/kanji_dict.json'
 
 function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [words, setWords] = useState([]);
   const [showMeaning, setShowMeaning] = useState(true);
+  const [selectedKanji, setSelectedKanji] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const audioRef = useRef(null);
+
+  const openKanjiModal = (kanji) => {
+    setSelectedKanji(kanji);
+    setIsModalOpen(true);
+  };
+
+  const closeKanjiModal = () => {
+    setIsModalOpen(false);
+    setSelectedKanji(null);
+  };
 
   useEffect(() => {
     // Shuffle or just use directly
@@ -108,7 +121,7 @@ function App() {
 
         <div className="kanji-breakdown">
           {currentWord.kanji_breakdown.map((kanjiInfo, idx) => (
-            <div key={idx} className="kanji-card glass-panel fade-in" style={{ animationDelay: `${idx * 0.1}s` }}>
+            <div key={idx} className="kanji-card glass-panel fade-in" style={{ animationDelay: `${idx * 0.1}s`, cursor: 'pointer' }} onClick={() => openKanjiModal(kanjiInfo)}>
               <div className="kanji-char">{kanjiInfo.kanji}</div>
               <div className="kanji-detail">
                 <span className="kanji-kor-meaning">{kanjiInfo.kor_meaning}</span>
@@ -131,6 +144,70 @@ function App() {
       <footer className="footer">
         Use Arrow Keys ← → to navigate, Space to toggle meaning
       </footer>
+
+      {/* Kanji Modal */}
+      {isModalOpen && selectedKanji && (
+        <div className="modal-overlay" onClick={closeKanjiModal}>
+          <div className="modal-content glass-panel fade-in" onClick={(e) => e.stopPropagation()}>
+            <button className="close-btn" onClick={closeKanjiModal}>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <div className="modal-header">
+              <h2 className="modal-kanji">{selectedKanji.kanji}</h2>
+              <div className="modal-kanji-details">
+                <span className="modal-meaning">{selectedKanji.kor_meaning} {selectedKanji.kor_sound}</span>
+              </div>
+            </div>
+            
+            {kanjiDict[selectedKanji.kanji] ? (
+              <div className="modal-body">
+                <div className="reading-section">
+                  <div className="reading-item">
+                    <span className="reading-label">음독 (ON)</span>
+                    <span className="reading-value">{kanjiDict[selectedKanji.kanji].reading_on || '-'}</span>
+                  </div>
+                  <div className="reading-item">
+                    <span className="reading-label">훈독 (KUN)</span>
+                    <span className="reading-value">{kanjiDict[selectedKanji.kanji].reading_kun || '-'}</span>
+                  </div>
+                  <div className="reading-item">
+                    <span className="reading-label">뜻</span>
+                    <span className="reading-value">{kanjiDict[selectedKanji.kanji].meaning || '-'}</span>
+                  </div>
+                </div>
+
+                {kanjiDict[selectedKanji.kanji].components && kanjiDict[selectedKanji.kanji].components.length > 0 && (
+                  <div className="components-section">
+                    <h3>조각 조립 수식</h3>
+                    <div className="components-equation">
+                      {kanjiDict[selectedKanji.kanji].components.map((comp, idx) => (
+                        <div key={idx} className="component-wrapper">
+                          {idx > 0 && <span className="plus-sign">+</span>}
+                          <div className="component-box glass-panel">
+                            <span className="comp-char">{comp.char}</span>
+                            <span className="comp-role">{comp.role}</span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {kanjiDict[selectedKanji.kanji].story && (
+                  <div className="story-section">
+                    <h3>이야기가 있는 한자 해설</h3>
+                    <p>{kanjiDict[selectedKanji.kanji].story}</p>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="modal-body empty-state">
+                <p>상세 해설이 아직 등록되지 않았습니다.</p>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
