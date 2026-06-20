@@ -104,6 +104,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  position: relative;
+}
+
+.home-btn {
+  width: 45px;
+  height: 45px;
 }
 
 .header h1 {
@@ -135,7 +141,7 @@ body {
 /* Flashcard */
 .flashcard {
   width: 100%;
-  min-height: 350px;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,6 +150,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
+  padding: 2rem 1rem;
 }
 
 .flashcard:hover {
@@ -156,7 +163,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .reading-wrapper {
@@ -203,7 +210,7 @@ body {
   font-weight: 800;
   letter-spacing: 5px;
   text-shadow: 0 4px 20px rgba(0,0,0,0.5);
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .meaning-container {
