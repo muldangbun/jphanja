@@ -139,7 +139,7 @@ def extract_vocab_from_pdfs():
                                 reading = row[2].strip()
                                 meaning = row[3].strip()
 
-                        if not word or word == '동사 (일본어)' or word.startswith('명사'):
+                        if not word or '일본어' in word or word.startswith('명사') or reading == '히라가나':
                             continue
 
                         if '/' in word:
