@@ -5,7 +5,7 @@ import vocabData from './data/n3_vocab.json'
 function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [words, setWords] = useState([]);
-  const [showMeaning, setShowMeaning] = useState(false);
+  const [showMeaning, setShowMeaning] = useState(true);
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -29,12 +29,10 @@ function App() {
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1) % words.length);
-    setShowMeaning(false);
   };
 
   const handlePrev = () => {
     setCurrentIndex((prev) => (prev - 1 + words.length) % words.length);
-    setShowMeaning(false);
   };
 
   const toggleMeaning = () => {
@@ -66,12 +64,24 @@ function App() {
       </div>
       
       <header className="header">
-        <button className="home-btn glass-btn" onClick={() => window.location.href = '../index.html'} title="Go Home">
-          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-        </button>
-        <h1>JLPT N3 Vocabulary</h1>
-        <div className="progress">
-          {currentIndex + 1} / {words.length}
+        <div className="header-top">
+          <button className="home-btn glass-btn" onClick={() => window.location.href = '../index.html'} title="Go Home">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2.5" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          </button>
+          <h1>JLPT N3 Vocabulary</h1>
+          <div className="progress">
+            {currentIndex + 1} / {words.length}
+          </div>
+        </div>
+        <div className="slider-container">
+          <input 
+            type="range" 
+            min="0" 
+            max={words.length > 0 ? words.length - 1 : 0} 
+            value={currentIndex} 
+            onChange={(e) => setCurrentIndex(Number(e.target.value))}
+            className="progress-slider"
+          />
         </div>
       </header>
 

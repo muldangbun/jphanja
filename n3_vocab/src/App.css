@@ -101,10 +101,50 @@ body {
   width: 100%;
   max-width: 800px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
   padding: 2rem;
   position: relative;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.slider-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.progress-slider {
+  width: 100%;
+  max-width: 600px;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+
+.progress-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+}
+
+.progress-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
 }
 
 .home-btn {
